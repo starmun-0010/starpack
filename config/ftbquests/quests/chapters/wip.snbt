@@ -1,0 +1,20 @@
+{
+	id: "4BE8CE5044F0996B",
+	group: "",
+	order_index: 0,
+	filename: "wip",
+	title: "WIP",
+	icon: "pneumaticcraft:plastic_brick_white",
+	subtitle: ["Work In progress"],
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		id: "03B169CBF5715440",
+		tasks: [{
+			id: "190A23F2D036776C",
+			type: "custom",
+			title: "Quests are work in progress."
+		}]
+	}]
+}
