@@ -1,0 +1,13 @@
+
+#All configuration items related to the core gameplay
+[gameplay]
+	#Disable citizen voices. [Default: true]
+	disablecitizenvoices = true
+	#minecolonies.config.blueprintrender.comment [Default: true]
+	blueprintrender = true
+
+#All configurations related to pathfinding
+[pathfinding]
+	#Show pathfinding paths (might be laggy). [Default: false]
+	pathfindingdebugdraw = false
+
