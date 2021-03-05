@@ -1,3 +1,6 @@
+**.bak
+
+mode.json
 options.txt
 reauth.toml
 knownkeys.txt
@@ -16,6 +19,7 @@ realms_persistence.json
 /local
 /.mixin.out
 /journeymap
+/screenshots
 /resourcepacks
 /defaultconfigs
 /kubejs/exported
@@ -61,4 +65,4 @@ config/betterendforge/client-config.toml
 config/sophisticatedbackpacks-client.toml
 config/pneumaticcraft/ArmorFeatureStatus.cfg
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
-/mode.json
+
