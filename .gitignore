@@ -3,12 +3,22 @@
 mode.json
 options.txt
 reauth.toml
+/servers.dat
 knownkeys.txt
+/panorama.dat
 usercache.json
 BotaniaVars.dat
+/servers.dat_old
 usernamecache.json
 patchouli_data.json
 realms_persistence.json
+
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
 
 /.vs
 /woot
@@ -20,9 +30,12 @@ realms_persistence.json
 /.mixin.out
 /journeymap
 /screenshots
+/config/spark
 /resourcepacks
+/crash-reports
 /defaultconfigs
 /kubejs/exported
+/packmenuff/resources
 
 !config/defaultoptions/options.txt
 
@@ -65,4 +78,5 @@ config/betterendforge/client-config.toml
 config/sophisticatedbackpacks-client.toml
 config/pneumaticcraft/ArmorFeatureStatus.cfg
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
-
+/backups
+/TrashSlotSaveState.json

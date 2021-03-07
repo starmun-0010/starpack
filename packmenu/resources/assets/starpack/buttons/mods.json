@@ -1,0 +1,19 @@
+{
+    "x": -87,
+    "y": 185,
+    "width": 175,
+    "height": 20,
+    "langKey": "packmenu.starpack.mods",
+    "action": "OPEN_GUI",
+    "data": "MODS",
+    "u": 0,
+    "v": 0,
+    "hoverU": 0,
+    "hoverV": 20,
+    "texWidth": 175,
+    "texHeight": 40,
+    "texture": "starpack:textures/mods.png",
+    "fontColor": 16777215,
+    "hoverFontColor": 13158600,
+    "anchor": "TOP_CENTER"
+}

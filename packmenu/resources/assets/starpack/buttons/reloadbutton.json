@@ -1,0 +1,16 @@
+{
+	"x": -10,
+	"y": 260,
+	"width": 20,
+	"height": 20,
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 20,
+	"texWidth": 20,
+	"texHeight": 40,
+	"texture": "starpack:textures/reload.png",
+	"action": "RELOAD",
+	"anchor": "TOP_CENTER"
+
+}
