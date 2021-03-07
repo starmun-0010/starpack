@@ -33,7 +33,6 @@ realms_persistence.json
 /config/spark
 /resourcepacks
 /crash-reports
-/defaultconfigs
 /kubejs/exported
 /packmenuff/resources
 
