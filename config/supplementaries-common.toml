@@ -176,3 +176,7 @@
 		#additional non tameable entities that you can bind to flutes
 		flute_extra_mobs = ["minecraft:horse", "minecraft:llama", "minecraft:mule", "minecraft:donkey", "minecraft:fox"]
 
+	[items.rope_arrow]
+		#If you really don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
+		rope_arrow_override = "supplementaries:rope"
+

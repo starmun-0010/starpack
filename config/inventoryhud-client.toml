@@ -9,7 +9,7 @@
 	#Range: 0 ~ 100
 	invAlpha = 0
 	#Toggle on by default
-	byDefault = true
+	byDefault = false
 
 #Settings for ArmorStatus HUD
 [armorhud]
@@ -17,7 +17,7 @@
 	ArmorDamage = true
 	#Hide if durability is above this (in percentage):
 	#Range: 0 ~ 100
-	armAbove = 100
+	armAbove = 60
 	#Show/Hide armor
 	showArmor = true
 	#Show/Hide armor
@@ -44,7 +44,7 @@
 	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
-	potAlpha = 100
+	potAlpha = 60
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0

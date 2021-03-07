@@ -58,6 +58,11 @@
 		laser_block = false
 		#WIP
 		flag = false
+		flax = true
+		rope = true
+		rope_arrow = true
+		pulley_block = true
+		fodder = true
 
 	[registration.entities]
 		firefly = true

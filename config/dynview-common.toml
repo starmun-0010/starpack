@@ -11,11 +11,11 @@
 	meanAvgTickTime = 45
 	#The update frequency of average server tick time checks to update view distances. Default: 30sec
 	#Range: 1 ~ 1000
-	viewDistanceUpdateRate = 30
+	viewDistanceUpdateRate = 90
 	#Whether to output log messages for actions done. This can be helpful to balance the other settings nicely.
 	logMessages = true
 
 ["Chunk slow unload settings"]
 	#Enable slightly slower chunk unloading after load, helps with mods hot-loading chunks frequently. Default: true
-	chunkunload = true
+	chunkunload = false
 
