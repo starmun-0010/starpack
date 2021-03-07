@@ -68,7 +68,6 @@
 [worldGen]
 	#Range: 0.0 ~ 1.0
 	spawnChargedChance = 0.08
-	meteoriteMaximumSpawnHeight = 180
 	meteoriteBiomeBlacklist = []
 	quartzOresPerCluster = 4
 	quartzOresClusterAmount = 20

@@ -336,6 +336,9 @@
 		#Define chisel durablility (0 for unbreakable).
 		#Range: 0 ~ 1000
 		chiselDurability = 250
+		#Define improved source receptacle durablility (0 for unbreakable).
+		#Range: 0 ~ 1000
+		improvedReceptacleDurability = 20
 
 	#Worldgen config
 	[elementalcraft.worldgen]
@@ -347,6 +350,12 @@
 		#CSource Altar genreration distance setting.
 		#Range: 0 ~ 100
 		sourceAltarDistance = 16
+		#Chance to add a source in an ocean biome (the small the more frequante).
+		#Range: 1 ~ 10000
+		oceanSourceSpawnChance = 150
+		#Chance to add a source in world ingoring biome elemen type (the small the more frequante).
+		#Range: 1 ~ 10000
+		randomSourceSpawnChance = 300
 
 		[elementalcraft.worldgen.inertCrystal]
 			#Disable creation of inertCrystals.
@@ -380,4 +389,21 @@
 			mekanismPureOreEnrichingRecipe = true
 			#Set to false if you want pure ore to not use mekanism crushing recipes.
 			mekanismPureOreCrushingRecipe = true
+
+	#Source config
+	[elementalcraft.source]
+		#set to true to make sources infinite.
+		disableSourceExhaustion = false
+		#The minimum element capacity of a source.
+		#Range: 0 ~ 10000000
+		sourceCapacityMin = 500000
+		#The maximum element capacity of a source.
+		#Range: 0 ~ 10000000
+		sourceCapacityMax = 1000000
+		#The minimum element a source can generate per tick.
+		#Range: 0 ~ 100
+		sourceRecoverRateMin = 5
+		#The maximum element a source can generate per tick.
+		#Range: 0 ~ 100
+		sourceRecoverRateMax = 15
 
