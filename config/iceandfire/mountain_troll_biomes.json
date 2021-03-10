@@ -2,27 +2,18 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "mountains"
+        "value": "gaiadimension:volcanic_lands"
       }
     ],
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_CATEGORY",
-        "negate": false,
-        "value": "extreme_hills"
+        "value": "gaiadimension:static_wasteland"
       }
+
     ]
   ]
 }

@@ -2,27 +2,32 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "swamp"
+        "value": "gaiadimension:green_agate_jungle"
       }
     ],
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_CATEGORY",
-        "negate": false,
-        "value": "swamp"
+        "value": "gaiadimension:shining_grove"
       }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:static_wasteland"
+      }
+    ],
+    [
+      {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:mutant_agate_wildwood"
+      }
+
     ]
   ]
 }

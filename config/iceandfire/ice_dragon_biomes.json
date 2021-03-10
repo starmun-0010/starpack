@@ -1,39 +1,10 @@
 {
   "biomes": [
-    [
+     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_CATEGORY",
-        "negate": false,
-        "value": "icy"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "snowy"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "cold"
+        "value": "gaiadimension:blue_agate_taiga"
       }
     ]
   ]
