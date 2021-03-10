@@ -9,7 +9,7 @@
 	#True if using blacklists, false if using whitelists for dragons and structure gen.
 	"Use Dimension Blacklist" = false
 	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-	blacklistDimensions = ["minecraft:overworld"]
+	blacklistDimensions = ["gaiadimension:gaia_dimension", "minecraft:overworld"]
 	#Whether to generate copper ore or not
 	"Generate Copper Ore" = true
 	#Whether to generate sapphire ore or not
@@ -298,7 +298,7 @@
 	"Spawn Sea Serpents" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sea Serpent Chance" = 250
+	"Spawn Sea Serpent Chance" = 100
 	#Whether or not sea serpents can break weak blocks in their way
 	"Sea Serpent Griefing" = true
 	#Default sea serpent health, this is scaled to the sea serpent's particular size

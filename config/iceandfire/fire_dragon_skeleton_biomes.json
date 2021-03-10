@@ -2,6 +2,13 @@
   "biomes": [
     [
       {
+        "type": "REGISTRY_NAME",
+        "negate": false,
+        "value": "gaiadimension:salt_dunes"
+      }
+    ],
+    [
+      {
         "type": "BIOME_DICT",
         "negate": false,
         "value": "overworld"
