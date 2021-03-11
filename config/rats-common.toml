@@ -19,7 +19,7 @@
 	"Spawn Piper" = true
 	#A seperate random roll that only spawns pipers if a one-out-of-X chance, x being this number. raise this number to make them more rare.
 	#Range: > 0
-	"Piper Spawn Decrease" = 5
+	"Piper Spawn Decrease" = 6
 	#The weight of rats in vanilla's spawn rate
 	#Range: 1 ~ 300
 	"Rat Spawn Weight" = 80
@@ -38,7 +38,7 @@
 	#True if wild rats will destroy and eat crops
 	"Rats Raid Crops" = true
 	#True if wild rats will steal from chests
-	"Rats Steal From Chests" = true
+	"Rats Steal From Chests" = false
 	#True if wild rats contaminate food when they steal from chests
 	"Rats Contaminate Food" = true
 	#True if iron golems will attack wild rats
