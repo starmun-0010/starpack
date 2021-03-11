@@ -17,7 +17,7 @@
 	fiery_glass_size = 7
 	#Determines the rarity of fiery glass veins.
 	#Range: 0 ~ 200
-	fiery_glass_weight = 5
+	fiery_glass_weight = 4
 	#Determines the size of a rockroot vein.
 	#Range: 1 ~ 32
 	rockroot_size = 3
@@ -48,7 +48,7 @@
 	dreadfish_spawn = true
 	#Determines the rarity of the dreadfish.
 	#Range: 1 ~ 100
-	dreadfish_weight = 40
+	dreadfish_weight = 10
 	#Minimum size of the group when spawned.
 	#Range: 1 ~ 5
 	dreadfish_min_group_size = 1
@@ -63,28 +63,28 @@
 	beetle_spawn = true
 	#Determines the rarity of the beetle.
 	#Range: 1 ~ 200
-	beetle_weight = 10
+	beetle_weight = 1
 	#Minimum size of the group when spawned.
 	#Range: 1 ~ 200
 	beetle_min_group_size = 1
 	#Maximum size of the group when spawned.
 	#Range: 1 ~ 200
-	beetle_max_group_size = 2
+	beetle_max_group_size = 1
 	#List of biome types from the biome dictionary that the beetle can spawn in. Define as strings with "s and separate with a comma.
 	beetle_biomes = "CONIFEROUS, FOREST, JUNGLE, DENSE"
 	#List of biome types from the biome dictionary that beetles cannot spawn in. Separate with commas.
-	beetle_exclusions = ""
+	beetle_exclusions = "DESERT"
 	#Allow lunar moths to spawn?
 	lunar_moth_spawn = true
 	#Determines the rarity of the lunar moth.
 	#Range: 1 ~ 200
-	lunar_moth_weight = 2
+	lunar_moth_weight = 5
 	#Minimum size of the group when spawned.
 	#Range: 1 ~ 200
-	lunar_moth_min_group_size = 2
+	lunar_moth_min_group_size = 3
 	#Maximum size of the group when spawned.
 	#Range: 1 ~ 200
-	lunar_moth_max_group_size = 5
+	lunar_moth_max_group_size = 6
 	#List of biome types from the biome dictionary that the lunar moth can spawn in. Define as strings with "s and separate with a comma.
 	lunar_moth_biomes = "FOREST, PLAINS, MOUNTAIN, HILLS"
 	#List of biome types from the biome dictionary that lunar moths cannot spawn in. Separate with commas.
