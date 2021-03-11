@@ -8,7 +8,7 @@
     "modelType": "ORE"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:stone",
     "mutationOutput": "minecraft:lava",
     "mutationType": "BLOCK_TO_FLUID"

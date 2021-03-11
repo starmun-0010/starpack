@@ -9,7 +9,7 @@
     "honeycombColor": "#444444"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:lava",
     "mutationOutput": "minecraft:obsidian",
     "mutationType": "FLUID_TO_BLOCK"

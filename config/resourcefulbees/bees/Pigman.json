@@ -9,7 +9,7 @@
     "honeycombColor": "#885956"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:netherrack",
     "mutationOutput": "minecraft:glowstone",
     "mutationType": "BLOCK_TO_BLOCK"

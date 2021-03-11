@@ -9,7 +9,7 @@
     "modelType": "ORE"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:stone",
     "mutationOutput": "minecraft:lapis_ore",
     "mutationType": "BLOCK_TO_BLOCK"

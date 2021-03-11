@@ -9,7 +9,7 @@
     "honeycombColor": "#2F4E32"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:stone",
     "mutationOutput": "minecraft:cobblestone",
     "mutationType": "BLOCK_TO_BLOCK"

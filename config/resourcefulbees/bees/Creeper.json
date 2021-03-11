@@ -13,7 +13,7 @@
     "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "tag:minecraft:lava",
     "mutationOutput": "minecraft:mossy_cobblestone",
     "mutationType": "FLUID_TO_BLOCK"

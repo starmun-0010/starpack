@@ -8,7 +8,7 @@
     "honeycombColor": "#F6F2E6"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:stone",
     "mutationOutput": "minecraft:gravel",
     "mutationType": "BLOCK_TO_BLOCK"

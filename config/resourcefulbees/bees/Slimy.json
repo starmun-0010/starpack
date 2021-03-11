@@ -9,7 +9,7 @@
     "gelLayerTexture": "/slime/slime_gel_Layer"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:honey_block",
     "mutationOutput": "minecraft:slime_block",
     "mutationType": "BLOCK_TO_BLOCK",

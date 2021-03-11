@@ -10,7 +10,7 @@
     "secondaryColor": "#303030"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:netherrack",
     "mutationOutput": "minecraft:nether_quartz_ore",
     "mutationType": "BLOCK_TO_BLOCK"

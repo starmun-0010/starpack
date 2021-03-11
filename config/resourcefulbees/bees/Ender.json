@@ -10,7 +10,7 @@
     "secondaryColor": "#303030"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:obsidian",
     "mutationOutput": "minecraft:end_stone",
     "mutationType": "BLOCK_TO_BLOCK"
@@ -21,7 +21,7 @@
     "bottleOutput" : "minecraft:dragon_breath"
   },
   "SpawnData": {
-    "canSpawnInWorld": true,
+    "canSpawnInWorld": false,
     "biomeWhitelist": "TAG:end",
     "lightLevel": "NIGHT",
     "spawnWeight": 20

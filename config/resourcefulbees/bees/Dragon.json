@@ -17,7 +17,7 @@
     "honeycombColor": "#E400FF"
   },
   "MutationData": {
-    "hasMutation": true,
+    "hasMutation": false,
     "mutationInput": "minecraft:stone",
     "mutationOutput": "minecraft:end_stone",
     "mutationType": "BLOCK_TO_BLOCK"
