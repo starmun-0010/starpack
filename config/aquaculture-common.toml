@@ -29,7 +29,7 @@
 		#Range: 0 ~ 64
 		min = 1
 		#Range: 0 ~ 64
-		max = 23
+		max = 3
 		#Range: 0 ~ 100
 		weight = 8
 		include = ["JUNGLE"]
