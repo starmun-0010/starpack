@@ -3,15 +3,15 @@
 	#
 	#Set this to false when you want to overwrite the default bee files. [true/false]
 	#This should be run at least once for initial generation.
-	generateDefaults = true
+	generateDefaults = false
 	#
 	#Set this to false when you want to overwrite the default provided Biome Dictionary files. [true/false]
 	#This should be run at least once for initial generation.
-	generateBiomeDictionaries = false
+	generateBiomeDictionaries = true
 	#
 	#Set this to false when you want to use our custom Biome Dictionary system. [true/false]
 	#At a later time we will look into either combining with the Forge system or making the Forge system data pack capable.
-	useForgeBiomeDictionaries = true
+	useForgeBiomeDictionaries = false
 	#
 	#Set to true if you want easter egg bees to generate (WIP) [true/false]
 	#The only easter egg bee currently available is the Oreo bee
@@ -216,7 +216,7 @@
 	#
 	#Should bees die from stinging?
 	#Note: Bees will continue to attack until they are no longer angry!
-	beeDiesFromSting = true
+	beeDiesFromSting = false
 	#
 	#Should bees inflict poison damage?
 	#Note: Poison is only inflicted if a bee has not been given a trait with a special damage output.
