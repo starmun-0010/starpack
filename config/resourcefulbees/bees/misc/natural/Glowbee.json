@@ -2,7 +2,7 @@
   "flower": "tag:misctags:flowers/glowing_flowers",
   "maxTimeInHive": 1200,
   "hasHoneycomb": true,
-  "traits": ["nether", "pigman"],
+  "traits": ["nether"],
   "ColorData": {
       "isBeeColored": true,
       "honeycombColor": "#F1ED95",

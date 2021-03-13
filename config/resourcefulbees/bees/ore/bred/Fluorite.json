@@ -2,10 +2,14 @@
     "flower": "mekanism:fluorite_ore",
     "maxTimeInHive": 1200,
     "hasHoneycomb": true,
-    "baseLayerTexture": "misc/fluorite_bee",
+    "baseLayerTexture": "ores/iron/iron_bee",
     "ColorData": {
-        "isBeeColored": false,
+        "isBeeColored": true,
+        "primaryColor":"#005500",
+        "secondaryColor":"#005500",
         "honeycombColor": "#d6aedd",
+        "primaryLayerTexture":"fluorite/fluorite_bee_layer",
+        "secondaryLayerTexture":"fluorite/fluorite_bee_layer",
         "modelType": "ORE"
     },
     "MutationData": {
