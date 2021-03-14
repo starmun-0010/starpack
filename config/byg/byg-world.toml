@@ -144,7 +144,7 @@
 	#This works as a whitelist or blacklist depending on the "isBlacklistNether" value.
 	#NO SPACES AFTER COMMAS!
 	#Default: ""
-	BlacklistNether = ""
+	BlacklistNether = "byg:embur_bog"
 	#
 	#Nether Biome Size
 	#Default: 3
