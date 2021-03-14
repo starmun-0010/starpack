@@ -56,6 +56,23 @@
 		#Range: 0.0 ~ 9999.0
 		step_complexity = 1.0
 
+	["mana-and-artifice:shapes/projectile".SPEED]
+		#Minimum Value
+		#Range: 0.0 ~ 9999.0
+		minimum = 1.0
+		#Maximum Value
+		#Range: 0.0 ~ 9999.0
+		maximum = 3.0
+		#Default Value
+		#Range: 0.0 ~ 9999.0
+		default = 1.0
+		#Step Value (how much does one click in the inscription table change the value)
+		#Range: 0.0 ~ 9999.0
+		step = 0.20000000298023224
+		#Complexity Value (how much does changing by one tick change the complexity)
+		#Range: 0.0 ~ 9999.0
+		step_complexity = 1.0
+
 ["mana-and-artifice:shapes/wall"]
 
 	["mana-and-artifice:shapes/wall".DURATION]

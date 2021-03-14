@@ -339,6 +339,9 @@
 		#Define improved source receptacle durablility (0 for unbreakable).
 		#Range: 0 ~ 1000
 		improvedReceptacleDurability = 20
+		#the multiplier of lense (based on 1000)
+		#Range: 0 ~ 100
+		lenseElementMultiplier = 100
 
 	#Worldgen config
 	[elementalcraft.worldgen]
@@ -400,10 +403,7 @@
 		#The maximum element capacity of a source.
 		#Range: 0 ~ 10000000
 		sourceCapacityMax = 1000000
-		#The minimum element a source can generate per tick.
+		#The element a source can generate per tick.
 		#Range: 0 ~ 100
-		sourceRecoverRateMin = 5
-		#The maximum element a source can generate per tick.
-		#Range: 0 ~ 100
-		sourceRecoverRateMax = 15
+		sourceRecoverRate = 5
 
