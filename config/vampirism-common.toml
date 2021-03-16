@@ -10,7 +10,7 @@
 	#Whether to modify the village world gen (size and frequency), based on world config
 	villageModify = true
 	#INTERNAL - Set to 'never' if you don't want to be notified about integration mods
-	integrationsNotifier = ""
+	integrationsNotifier = "bloodmagic:"
 	#INTERNAL
 	optifineBloodvisionWarning = false
 
