@@ -13,10 +13,10 @@
 		shouldGenerate = true
 		#Chance that copper generates in a chunk.
 		#Range: 1 ~ 128
-		perChunk = 16
+		perChunk = 12
 		#Maximum number of blocks in a vein of copper.
 		#Range: 1 ~ 512
-		maxVeinSize = 8
+		maxVeinSize = 16
 		#Maximum height (exclusive) that veins of copper can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		#Range: 1 ~ 256
 		maxHeight = 60

@@ -29,7 +29,7 @@
 
 	[gen.darkstone]
 		#Generate Darkstone? [default: true]
-		generate = true
+		generate = false
 		#Maximum size of Darkstone veins [default: 20]
 		#Range: 0 ~ 100
 		max_vein_size = 20
@@ -42,7 +42,7 @@
 
 	[gen.arcane_gilded_darkstone]
 		#Generate Arcane Gilded Darkstone? [default: true]
-		generate = true
+		generate = false
 		#Maximum size of Arcane Gilded Darkstone veins [default: 4]
 		#Range: 0 ~ 100
 		max_vein_size = 4

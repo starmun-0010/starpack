@@ -292,6 +292,17 @@
 			#Range: 0 ~ 100
 			sorterMaxItem = 15
 
+		[elementalcraft.instruments.airMill]
+			#The max amount of element consumed by the Air Mill Grindstone per tick.
+			#Range: 0 ~ 1000
+			airMillTransferSpeed = 10
+			#The max amount of on an Air Mill Grindstone.
+			#Range: 0 ~ 10
+			airMillMaxRunes = 3
+			#The ratio of each luck rune on a Air Mill Grindstone.
+			#Range: 0.0 ~ 10.0
+			airMillLuckRatio = 2.0
+
 	#Pure Infusser and pedestals config
 	[elementalcraft.pureInfuser]
 		#The max amount of element consumed by the pure infuser per tick.

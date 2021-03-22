@@ -7,7 +7,7 @@
 		[Overworld.Ores.Ametrine]
 			#
 			#Generate Ametrine Ore? Only spawns in Guiana Shield, Stone Forest, and Pointed Stone Forest!
-			GenerateAmetrine = true
+			GenerateAmetrine = false
 			#
 			#Y level to start generating at.
 			#Default: 56
@@ -27,7 +27,7 @@
 		[Overworld.Ores.Pendorite]
 			#
 			#Generate Pendorite Ore? Only spawns in Forest Fault.
-			GeneratePendorite = true
+			GeneratePendorite = false
 			#
 			#Y level to start generating at.
 			#Default: 56
@@ -50,7 +50,7 @@
 		[Overworld.Stones.Rocky_Stone]
 			#
 			#Generate Rocky Stone?
-			GenerateRockyStone = true
+			GenerateRockyStone = false
 			#
 			#Y level to start generating at.
 			#Default: 63
@@ -70,7 +70,7 @@
 		[Overworld.Stones.Scoria_Stone]
 			#
 			#Generate Scoria Stone?
-			GenerateScoriaStone = true
+			GenerateScoriaStone = false
 			#
 			#Y level to start generating at.
 			#Default: 63
@@ -90,7 +90,7 @@
 		[Overworld.Stones.Soap_Stone]
 			#
 			#Generate Soap Stone?
-			GenerateSoapStone = true
+			GenerateSoapStone = false
 			#
 			#Y level to start generating at.
 			#Default: 63
