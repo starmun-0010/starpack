@@ -25,7 +25,7 @@
   },
   "BreedData": {
     "isBreedable": true,
-    "feedItem": "xreliquary:rib_bone",
+    "feedItem": "minecraft:bone",
     "feedAmount": 3
   },
   "TraitData": {}

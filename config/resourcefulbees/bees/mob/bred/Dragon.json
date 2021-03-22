@@ -2,6 +2,7 @@
   "flower": "minecraft:obsidian",
   "maxTimeInHive": 2400,
   "hasHoneycomb": true,
+  "sizeModifier":2.0,
   "baseLayerTexture" : "dragon/dragon_bee",
   "traits": [ "ender", "nether", "wither" ],
   "ColorData": {

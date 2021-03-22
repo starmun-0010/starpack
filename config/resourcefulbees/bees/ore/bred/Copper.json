@@ -2,7 +2,7 @@
     "flower": "tag:forge:storage_blocks/copper",
     "hasHoneycomb": true,
     "maxTimeInHive": 1200,
-    "baseLayerTexture": "ato/copper_bee",
+    "baseLayerTexture": "starpack/copper_bee",
     "ColorData": {
         "isBeeColored": false,
         "honeycombColor": "#D28868",
