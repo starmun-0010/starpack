@@ -9,14 +9,14 @@
 #Display
 [Display]
 	#Change this value to change the name of the MineCraft window
-	windowDisplayTitle = "Minecraft forge-36.0.46"
+	windowDisplayTitle = "Starpack Aleph"
 	#Set to true to load a custom icon from config\itlt\icon.png
 	loadCustomIcon = true
 	#Set to true to attempt to use the icon assigned to the modpack by the technic launcher. 
 	#This will take priority over loadCustomIcon
-	useTechnicIcon = true
+	useTechnicIcon = false
 	#Set to true to attempt to get the display name of the pack of the info json file \nThis will take priority over windowDisplayTitle
-	useTechnicDisplayName = true
+	useTechnicDisplayName = false
 
 #Management of a dedicated server
 [Server]

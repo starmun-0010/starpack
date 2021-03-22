@@ -1,0 +1,26 @@
+{
+  "replace": true,
+  "values": [   
+    "minecraft:stone",   
+    "astralsorcery:marble_raw",
+    "create:dark_scoria",
+    "create:scoria",
+    "create:weathered_limestone",
+    "create:limestone",
+    "create:gabbro",
+    "create:dolomite",
+    "create:natural_scoria",
+    "embellishcraft:basalt",
+    "embellishcraft:gneiss",
+    "embellishcraft:jade",
+    "embellishcraft:larvikite",
+    "embellishcraft:marble",
+    "embellishcraft:slate",
+    "quark:jasper",
+    "quark:limestone",
+    "quark:marble",
+    "quark:slate",
+    "quark:basalt",
+    "forbidden_arcanus:darkstone"
+  ]
+}

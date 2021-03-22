@@ -1,0 +1,32 @@
+{
+  "flower": "minecraft:chorus_flower",
+  "hasHoneycomb": true,
+  "traits": ["ender"],
+  "maxTimeInHive": 1800,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#339786",
+    "primaryColor": "#339786",
+    "secondaryColor": "#303030"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ender_pearl",
+    "bottleOutput" : "minecraft:end_stone"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:end",
+    "lightLevel": "night",
+    "spawnWeight": 20
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

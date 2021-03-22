@@ -1,13 +1,13 @@
 {
   "flower": "minecraft:nether_wart",
   "maxTimeInHive": 1000,
-  "hasHoneycomb": true,
+  "hasHoneycomb": true, 
+  "baseLayerTexture": "starpack/quartz_bee",
   "traits": ["nether"],
   "ColorData": {
-    "isBeeColored": true,
-    "honeycombColor": "#D4CABA",
-    "primaryColor": "#D4CABA",
-    "secondaryColor": "#303030"
+    "isBeeColored": false,
+    "honeycombColor": "#D4CABA",  
+    "modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": false

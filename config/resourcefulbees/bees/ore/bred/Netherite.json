@@ -2,11 +2,12 @@
   "flower": "tag:forge:storage_blocks/netherite",
   "maxTimeInHive": 1400,
   "hasHoneycomb": true,
-  "baseLayerTexture": "ores/netherite/netherite_bee",
+  "baseLayerTexture": "starpack/netherite_bee",
   "traits": ["nether", "wither"],
   "ColorData": {
     "isBeeColored": false,
-    "honeycombColor": "#654740"
+    "honeycombColor": "#654740",
+    "modelType": "ORE"
   },
   "MutationData": {
     "hasMutation": false

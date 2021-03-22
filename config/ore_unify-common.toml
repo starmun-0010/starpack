@@ -1,0 +1,23 @@
+#Tag names that shouldn't be unified (supports regex)
+blacklist = ["minecraft:.+", "forge:glass.+"]
+#Tag names that should be unified (supports regex)
+whitelist = ["forge:ores\\/.+", "forge:ingots\\/.+", "forge:nuggets\\/.+", "forge:storage_blocks\\/.+", "forge:gems\\/.+", "forge:dusts\\/.+", "forge:gears\\/.+", "forge:plates\\/.+", "forge:rods\\/.+"]
+#Allowed Values: USE_WHITELIST, USE_BLACKLIST, USE_BOTH_LISTS
+listMode = "USE_BOTH_LISTS"
+#Preferred Mods
+preferredMods = ["minecraft", "thermal", "mekanism"]
+#Blacklisted Mods
+blacklistedMods = ["chisel", "astralsorcery"]
+#Tag names that should be unified even if they are different
+alternatives = [["aluminum", "aluminium", "bauxite"]]
+
+["Unify Event"]
+	#Unify when items drop
+	drop = true
+	#Unify when entities die
+	death = true
+	#Unify every second items in player's inventory
+	second = true
+	#Unify items in player's inventory when they change
+	change = true
+

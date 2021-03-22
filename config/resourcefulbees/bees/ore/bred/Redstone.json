@@ -2,7 +2,7 @@
   "flower": "minecraft:redstone_block",
   "maxTimeInHive": 800,
   "hasHoneycomb": true,
-  "baseLayerTexture": "ores/redstone/redstone_bee",
+  "baseLayerTexture": "starpack/redstone_bee",
   "ColorData": {
     "isBeeColored": false,
     "honeycombColor": "#aa0f01",
