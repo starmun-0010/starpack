@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Starpack-Aleph",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "author": "starmun",
   "files": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "projectID": 223794,
-      "fileID": 3238334,
+      "fileID": 3213455,
       "required": true
     },
     {
@@ -721,7 +721,7 @@
     },
     {
       "projectID": 289412,
-      "fileID": 3243885,
+      "fileID": 3248025,
       "required": true
     },
     {
@@ -841,7 +841,7 @@
     },
     {
       "projectID": 238086,
-      "fileID": 3240199,
+      "fileID": 3247934,
       "required": true
     },
     {
@@ -1176,7 +1176,7 @@
     },
     {
       "projectID": 222880,
-      "fileID": 3247564,
+      "fileID": 3248150,
       "required": true
     },
     {
@@ -1326,7 +1326,7 @@
     },
     {
       "projectID": 426558,
-      "fileID": 3245951,
+      "fileID": 3248100,
       "required": true
     },
     {
@@ -1751,12 +1751,12 @@
     },
     {
       "projectID": 431725,
-      "fileID": 3207920,
+      "fileID": 3243790,
       "required": true
     },
     {
       "projectID": 281849,
-      "fileID": 3242473,
+      "fileID": 3247865,
       "required": true
     },
     {
