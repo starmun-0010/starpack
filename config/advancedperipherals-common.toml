@@ -1,11 +1,11 @@
 
 #No comment
-[Configuration]
+[Features]
+	#This deactivates the methods and the event of the chat box.
+	#Range: 1 ~ 100000
+	chatBoxCooldown = 10
 	#Enable the Chat Box or not.
 	enableChatBox = true
-	#This deactivates the methods and the event of the chat box.
-	#Range: > 1
-	chatBoxCooldown = 10
 	#Enable the Me Bridge or not.
 	enableMeBridge = true
 	#Enable the Rs Bridge or not.
@@ -14,4 +14,8 @@
 	enablePlayerDetector = true
 	#Enable the Environment Detector or not.
 	enableEnvironmentDetector = true
+	#Enable the Chunky Turtle or not.
+	enableChunkyTurtle = true
+	#Enable the debug mode, you should only enable it, if a developer say it or something does not work.
+	enableDebugMode = false
 

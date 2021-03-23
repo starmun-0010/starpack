@@ -105,6 +105,7 @@
 	ForgeEnergy = 0.5
 	#Range: 0.01 ~ 1.7976931348623157E308
 	UsageMultiplier = 1.0
+	IC2 = 2.0
 
 [Condenser]
 	MatterBalls = 256
