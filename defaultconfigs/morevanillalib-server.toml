@@ -1,9 +1,9 @@
 
 [features]
 	#If set true, tools may drop an item when they'll be used.
-	extraDrop = true
+	extraDrop = false
 	#If set to true the corresponding ore of the tool drops an additional resource.
-	doubleDrop = true
+	doubleDrop = false
 	#If set true, bone axe and sword make extra damage against special mobs.
 	extraDamage = true
 	#If set true, (wither) skeletons will drop their head with a defined chance if killed with bone axe or sword.
@@ -13,7 +13,7 @@
 	#If set true, using Fiery tools to mine blocks will smelt them.
 	autoSmelt = true
 	#If set true, glowstone tools will always drop 4 glowstone dust when breaking glowstone blocks.
-	glowstoneDrops = true
+	glowstoneDrops = false
 
 	[features.doubleDropBool]
 		#Diamond available for hammers/excavators
