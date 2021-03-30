@@ -21,7 +21,7 @@ realms_persistence.json
 **/*.jar.disabled
 **/*.jar.meta
 
-**/.vs
+/.vs
 /woot
 /mods
 /logs
