@@ -22,7 +22,7 @@ nonRandom = []
 	slotCost = 15
 	#Amount of Xp levels added to the next unlocking cost.
 	#Range: 0 ~ 1000
-	slotUpFactor = 3
+	slotUpFactor = 1
 
 [Killing_Unlocks]
 	#Set to false to disable unlocking trinkets from killing non-Boss entities.
@@ -36,7 +36,7 @@ nonRandom = []
 	bossKillingUnlockEnabled = true
 	#Rarity of unlocking a trinket from killing Bosses. (Greater number = more rare)
 	#Range: 2 ~ 100000
-	bossKilling = 10
+	bossKilling = 1000
 
 [Farming_Unlocks]
 	#Set to false to disable unlocking trinkets from farming.
