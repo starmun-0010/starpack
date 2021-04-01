@@ -44,12 +44,12 @@
 	Potions = true
 	#Potion HUD alpha
 	#Range: 0 ~ 100
-	potAlpha = 60
+	potAlpha = 30
 	#Potion HUD gap
 	#Range: -5 ~ 5
 	potGap = 0
 	#Potion HUD mini mode
-	potMini = false
+	potMini = true
 
 #DONT TOUCH THESE FIELDS!
 [positions]
@@ -88,7 +88,7 @@
 	xPotionPos = 20
 	#Potion HUD position (Y)
 	#Range: -9999 ~ 9999
-	yPotionPos = 20
+	yPotionPos = 60
 	#Helmet position (X)
 	#Range: -9999 ~ 9999
 	helmPosX = 103
