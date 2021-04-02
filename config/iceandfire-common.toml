@@ -332,7 +332,7 @@
 	"Spawn Liches" = true
 	#Dread Lich spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Lich Spawn Weight" = 2
+	"Lich Spawn Weight" = 20
 	#Maximum hydra health
 	#Range: 1.0 ~ 10000.0
 	"Hydra Max Health" = 250.0
