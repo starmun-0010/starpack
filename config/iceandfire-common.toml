@@ -134,7 +134,7 @@
 	#Range: 1 ~ 10000
 	"Pixie Village Size" = 5
 	#True if pixies are allowed to steal from players
-	"Pixies Steal Items" = true
+	"Pixies Steal Items" = false
 	#True if cyclops caves are allowed to spawn
 	"Spawn Cyclopes Caves" = true
 	#1 out of this number chance per chunk for generation
