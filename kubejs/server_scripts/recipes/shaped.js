@@ -42,4 +42,22 @@ onEvent('recipes', event => {
   });
 
 
+  //botany pot recipes
+  event.shaped('botanypots:hopper_botany_pot', [
+    'PH ',
+    '   ',
+    '   '
+  ], {
+    P: 'botanypots:botany_pot',
+    H: 'pneumaticcraft:omnidirectional_hopper'
+  });
+
+  event.shaped('botanypots:hopper_botany_pot', [
+    'TPT',
+    '   ',
+    '   '
+  ], {
+    T: 'botania:manasteel_nugget',
+    P: 'botanypots:botany_pot'
+  });
 });
