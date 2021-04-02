@@ -20,7 +20,7 @@
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Skeleton Chance" = 300
+	"Generate Dragon Skeleton Chance" = 250
 	#Whether to generate dragon caves or not
 	"Generate Dragon Caves" = true
 	#1 out of this number chance per chunk for generation
@@ -134,7 +134,7 @@
 	#Range: 1 ~ 10000
 	"Pixie Village Size" = 5
 	#True if pixies are allowed to steal from players
-	"Pixies Steal Items" = true
+	"Pixies Steal Items" = false
 	#True if cyclops caves are allowed to spawn
 	"Spawn Cyclopes Caves" = true
 	#1 out of this number chance per chunk for generation
@@ -332,7 +332,7 @@
 	"Spawn Liches" = true
 	#Dread Lich spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
-	"Lich Spawn Weight" = 2
+	"Lich Spawn Weight" = 20
 	#Maximum hydra health
 	#Range: 1.0 ~ 10000.0
 	"Hydra Max Health" = 250.0
