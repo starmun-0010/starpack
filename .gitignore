@@ -85,3 +85,5 @@ config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 /dumps
 server/*.zip
 server/server-setup-config.yaml
+optionsof.txt
+optionsshaders.txt
