@@ -9,7 +9,7 @@
 #Mana and Artifice // Villager Modification
 [ma_villager_modification]
 	#Adjust librarian villagers to not have enchanted books until tier 3.  This is done for balancing and to remove the exploit of rolling librarians for cheap enchants. [true / false]
-	modifyVillagerTrades = true
+	modifyVillagerTrades = false
 
 #Raids are based on a chance value.  The value is increased each day there is not a raid.  If the chance hits a total of 1.0 or greater, it's a guaranteed raid.  The chance resets after a raid successfully spawns.
 [ma_faction_raids]
