@@ -1,0 +1,47 @@
+{
+	id: "79FC3774E1C8EDDF",
+	group: "2B6C2CBF9E7D9DFC",
+	order_index: 1,
+	filename: "crops",
+	title: "Crops",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: "051041ED8C3F4D76",
+			tasks: [
+				{
+					id: "4ABAF9B70E6204A1",
+					type: "item",
+					item: "minecraft:string"
+				},
+				{
+					id: "6F4951CF6C3754F5",
+					type: "item",
+					item: "immersiveengineering:seed"
+				},
+				{
+					id: "21C554EF63539AEB",
+					type: "item",
+					item: "druidcraft:hemp_seeds"
+				},
+				{
+					id: "098E25B7DED8ECFC",
+					type: "item",
+					item: "pamhc2crops:flaxitem"
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: -1.0d,
+			id: "0B98204AB072636B",
+			tasks: [{
+				id: "0E0E199BDF4EDCB3",
+				type: "item",
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+	]
+}

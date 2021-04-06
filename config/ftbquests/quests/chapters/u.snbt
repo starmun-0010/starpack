@@ -1,0 +1,58 @@
+{
+	id: "04DE0420B52539CA",
+	group: "2B6C2CBF9E7D9DFC",
+	order_index: 4,
+	filename: "u",
+	title: "Utilities",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -1.5d,
+			y: 0.0d,
+			dependencies: ["000B8A3E8CCD3A44"],
+			id: "55F0A429D583AFD5",
+			tasks: [{
+				id: "2B243FBAD6758E69",
+				type: "item",
+				item: "minecraft:stone"
+			}],
+			rewards: [{
+				id: "3D0D96F9FA2BBFAB",
+				type: "item",
+				item: "minecraft:warped_stem"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: 1.0d,
+			id: "000B8A3E8CCD3A44",
+			tasks: [{
+				id: "685960BBB9A04542",
+				type: "item",
+				item: "minecraft:gravel"
+			}],
+			rewards: [{
+				id: "714421B7BE1E2229",
+				type: "item",
+				item: "minecraft:stripped_oak_log"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			id: "4859CF2D04AF6637",
+			tasks: [{
+				id: "589F48981982911A",
+				type: "item",
+				item: {
+					id: "constructionwand:stone_wand",
+					Count: 1b,
+					tag: {
+						wand_options: {},
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

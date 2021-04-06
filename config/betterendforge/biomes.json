@@ -214,5 +214,13 @@
       "generation_chance [default: 1.0]": 1.0,
       "has_caves [default: true]": true
     }
+  },
+  "evilcraft": {
+    "degraded": {
+      "enabled [default: true]": true,
+      "fog_density [default: 1.0]": 1.0,
+      "generation_chance [default: 1.0]": 1.0,
+      "has_caves [default: true]": true
+    }
   }
 }

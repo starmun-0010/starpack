@@ -8,7 +8,7 @@
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/lead": "mekanism:ingot_lead",
   "forge:ingots/mithril": "null",
-  "forge:ingots/iridium": "null",
+  "forge:ingots/iridium": "libvulpes:ingotiridium",
   "forge:ingots/zinc": "create:zinc_ingot",
   "forge:ingots/invar": "thermal:invar_ingot",
   "forge:ingots/chrome": "null",
@@ -26,6 +26,8 @@
   "forge:ingots/aluminum": "tmechworks:aluminum_ingot",
   "forge:ingots/signalum": "thermal:signalum_ingot",
   "forge:ingots/brass": "create:brass_ingot",
-  "forge:ingots/titanium": "null",
-  "forge:rubber": "null"
+  "forge:ingots/titanium": "libvulpes:ingottitanium",
+  "forge:rubber": "null",
+  "forge:gems/apatite": "thermal:apatite",
+  "forge:dusts/niter": "thermal:niter_dust"
 }

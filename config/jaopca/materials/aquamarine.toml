@@ -13,3 +13,15 @@
 	#The color of this material.
 	color = 32436
 
+[mekanism]
+	#The base to use in Mekanism's Combiner to recreate ores.
+	ore_base = "#forge:cobblestone"
+
+[crossroads]
+	#The byproduct material to output in Crossroads' Millstone.
+	byproduct = "minecraft:sand"
+
+[futurepack]
+	#The byproduct material to output in Futurepack's Centrifuge.
+	byproduct = "minecraft:cobblestone"
+

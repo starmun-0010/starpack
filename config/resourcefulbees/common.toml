@@ -23,6 +23,19 @@
 	#Set this to false when you want to overwrite the default bee files. [true/false]
 	#This should be run at least once for initial generation.
 	generateDefaults = false
+	#
+	#Amount of time in ticks required to finish processing a honey bottle.
+	#Range: 0 ~ 2400
+	honeyProcessTime = 5
+	#
+	#Multiplier to the amount of ticks needed to process honey into honey blocks in the congealer.
+	#This value is multiplying the honeyProcessTime.
+	#Range: 1 ~ 16
+	congealerTimeMultiplier = 4
+	#
+	#Amount of honey Honey Pipes can transfer per tick.
+	#Range: 10 ~ 16000
+	maxHoneyPipeFlow = 250
 
 ["Recipe Options"]
 	#

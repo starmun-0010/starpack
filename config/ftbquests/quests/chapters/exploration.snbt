@@ -1,0 +1,18 @@
+{
+	id: "0BCE565EDE5207AA",
+	group: "2B6C2CBF9E7D9DFC",
+	order_index: 2,
+	filename: "exploration",
+	title: "Exploration",
+	default_quest_shape: "",
+	quests: [{
+		x: -1.0d,
+		y: 0.0d,
+		id: "001C11299ED7DC05",
+		tasks: [{
+			id: "4A1E77A871610773",
+			type: "item",
+			item: "iceandfire:dragon_skull_lightning"
+		}]
+	}]
+}
