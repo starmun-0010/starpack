@@ -13,3 +13,7 @@
 	#The color of this material.
 	color = 7108490
 
+[crossroads]
+	#The byproduct material to output in Crossroads' Millstone.
+	byproduct = "minecraft:sand"
+

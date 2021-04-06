@@ -16,6 +16,21 @@
 	#How often Sylphs spawn
 	#Range: 0 ~ 100
 	sylphWeight = 5
+	#How often Wilden Guardians spawn
+	#Range: 0 ~ 200
+	wguardianWeight = 50
+	#How often Wilden Stalkers spawn
+	#Range: 0 ~ 200
+	wstalkerWeight = 50
+	#How often Wilden Hunter spawn
+	#Range: 0 ~ 200
+	whunterWeight = 50
+	#Should the Wilden Hunter attack animals?
+	hunterHuntsAnimals = true
+	#Should the Wilden Stalker attack animals?
+	stalkerHuntsAnimals = false
+	#Should the Wilden Defender attack animals?
+	defenderHuntsAnimals = false
 
 #Mana
 [mana]

@@ -1,0 +1,145 @@
+{
+	id: "330FE9AFD062AE73",
+	group: "2B6C2CBF9E7D9DFC",
+	order_index: 0,
+	filename: "tools",
+	title: "Tools",
+	default_quest_shape: "",
+	images: [{
+		x: -10.0d,
+		y: -11.5d,
+		width: 3.0d,
+		height: 3.0d,
+		rotation: 0.0d,
+		image: "minecraft:textures/gui/presets/isles.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
+	quests: [
+		{
+			title: "Any morevanillalib:tools",
+			x: -1.5d,
+			y: -3.0d,
+			shape: "circle",
+			dependency_requirement: "one_started",
+			id: "7C4362127FFF6A21",
+			tasks: [{
+				id: "0785CDB38E6A5D0C",
+				type: "item",
+				title: "Any morevanillalib:tools",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "morevanillalib:tools"
+					}
+				}
+			}]
+		},
+		{
+			title: "tetra",
+			x: -3.0d,
+			y: -3.0d,
+			id: "12A134283002020F",
+			tasks: [{
+				id: "60931EAFF638ABC1",
+				type: "item",
+				item: {
+					id: "tetra:modular_double",
+					Count: 1b,
+					tag: {
+						"double/handle": "double/basic_handle",
+						"double/head_left": "double/basic_hammer_left",
+						"double/head_right": "double/basic_hammer_right",
+						id: "909e6aa7-7c6b-4061-8c4e-c259049326f3",
+						"double/basic_hammer_right_material": "basic_hammer/oak",
+						Damage: 0,
+						"double/basic_handle_material": "basic_handle/stick",
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: "0591C5CAAFCB55D9",
+					type: "item",
+					item: "starshop:starcoin",
+					count: 5
+				},
+				{
+					id: "1F2A0D471E908755",
+					type: "xp",
+					xp: 10
+				}
+			]
+		},
+		{
+			title: "Better crafting table",
+			x: -5.0d,
+			y: -5.0d,
+			description: [
+				"It holds stuff!",
+				"It can access adjascent inventories."
+			],
+			id: "2183B89C13F97360",
+			tasks: [{
+				id: "55F17719DCA1FCDA",
+				type: "item",
+				item: "craftingstation:crafting_station"
+			}],
+			rewards: [{
+				id: "4BF2CC310F8F1D01",
+				type: "item",
+				item: "starshop:starcoin",
+				count: 5
+			}]
+		},
+		{
+			x: -7.5d,
+			y: -4.5d,
+			id: "48099F767311B2F4",
+			tasks: [{
+				id: "006E284F3B9F07B3",
+				type: "item",
+				item: {
+					id: "mining_helmet:mining_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: "45672E365305D769",
+				type: "item",
+				item: "starshop:starcoin",
+				count: 10
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -8.5d,
+			id: "59E1A16F191ADBEC",
+			tasks: [{
+				id: "399609BCF3E6577C",
+				type: "item",
+				item: "toolbelt:belt"
+			}],
+			rewards: [
+				{
+					id: "00F1BE73C95ADC5F",
+					type: "item",
+					item: "starshop:starcoin",
+					count: 10
+				},
+				{
+					id: "37058F8C7B2CB6D5",
+					type: "xp",
+					xp: 100
+				}
+			]
+		}
+	]
+}

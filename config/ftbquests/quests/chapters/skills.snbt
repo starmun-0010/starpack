@@ -1,0 +1,25 @@
+{
+	id: "6E5A2AF6E0590482",
+	group: "233C7C1A11DB79AC",
+	order_index: 1,
+	filename: "skills",
+	title: "skills",
+	default_quest_shape: "",
+	quests: [{
+		x: -7.0d,
+		y: -2.5d,
+		id: "67C7A1356A44CCE4",
+		tasks: [{
+			id: "6408226002C82C9F",
+			type: "item",
+			item: {
+				id: "apotheosis:potion_charm",
+				Count: 1b,
+				tag: {
+					Damage: 0,
+					Potion: "minecraft:long_slowness"
+				}
+			}
+		}]
+	}]
+}

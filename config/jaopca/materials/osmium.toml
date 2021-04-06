@@ -13,3 +13,11 @@
 	#The color of this material.
 	color = 11058632
 
+[crossroads]
+	#The byproduct material to output in Crossroads' Millstone.
+	byproduct = "minecraft:sand"
+
+[futurepack]
+	#The byproduct material to output in Futurepack's Centrifuge.
+	byproduct = "minecraft:cobblestone"
+

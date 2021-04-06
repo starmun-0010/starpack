@@ -1,0 +1,66 @@
+{
+	id: "301C5C52AC42678E",
+	group: "",
+	order_index: 2,
+	filename: "start",
+	title: "Start",
+	default_quest_shape: "",
+	images: [{
+		x: -3.5d,
+		y: -1.0d,
+		width: 1.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "minecraft:textures/item/bread.png",
+		hover: [],
+		click: "",
+		dev: false,
+		corner: false
+	}],
+	quests: [
+		{
+			title: "Akashik Tome",
+			icon: "akashictome:tome",
+			x: 0.0d,
+			y: -10.0d,
+			subtitle: "Your guide to everything",
+			description: [
+				"You are given an akashik tome when you spawn.",
+				"It contains almost every guide book in game.",
+				"Consult it whenever you need information about a certain mod."
+			],
+			dependencies: ["150F4ACF7470A5D3"],
+			id: "35771738C89DB30E",
+			tasks: [{
+				id: "3BF4A9A9EC05B64F",
+				type: "item",
+				item: "akashictome:tome"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -11.5d,
+			subtitle: "Information",
+			description: [
+				"Welcome to Starpack Aleph! It is awesome that you could join us. <3",
+				"",
+				"The questline is based on a linear progression system i.e. Every new quest should only require resources you already have aquired from the previous quests.",
+				"Each chapter is usually divided into the following bacis categories.",
+				"-Prep",
+				"-Tools/Weapons",
+				"-Survival",
+				"-Utilities",
+				"-Farming",
+				"-Building/Terrafarming",
+				"-Mining",
+				"-Skills"
+			],
+			id: "150F4ACF7470A5D3",
+			tasks: [{
+				id: "49F45CDA5C8E3E45",
+				type: "checkmark",
+				title: "The begining"
+			}]
+		}
+	]
+}

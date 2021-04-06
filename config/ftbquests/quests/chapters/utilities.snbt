@@ -1,0 +1,74 @@
+{
+	id: "022B5FEB7425DD3A",
+	group: "233C7C1A11DB79AC",
+	order_index: 2,
+	filename: "utilities",
+	title: "Utilities",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.5d,
+			y: -1.0d,
+			id: "1FD8ECE634A2EB6D",
+			tasks: [{
+				id: "5691DC5353ACDCE8",
+				type: "item",
+				item: {
+					id: "scuba_gear:scuba_helmet",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 0.5d,
+			id: "5E009B82F56AB4C3",
+			tasks: [{
+				id: "3C83E860CAA52482",
+				type: "item",
+				item: {
+					id: "scuba_gear:scuba_chestplate",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -1.5d,
+			id: "67B1EE30DF305E3C",
+			tasks: [{
+				id: "062A049085091EAA",
+				type: "item",
+				item: {
+					id: "scuba_gear:scuba_leggings",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -3.0d,
+			id: "37838709B9FE7B5F",
+			tasks: [{
+				id: "224443E5C07B73B2",
+				type: "item",
+				item: {
+					id: "scuba_gear:scuba_boots",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

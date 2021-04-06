@@ -1,0 +1,25 @@
+{
+	id: "442C881709C28F18",
+	group: "233C7C1A11DB79AC",
+	order_index: 0,
+	filename: "mining",
+	title: "mining",
+	default_quest_shape: "",
+	quests: [{
+		x: 0.0d,
+		y: 0.0d,
+		id: "0C4A782D906F53A2",
+		tasks: [
+			{
+				id: "6D15E50438B69E8C",
+				type: "item",
+				item: "pedestals:pedestal/stone333"
+			},
+			{
+				id: "528A60B945DEE926",
+				type: "item",
+				item: "pedestals:coin/crusher"
+			}
+		]
+	}]
+}

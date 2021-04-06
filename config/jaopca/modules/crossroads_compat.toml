@@ -1,0 +1,13 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have mill recipes added.
+	toDustMaterialBlacklist = []
+	#The materials that should not have crucible recipes added.
+	toMoltenMaterialBlacklist = []
+	#The materials that should not have fluid cooling recipes added.
+	toMaterialMaterialBlacklist = []
+

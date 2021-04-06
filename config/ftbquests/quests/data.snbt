@@ -1,6 +1,6 @@
 {
 	version: 11,
-	title: "Starpack Alpha",
+	title: "Starpack Aleph",
 	icon: "minecraft:nether_star",
 	default_reward_team: false,
 	default_consume_items: false,
