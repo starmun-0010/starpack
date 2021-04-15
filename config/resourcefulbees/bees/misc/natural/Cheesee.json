@@ -1,5 +1,5 @@
 {
-    "flower": "rats:cheese",
+    "flower": "rats:cheese_block",
     "maxTimeInHive": 1200,
     "traits": ["can_swim"],
     "hasHoneycomb": true,
@@ -12,9 +12,9 @@
     },
     "CentrifugeData": {
         "hasCentrifugeOutput": true,
-        "mainOutput": "minecraft:water",
-        "mainOutputCount": 1000,
-        "hasFluidOutput": true
+        "mainOutput": "rats:cheese",
+        "mainOutputCount": 1,
+        "mainOutputWeight": 0.20
     },
     "SpawnData": {
         "canSpawnInWorld": true,
