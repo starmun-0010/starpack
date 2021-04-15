@@ -1,14 +1,41 @@
 {
 	id: "022B5FEB7425DD3A",
-	group: "233C7C1A11DB79AC",
-	order_index: 2,
+	group: "2B6C2CBF9E7D9DFC",
+	order_index: 6,
 	filename: "utilities",
 	title: "Utilities",
 	default_quest_shape: "",
 	quests: [
 		{
-			x: 0.5d,
-			y: -1.0d,
+			x: 9.5d,
+			y: 2.0d,
+			id: "2437FC93659D50D7",
+			tasks: [{
+				id: "7C32C5632BBC4EFE",
+				type: "item",
+				item: "craftingstation:crafting_station",
+				only_from_crafting: true
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 2.0d,
+			id: "0D1497706CA58CB8",
+			tasks: [{
+				id: "056A63B9A136FD34",
+				type: "item",
+				item: {
+					id: "quark:seed_pouch",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 2.0d,
+			y: 2.0d,
 			id: "1FD8ECE634A2EB6D",
 			tasks: [{
 				id: "5691DC5353ACDCE8",
@@ -23,8 +50,8 @@
 			}]
 		},
 		{
-			x: -1.5d,
-			y: 0.5d,
+			x: 2.0d,
+			y: 3.0d,
 			id: "5E009B82F56AB4C3",
 			tasks: [{
 				id: "3C83E860CAA52482",
@@ -39,8 +66,8 @@
 			}]
 		},
 		{
-			x: -3.0d,
-			y: -1.5d,
+			x: 2.0d,
+			y: 4.0d,
 			id: "67B1EE30DF305E3C",
 			tasks: [{
 				id: "062A049085091EAA",
@@ -55,8 +82,8 @@
 			}]
 		},
 		{
-			x: -5.0d,
-			y: -3.0d,
+			x: 2.0d,
+			y: 5.0d,
 			id: "37838709B9FE7B5F",
 			tasks: [{
 				id: "224443E5C07B73B2",
@@ -68,6 +95,110 @@
 						Damage: 0
 					}
 				}
+			}]
+		},
+		{
+			x: 8.0d,
+			y: 3.5d,
+			id: "5F6981F3D7BC4833",
+			tasks: [{
+				id: "466002175B49C305",
+				type: "item",
+				item: "integrateddynamics:drying_basin"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 3.5d,
+			id: "4259EA4DA1174785",
+			tasks: [{
+				id: "42B66C112C4DDF97",
+				type: "item",
+				item: "cyclic:crafting_stick"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 5.0d,
+			dependencies: ["4259EA4DA1174785"],
+			id: "5B78D693F0C45BA3",
+			tasks: [{
+				id: "7216AB11D47BE7A2",
+				type: "item",
+				item: {
+					ForgeCaps: {
+						Parent: {
+							Size: 9,
+							Items: []
+						}
+					},
+					id: "cyclic:crafting_bag",
+					Count: 1b
+				}
+			}]
+		},
+		{
+			x: 11.0d,
+			y: 2.0d,
+			id: "394E7B53C3F4ACDC",
+			tasks: [{
+				id: "3828F87AC416D57A",
+				type: "item",
+				item: {
+					id: "tiab:timeinabottle",
+					Count: 1b,
+					tag: {
+						timeData: {}
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 2.0d,
+			id: "02B21A7FEA68B5D1",
+			tasks: [{
+				id: "5167DF6C40E258AD",
+				type: "item",
+				item: {
+					id: "tconstruct:earth_slime_sling",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 3.0d,
+			id: "24CCF43BE1DD40CA",
+			tasks: [{
+				id: "0DE6B80B4602C915",
+				type: "item",
+				item: "tconstruct:earth_slime_boots"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 4.0d,
+			id: "651EC940126CDC74",
+			tasks: [{
+				id: "71649E372D29F0E1",
+				type: "item",
+				item: "paraglider:paraglider"
+			}]
+		},
+		{
+			x: 3.5d,
+			y: 5.0d,
+			shape: "diamond",
+			dependencies: ["651EC940126CDC74"],
+			id: "00F29E8D852D1C7A",
+			tasks: [{
+				id: "6D62A0B674D82131",
+				type: "item",
+				item: "paraglider:deku_leaf"
 			}]
 		}
 	]

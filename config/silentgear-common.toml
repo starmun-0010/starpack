@@ -124,6 +124,12 @@
 		#If true, upgrade parts may only be applied in an anvil.
 		applyInAnvilOnly = false
 
+	[gear.saw]
+		#Caps how far the saw can look for blocks when chopping down trees. Try decreasing this if you get stack overflow exceptions.
+		#Increasing this value is allowed, but not recommended unless you know what you are doing.
+		#Range: > 0
+		recursionDepth = 200
+
 #Settings for the salvager
 [salvager]
 

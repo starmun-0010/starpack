@@ -6,7 +6,23 @@
 		},
 		{
 			id: "233C7C1A11DB79AC",
-			title: "Smi auto"
+			title: "Semi-Automage"
+		},
+		{
+			id: "27D5D97B07C59BED",
+			title: "Dimensional Shifts"
+		},
+		{
+			id: "7F682CF922F321D0",
+			title: "Industrial Magician"
+		},
+		{
+			id: "0F25E49171580FF4",
+			title: "Exploring The Universe"
+		},
+		{
+			id: "4E9CA648730B5E1C",
+			title: "Godhood"
 		}
 	]
 }

@@ -1,46 +1,137 @@
 {
 	id: "79FC3774E1C8EDDF",
 	group: "2B6C2CBF9E7D9DFC",
-	order_index: 1,
+	order_index: 4,
 	filename: "crops",
-	title: "Crops",
+	title: "Farms",
 	default_quest_shape: "",
 	quests: [
 		{
-			x: 0.0d,
-			y: 0.0d,
-			id: "051041ED8C3F4D76",
-			tasks: [
-				{
-					id: "4ABAF9B70E6204A1",
-					type: "item",
-					item: "minecraft:string"
-				},
-				{
-					id: "6F4951CF6C3754F5",
-					type: "item",
-					item: "immersiveengineering:seed"
-				},
-				{
-					id: "21C554EF63539AEB",
-					type: "item",
-					item: "druidcraft:hemp_seeds"
-				},
-				{
-					id: "098E25B7DED8ECFC",
-					type: "item",
-					item: "pamhc2crops:flaxitem"
-				}
-			]
-		},
-		{
-			x: -2.5d,
-			y: -1.0d,
+			x: -3.5d,
+			y: -3.0d,
 			id: "0B98204AB072636B",
 			tasks: [{
 				id: "0E0E199BDF4EDCB3",
 				type: "item",
 				item: "mysticalagriculture:inferium_seeds"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			id: "1AB3735B988D0C28",
+			tasks: [{
+				id: "2E41380F2B3EEEEA",
+				type: "item",
+				item: "minecraft:lead"
+			}],
+			rewards: [{
+				id: "562A54176B470C23",
+				type: "item",
+				item: "starshop:starcoin",
+				count: 5
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -3.0d,
+			dependencies: ["1AB3735B988D0C28"],
+			id: "24C0D24B21E57123",
+			tasks: [{
+				id: "3A785E2179F57910",
+				type: "item",
+				item: {
+					id: "apotheosis:farmers_leash",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						entity_data: {}
+					}
+				}
+			}],
+			rewards: [{
+				id: "3B6F75890A15258F",
+				type: "item",
+				item: "starshop:starcoin",
+				count: 10
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -4.5d,
+			id: "7EF222AEAEC53D4F",
+			tasks: [{
+				id: "4469705BF5C6D592",
+				type: "item",
+				item: "forbidden_arcanus:quantum_catcher"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -4.5d,
+			id: "1010173C3C27F60A",
+			tasks: [{
+				id: "73AC123F6454B978",
+				type: "item",
+				item: "botanypots:botany_pot"
+			}]
+		},
+		{
+			x: -3.5d,
+			y: -4.5d,
+			id: "77375EE4AA148D5D",
+			tasks: [
+				{
+					id: "008BB888CDA41C38",
+					type: "item",
+					item: {
+						id: "itemfilters:or",
+						Count: 1b,
+						tag: {
+							items: [
+								{
+									id: "immersiveengineering:hemp_fiber",
+									Count: 1b
+								},
+								{
+									id: "pamhc2crops:flaxitem",
+									Count: 1b
+								},
+								{
+									id: "druidcraft:hemp",
+									Count: 1b
+								},
+								{
+									id: "pamhc2crops:juteitem",
+									Count: 1b
+								},
+								{
+									id: "pamhc2crops:sisalitem",
+									Count: 1b
+								},
+								{
+									id: "pamhc2crops:cottonitem",
+									Count: 1b
+								},
+								{
+									id: "pamhc2crops:kenafitem",
+									Count: 1b
+								}
+							]
+						}
+					}
+				},
+				{
+					id: "7A1F0DB15C6D221E",
+					type: "item",
+					item: "minecraft:string"
+				}
+			],
+			rewards: [{
+				id: "2249E342D2CC66D9",
+				type: "item",
+				item: "starshop:starcoin",
+				count: 10
 			}]
 		}
 	]

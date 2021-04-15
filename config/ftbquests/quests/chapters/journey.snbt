@@ -1,0 +1,85 @@
+{
+	id: "6EFF263EF45060E8",
+	group: "2B6C2CBF9E7D9DFC",
+	order_index: 0,
+	filename: "journey",
+	title: "Preperation",
+	default_quest_shape: "",
+	quests: [
+		{
+			title: "Gathering Wood",
+			x: 0.0d,
+			y: -2.5d,
+			id: "30000990DB9C7DCC",
+			tasks: [{
+				id: "488C384F215993D9",
+				type: "item",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:logs"
+					}
+				},
+				count: 64L
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.0d,
+			dependencies: ["30000990DB9C7DCC"],
+			id: "76DFAB15C0AE1C7C",
+			tasks: [{
+				id: "4B7B22C0D3681D18",
+				type: "item",
+				item: "minecraft:crafting_table"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -2.5d,
+			id: "2CDDF3AFCEA40A61",
+			tasks: [{
+				id: "44CBF7FE08D4F312",
+				type: "item",
+				item: "integrateddynamics:menril_sapling"
+			}]
+		},
+		{
+			x: 4.5d,
+			y: -1.0d,
+			dependencies: ["2CDDF3AFCEA40A61"],
+			id: "4B5910C64FA06FA3",
+			tasks: [{
+				id: "7E6150FB4E438A32",
+				type: "item",
+				item: "integrateddynamics:crystalized_menril_chunk"
+			}]
+		},
+		{
+			x: 6.5d,
+			y: -1.0d,
+			dependencies: ["2CDDF3AFCEA40A61"],
+			id: "7435FC107E714555",
+			tasks: [{
+				id: "14D3D2CE22F27B0B",
+				type: "item",
+				item: "integrateddynamics:menril_log"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.0d,
+			dependencies: [
+				"30000990DB9C7DCC",
+				"6931707F24E52723"
+			],
+			id: "2D5BF101B82C2AA0",
+			tasks: [{
+				id: "5260FE1A8B406308",
+				type: "item",
+				item: "minecraft:smithing_table"
+			}]
+		}
+	]
+}
