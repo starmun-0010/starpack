@@ -15,14 +15,14 @@
 	"Probability of gardens generating" = 32
 
 ["Miscellaneous Features"]
-	#Disable/enable right-click harvesting of crops.
-	"Enable right-click harvesting for crops" = true
 	#Disable/enable grass blocks dropping seeds.
 	"Enable grass blocks dropping seeds" = false
 	#Disable/enable tall grass blocks dropping seeds.
 	"Enable tall grass blocks dropping seeds" = false
 	#Disable/enable fern blocks dropping seeds.
 	"Enable fern blocks dropping seeds" = false
+	#Disable/enable right-click harvesting of crops.
+	"Enable both for right-click harvesting for crops" = true
 
 ["Enable/Disable Garden World Generation"]
 	#Should arid gardens should generate in world
@@ -40,7 +40,7 @@
 
 ["Right-click Harvesting Settings"]
 	#Disable/enable right-click harvesting of crops
-	"Enable right-click harvesting for crops" = true
+	"Enable both for right-click harvesting for crops" = true
 
 ["Dimensions Settings"]
 	#Enter a dimension id to whitelist feature generation

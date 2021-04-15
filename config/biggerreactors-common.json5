@@ -44,6 +44,24 @@
 
     },
 
+    HeatExchanger: {
+        /* 
+         * Max fluid tank capacity.
+         * Valid range: (0,)
+         * Default: 5000
+         */
+        FluidTankCapacity: 5000.0,
+
+        GUI: {
+            /* 
+             * Default: 2000
+             */
+            HeatDisplayMax: 2000.0,
+
+        },
+
+    },
+
     Turbine: {
         /* 
          * Valid range: [5,192]
@@ -67,12 +85,6 @@
 
     Reactor: {
         /* 
-         * Valid range: [3,192]
-         * Default: 128
-         */
-        MaxLength: 128.0,
-
-        /* 
          * Valid range: (0,)
          * Default: 1.0
          */
@@ -95,6 +107,12 @@
          * Default: 192
          */
         MaxHeight: 192.0,
+
+        /* 
+         * Valid range: [3,192]
+         * Default: 128
+         */
+        MaxLength: 128.0,
 
         GUI: {
             /* 
