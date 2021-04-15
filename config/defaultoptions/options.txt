@@ -43,8 +43,8 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
-pauseOnLostFocus:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
@@ -64,7 +64,7 @@ rawMouseInput:true
 glDebugVerbosity:1
 skipMultiplayerWarning:false
 hideMatchedNames:true
-joinedFirstServer:true
+joinedFirstServer:false
 syncChunkWrites:false
 soundCategory_master:0.012141281
 soundCategory_music:0.08685446
