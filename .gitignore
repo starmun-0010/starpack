@@ -28,6 +28,7 @@ realms_persistence.json
 /cache
 /saves
 /local
+/server
 /.mixin.out
 /journeymap
 /screenshots
@@ -84,6 +85,6 @@ config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 /data
 /dumps
 server/*.zip
-server/server-setup-config.yaml
+!server/server-setup-config.yaml
 optionsof.txt
 optionsshaders.txt
