@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:oak_log",
+      "count":1
+    }
+  ],
+  "result": "minecraft:oak_planks",
+  "count": 4,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+} 

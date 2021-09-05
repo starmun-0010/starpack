@@ -13,6 +13,12 @@
 	integrationsNotifier = "bloodmagic:"
 	#INTERNAL
 	optifineBloodvisionWarning = false
+	#Desired maximum distance between villages in chunks
+	#Range: 1 ~ 100
+	villageDistance = 26
+	#Minimum distance between villages in chunks. Must be smaller than distance
+	#Range: 1 ~ 100
+	villageSeparation = 6
 
 #Affects all worlds. This is only considered on server (or in singleplayer), but Forge requires us to put it here
 [common-server]
@@ -22,4 +28,33 @@
 	umbrella = true
 	#Enforce tent generation in any overworld world, even if they were not included in modded or datapack world-types on purpose. Does not affect Server#disableTentGeneration or disable tent generation itself.
 	enforceOverworldTentGeneration = true
+
+	[common-server.mobspawn]
+		#Vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
+		#Range: 0 ~ 100000
+		vampireSpawnChance = 80
+		#Advanced vampire spawn chance/weight (e.g. Zombie: 100). Does not affect vampire forest.
+		#Range: 0 ~ 100000
+		advancedVampireSpawnChance = 26
+		#Hunter spawn chance. By default they only spawn in tent camps, but you can enable global spawn here.
+		#Range: 0 ~ 10000
+		hunterSpawnChance = 0
+		#Advanced hunter spawn chance. By default they only spawn in large tent camps, but you can enable global spawn here.
+		#Range: 0 ~ 100000
+		advancedHunterSpawnChance = 0
+		#Vampire baron spawn chance in vampire forest (reference vampire in forest: 35)
+		#Range: 0 ~ 10000
+		baronSpawnChance = 10
+
+	[common-server.world]
+		#Range: > 0
+		vampireForestWeight = 3
+		#Desired maximum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
+		#Range: 2 ~ 4096
+		hunterTentDistance = 10
+		#Desired minimum distance in chunks between tents. Dont set hunterTentDistance <= hunterTentSeparation
+		#Range: 1 ~ 4096
+		hunterTentSeparation = 4
+		#Control hunter camp generation. If disabled you should set hunterSpawnChance to 75.
+		enableHunterTentGeneration = true
 

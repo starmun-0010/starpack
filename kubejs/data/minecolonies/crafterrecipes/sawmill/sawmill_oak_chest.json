@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:oak_planks",
+      "count":8
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:chest",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

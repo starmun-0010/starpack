@@ -1,0 +1,50 @@
+
+["General Settings"]
+	#Should Cursed Earth be Obtainable?
+	"Obtain Cursed" = true
+	#Should Blessed Earth be Obtainable?
+	"Obtain Blessed" = true
+	#Should Blursed Earth be Obtainable?
+	"Obtain Blursed" = true
+	#What Should the Max Multiplier of Kikoku Enchant be?
+	#Range: 1 ~ 5000
+	"Kikoku Max" = 2
+	#What should the Unstable Ingot do when the time limit is reached?
+	#0: Slowness while holding
+	#1: After 10 seconds, slowly ramps up the damage
+	#2: Explodes after 10 seconds
+	#Range: 0 ~ 2
+	"Reaction Type" = 1
+	#How much EXP should base experience pearls give?
+	#Range: 1 ~ 128
+	"EXP Given from EXP Pearls" = 10
+	#Should Ender Lilies Generate?
+	"Ender Lily Generation" = true
+	#Should Flame Lilies Generate?
+	"Flame Lily Generation" = true
+	#How much FE should the Solar Panel Generate?
+	#Range: 0 ~ 1000000
+	"Solar Panel Generation" = 4
+	#How much FE should the Lunar Panel Generate?
+	#Range: 0 ~ 1000000
+	"Lunar Panel Generation" = 4
+	#How many Panels should it take to increase the multiplier by 1?
+	#Range: 1 ~ 1000000
+	"Panel Multiplier Amount" = 50
+
+["World Generation"]
+	#Should Ender Ore Generate?
+	"Ender Ore Generation" = true
+	#What should the Vein Size of Ender Ore be?
+	#Range: 0 ~ 256
+	"Ender Ore Vein" = 12
+	#What should the minimum generation height be for Ender Ore?
+	#Range: 0 ~ 256
+	"Ender Ore Min" = 0
+	#What should the maximum generation height be for Ender Ore?
+	#Range: 0 ~ 256
+	"Ender Ore Max" = 55
+	#How many times should Ender Ore try to generate?
+	#Range: 0 ~ 255
+	"Ender Ore Gen Attempts" = 12
+

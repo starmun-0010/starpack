@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "create:natural_scoria"
+        },
+        "/": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_double",
+        "nbt": {
+            "id": "d305cde8-302d-4cfe-a3ce-ec33dc4210e9",
+            "double/head_left": "double/basic_hammer_left",
+            "double/basic_hammer_left_material": "basic_hammer/create_natural_scoria",
+            "double/head_right": "double/basic_hammer_right",
+            "double/basic_hammer_right_material": "basic_hammer/create_natural_scoria",
+            "double/handle": "double/basic_handle",
+            "double/basic_handle_material": "basic_handle/stick"
+        }
+    }
+}

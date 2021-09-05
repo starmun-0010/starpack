@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "biomesoplenty:cherry_planks"
+        },
+        "/": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_double",
+        "nbt": {
+            "id": "3e2fde0b-ecba-4af7-a40e-9cce00d20f0b",
+            "double/head_left": "double/basic_hammer_left",
+            "double/basic_hammer_left_material": "basic_hammer/cherrybop",
+            "double/head_right": "double/basic_hammer_right",
+            "double/basic_hammer_right_material": "basic_hammer/cherrybop",
+            "double/handle": "double/basic_handle",
+            "double/basic_handle_material": "basic_handle/stick"
+        }
+    }
+}

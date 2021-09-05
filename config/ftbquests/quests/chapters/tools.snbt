@@ -1,490 +1,801 @@
 {
-	id: "330FE9AFD062AE73",
-	group: "2B6C2CBF9E7D9DFC",
-	order_index: 1,
-	filename: "tools",
-	title: "Tools, Weapons and Armor",
-	default_quest_shape: "",
+	id: "330FE9AFD062AE73"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 0
+	filename: "tools"
+	title: "Tools and Weapons"
+	icon: {
+		id: "minecraft:stone_pickaxe"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Any morevanillalib:tools",
-			x: -21.5d,
-			y: -11.5d,
-			shape: "diamond",
-			dependency_requirement: "one_started",
-			optional: true,
-			id: "7C4362127FFF6A21",
-			tasks: [{
-				id: "0785CDB38E6A5D0C",
-				type: "item",
-				title: "Wodden Hammer and Excavator",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/wood"
+			title: "Wooden 3x3 Mining"
+			icon: {
+				id: "vanillahammers:wood_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -21.5d
+			y: -13.0d
+			shape: "diamond"
+			subtitle: "Wood Hammer / Wood Excavator"
+			dependency_requirement: "one_started"
+			optional: true
+			id: "7C4362127FFF6A21"
+			tasks: [
+				{
+					id: "6EE0E0DBDC10DB64"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:wood_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
+				{
+					id: "6CA56B7D653ABB06"
+					type: "item"
+					item: {
+						id: "vanillahammers:wood_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5788D276C8B153C1"
+				type: "xp"
+				auto: "enabled"
+				xp: 5
 			}]
-		},
+		}
 		{
-			title: "tetra",
-			x: -24.5d,
-			y: -11.5d,
-			id: "12A134283002020F",
+			title: "tetra"
+			x: -24.5d
+			y: -11.5d
+			id: "12A134283002020F"
 			tasks: [{
-				id: "60931EAFF638ABC1",
-				type: "item",
+				id: "60931EAFF638ABC1"
+				type: "item"
 				item: {
-					id: "tetra:modular_double",
-					Count: 1b,
+					id: "tetra:modular_double"
+					Count: 1b
 					tag: {
-						"double/handle": "double/basic_handle",
-						"double/head_left": "double/basic_hammer_left",
-						"double/head_right": "double/basic_hammer_right",
-						id: "909e6aa7-7c6b-4061-8c4e-c259049326f3",
-						"double/basic_hammer_right_material": "basic_hammer/oak",
-						Damage: 0,
-						"double/basic_handle_material": "basic_handle/stick",
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "909e6aa7-7c6b-4061-8c4e-c259049326f3"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						Damage: 0
+						"double/basic_handle_material": "basic_handle/stick"
 						"double/basic_hammer_left_material": "basic_hammer/oak"
 					}
 				}
-			}],
+			}]
 			rewards: [
 				{
-					id: "0591C5CAAFCB55D9",
-					type: "item",
-					item: "starshop:starcoin",
+					id: "0591C5CAAFCB55D9"
+					type: "item"
+					item: "starshop:starcoin"
 					count: 5
-				},
+				}
 				{
-					id: "1F2A0D471E908755",
-					type: "xp",
+					id: "1F2A0D471E908755"
+					type: "xp"
 					xp: 10
 				}
 			]
-		},
+		}
 		{
-			x: -7.0d,
-			y: -11.5d,
-			dependencies: ["68B3D680D4677BF9"],
-			id: "59E1A16F191ADBEC",
+			x: -7.0d
+			y: -11.5d
+			id: "59E1A16F191ADBEC"
 			tasks: [{
-				id: "399609BCF3E6577C",
-				type: "item",
+				id: "399609BCF3E6577C"
+				type: "item"
 				item: "toolbelt:belt"
-			}],
+			}]
 			rewards: [
 				{
-					id: "00F1BE73C95ADC5F",
-					type: "item",
-					item: "starshop:starcoin",
+					id: "00F1BE73C95ADC5F"
+					type: "item"
+					item: "starshop:starcoin"
 					count: 10
-				},
+				}
 				{
-					id: "37058F8C7B2CB6D5",
-					type: "xp",
+					id: "37058F8C7B2CB6D5"
+					type: "xp"
 					xp: 100
 				}
 			]
-		},
+		}
 		{
-			x: -15.5d,
-			y: -10.0d,
-			dependencies: ["1D5C580817943D3A"],
-			id: "479DB2E056380730",
+			title: "Tinker's Setup"
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: -15.5d
+			y: -10.0d
+			dependencies: ["1D5C580817943D3A"]
+			id: "479DB2E056380730"
 			tasks: [
 				{
-					id: "46FD1CD7F5AADF7F",
-					type: "item",
+					id: "46FD1CD7F5AADF7F"
+					type: "item"
 					item: "tconstruct:crafting_station"
-				},
+				}
 				{
-					id: "6089F0D2C22C3F91",
-					type: "item",
+					id: "6089F0D2C22C3F91"
+					type: "item"
 					item: {
-						id: "tconstruct:part_builder",
-						Count: 1b,
+						id: "tconstruct:part_builder"
+						Count: 1b
 						tag: {
 							texture: "minecraft:oak_planks"
 						}
 					}
-				},
+				}
 				{
-					id: "175B7A783D5D9EA2",
-					type: "item",
+					id: "175B7A783D5D9EA2"
+					type: "item"
 					item: {
-						id: "tconstruct:tinker_station",
-						Count: 1b,
+						id: "tconstruct:tinker_station"
+						Count: 1b
 						tag: {
 							texture: "minecraft:oak_planks"
 						}
 					}
-				},
+				}
 				{
-					id: "028EB3536E9335DD",
-					type: "item",
-					item: "tconstruct:modifier_chest"
-				},
+					id: "028EB3536E9335DD"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
 				{
-					id: "44A10B96A204105B",
-					type: "item",
+					id: "44A10B96A204105B"
+					type: "item"
 					item: "tconstruct:part_chest"
 				}
 			]
-		},
+		}
 		{
-			x: -15.5d,
-			y: -11.5d,
-			id: "1D5C580817943D3A",
+			title: "Getting Started With Tinker's Construct"
+			x: -15.5d
+			y: -11.5d
+			subtitle: "Pattern"
+			id: "1D5C580817943D3A"
 			tasks: [{
-				id: "48FE9EF8F1F6674C",
-				type: "item",
+				id: "48FE9EF8F1F6674C"
+				type: "item"
 				item: "tconstruct:pattern"
+				count: 64L
 			}]
-		},
+		}
 		{
-			x: -24.5d,
-			y: -10.0d,
-			id: "21C16929F5D5553E",
+			x: -24.5d
+			y: -10.0d
+			id: "21C16929F5D5553E"
 			tasks: [{
-				id: "52F25C05EE89CF23",
-				type: "item",
+				id: "52F25C05EE89CF23"
+				type: "item"
 				item: {
-					id: "tetra:modular_double",
-					Count: 1b,
+					id: "tetra:modular_double"
+					Count: 1b
 					tag: {
-						"double/handle": "double/basic_handle",
-						honing_progress: 290,
-						"double/head_left": "double/basic_pickaxe_left",
-						HideFlags: 1,
-						"double/head_right": "double/basic_pickaxe_right",
-						"double/basic_pickaxe_right_material": "basic_pickaxe/oak",
-						id: "3372b3fa-9510-4672-b206-2231a7fe4017",
-						"double/basic_pickaxe_left_material": "basic_pickaxe/oak",
-						Damage: 0,
-						repairCount: 1,
+						"double/handle": "double/basic_handle"
+						honing_progress: 290
+						"double/head_left": "double/basic_pickaxe_left"
+						HideFlags: 1
+						"double/head_right": "double/basic_pickaxe_right"
+						"double/basic_pickaxe_right_material": "basic_pickaxe/oak"
+						id: "3372b3fa-9510-4672-b206-2231a7fe4017"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/oak"
+						Damage: 0
+						repairCount: 1
 						"double/basic_handle_material": "basic_handle/stick"
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -12.5d,
-			y: -10.5d,
-			id: "740C831B6A12A724",
+			x: -12.5d
+			y: -10.5d
+			dependencies: ["658C62A38C037BA7"]
+			id: "740C831B6A12A724"
 			tasks: [{
-				id: "5BF7EDA83E313915",
-				type: "item",
+				id: "5BF7EDA83E313915"
+				type: "item"
 				item: "silentgear:pickaxe_blueprint"
 			}]
-		},
+		}
 		{
-			x: -9.5d,
-			y: -10.5d,
-			id: "738FDCEABAF9630F",
+			x: -9.5d
+			y: -10.5d
+			dependencies: ["658C62A38C037BA7"]
+			id: "738FDCEABAF9630F"
 			tasks: [{
-				id: "1E14A7D8C288E343",
-				type: "item",
+				id: "1E14A7D8C288E343"
+				type: "item"
 				item: "silentgear:sword_blueprint"
 			}]
-		},
+		}
 		{
-			x: -12.0d,
-			y: -9.0d,
-			id: "1C397BD9D23B300C",
+			x: -12.0d
+			y: -9.0d
+			dependencies: ["658C62A38C037BA7"]
+			id: "1C397BD9D23B300C"
 			tasks: [{
-				id: "663CE53184599A19",
-				type: "item",
+				id: "663CE53184599A19"
+				type: "item"
 				item: "silentgear:axe_blueprint"
 			}]
-		},
+		}
 		{
-			x: -20.0d,
-			y: -11.5d,
-			shape: "diamond",
-			dependencies: ["7C4362127FFF6A21"],
-			id: "7EF22296443D934E",
-			tasks: [{
-				id: "72BE96AB29D4A45E",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/stone"
+			title: "Stone 3x3 Mining"
+			icon: {
+				id: "vanillahammers:stone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -20.0d
+			y: -13.0d
+			shape: "diamond"
+			subtitle: "Stone Hammer / Stone Excavator"
+			dependencies: ["7C4362127FFF6A21"]
+			id: "7EF22296443D934E"
+			tasks: [
+				{
+					id: "738C9ABBF28230F6"
+					type: "item"
+					item: {
+						id: "vanillahammers:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -18.5d,
-			y: -11.5d,
-			shape: "diamond",
-			dependencies: ["7EF22296443D934E"],
-			id: "1F0B155043B46610",
-			tasks: [{
-				id: "66FED2912694AC16",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/coal"
+				{
+					id: "22D2CAFC12773749"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:stone_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -18.5d,
-			y: -10.0d,
-			shape: "diamond",
-			dependencies: ["1F0B155043B46610"],
-			id: "1C565CD45B4BA751",
-			tasks: [{
-				id: "765A2BAC189D30CF",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/bone"
+			title: "Coal 3x3 Mining"
+			icon: {
+				id: "vanillahammers:coal_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -18.5d
+			y: -13.0d
+			shape: "diamond"
+			dependencies: ["7EF22296443D934E"]
+			id: "1F0B155043B46610"
+			tasks: [
+				{
+					id: "05CAEB6DEAD325F6"
+					type: "item"
+					item: {
+						id: "vanillahammers:coal_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -20.0d,
-			y: -10.0d,
-			shape: "diamond",
-			dependencies: ["1C565CD45B4BA751"],
-			id: "2643B953A7FCFFE5",
-			tasks: [{
-				id: "4C6F295B8CD1B4C6",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/iron"
+				{
+					id: "2DFA118E3625A0A7"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:coal_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -21.5d,
-			y: -10.0d,
-			shape: "diamond",
-			dependencies: ["2643B953A7FCFFE5"],
-			id: "6E56985752E829E2",
-			tasks: [{
-				id: "1DFABE602A276A04",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/slime"
+			title: "Bone 3x3 Mining"
+			icon: {
+				id: "vanillahammers:bone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -18.5d
+			y: -11.5d
+			shape: "diamond"
+			dependencies: ["1F0B155043B46610"]
+			id: "1C565CD45B4BA751"
+			tasks: [
+				{
+					id: "6263FDF7B7CB1C3A"
+					type: "item"
+					item: {
+						id: "vanillahammers:bone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -21.5d,
-			y: -8.5d,
-			shape: "diamond",
-			dependencies: ["6E56985752E829E2"],
-			id: "52C93EF08BA68D93",
-			tasks: [{
-				id: "1EA5FDD13759B03A",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/paper"
+				{
+					id: "4F89217242F46397"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:bone_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -20.0d,
-			y: -8.5d,
-			shape: "diamond",
-			dependencies: ["52C93EF08BA68D93"],
-			id: "0AF7E65B5F69C871",
-			tasks: [{
-				id: "4D663D6AA5EC0AA2",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/gold"
+			title: "Iron 3x3 Mining"
+			icon: {
+				id: "vanillahammers:iron_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -20.0d
+			y: -11.5d
+			shape: "diamond"
+			dependencies: ["1C565CD45B4BA751"]
+			id: "2643B953A7FCFFE5"
+			tasks: [
+				{
+					id: "4D5CF491D447A04C"
+					type: "item"
+					item: {
+						id: "vanillahammers:iron_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -18.5d,
-			y: -8.5d,
-			shape: "diamond",
-			dependencies: ["0AF7E65B5F69C871"],
-			id: "417E24D62434F5D2",
-			tasks: [{
-				id: "7245EE5AC0A47C90",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/prismarine"
+				{
+					id: "391D6197BFD49E49"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:iron_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -18.5d,
-			y: -7.0d,
-			shape: "diamond",
-			dependencies: ["417E24D62434F5D2"],
-			id: "2C6BBC8DE3A2EDC7",
-			tasks: [{
-				id: "20BDAE98A8604551",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/redstone"
+			title: "Slime 3x3 Mining"
+			icon: {
+				id: "vanillahammers:slime_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 3s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+			x: -21.5d
+			y: -11.5d
+			shape: "diamond"
+			dependencies: ["2643B953A7FCFFE5"]
+			id: "6E56985752E829E2"
+			tasks: [
+				{
+					id: "159506E56F2E3940"
+					type: "item"
+					item: {
+						id: "vanillahammers:slime_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:knockback"
+							}]
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -21.5d,
-			y: -7.0d,
-			shape: "diamond",
-			dependencies: ["33623224959DE613"],
-			id: "5C302D18AF050D20",
-			tasks: [{
-				id: "77801ACBCCF4427E",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/diamond"
+				{
+					id: "0DE77D717ECD0726"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:slime_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								lvl: 3s
+								id: "minecraft:knockback"
+							}]
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -21.5d,
-			y: -5.5d,
-			shape: "diamond",
-			dependencies: ["5C302D18AF050D20"],
-			id: "09ACEDF6EBA29CF0",
-			tasks: [{
-				id: "6E5B7FD76E5A22EB",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/obsidian"
+			title: "Paper 3x3 Mining"
+			icon: {
+				id: "vanillahammers:paper_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -21.5d
+			y: -10.0d
+			shape: "diamond"
+			dependencies: ["6E56985752E829E2"]
+			id: "52C93EF08BA68D93"
+			tasks: [
+				{
+					id: "33503B72855ABA56"
+					type: "item"
+					item: {
+						id: "vanillahammers:paper_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -18.5d,
-			y: -5.5d,
-			shape: "diamond",
-			dependencies: ["4253EC8E745D3184"],
-			id: "147134D1C5D1C545",
-			tasks: [{
-				id: "55C565D5E83949E8",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/emerald"
+				{
+					id: "752D3DA3EA51C562"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:paper_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -20.0d,
-			y: -5.5d,
-			shape: "diamond",
-			dependencies: ["09ACEDF6EBA29CF0"],
-			id: "4253EC8E745D3184",
-			tasks: [{
-				id: "4659B777E0119D29",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/paper"
+			title: "Gold 3x3 Mining"
+			icon: {
+				id: "vanillahammers:gold_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -20.0d
+			y: -10.0d
+			shape: "diamond"
+			dependencies: ["52C93EF08BA68D93"]
+			id: "0AF7E65B5F69C871"
+			tasks: [
+				{
+					id: "4578B286D4A7BCE0"
+					type: "item"
+					item: {
+						id: "vanillahammers:gold_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
-		{
-			x: -20.0d,
-			y: -7.0d,
-			shape: "diamond",
-			dependencies: ["2C6BBC8DE3A2EDC7"],
-			id: "33623224959DE613",
-			tasks: [{
-				id: "34867290C7279FE6",
-				type: "item",
-				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
-					tag: {
-						value: "morevanillalib:tools/lapis"
+				{
+					id: "002CE8FC63B4D048"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:gold_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-		},
+			]
+		}
 		{
-			x: -10.0d,
-			y: -9.0d,
-			id: "13D0772FCE173F79",
+			title: "Prismarine 3x3 Mining"
+			icon: {
+				id: "vanillahammers:prismarine_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -18.5d
+			y: -10.0d
+			shape: "diamond"
+			dependencies: ["0AF7E65B5F69C871"]
+			id: "417E24D62434F5D2"
+			tasks: [
+				{
+					id: "6097416935A2DABD"
+					type: "item"
+					item: {
+						id: "vanillahammers:prismarine_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "739C0A24C5143385"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:prismarine_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Redstone 3x3 Mining"
+			icon: {
+				id: "vanillahammers:redstone_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -18.5d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["417E24D62434F5D2"]
+			id: "2C6BBC8DE3A2EDC7"
+			tasks: [
+				{
+					id: "554B7613FE4FF9E0"
+					type: "item"
+					item: {
+						id: "vanillahammers:redstone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E863C75F5D8557C"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:redstone_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Diamond 3x3 Mining"
+			icon: {
+				id: "vanillahammers:diamond_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -21.5d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["33623224959DE613"]
+			id: "5C302D18AF050D20"
+			tasks: [
+				{
+					id: "6C9DF6B2183CD835"
+					type: "item"
+					item: {
+						id: "vanillahammers:diamond_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1918C8654718CE2E"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:diamond_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Obsidian 3x3 Mining"
+			icon: {
+				id: "vanillahammers:obsidian_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -21.5d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: ["5C302D18AF050D20"]
+			id: "09ACEDF6EBA29CF0"
+			tasks: [
+				{
+					id: "529BD5F7508BD56C"
+					type: "item"
+					item: {
+						id: "vanillahammers:obsidian_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "108D2F733C31C00C"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:obsidian_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Emerald 3x3 Mining"
+			icon: {
+				id: "vanillahammers:emerald_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -18.5d
+			y: -7.0d
+			shape: "diamond"
+			dependencies: ["09ACEDF6EBA29CF0"]
+			id: "147134D1C5D1C545"
+			tasks: [
+				{
+					id: "55645DA7A1835D5D"
+					type: "item"
+					item: {
+						id: "vanillahammers:emerald_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "53F968B5CD634B53"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:emerald_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Lapis 3x3 Mining"
+			icon: {
+				id: "vanillahammers:lapis_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -20.0d
+			y: -8.5d
+			shape: "diamond"
+			dependencies: ["2C6BBC8DE3A2EDC7"]
+			id: "33623224959DE613"
+			tasks: [
+				{
+					id: "329B9BE39A37C556"
+					type: "item"
+					item: {
+						id: "vanillahammers:lapis_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7B5B471D6616446D"
+					type: "item"
+					item: {
+						id: "vanillaexcavators:lapis_excavator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -9.0d
+			dependencies: ["658C62A38C037BA7"]
+			id: "13D0772FCE173F79"
 			tasks: [{
-				id: "317F8C9246EEAE02",
-				type: "item",
+				id: "317F8C9246EEAE02"
+				type: "item"
 				item: "silentgear:paxel_blueprint"
 			}]
-		},
+		}
 		{
-			x: -11.0d,
-			y: -11.5d,
-			dependencies: [
-				"738FDCEABAF9630F",
-				"740C831B6A12A724",
-				"13D0772FCE173F79",
-				"1C397BD9D23B300C"
-			],
-			id: "658C62A38C037BA7",
+			x: -11.0d
+			y: -11.5d
+			id: "658C62A38C037BA7"
 			tasks: [{
-				id: "4593BAFF5226E3E3",
-				type: "item",
+				id: "4593BAFF5226E3E3"
+				type: "item"
 				item: "silentgear:blueprint_paper"
 			}]
-		},
+		}
 		{
-			x: -7.0d,
-			y: -10.0d,
-			id: "68B3D680D4677BF9",
+			x: -7.0d
+			y: -10.0d
+			dependencies: ["59E1A16F191ADBEC"]
+			id: "68B3D680D4677BF9"
 			tasks: [{
-				id: "69BDCE34287A1885",
-				type: "item",
-				item: "toolbelt:pouch",
+				id: "69BDCE34287A1885"
+				type: "item"
+				item: "toolbelt:pouch"
 				count: 2L
 			}]
 		}

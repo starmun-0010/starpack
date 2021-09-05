@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "embellishcraft:jade_cobblestone"
+        },
+        "/": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_double",
+        "nbt": {
+            "id": "951db330-2816-4fa9-a0da-f642c5e52dac",
+            "double/head_left": "double/basic_hammer_left",
+            "double/basic_hammer_left_material": "basic_hammer/embellishcraft_jade_cobblestone",
+            "double/head_right": "double/basic_hammer_right",
+            "double/basic_hammer_right_material": "basic_hammer/embellishcraft_jade_cobblestone",
+            "double/handle": "double/basic_handle",
+            "double/basic_handle_material": "basic_handle/stick"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "replace": false,
+    "slots": [
+        "double/head_left",
+        "double/head_right"
+    ],
+    "keySuffixes": [
+        "_left",
+        "_right"
+    ],
+    "materialSlotCount": 1,
+    "glyph": {
+        "textureX": 64
+    },
+    "displayType": "major",
+    "outcomes": [
+        {
+            "materials": [
+                "tetra:stone/astralsorcery_marble", 
+                "tetra:stone/bluepower_marble", 
+                "tetra:stone/marble", 
+                "tetra:stone/embellishcraft_marble_cobblestone", 
+                "tetra:stone/embellishcraft_marble",
+                "tetra:stone/byg_cobbled_ether_stone",
+                "tetra:stone/byg_dacite_cobblestone",
+                "tetra:stone/byg_scoria_stone",
+                "tetra:stone/create_dark_scoria_cobblestone",
+                "tetra:stone/create_dark_scoria",
+                "tetra:stone/create_diorite_cobblestone",
+                "tetra:stone/create_dolomite",
+                "tetra:stone/create_gabbro_cobblestone",
+                "tetra:stone/create_gabbro",
+                "tetra:stone/create_granite_cobblestone",
+                "tetra:stone/create_limestone_cobblestone",
+                "tetra:stone/create_limestone",
+                "tetra:stone/create_natural_scoria",
+                "tetra:stone/create_scoria_cobblestone",
+                "tetra:stone/create_scoria",
+                "tetra:stone/create_weahtered_limestone",
+                "tetra:stone/embellishcraft_gneiss_cobblestone",
+                "tetra:stone/embellishcraft_gneiss",
+                "tetra:stone/embellishcraft_jade_cobblestone",
+                "tetra:stone/embellishcraft_jade",
+                "tetra:stone/embellishcraft_larvikite_cobblestone",
+                "tetra:stone/embellishcraft_larvikite",
+                "tetra:stone/embellishcraft_slate_cobblestone",
+                "tetra:stone/embellishcraft_slate",
+                "tetra:stone/forbidden_arcanus_darkstone",
+                "tetra:stone/quark_cobbedstone",
+                "tetra:stone/dacite",
+                "tetra:stone/limestone",
+                "tetra:stone/quark_cobbedstone",
+                "tetra:stone/red_rock",
+                "tetra:stone/rocky_stone", 
+                "tetra:stone/scoria",
+                "tetra:stone/slate",
+                "tetra:stone/soapstone"
+            ],
+            "toolFactor": 0,
+            "moduleKey": "double/basic_hammer",
+            "moduleVariant": "basic_hammer/"
+        }
+    ]
+}

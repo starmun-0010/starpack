@@ -41,6 +41,9 @@
 		#Max health for a tier 5 mob
 		#Range: > 5
 		t5MaxHealth = 2147483647
+		#Exotic drop chance
+		#Range: 0.0 ~ 100.0
+		exotic = 15.0
 
 	[factory.base]
 		#Number of mobs to spawn
@@ -230,6 +233,17 @@
 			#Percentage of ether gas to drop for laser 3 perks
 			#Range: 0 ~ 1000
 			l3LaserAmount = 140
+
+		[factory.perks.flayed]
+			#Percentage of mob health for flayed 1 perks
+			#Range: 0 ~ 1000
+			l1FlayedAmount = 90
+			#Percentage of mob health for flayed 2 perks
+			#Range: 0 ~ 1000
+			l2FlayedAmount = 100
+			#Percentage of mob health for flayed 3 perks
+			#Range: 0 ~ 1000
+			l3FlayedAmount = 110
 
 #Settings for the infuser
 [infuser]

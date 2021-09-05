@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "byg:maple_planks"
+        },
+        "/": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_double",
+        "nbt": {
+            "id": "36177087-50d4-44d3-913f-bac0ddb64634",
+            "double/head_left": "double/basic_hammer_left",
+            "double/basic_hammer_left_material": "basic_hammer/maple",
+            "double/head_right": "double/basic_hammer_right",
+            "double/basic_hammer_right_material": "basic_hammer/maple",
+            "double/handle": "double/basic_handle",
+            "double/basic_handle_material": "basic_handle/stick"
+        }
+    }
+}

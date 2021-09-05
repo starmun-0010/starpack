@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " /#",
+        "/  "
+    ],
+    "key": {
+        "#": {
+            "item": "quark:limestone"
+        },
+        "/": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "tetra:modular_double",
+        "nbt": {
+            "id": "fa8b424f-d8ce-4a53-bea5-a559eb9ace0c",
+            "double/head_left": "double/basic_hammer_left",
+            "double/basic_hammer_left_material": "basic_hammer/limestone",
+            "double/head_right": "double/basic_hammer_right",
+            "double/basic_hammer_right_material": "basic_hammer/limestone",
+            "double/handle": "double/basic_handle",
+            "double/basic_handle_material": "basic_handle/stick"
+        }
+    }
+}

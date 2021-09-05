@@ -1,0 +1,21 @@
+{
+  "branch": "minecolonies:technology",
+  "subtitle": "com.minecolonies.research.technology.memoryaid.subtitle",
+  "sortOrder": 3,
+  "icon": "minecraft:paper",
+  "requirements": [
+    {
+      "building": "sawmill",
+      "level": 1
+    },
+    {
+      "item": "minecraft:paper",
+      "quantity": 32
+    }
+  ],
+  "effects": [
+    {
+      "minecolonies:effects/recipesmultiplier": 1
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:birch_planks",
+      "count":2
+    },
+    {
+      "item": "minecraft:stick",
+      "count":2
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:wooden_hoe",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

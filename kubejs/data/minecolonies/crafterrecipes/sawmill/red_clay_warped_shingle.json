@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_warped_shingle",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:red_clay_warped_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

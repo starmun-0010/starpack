@@ -1,0 +1,112 @@
+{
+    "replace": false,
+    "type": "tetra:multi_major_module",
+    "variants": [
+        
+        {
+            "materials": [
+                "tetra:stone/astralsorcery_marble", 
+                "tetra:stone/bluepower_marble", 
+                "tetra:stone/marble", 
+                "tetra:stone/embellishcraft_marble_cobblestone", 
+                "tetra:stone/embellishcraft_marble"
+            ],
+            "key": "basic_hammer/",
+            "attributes": {
+                "generic.attack_speed": -1.1
+            },
+            "tools": {
+                "hammer": 1
+            },
+            "models": [{
+                "location": "tetra:items/module/double/head/basic_hammer/stone",
+                "tint": "ffffff"
+            }],
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 0.5
+                },
+                "secondaryAttributes": {
+                    "generic.attack_damage": 1,
+                    "generic.attack_speed": -0.08
+                },
+                "tools": {
+                    "hammer": [0, 0.8333]
+                },
+                "durability": 0.55,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 64
+                }
+            }
+        },
+        {
+            "materials": [
+                "tetra:stone/byg_cobbled_ether_stone",
+                "tetra:stone/byg_dacite_cobblestone",
+                "tetra:stone/byg_scoria_stone",
+                "tetra:stone/create_dark_scoria_cobblestone",
+                "tetra:stone/create_dark_scoria",
+                "tetra:stone/create_diorite_cobblestone",
+                "tetra:stone/create_dolomite",
+                "tetra:stone/create_gabbro_cobblestone",
+                "tetra:stone/create_gabbro",
+                "tetra:stone/create_granite_cobblestone",
+                "tetra:stone/create_limestone_cobblestone",
+                "tetra:stone/create_limestone",
+                "tetra:stone/create_natural_scoria",
+                "tetra:stone/create_scoria_cobblestone",
+                "tetra:stone/create_scoria",
+                "tetra:stone/create_weahtered_limestone",
+                "tetra:stone/embellishcraft_gneiss_cobblestone",
+                "tetra:stone/embellishcraft_gneiss",
+                "tetra:stone/embellishcraft_jade_cobblestone",
+                "tetra:stone/embellishcraft_jade",
+                "tetra:stone/embellishcraft_larvikite_cobblestone",
+                "tetra:stone/embellishcraft_larvikite",
+                "tetra:stone/embellishcraft_slate_cobblestone",
+                "tetra:stone/embellishcraft_slate",
+                "tetra:stone/forbidden_arcanus_darkstone",
+                "tetra:stone/quark_cobbedstone",
+                "tetra:stone/dacite",
+                "tetra:stone/limestone",
+                "tetra:stone/quark_cobbedstone",
+                "tetra:stone/red_rock",
+                "tetra:stone/rocky_stone", 
+                "tetra:stone/scoria",
+                "tetra:stone/slate",
+                "tetra:stone/soapstone"
+            ],
+            "key": "basic_hammer/",
+            "attributes": {
+                "generic.attack_speed": -1.1
+            },
+            "tools": {
+                "hammer": 1
+            },
+            "models": [{
+                "location": "tetra:items/module/double/head/basic_hammer/stone",
+                "tint": "aaaaaa"
+            }],
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 0.5
+                },
+                "secondaryAttributes": {
+                    "generic.attack_damage": 1,
+                    "generic.attack_speed": -0.08
+                },
+                "tools": {
+                    "hammer": [0, 0.8333]
+                },
+                "durability": 0.55,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 64
+                }
+            }
+        }
+    ]
+}

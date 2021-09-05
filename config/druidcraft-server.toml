@@ -78,13 +78,13 @@
 	lunar_moth_spawn = true
 	#Determines the rarity of the lunar moth.
 	#Range: 1 ~ 200
-	lunar_moth_weight = 5
+	lunar_moth_weight = 1
 	#Minimum size of the group when spawned.
 	#Range: 1 ~ 200
-	lunar_moth_min_group_size = 3
+	lunar_moth_min_group_size = 2
 	#Maximum size of the group when spawned.
 	#Range: 1 ~ 200
-	lunar_moth_max_group_size = 6
+	lunar_moth_max_group_size = 3
 	#List of biome types from the biome dictionary that the lunar moth can spawn in. Define as strings with "s and separate with a comma.
 	lunar_moth_biomes = "FOREST, PLAINS, MOUNTAIN, HILLS"
 	#List of biome types from the biome dictionary that lunar moths cannot spawn in. Separate with commas.

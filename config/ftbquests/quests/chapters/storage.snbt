@@ -1,515 +1,609 @@
 {
-	id: "2327C72201FCFA1A",
-	group: "2B6C2CBF9E7D9DFC",
-	order_index: 3,
-	filename: "storage",
-	title: "Power and Storage",
-	default_quest_shape: "",
+	id: "2327C72201FCFA1A"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 4
+	filename: "storage"
+	title: "Storage"
+	icon: "quark:oak_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 7.0d,
-			y: 4.0d,
-			id: "4274BB56186D820E",
+			title: "Chest (27 Slots)"
+			icon: "quark:oak_chest"
+			x: -4.0d
+			y: 2.5d
+			id: "1634AFAB03B87809"
 			tasks: [{
-				id: "34233F76338082D1",
-				type: "item",
-				item: "industrialforegoing:pitiful_generator"
-			}]
-		},
-		{
-			title: "Chest (27 Slots)",
-			x: -4.0d,
-			y: 2.5d,
-			id: "1634AFAB03B87809",
-			tasks: [{
-				id: "5F30486E545D6E3B",
-				type: "item",
-				title: "Any wooden chest",
+				id: "5F30486E545D6E3B"
+				type: "item"
+				title: "Any wooden chest"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "forge:chests/wooden"
 					}
-				},
+				}
 				count: 4L
-			}],
+			}]
 			rewards: [{
-				id: "25A4D9D51B6C5F73",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "25A4D9D51B6C5F73"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Storage Drawers",
-			x: -2.0d,
-			y: 4.0d,
+			title: "Storage Drawers"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -2.0d
+			y: 4.0d
 			description: [
-				"Storage drawers can hold multiple stacks of a single item.",
-				"They are perfect for storing items like dirt and cobblestone early game.",
+				"Storage drawers can hold multiple stacks of a single item."
+				"They are perfect for storing items like dirt and cobblestone early game."
 				"And for storing all of your other resourcers late game when you have thousands of stacks."
-			],
-			dependencies: ["1634AFAB03B87809"],
-			id: "5E80F57D4FB0EC3F",
+			]
+			dependencies: ["1634AFAB03B87809"]
+			id: "5E80F57D4FB0EC3F"
 			tasks: [{
-				id: "68B63034A8E5B219",
-				type: "item",
-				title: "Any storage drawer",
+				id: "68B63034A8E5B219"
+				type: "item"
+				title: "Any storage drawer"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "storagedrawers:drawers"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "541A7A564DA72353",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "541A7A564DA72353"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 5
 			}]
-		},
+		}
 		{
-			title: "Customize Storage Drawers",
-			x: 0.0d,
-			y: 5.5d,
-			shape: "diamond",
-			dependencies: ["5E80F57D4FB0EC3F"],
-			optional: true,
-			id: "5B17BD3159EDF5AF",
+			title: "Customize Storage Drawers"
+			icon: "framedcompactdrawers:framed_full_four"
+			x: 0.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["5E80F57D4FB0EC3F"]
+			optional: true
+			id: "5B17BD3159EDF5AF"
 			tasks: [{
-				id: "3D912F89B9D77CA8",
-				type: "item",
-				title: "Framed Drawers",
+				id: "3D912F89B9D77CA8"
+				type: "item"
+				title: "Framed Drawers"
 				item: {
-					id: "itemfilters:tag",
-					Count: 1b,
+					id: "itemfilters:tag"
+					Count: 1b
 					tag: {
 						value: "framedcompactdrawers:frame_triple"
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "662F632B864B0361",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "662F632B864B0361"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 10
 			}]
-		},
+		}
 		{
-			x: 0.0d,
-			y: 2.5d,
-			dependencies: ["5E80F57D4FB0EC3F"],
-			id: "08E92E1A6CAB41D3",
+			x: -2.0d
+			y: 2.5d
+			dependencies: ["5E80F57D4FB0EC3F"]
+			id: "08E92E1A6CAB41D3"
 			tasks: [{
-				id: "5CF554C64F89009E",
-				type: "item",
+				id: "5CF554C64F89009E"
+				type: "item"
 				item: "storagedrawers:controller"
-			}],
+			}]
 			rewards: [{
-				id: "2FA23BCEC4D57179",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "2FA23BCEC4D57179"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 15
 			}]
-		},
+		}
 		{
-			x: 2.0d,
-			y: 4.0d,
-			shape: "diamond",
+			x: 0.0d
+			y: 4.0d
+			shape: "diamond"
 			dependencies: [
-				"08E92E1A6CAB41D3",
+				"08E92E1A6CAB41D3"
 				"5B17BD3159EDF5AF"
-			],
-			optional: true,
-			id: "330159FCAFA9036B",
+			]
+			optional: true
+			id: "330159FCAFA9036B"
 			tasks: [{
-				id: "3762105330EB76E9",
-				type: "item",
+				id: "3762105330EB76E9"
+				type: "item"
 				item: "framedcompactdrawers:framed_drawer_controller"
-			}],
+			}]
 			rewards: [{
-				id: "1C754CA05C4A1D65",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "1C754CA05C4A1D65"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Iron Upgrade (54 Slots)",
-			x: -6.0d,
-			y: 4.0d,
-			dependencies: ["1634AFAB03B87809"],
-			dependency_requirement: "one_completed",
-			id: "64BD62DA80C3B168",
+			title: "Iron Upgrade (54 Slots)"
+			icon: "metalbarrels:wood_to_iron"
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["1634AFAB03B87809"]
+			dependency_requirement: "one_completed"
+			id: "64BD62DA80C3B168"
 			tasks: [{
-				id: "51097C15E4C3A761",
-				type: "item",
+				id: "51097C15E4C3A761"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:copper_to_iron",
+								id: "metalbarrels:copper_to_iron"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:copper_to_silver_chest_upgrade",
+								id: "ironchest:copper_to_silver_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:wood_to_iron",
+								id: "metalbarrels:wood_to_iron"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:wood_to_iron_chest_upgrade",
+								id: "ironchest:wood_to_iron_chest_upgrade"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "4FEE8716EAAE41AD",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "4FEE8716EAAE41AD"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Copper Upgrade (45 Slots)",
-			x: -4.0d,
-			y: 4.0d,
-			shape: "diamond",
-			dependencies: ["1634AFAB03B87809"],
-			optional: true,
-			id: "50081B13BF8BCFDA",
+			title: "Copper Upgrade (45 Slots)"
+			icon: "metalbarrels:wood_to_copper"
+			x: -4.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["1634AFAB03B87809"]
+			optional: true
+			id: "50081B13BF8BCFDA"
 			tasks: [{
-				id: "6DC21BDEDB01A72A",
-				type: "item",
+				id: "6DC21BDEDB01A72A"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:wood_to_copper",
+								id: "metalbarrels:wood_to_copper"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:wood_to_copper_chest_upgrade",
+								id: "ironchest:wood_to_copper_chest_upgrade"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "3D1F6EA2210A810B",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "3D1F6EA2210A810B"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Silver upgrade (72 Slots)",
-			x: -4.0d,
-			y: 5.5d,
-			shape: "diamond",
-			dependencies: ["50081B13BF8BCFDA"],
-			optional: true,
-			id: "72752FF67A655100",
+			title: "Silver upgrade (72 Slots)"
+			icon: "metalbarrels:wood_to_silver"
+			x: -4.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: ["50081B13BF8BCFDA"]
+			optional: true
+			id: "72752FF67A655100"
 			tasks: [{
-				id: "5F53A9B8A3FFD7B3",
-				type: "item",
+				id: "5F53A9B8A3FFD7B3"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:wood_to_silver",
+								id: "metalbarrels:wood_to_silver"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:copper_to_silver_chest_upgrade",
+								id: "ironchest:copper_to_silver_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:copper_to_silver",
+								id: "metalbarrels:copper_to_silver"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:iron_to_silver",
+								id: "metalbarrels:iron_to_silver"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "3B4DCC899048146D",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "3B4DCC899048146D"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Gold Upgrade (81 Slots)",
-			x: -6.0d,
-			y: 6.0d,
-			dependencies: ["64BD62DA80C3B168"],
-			dependency_requirement: "one_completed",
-			id: "5D3AF05C950D20AE",
+			title: "Gold Upgrade (81 Slots)"
+			icon: "metalbarrels:wood_to_gold"
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["64BD62DA80C3B168"]
+			dependency_requirement: "one_completed"
+			id: "5D3AF05C950D20AE"
 			tasks: [{
-				id: "1354B517D768E876",
-				type: "item",
+				id: "1354B517D768E876"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:wood_to_gold",
+								id: "metalbarrels:wood_to_gold"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:iron_to_gold_chest_upgrade",
+								id: "ironchest:iron_to_gold_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:copper_to_gold",
+								id: "metalbarrels:copper_to_gold"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:silver_to_gold_chest_upgrade",
+								id: "ironchest:silver_to_gold_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:iron_to_gold",
+								id: "metalbarrels:iron_to_gold"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:silver_to_gold",
+								id: "metalbarrels:silver_to_gold"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "1DB881482582BEB4",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "1DB881482582BEB4"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 10
 			}]
-		},
+		}
 		{
-			title: "Diamond Upgrade (108 Slots)",
-			x: -6.0d,
-			y: 8.0d,
-			dependencies: ["5D3AF05C950D20AE"],
-			id: "5DEDF41F87288123",
+			title: "Diamond Upgrade (108 Slots)"
+			icon: "metalbarrels:wood_to_diamond"
+			x: -6.0d
+			y: 8.0d
+			dependencies: ["5D3AF05C950D20AE"]
+			id: "5DEDF41F87288123"
 			tasks: [{
-				id: "060BFFE5DD34AD57",
-				type: "item",
+				id: "060BFFE5DD34AD57"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:wood_to_diamond",
+								id: "metalbarrels:wood_to_diamond"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:gold_to_diamond_chest_upgrade",
+								id: "ironchest:gold_to_diamond_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:copper_to_diamond",
+								id: "metalbarrels:copper_to_diamond"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:iron_to_diamond",
+								id: "metalbarrels:iron_to_diamond"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:silver_to_diamond",
+								id: "metalbarrels:silver_to_diamond"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:gold_to_diamond",
+								id: "metalbarrels:gold_to_diamond"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "53F7CB327FF093A4",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "53F7CB327FF093A4"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Crystal Upgrade (108 Slots)",
-			x: -4.0d,
-			y: 7.0d,
-			shape: "diamond",
-			subtitle: "Pretty",
-			dependencies: ["72752FF67A655100"],
-			dependency_requirement: "one_completed",
-			optional: true,
-			id: "2265555EAFC63228",
+			title: "Crystal Upgrade (108 Slots)"
+			icon: "metalbarrels:wood_to_crystal"
+			x: -4.0d
+			y: 7.0d
+			shape: "diamond"
+			subtitle: "Pretty"
+			dependencies: ["72752FF67A655100"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "2265555EAFC63228"
 			tasks: [{
-				id: "6E5FDBCA379DDDE2",
-				type: "item",
-				title: "Any diamond upgrade",
+				id: "6E5FDBCA379DDDE2"
+				type: "item"
+				title: "Any diamond upgrade"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:wood_to_crystal",
+								id: "metalbarrels:wood_to_crystal"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:diamond_to_crystal_chest_upgrade",
+								id: "ironchest:diamond_to_crystal_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:copper_to_crystal",
+								id: "metalbarrels:copper_to_crystal"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:iron_to_crystal",
+								id: "metalbarrels:iron_to_crystal"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:silver_to_crystal",
+								id: "metalbarrels:silver_to_crystal"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:gold_to_crystal",
+								id: "metalbarrels:gold_to_crystal"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:diamond_to_crystal",
+								id: "metalbarrels:diamond_to_crystal"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "2E6791B3B2765F26",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "2E6791B3B2765F26"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 15
 			}]
-		},
+		}
 		{
-			title: "Obsidian Upgrade",
-			x: -6.0d,
-			y: 10.0d,
-			dependencies: ["5DEDF41F87288123"],
-			id: "1B26DBDFFC8C71A2",
+			title: "Obsidian Upgrade"
+			icon: "metalbarrels:wood_to_obsidian"
+			x: -6.0d
+			y: 10.0d
+			dependencies: ["5DEDF41F87288123"]
+			id: "1B26DBDFFC8C71A2"
 			tasks: [{
-				id: "42B2BA2DCE011366",
-				type: "item",
+				id: "42B2BA2DCE011366"
+				type: "item"
 				item: {
-					id: "itemfilters:or",
-					Count: 1b,
+					id: "itemfilters:or"
+					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "metalbarrels:wood_to_obsidian",
+								id: "metalbarrels:wood_to_obsidian"
 								Count: 1b
-							},
+							}
 							{
-								id: "ironchest:diamond_to_obsidian_chest_upgrade",
+								id: "ironchest:diamond_to_obsidian_chest_upgrade"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:copper_to_obsidian",
+								id: "metalbarrels:copper_to_obsidian"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:iron_to_obsidian",
+								id: "metalbarrels:iron_to_obsidian"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:silver_to_obsidian",
+								id: "metalbarrels:silver_to_obsidian"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:gold_to_obsidian",
+								id: "metalbarrels:gold_to_obsidian"
 								Count: 1b
-							},
+							}
 							{
-								id: "metalbarrels:diamond_to_obsidian",
+								id: "metalbarrels:diamond_to_obsidian"
 								Count: 1b
 							}
 						]
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "09F1437D16E8835A",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "09F1437D16E8835A"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 15
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 5.5d,
-			dependencies: ["5E80F57D4FB0EC3F"],
-			id: "4DB2F2E69D12E605",
+			x: -2.0d
+			y: 5.5d
+			dependencies: ["5E80F57D4FB0EC3F"]
+			id: "4DB2F2E69D12E605"
 			tasks: [{
-				id: "5C3830B352D9672F",
-				type: "item",
+				id: "5C3830B352D9672F"
+				type: "item"
 				item: "storagedrawers:iron_storage_upgrade"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 7.0d,
-			dependencies: ["4DB2F2E69D12E605"],
-			id: "4D363479E1EDE440",
+			x: -2.0d
+			y: 7.0d
+			dependencies: ["4DB2F2E69D12E605"]
+			id: "4D363479E1EDE440"
 			tasks: [{
-				id: "737C762DFF2452D5",
-				type: "item",
+				id: "737C762DFF2452D5"
+				type: "item"
 				item: "storagedrawers:gold_storage_upgrade"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 8.5d,
-			dependencies: ["4D363479E1EDE440"],
-			id: "056D46CFF27D88D5",
+			x: -2.0d
+			y: 8.5d
+			dependencies: ["4D363479E1EDE440"]
+			id: "056D46CFF27D88D5"
 			tasks: [{
-				id: "383CBEB048521408",
-				type: "item",
+				id: "383CBEB048521408"
+				type: "item"
 				item: "storagedrawers:diamond_storage_upgrade"
 			}]
-		},
+		}
 		{
-			x: -2.0d,
-			y: 10.0d,
-			dependencies: ["056D46CFF27D88D5"],
-			id: "7C04A7B8B4815919",
+			x: -2.0d
+			y: 10.0d
+			dependencies: ["056D46CFF27D88D5"]
+			id: "7C04A7B8B4815919"
 			tasks: [{
-				id: "3D77FF11E2D78AFE",
-				type: "item",
+				id: "3D77FF11E2D78AFE"
+				type: "item"
 				item: "storagedrawers:emerald_storage_upgrade"
 			}]
+		}
+		{
+			icon: "minecolonies:blockhutwarehouse"
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["0BFFFEB6C122E267"]
+			id: "11F4D2F291A7CEA5"
+			tasks: [
+				{
+					id: "384838132A056B09"
+					type: "item"
+					item: "minecolonies:blockhutwarehouse"
+				}
+				{
+					id: "13518A1E52439890"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7350CB1BB3742E53"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 18L
+				}
+				{
+					id: "1BD0539FC2401406"
+					type: "item"
+					item: "minecraft:oak_stairs"
+				}
+				{
+					id: "1038AE7A1FAFA881"
+					type: "item"
+					item: "minecraft:torch"
+					count: 18L
+				}
+				{
+					id: "3ED9FB44085E9E8C"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 521L
+				}
+				{
+					id: "2B0BD99C4C63C467"
+					type: "advancement"
+					advancement: "minecolonies:production/build_warehouse"
+					criterion: ""
+				}
+			]
+		}
+		{
+			icon: "minecolonies:blockhutdeliveryman"
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["11F4D2F291A7CEA5"]
+			id: "73FEFAFFB7525C81"
+			tasks: [
+				{
+					id: "74DA7D280734A6DF"
+					type: "item"
+					item: "minecolonies:blockhutdeliveryman"
+				}
+				{
+					id: "263FEAA3EF716C63"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 4L
+				}
+				{
+					id: "0CADAB214E5C3524"
+					type: "item"
+					item: "minecraft:torch"
+					count: 2L
+				}
+				{
+					id: "63D8D15D05A3E024"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 130L
+				}
+				{
+					id: "1DCAE4409E431230"
+					type: "advancement"
+					advancement: "minecolonies:production/build_delivery_person"
+					criterion: ""
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,22 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:jungle_planks",
+      "count":6
+    },
+    {
+      "item": "minecraft:iron_nugget",
+      "count": 2
+    },
+    {
+      "item": "structurize:sceptergold",
+      "count": 1
+    }
+  ],
+  "result": "minecolonies:blockminecoloniesrack",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+} 

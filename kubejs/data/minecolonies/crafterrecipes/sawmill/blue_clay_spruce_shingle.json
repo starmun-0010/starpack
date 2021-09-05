@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_spruce_shingle",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:blue_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:blue_clay_spruce_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

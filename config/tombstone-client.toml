@@ -38,7 +38,7 @@
 	equip_elytra_in_priority = false
 	#Favorite grave
 	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
-	favorite_grave = "GRAVE_SIMPLE"
+	favorite_grave = "TOMBSTONE"
 	#Favorite grave marble
 	#Allowed Values: DARK, WHITE
 	favorite_grave_marble = "DARK"
@@ -61,7 +61,10 @@
 	deny_grave_on_death = false
 	#Allows your grave to appear in water [false/true|default:true]
 	allow_grave_in_water = true
-	#Defines your grave placement logic (nearest or ideal placement) [SAFER/NORMAL/NEAREST|default:NORMAL]
-	#Allowed Values: SAFER, NORMAL, NEAREST
+	#Defines your grave placement logic (nearest or ideal placement) [SAFEST/NORMAL/NEAREST|default:NORMAL]
+	#Allowed Values: SAFEST, NORMAL, NEAREST
 	grave_spawn_rule = "NORMAL"
+	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
+	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
+	auto_equip_rule = "ALWAYS"
 

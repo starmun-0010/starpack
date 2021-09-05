@@ -101,6 +101,10 @@
 		containerClass = "appeng.container.implementations.WirelessTermContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "com.vulp.druidcraft.inventory.container.TravelPackContainer"
+		sortRange = ""
+
 #Tweaks
 [tweaks]
 	#Enable auto-refill

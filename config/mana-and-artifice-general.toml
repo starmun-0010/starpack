@@ -1,3 +1,21 @@
+#How many souls are players worth when killed?
+#Range: 1 ~ 20000
+playerSouls = 2500
+#How many souls are villagers worth when killed?
+#Range: 1 ~ 20000
+villagerSouls = 250
+#How many souls are enemy faction members worth when killed?
+#Range: 1 ~ 20000
+factionSouls = 250
+#How many souls are mobs worth when killed?
+#Range: 1 ~ 20000
+mobSouls = 150
+#How many souls are animals worth when killed?
+#Range: 1 ~ 20000
+animalSouls = 100
+#How many souls are undead worth when killed?
+#Range: 1 ~ 20000
+undeadSouls = 50
 
 #Mana and Artifice // General Options
 [ma_general_options]
@@ -22,4 +40,10 @@
 	#How many attempts (within a 20x20x5 box centered on the player in question) should the game make to spawn a raid?  Note this will be re-attempted every 1000 ticks until a successful spawn is made.  If you're lagging due to raid spawn attempts, lower this setting.
 	#Range: 1 ~ 1000
 	raidSpawnAttempts = 100
+
+#Mana and Artifice // Worldgen Options
+[ma_worldgen_options]
+	#How far apart ley line nodes must be as a minimum.  They can be farther than this depending on world seed and generation.
+	#Range: 100 ~ 15000
+	leyLineDistance = 500
 

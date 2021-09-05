@@ -1,6 +1,6 @@
 {
   "__comment": "Instructions: https://mods.blakebr0.com/docs/cucumber/tags-config",
-  "forge:ingots/tungsten": "null",
+  "forge:ingots/tungsten": "chemlib:ingot_tungsten",
   "forge:ingots/copper": "tmechworks:copper_ingot",
   "forge:ingots/lumium": "thermal:lumium_ingot",
   "forge:silicon": "refinedstorage:silicon",
@@ -20,7 +20,7 @@
   "forge:ingots/bronze": "mekanism:ingot_bronze",
   "forge:ingots/electrum": "immersiveengineering:ingot_electrum",
   "forge:ingots/silver": "immersiveengineering:ingot_silver",
-  "forge:ingots/platinum": "null",
+  "forge:ingots/platinum": "chemlib:ingot_platinum",
   "forge:ingots/graphite": "biggerreactors:graphite_ingot",
   "forge:ingots/uranium": "mekanism:ingot_uranium",
   "forge:ingots/aluminum": "tmechworks:aluminum_ingot",
@@ -29,5 +29,7 @@
   "forge:ingots/titanium": "libvulpes:ingottitanium",
   "forge:rubber": "null",
   "forge:gems/apatite": "thermal:apatite",
-  "forge:dusts/niter": "thermal:niter_dust"
+  "forge:dusts/niter": "thermal:niter_dust",
+  "forge:gems/ruby": "bluepower:ruby_gem",
+  "forge:gems/sapphire": "bluepower:sapphire_gem"
 }

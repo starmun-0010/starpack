@@ -1,0 +1,21 @@
+
+[exnihiloauto]
+	#Speed - Time it takes to handle the job.
+	#Range: > 1
+	auto_sieve_job_time = 100
+	#Energy Capacity.
+	#Range: > 1000
+	auto_sieve_energy_capacity = 10000
+	#Speed - Time it takes to handle the job.
+	#Range: > 1
+	auto_hammer_job_time = 100
+	#Energy Capacity.
+	#Range: > 1000
+	auto_hammer_energy_capacity = 10000
+	#Speed - Time it takes to handle the job.
+	#Range: > 1
+	auto_silker_job_time = 100
+	#Energy Capacity.
+	#Range: > 1000
+	auto_silker_energy_capacity = 10000
+

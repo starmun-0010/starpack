@@ -1,0 +1,49 @@
+
+#Levels of Detail configuration settings
+[client]
+	#
+	# If false LODs will not be drawn, 
+	# however they will still be generated 
+	# and saved to file for later use.
+	drawLODs = true
+	#
+	# At what distance should Fog be drawn on the LODs? 
+	# If the fog cuts off ubruptly or you are using Optifine's "fast" 
+	# fog option set this to NEAR or FAR.
+	#Allowed Values: NEAR, FAR, NEAR_AND_FAR
+	fogDistance = "NEAR_AND_FAR"
+	#
+	# If false the LODs will draw with their normal world colors. 
+	# If true they will draw as a black and white checkerboard. 
+	# This can be used for debugging or imagining you are playing a 
+	# giant game of chess ;)
+	drawCheckerBoard = false
+	#
+	# How should the LODs be drawn? 
+	# CUBIC: LOD Chunks are drawn as rectangular prisms (boxes). 
+	# TRIANGULAR: LOD Chunks smoothly transition between other. 
+	# DYNAMIC: LOD Chunks smoothly transition between other, 
+	#          unless a neighboring chunk is at a significantly different height. 
+	#Allowed Values: CUBIC, TRIANGULAR, DYNAMIC
+	lodTemplate = "CUBIC"
+	#
+	# How detailed should the LODs be? 
+	# SINGLE: render 1 LOD for each Chunk. 
+	# DOUBLE: render 4 LODs for each Chunk.
+	#Allowed Values: SINGLE, DOUBLE, QUAD, HALF, FULL
+	lodGeometryQuality = "SINGLE"
+	#
+	# This is multiplied by the default view distance 
+	# to determine how far out to generate/render LODs. 
+	# A value of 2 means that there is 1 render distance worth 
+	# of LODs in each cardinal direction. 
+	#Range: 2 ~ 32
+	lodChunkRadiusMultiplier = 6
+	#
+	# If true LODs generated outside the normal view distance 
+	# will be created using a simpler faster method 
+	# at the cost of visual quality. 
+	# Nearby chunks will still use the full quality method 
+	# and will overwrite the lower quality ones. 
+	distanceBiomeOnlyGeneration = false
+

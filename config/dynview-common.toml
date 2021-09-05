@@ -8,7 +8,7 @@
 	maxChunkViewDist = 20
 	#The average tick time to stabilize the chunk view distance around. Setting it higher than 50ms is not advised, as after 50ms the TPS will go below 20. Default: 45ms
 	#Range: 10 ~ 100
-	meanAvgTickTime = 45
+	meanAvgTickTime = 40
 	#The update frequency of average server tick time checks to update view distances. Default: 30sec
 	#Range: 1 ~ 1000
 	viewDistanceUpdateRate = 90
@@ -16,6 +16,6 @@
 	logMessages = true
 
 ["Chunk slow unload settings"]
-	#Enable slightly slower chunk unloading after load, helps with mods hot-loading chunks frequently. Default: true
-	chunkunload = false
+	#Enable slow chunk unloading(~1minute) after load, helps with mods hot-loading chunks frequently. Default: true
+	chunkunload = true
 

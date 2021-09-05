@@ -5,7 +5,7 @@
 	enableLogging = true
 	#Allows books to spawn with new players.
 	#This is a global override for all books if set to false.
-	canSpawnWithBook = true
+	canSpawnWithBook = false
 
 	#If the player should spawn with this book
 	[common.spawnBook]

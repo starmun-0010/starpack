@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:jungle_planks",
+      "count":4
+    }
+  ],
+  "result": "minecraft:crafting_table",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+} 

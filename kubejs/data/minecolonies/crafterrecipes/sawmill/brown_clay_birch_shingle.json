@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_birch_shingle",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:brown_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:brown_clay_birch_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

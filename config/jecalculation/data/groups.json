@@ -1,0 +1,718 @@
+{"Default": [
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:dark_oak_fence"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "minecraft:dark_oak_planks"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "minecraft:stick"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:dark_oak_planks"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:dark_oak_log"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:oak_fence"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "minecraft:oak_planks"
+                }
+            },
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 2L,
+                    "name": "forge:rods/wooden"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:oak_planks"
+            }
+        }],
+        "input": [{
+            "type": "itemTag",
+            "content": {
+                "amount": 1L,
+                "name": "minecraft:oak_logs"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:oak_slab"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:oak_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:acacia_stairs"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:acacia_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:acacia_fence"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "minecraft:acacia_planks"
+                }
+            },
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 2L,
+                    "name": "forge:rods/wooden"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:acacia_planks"
+            }
+        }],
+        "input": [{
+            "type": "itemTag",
+            "content": {
+                "amount": 1L,
+                "name": "minecraft:acacia_logs"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:acacia_fence_gate"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 4L,
+                    "name": "forge:rods/wooden"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "minecraft:acacia_planks"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:acacia_slab"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:acacia_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:oak_stairs"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:oak_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:oak_fence_gate"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 4L,
+                    "name": "forge:rods/wooden"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "minecraft:oak_planks"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }],
+        "input": [{
+            "type": "itemTag",
+            "content": {
+                "amount": 4L,
+                "name": "minecraft:planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:stick"
+            }
+        }],
+        "input": [{
+            "type": "itemTag",
+            "content": {
+                "amount": 2L,
+                "name": "minecraft:planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:birch_planks"
+            }
+        }],
+        "input": [{
+            "type": "itemTag",
+            "content": {
+                "amount": 1L,
+                "name": "minecraft:birch_logs"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:birch_stairs"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:birch_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:birch_fence"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "minecraft:birch_planks"
+                }
+            },
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 2L,
+                    "name": "forge:rods/wooden"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:birch_fence_gate"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 4L,
+                    "name": "forge:rods/wooden"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "minecraft:birch_planks"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:birch_slab"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:birch_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:spruce_door"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:spruce_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:oak_door"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:oak_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:birch_door"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:birch_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:dark_oak_door"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:dark_oak_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:jungle_door"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:jungle_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:acacia_door"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:acacia_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:spruce_planks"
+            }
+        }],
+        "input": [{
+            "type": "itemTag",
+            "content": {
+                "amount": 1L,
+                "name": "minecraft:spruce_logs"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "minecraft:spruce_fence"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "minecraft:spruce_planks"
+                }
+            },
+            {
+                "type": "itemTag",
+                "content": {
+                    "amount": 2L,
+                    "name": "forge:rods/wooden"
+                }
+            }
+        ],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:spruce_button"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:spruce_planks"
+            }
+        }],
+        "catalyst": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:crafting_table"
+            }
+        }]
+    }
+]}

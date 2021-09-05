@@ -1,0 +1,14 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:acacia_planks",
+      "count":6
+    }
+  ],
+  "result": "minecraft:acacia_stairs",
+  "count": 4,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+} 

@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:acacia_planks",
+      "count":2
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 4
+    }
+  ],
+  "result": "minecraft:acacia_fence_gate",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+} 

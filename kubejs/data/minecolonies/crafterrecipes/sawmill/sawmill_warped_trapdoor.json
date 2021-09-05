@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:warped_planks",
+      "count": 6
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:warped_trapdoor",
+  "count": 2,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

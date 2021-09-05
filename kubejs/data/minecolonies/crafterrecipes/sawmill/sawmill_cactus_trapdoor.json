@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:blockcactusplank",
+      "count": 6
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:blockcactustrapdoor",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

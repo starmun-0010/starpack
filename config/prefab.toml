@@ -2,9 +2,6 @@
 [general]
 	#Determines which starting item a player gets on first world join. Valid values for this option are: "Starting House", "Moderate House", "Structure Part", "Nothing". Server configuration overrides client.
 	"Starting Item" = "Nothing"
-	#Determines the maximum size the starting house can be generated as. Server configuration overrides client.
-	#Range: 5 ~ 16
-	"Maximum Starting House Size" = 16
 	#Determines if the loft starter house is enabled. This house contains Nether materials in it's construction. Server configuration overrides client.
 	"Enable Loft House" = false
 	#Determines if the spawners for the Monster Masher building are included. Server configuration overrides client.
@@ -15,6 +12,8 @@
 	"Include Mineshaft Chest" = true
 	#Determines if the bulldozer item can create drops when it clears an area.
 	"Bulldozer Creates Drops" = true
+	#Determines if water can be generated in structures when the current dimension is not the oveworld. Does not affect Nether
+	"Include Water In Non-Overworld Dimesions" = true
 
 	[general."chest contents"]
 		#Determines if a Stone Sword is added the the chest when the house is created.
@@ -163,4 +162,24 @@
 		"Heap of Timber" = true
 		#Determines if the recipe(s) associated with the Ton of Timber are enabled.
 		"Ton of Timber" = true
+		#Determines if the recipe(s) associated with the Sugar Cane Farm are enabled.
+		"Sugar Cane Farm" = true
+		#Determines if the recipe(s) associated with the Workshop are enabled.
+		Workshop = true
+		#Determines if the recipe(s) associated with the Modern Buildings are enabled.
+		"Modern Buildings" = true
+		#Determines if the recipe(s) associated with the Swift Blade are enabled.
+		"Swift Blade" = true
+		#Determines if the recipe(s) associated with the Sickle are enabled.
+		Sickle = true
+		#Determines if the recipe(s) associated with the Dirt Recipes are enabled.
+		"Dirt Recipes" = true
+		#Determines if the recipe(s) associated with the Bunch Of Beets are enabled.
+		"Bunch Of Beets" = true
+		#Determines if the recipe(s) associated with the Bunch Of Carrots are enabled.
+		"Bunch Of Carrots" = true
+		#Determines if the recipe(s) associated with the Bunch Of Potatoes are enabled.
+		"Bunch Of Potatoes" = true
+		#Determines if the recipe(s) associated with the WoodenCrate are enabled.
+		WoodenCrate = true
 

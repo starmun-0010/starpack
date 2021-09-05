@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_crimson_shingle",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:purple_clay_crimson_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

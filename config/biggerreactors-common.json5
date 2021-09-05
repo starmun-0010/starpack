@@ -45,13 +45,6 @@
     },
 
     HeatExchanger: {
-        /* 
-         * Max fluid tank capacity.
-         * Valid range: (0,)
-         * Default: 5000
-         */
-        FluidTankCapacity: 5000.0,
-
         GUI: {
             /* 
              * Default: 2000

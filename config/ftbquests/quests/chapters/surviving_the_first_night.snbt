@@ -1,0 +1,135 @@
+{
+	id: "372B14B5A7DC1C91"
+	group: ""
+	order_index: 1
+	filename: "surviving_the_first_night"
+	title: "Surviving The First Night"
+	icon: "minecolonies:supplycampdeployer"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Shelter"
+			icon: "minecolonies:supplycampdeployer"
+			x: -3.5d
+			y: -8.0d
+			subtitle: "Supply Camp"
+			description: [
+				"We need food to survive, a bed to sleep and a roof over our head before nightfall."
+				""
+				"One option would be to hunt for wool and food so we could make a bed and replenish hunger."
+				""
+				"But, minecolonies provides a nice shelter to make our lives easier."
+				""
+				"Choose your picking from a normal supply camp or a supply ship."
+				""
+				"Right click with the supply block in your hand on the ground (or over water) and follow the instructions from there."
+			]
+			dependencies: ["76DFAB15C0AE1C7C"]
+			id: "4DAB1BDC04778C11"
+			tasks: [{
+				id: "28CB66514D9F00C3"
+				type: "item"
+				title: "Supply Camp"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecolonies:supplychestdeployer"
+								Count: 1b
+							}
+							{
+								id: "minecolonies:supplycampdeployer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Punching Wood"
+			icon: "minecraft:oak_log"
+			x: -3.5d
+			y: -10.0d
+			subtitle: "Gather Some Wood"
+			description: [
+				"Our first tools and supplies will be made out of wood, fragile, I know! "
+				""
+				"Reinforcing and reforging them will come later."
+				""
+				"For now, collect as much wood as you can!"
+			]
+			id: "7D886676745F3E7C"
+			tasks: [{
+				id: "1E25DBED695F3AA5"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 64L
+			}]
+		}
+		{
+			title: "Crafting Table"
+			icon: "minecraft:crafting_table"
+			x: -2.5d
+			y: -9.0d
+			subtitle: "3x3 Crafting"
+			description: [
+				"We are going to need a workbench to craft all the necessities."
+				""
+				"Any workbench will do, but the crafting stations have nice QoL features."
+			]
+			dependencies: ["7D886676745F3E7C"]
+			id: "4CBFD711CB879B2E"
+			tasks: [{
+				id: "186390209D74A28E"
+				type: "item"
+				title: "Crafting Table"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "forge:workbench"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "forge:workbenches"
+								}
+							}
+							{
+								id: "craftingstation:crafting_station_slab"
+								Count: 1b
+							}
+							{
+								id: "craftingstation:crafting_station"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "54B337CB13507D03"
+				type: "xp"
+				auto: "enabled"
+				xp: 5
+			}]
+		}
+	]
+}

@@ -1,6 +1,6 @@
 {
   "forClass": "twilightforest.entity.boss.EntityTFUrGhast",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadGhast",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadGhast",
   "modelFieldName": "body",
   "isBoss": true,
   "eyeOffset": [

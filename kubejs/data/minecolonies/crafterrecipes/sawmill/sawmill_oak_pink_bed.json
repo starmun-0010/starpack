@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:oak_planks",
+      "count":3
+    },
+    {
+      "item": "minecraft:pink_wool",
+      "count":3
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:pink_bed",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

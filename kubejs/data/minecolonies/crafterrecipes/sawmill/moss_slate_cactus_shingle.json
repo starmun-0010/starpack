@@ -1,0 +1,25 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:mossy_cobblestone",
+      "count": 3
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    },
+    {
+      "item": "structurize:blockcactusplank",
+      "count": 1
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:moss_slate_cactus_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

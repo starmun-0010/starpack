@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "multishotChance": 0.2,
+    "multishotCooldown": 2,
+    "additionalArrows": 4,
+    "pickupRadius": 16,
+    "pickupCooldown": 3
+  },
+  "loot": {
+    "lootChests": [
+      "minecraft:chests/village/village_fletcher"
+    ],
+    "chance": 0.15
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "durability": {
+    "durability": 100
+  }
+}

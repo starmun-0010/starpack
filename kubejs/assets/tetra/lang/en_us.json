@@ -1,0 +1,131 @@
+{
+    "tetra.material.astralsorcery_marble": "Astral marble",
+    "tetra.material.astralsorcery_marble.prefix": "Astral marble",
+   
+    "tetra.material.bluepower_basalt": "Bluepower basalt",
+    "tetra.material.bluepower_basalt.prefix": "Bluepower basalt",
+    
+    "tetra.material.bluepower_marble": "Bluepower marble",
+    "tetra.material.bluepower_marble.prefix": "Bluepower marble",
+   
+    "tetra.material.byg_cobbled_ether_stone": "Ether Stone",
+    "tetra.material.byg_cobbled_ether_stone.prefix": "Ether stone",
+      
+    "tetra.material.byg_dacite_cobblestone": "Dacite Cobblestone",
+    "tetra.material.byg_dacite_cobblestone.prefix": "Dacite cobblestone",
+      
+    "tetra.material.byg_dacite": "Dacite",
+    "tetra.material.byg_dacite.prefix": "Dacite",
+      
+    "tetra.material.byg_red_rock": "Red Rock",
+    "tetra.material.byg_red_rock.prefix": "Red rock",
+      
+    "tetra.material.byg_rocky_stone": "Rocky Stone",
+    "tetra.material.byg_rocky_stone.prefix": "Rocky ctone",
+      
+    "tetra.material.byg_scoria_cobblestone": "Scoria Cobblestone",
+    "tetra.material.byg_scoria_cobblestone.prefix": "Scoria cobblestone",
+      
+    "tetra.material.byg_scoria_stone": "Scoria",
+    "tetra.material.byg_scoria_stone.prefix": "Scoria",
+      
+    "tetra.material.byg_soapstone": "Soapstone",
+    "tetra.material.byg_soapstone.prefix": "Soapstone",
+      
+    "tetra.material.create_dark_scoria_cobblestone": "Dark scoria cobblestone",
+    "tetra.material.create_dark_scoria_cobblestone.prefix": "Dark scoria cobblestone",
+      
+    "tetra.material.create_dark_scoria": "Dark scoria",
+    "tetra.material.create_dark_scoria.prefix": "Dark scoria",
+      
+    "tetra.material.create_diorite_cobblestone": "Diorite cobblestone",
+    "tetra.material.create_diorite_cobblestone.prefix": "Diorite cobblestone",
+      
+    "tetra.material.create_dolomite": "Dolomite",
+    "tetra.material.create_dolomite.prefix": "Dolomite",
+      
+    "tetra.material.create_gabbro_cobblestone": "Gabbro cobblestone",
+    "tetra.material.create_gabbro_cobblestone.prefix": "Gabbro cobblestone",
+      
+    "tetra.material.create_gabbro": "Gabbro",
+    "tetra.material.create_gabbro.prefix": "Gabbro",
+      
+    "tetra.material.create_granite_cobblestone": "Granite cobblestone",
+    "tetra.material.create_granite_cobblestone.prefix": "Granite cobblestone",
+      
+    "tetra.material.create_limestone_cobblestone": "Limestone cobblestone",
+    "tetra.material.create_limestone_cobblestone.prefix": "Limestone cobblestone",
+      
+    "tetra.material.create_limestone": "Limestone",
+    "tetra.material.create_limestone.prefix": "Limestone",
+      
+    "tetra.material.create_natural_scoria": "Natural scoria",
+    "tetra.material.create_natural_scoria.prefix": "Natural scoria",
+      
+    "tetra.material.create_scoria_cobblestone": "Scoria cobblestone",
+    "tetra.material.create_scoria_cobblestone.prefix": "Scoria cobblestone",
+      
+    "tetra.material.create_scoria": "Create Scoria",
+    "tetra.material.create_scoria.prefix": "Create Scoria",
+      
+    "tetra.material.create_weahtered_limestone": "Weahtered limestone",
+    "tetra.material.create_weahtered_limestone.prefix": "Weahtered limestone",
+      
+    "tetra.material.embellishcraft_basalt_cobblestone": "Embellishcraft basalt cobblestone",
+    "tetra.material.embellishcraft_basalt_cobblestone.prefix": "Embellishcraft basalt cobblestone",
+      
+    "tetra.material.embellishcraft_basalt": "Embellishcraft Basalt",
+    "tetra.material.embellishcraft_basalt.prefix": "Embellishcraft Basalt",
+      
+    "tetra.material.embellishcraft_gneiss_cobblestone": "Gneiss cobblestone",
+    "tetra.material.embellishcraft_gneiss_cobblestone.prefix": "Gneiss cobblestone",
+       
+    "tetra.material.embellishcraft_gneiss": "embellishcraft gneiss",
+    "tetra.material.embellishcraft_gneiss.prefix": "embellishcraft gneiss",
+       
+    "tetra.material.embellishcraft_jade_cobblestone": "Jade cobblestone",
+    "tetra.material.embellishcraft_jade_cobblestone.prefix": "Jade cobblestone",
+       
+    "tetra.material.embellishcraft_jade": "Jade",
+    "tetra.material.embellishcraft_jade.prefix": "Jade",
+   
+    "tetra.material.embellishcraft_larvikite_cobblestone": "Larvikite cobblestone",
+    "tetra.material.embellishcraft_larvikite_cobblestone.prefix": "Larvikite cobblestone",
+    
+    "tetra.material.embellishcraft_larvikite": "Larvikite",
+    "tetra.material.embellishcraft_larvikite.prefix": "Larvikite",
+       
+    "tetra.material.embellishcraft_marble_cobblestone": "Embellishcraft marble cobblestone",
+    "tetra.material.embellishcraft_marble_cobblestone.prefix": "Embellishcraft marble cobblestone",
+       
+    "tetra.material.embellishcraft_marble": "Embellishcraft marble",
+    "tetra.material.embellishcraft_marble.prefix": "Embellishcraft marble",
+       
+    "tetra.material.embellishcraft_slate_cobblestone": "Embellishcraft slate cobblestone",
+    "tetra.material.embellishcraft_slate_cobblestone.prefix": "Embellishcraft slate cobblestone",
+       
+    "tetra.material.embellishcraft_slate": "Embellishcraft Slate",
+    "tetra.material.embellishcraft_slate.prefix": "Embellishcraft Slate",
+       
+    "tetra.material.forbidden_arcanus_darkstone": "Darkstone",
+    "tetra.material.forbidden_arcanus_darkstone.prefix": "Darkstone",
+       
+    "tetra.material.quark_basalt": "Quark basalt",
+    "tetra.material.quark_basalt.prefix": "quark basalt",
+       
+    "tetra.material.quark_cobbedstone": "Cobbedstone",
+    "tetra.material.quark_cobbedstone.prefix": "Cobbedstone",
+       
+    "tetra.material.quark_jasper": "Jasper",
+    "tetra.material.quark_jasper.prefix": "Jasper",
+       
+    "tetra.material.quark_limestone": "Quark Limestone",
+    "tetra.material.quark_limestone.prefix": "Quark Limestone",
+       
+    "tetra.material.quark_marble": "Quark marble",
+    "tetra.material.quark_marble.prefix": "Quark marble",
+       
+    "tetra.material.quark_slate": "Quark slate",
+    "tetra.material.quark_slate.prefix": "Quark slate"
+   
+}

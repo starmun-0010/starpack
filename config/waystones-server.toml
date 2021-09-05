@@ -10,15 +10,23 @@
 		#The minimum base xp cost
 		#Range: 0.0 ~ Infinity
 		minimumXpCost = 0.0
-		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all XP costs
+		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 		#Range: 0.0 ~ Infinity
 		maximumXpCost = 0.0
+		#Set to true if experience cost should be inverted, meaning the shorter the distance, the more expensive. Can be used to encourage other methods for short-distance travel.
+		inverseXpCost = false
 
 	#These options apply to teleporting from one waystone to another by right-clicking it.
 	[server.waystoneToWaystone]
 		#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 		#Range: 0.0 ~ Infinity
 		waystoneXpCostMultiplier = 1.0
+		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
+		#Range: 0.0 ~ Infinity
+		sharestoneXpCostMultiplier = 1.0
+		#The multiplier applied to the base xp cost when teleporting from a portstone.
+		#Range: 0.0 ~ Infinity
+		portstoneXpCostMultiplier = 0.0
 
 	#These options apply to the optional Waystones button displayed in the inventory.
 	[server.inventoryButton]
@@ -89,4 +97,13 @@
 		restrictToCreative = false
 		#If enabled, waystones generated in worldgen are unbreakable.
 		generatedWaystonesUnbreakable = false
+
+	#These options apply to warp plates.
+	[server.warpPlate]
+		#The multiplier applied to the base xp cost when teleporting from one warp plate to another.
+		#Range: 0.0 ~ Infinity
+		warpPlateXpCostMultiplier = 0.0
+		#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
+		#Range: > 0
+		warpPlateUseTime = 20
 

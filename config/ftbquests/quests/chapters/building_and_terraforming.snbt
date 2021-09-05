@@ -1,217 +1,2580 @@
 {
-	id: "07E2F1F4FEDEA17E",
-	group: "2B6C2CBF9E7D9DFC",
-	order_index: 5,
-	filename: "building_and_terraforming",
-	title: "Building and Terraforming",
-	default_quest_shape: "",
+	id: "07E2F1F4FEDEA17E"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 2
+	filename: "building_and_terraforming"
+	title: "Building and Terraforming"
+	icon: {
+		id: "constructionwand:stone_wand"
+		Count: 1b
+		tag: {
+			wand_options: { }
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -8.5d,
-			y: -3.0d,
-			id: "7FE618D7E8149FDA",
+			x: 10.5d
+			y: -21.5d
+			id: "7FE618D7E8149FDA"
 			tasks: [{
-				id: "0ECAE23B5C9AC0E0",
-				type: "item",
+				id: "0ECAE23B5C9AC0E0"
+				type: "item"
 				item: {
-					id: "constructionwand:stone_wand",
-					Count: 1b,
+					id: "constructionwand:stone_wand"
+					Count: 1b
 					tag: {
-						wand_options: {},
+						wand_options: { }
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -8.5d,
-			y: -1.5d,
-			dependencies: ["7FE618D7E8149FDA"],
-			id: "3AB630E478DC4FC4",
+			x: 10.5d
+			y: -20.0d
+			dependencies: ["7FE618D7E8149FDA"]
+			id: "3AB630E478DC4FC4"
 			tasks: [{
-				id: "78B6FC2AB2FBC89E",
-				type: "item",
+				id: "78B6FC2AB2FBC89E"
+				type: "item"
 				item: {
-					id: "constructionwand:iron_wand",
-					Count: 1b,
+					id: "constructionwand:iron_wand"
+					Count: 1b
 					tag: {
-						wand_options: {},
+						wand_options: { }
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -8.5d,
-			y: 0.0d,
-			dependencies: ["3AB630E478DC4FC4"],
-			id: "70E75ADE35A17F77",
+			x: 10.5d
+			y: -18.5d
+			dependencies: ["3AB630E478DC4FC4"]
+			id: "70E75ADE35A17F77"
 			tasks: [{
-				id: "0786EDFF784726AE",
-				type: "item",
+				id: "0786EDFF784726AE"
+				type: "item"
 				item: {
-					id: "constructionwand:diamond_wand",
-					Count: 1b,
+					id: "constructionwand:diamond_wand"
+					Count: 1b
 					tag: {
-						wand_options: {},
+						wand_options: { }
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -5.0d,
-			y: -3.0d,
-			id: "67B129C4457341C9",
+			x: 8.5d
+			y: -13.0d
+			id: "67B129C4457341C9"
 			tasks: [{
-				id: "768EF249F5FB5EF7",
-				type: "item",
+				id: "768EF249F5FB5EF7"
+				type: "item"
 				item: "simplesponge:sponge"
 			}]
-		},
+		}
 		{
-			x: -6.0d,
-			y: -1.5d,
-			dependencies: ["67B129C4457341C9"],
-			id: "7F9B4F93106BFECE",
+			x: 7.5d
+			y: -11.5d
+			dependencies: ["67B129C4457341C9"]
+			id: "7F9B4F93106BFECE"
 			tasks: [{
-				id: "27A34CD706401659",
-				type: "item",
+				id: "27A34CD706401659"
+				type: "item"
 				item: {
-					id: "simplesponge:sponge_on_a_stick",
-					Count: 1b,
+					id: "simplesponge:sponge_on_a_stick"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -2.5d,
-			y: -1.5d,
-			dependencies: ["0F52D451B06C24C4"],
-			id: "3039CBE1547F60E6",
+			x: 10.5d
+			y: -13.0d
+			dependencies: ["0F52D451B06C24C4"]
+			id: "3039CBE1547F60E6"
 			tasks: [{
-				id: "51EF7BE1B47A4EF1",
-				type: "item",
+				id: "51EF7BE1B47A4EF1"
+				type: "item"
 				item: {
-					id: "simplesponge:magmatic_sponge_on_a_stick",
-					Count: 1b,
+					id: "simplesponge:magmatic_sponge_on_a_stick"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -4.0d,
-			y: -1.5d,
-			dependencies: ["67B129C4457341C9"],
-			id: "0F52D451B06C24C4",
+			x: 9.5d
+			y: -11.5d
+			dependencies: ["67B129C4457341C9"]
+			id: "0F52D451B06C24C4"
 			tasks: [{
-				id: "6B96DDEA5EC36F77",
-				type: "item",
+				id: "6B96DDEA5EC36F77"
+				type: "item"
 				item: "simplesponge:magmatic_sponge"
 			}]
-		},
+		}
 		{
-			x: -15.5d,
-			y: -3.0d,
-			shape: "diamond",
-			optional: true,
-			id: "59A74F2E8B76C028",
+			x: -2.5d
+			y: -11.5d
+			shape: "diamond"
+			optional: true
+			id: "59A74F2E8B76C028"
 			tasks: [{
-				id: "326C58239B330CD9",
-				type: "item",
+				id: "326C58239B330CD9"
+				type: "item"
 				item: "framedblocks:framed_cube"
 			}]
-		},
+		}
 		{
-			x: -12.0d,
-			y: -3.0d,
-			id: "77DEF3FEB196ED64",
+			x: -4.5d
+			y: -21.5d
+			id: "77DEF3FEB196ED64"
 			tasks: [{
-				id: "716B4D42A9CA1E80",
-				type: "item",
+				id: "716B4D42A9CA1E80"
+				type: "item"
 				item: {
-					id: "chiseled:iron_chisel",
-					Count: 1b,
+					id: "chiseled:iron_chisel"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -11.0d,
-			y: -1.5d,
-			dependencies: ["77DEF3FEB196ED64"],
-			id: "56C6FC16B7803278",
+			x: -3.5d
+			y: -20.0d
+			dependencies: ["77DEF3FEB196ED64"]
+			id: "56C6FC16B7803278"
 			tasks: [{
-				id: "7D5734D105CB062A",
-				type: "item",
+				id: "7D5734D105CB062A"
+				type: "item"
 				item: "chiseled:chisel_station_light"
 			}]
-		},
+		}
 		{
-			x: -13.0d,
-			y: -1.5d,
-			dependencies: ["77DEF3FEB196ED64"],
-			id: "3653452F8780F2B0",
+			x: -5.5d
+			y: -20.0d
+			dependencies: ["77DEF3FEB196ED64"]
+			id: "3653452F8780F2B0"
 			tasks: [{
-				id: "44A21F481DE74F38",
-				type: "item",
+				id: "44A21F481DE74F38"
+				type: "item"
 				item: {
-					id: "chiseled:diamond_chisel",
-					Count: 1b,
+					id: "chiseled:diamond_chisel"
+					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: -3.0d,
-			id: "678EE053DA6AD5D3",
+			x: 9.0d
+			y: -21.0d
+			id: "678EE053DA6AD5D3"
 			tasks: [{
-				id: "24373F38FCB73C2E",
-				type: "item",
+				id: "24373F38FCB73C2E"
+				type: "item"
 				item: "prefab:item_start_house"
 			}]
-		},
+		}
 		{
-			x: -0.5d,
-			y: -1.5d,
-			dependencies: ["678EE053DA6AD5D3"],
-			id: "53083A05722552BE",
+			x: 9.0d
+			y: -19.0d
+			dependencies: ["678EE053DA6AD5D3"]
+			id: "53083A05722552BE"
 			tasks: [{
-				id: "48A29D9151D01DF3",
-				type: "item",
+				id: "48A29D9151D01DF3"
+				type: "item"
 				item: "prefab:item_moderate_house"
 			}]
-		},
+		}
 		{
-			x: -17.0d,
-			y: -3.0d,
-			id: "433EF549AB0255FA",
+			x: -4.0d
+			y: -11.5d
+			id: "433EF549AB0255FA"
 			tasks: [{
-				id: "6815512A074E3A26",
-				type: "item",
+				id: "6815512A074E3A26"
+				type: "item"
 				item: "portable_stonecutter:portable_stonecutter"
 			}]
-		},
+		}
 		{
-			x: -18.5d,
-			y: -3.0d,
-			shape: "diamond",
-			optional: true,
-			id: "565DBDB7A817161C",
+			x: -5.5d
+			y: -11.5d
+			shape: "diamond"
+			optional: true
+			id: "565DBDB7A817161C"
 			tasks: [{
-				id: "0C6FE732529B5FE9",
-				type: "item",
+				id: "0C6FE732529B5FE9"
+				type: "item"
 				item: "blockcarpentry:frameblock"
 			}]
+		}
+		{
+			title: "Dark Oak Builder's Hut"
+			icon: "minecraft:dark_oak_log"
+			x: -5.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "60F1205B8F96100E"
+			tasks: [
+				{
+					id: "08ACB7DEFB3B0954"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 227L
+					consume_items: true
+				}
+				{
+					id: "5180461AEE3DCA40"
+					type: "item"
+					item: "minecraft:torch"
+					count: 12L
+				}
+				{
+					id: "69DF2DAAAB8CC4FB"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "19ADD5DE39BB7F27"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "2FFCD810FB7AE8F3"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 10L
+				}
+			]
+			rewards: [
+				{
+					id: "26E286DB54C6EDCF"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence_gate"
+					count: 2
+				}
+				{
+					id: "1CC357DCE8EE00E9"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 105
+				}
+				{
+					id: "6EE39FF8D57FDAE2"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 94
+				}
+				{
+					id: "1D746ED773FBF7D1"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_log"
+					count: 88
+				}
+				{
+					id: "51463C95D3975858"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_stairs"
+					count: 12
+				}
+				{
+					id: "5FAB55DFCB5A1767"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_planks"
+					count: 76
+				}
+			]
+		}
+		{
+			x: 2.3d
+			y: -11.9d
+			dependencies: ["384180A025F40D71"]
+			id: "6BC8A06BF6CC5157"
+			tasks: [{
+				id: "040A44DE5AE754E5"
+				type: "item"
+				item: "minecolonies:blockhuttavern"
+			}]
+		}
+		{
+			title: "Start a Colony"
+			x: 2.2d
+			y: -20.2d
+			subtitle: "Summoning Companions"
+			description: [
+				"Living alone is.. well, lonely.."
+				""
+				"Let's announce to the world that you have started a settelment. In no time NPCs will start joining you."
+				""
+				"These NPCs will do all sorts of tasks for some food and shelter."
+				""
+				"To begin, find the town hall block and the building tool in the supply camp you created on the first day."
+				""
+				"Place down the town hall using the build tool and click the Create Colony button inside the town hall UI."
+			]
+			dependencies: ["4DAB1BDC04778C11"]
+			id: "5B9419E41BB8D8D7"
+			tasks: [
+				{
+					id: "4E9511064F1C33D7"
+					type: "item"
+					item: "minecolonies:blockhuttownhall"
+				}
+				{
+					id: "6BA678E31DB873D0"
+					type: "advancement"
+					advancement: "minecolonies:minecolonies/place_townhall"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 2.3d
+			y: -13.0d
+			dependencies: [
+				"60F1205B8F96100E"
+				"110D965AD906EB92"
+				"480BACDC8B51FA29"
+				"08BB69487D7161E3"
+				"105639280F768926"
+				"55815A05633837F3"
+				"3E65B26F246BE87C"
+				"29C408D2C955AF42"
+				"2A876BA47D9FE2B1"
+				"31E7BFE631A6E03F"
+				"548A8BAA66246E0A"
+				"0749F73F4ACFD483"
+				"23EBD5BF8F6DB76A"
+				"68153873135B0951"
+				"081AB41A16024089"
+				"00193304716B3197"
+				"717F23B356B00153"
+				"61BF579F75357B10"
+				"1A9F1602B32E4882"
+				"6CFF84805F9E4951"
+				"7B9A71C63B87ABEC"
+				"6E0A5A62971633E5"
+				"2FAB243F75DF6024"
+			]
+			dependency_requirement: "one_completed"
+			id: "384180A025F40D71"
+			tasks: [{
+				id: "5630FF89F1C14A4F"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_builder"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Acacia Builder's Hut"
+			icon: "minecraft:acacia_log"
+			x: -7.8d
+			y: -16.4d
+			shape: "rsquare"
+			description: ["{image:starpack:textures/quests/2021-09-03_07.59.11.png width:177 height:100 align:1}"]
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "110D965AD906EB92"
+			tasks: [
+				{
+					id: "69995528E571CC76"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16L
+				}
+				{
+					id: "2C0C044F0D1C07F6"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 2L
+				}
+				{
+					id: "7F0106632B8698E2"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+				{
+					id: "034ACB3BB08BC379"
+					type: "item"
+					icon: "minecraft:acacia_log"
+					item: "minecraft:acacia_log"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "55A83B38D1728DA9"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "71E10CDF53C80662"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:acacia_log"
+					count: 13
+				}
+				{
+					id: "461E6F29C8B67CE2"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:acacia_fence"
+					count: 23
+				}
+				{
+					id: "43058E0CEF880F62"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:acacia_slab"
+					count: 42
+				}
+				{
+					id: "57F99DBDA58EE343"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:acacia_planks"
+					count: 2
+				}
+				{
+					id: "38DCE1BA089F8D7C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:acacia_stairs"
+					count: 28
+				}
+			]
+		}
+		{
+			title: "Hire a Builder"
+			icon: "minecolonies:blockhutbuilder"
+			x: 2.2d
+			y: -19.0d
+			subtitle: "Builder's Hut"
+			dependencies: ["5B9419E41BB8D8D7"]
+			id: "2E73B6DCF921C7B6"
+			tasks: [
+				{
+					id: "5DD99B36FE2B905E"
+					type: "item"
+					item: "minecolonies:blockhutbuilder"
+				}
+				{
+					id: "3BA6BE626A24779C"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Asian Builder's Hut"
+			icon: "minecraft:oak_log"
+			x: -6.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "480BACDC8B51FA29"
+			tasks: [
+				{
+					id: "5E02528249D4E5C9"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 153L
+					consume_items: true
+				}
+				{
+					id: "3900801F1EB8ED9B"
+					type: "item"
+					item: "minecraft:torch"
+					count: 4L
+				}
+				{
+					id: "6DAD32823F6CAC53"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 99L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "620E51EF5EF5022B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "4AC20063AA08E475"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 11
+				}
+				{
+					id: "519B465E3BA13D90"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 149
+				}
+				{
+					id: "225B35AFA86B694E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "4D7D1F7F1C53531A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 28
+				}
+				{
+					id: "505388B4034C4E9A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence_gate"
+					count: 2
+				}
+				{
+					id: "7DB1AC348FEE3F83"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 79
+				}
+				{
+					id: "2E01BC63F69656E6"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 58
+				}
+				{
+					id: "2EB55A91A651B8D8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 91
+				}
+			]
+		}
+		{
+			title: "Birch Builder's Hut"
+			icon: "minecraft:birch_log"
+			x: -4.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "08BB69487D7161E3"
+			tasks: [
+				{
+					id: "39973447B059B89A"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 37L
+					consume_items: true
+				}
+				{
+					id: "755C492B9C0A9013"
+					type: "item"
+					item: "minecraft:torch"
+					count: 9L
+				}
+				{
+					id: "799858D3B2F52EFC"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 18L
+				}
+				{
+					id: "05A7FA12890CF552"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 22L
+				}
+			]
+			rewards: [
+				{
+					id: "7E7577724B3D9311"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "4C5FED79D4DF7A9F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_stairs"
+					count: 28
+				}
+				{
+					id: "64A01F6E4D547981"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_log"
+					count: 9
+				}
+				{
+					id: "1B1EDDA100F5925B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_fence"
+					count: 13
+				}
+				{
+					id: "438F657B18BEDB73"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_planks"
+					count: 29
+				}
+				{
+					id: "283C195A512E77D5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_slab"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Caledonia Builder's Hut"
+			icon: "minecraft:spruce_log"
+			x: -3.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "105639280F768926"
+			tasks: [
+				{
+					id: "56DAF98306B4AADB"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 72L
+					consume_items: true
+				}
+				{
+					id: "382370CADF748992"
+					type: "item"
+					item: "minecraft:torch"
+					count: 12L
+				}
+				{
+					id: "087C9FC283FAD37B"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 3L
+				}
+				{
+					id: "56DA7E57526F2C12"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 128L
+				}
+				{
+					id: "4CEB1DC508F3EF7E"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 17L
+					consume_items: true
+				}
+				{
+					id: "734C15EA1333B82D"
+					type: "item"
+					item: "minecraft:birch_log"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "39AC00928A37656A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_planks"
+					count: 30
+				}
+				{
+					id: "4D250A3A180DB07F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_fence"
+					count: 14
+				}
+				{
+					id: "26E1A61DA446BB6E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_door"
+					count: 2
+				}
+				{
+					id: "7FB86D4E2A26B8DB"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_slab"
+					count: 4
+				}
+				{
+					id: "77E86BD34BDEB43E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_stairs"
+				}
+				{
+					id: "03474DC0C7FBD0DF"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 14
+				}
+				{
+					id: "307045766A70DCBA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:stripped_spruce_log"
+					count: 9
+				}
+				{
+					id: "49BE538CC2ED8121"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_log"
+					count: 32
+				}
+				{
+					id: "5C0E213844E2DDB8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 14
+				}
+				{
+					id: "43B8E4302D68D737"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 27
+				}
+				{
+					id: "7EEFF29F7B097A30"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_stairs"
+					count: 32
+				}
+				{
+					id: "0F3E2A5B1F3EEE7E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_button"
+					count: 2
+				}
+				{
+					id: "48C289E60C7E8736"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Cave Builder's Hut"
+			icon: "minecraft:cobblestone"
+			x: -2.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "55815A05633837F3"
+			tasks: [
+				{
+					id: "11A752EF334747FB"
+					type: "item"
+					item: "minecraft:torch"
+					count: 18L
+				}
+				{
+					id: "08BFD40882640625"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 19L
+					consume_items: true
+				}
+				{
+					id: "3096932A2C5B0BAC"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2L
+				}
+				{
+					id: "7FE063C122298951"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 5L
+				}
+				{
+					id: "51E0A519B688D702"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 108L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "199D9B25F9C85A5D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "137BE35EC355D8BA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 2
+				}
+				{
+					id: "05979329DEC01BEE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 16
+				}
+				{
+					id: "7A7A030EE27D0D37"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "1BDBCEBB1F3E4449"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+				}
+				{
+					id: "526DD021384B2BD9"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+					count: 2
+				}
+				{
+					id: "57312A3A35A069E6"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 100
+				}
+				{
+					id: "498C6576E6641263"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+				{
+					id: "0AAE696C014C62C5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Fortress Builder's Hut"
+			icon: "minecraft:dark_oak_log"
+			x: -0.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "3E65B26F246BE87C"
+			tasks: [
+				{
+					id: "59507F647C1CC575"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 60L
+					consume_items: true
+				}
+				{
+					id: "1314AF139040863E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					consume_items: true
+				}
+				{
+					id: "511EA8FA14533AAB"
+					type: "item"
+					item: "minecraft:torch"
+					count: 11L
+				}
+				{
+					id: "14D70F10D70C619E"
+					type: "item"
+					item: {
+						id: "minecolonies:resourcescroll"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5D8C04E4B0142E52"
+					type: "item"
+					item: "minecraft:item_frame"
+				}
+				{
+					id: "0A90281109BB3173"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 21L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "51E443AF4740F25A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "1996881B967D3790"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_sign"
+					count: 34
+				}
+				{
+					id: "01A27BBC88540C41"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_log"
+					count: 16
+				}
+				{
+					id: "36CA77F21857CCF8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 6
+				}
+				{
+					id: "6792121EADD160FE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_door"
+				}
+				{
+					id: "0938E9221EB8435A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_planks"
+					count: 160
+				}
+				{
+					id: "4DB136480DB78992"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_wall"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Jungle Builder's Hut"
+			icon: "minecraft:jungle_log"
+			x: -1.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "29C408D2C955AF42"
+			tasks: [
+				{
+					id: "056CBA020C312BEA"
+					type: "item"
+					item: "minecraft:jungle_log"
+					count: 193L
+					consume_items: true
+				}
+				{
+					id: "0AFA2F7238EC1D81"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+				}
+				{
+					id: "2E5528E62218A66F"
+					type: "item"
+					item: "minecraft:torch"
+					count: 17L
+				}
+				{
+					id: "1A6ACB4677CF9F68"
+					type: "item"
+					item: "minecraft:vine"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "141D8AE6E3E3EB5F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_stairs"
+					count: 64
+				}
+				{
+					id: "629045D4D9FBBB66"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "696EDA0DEBF7EAFC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_slab"
+					count: 92
+				}
+				{
+					id: "0226106847F80B2E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ladder"
+					count: 9
+				}
+				{
+					id: "054C10677FE9C95F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_fence"
+					count: 56
+				}
+				{
+					id: "62D3DC648102ADAA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_planks"
+					count: 13
+				}
+				{
+					id: "70044C637DF55EC6"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_log"
+					count: 124
+				}
+			]
+		}
+		{
+			title: "Medival Birch Builder's Hut"
+			icon: "minecraft:birch_log"
+			x: 0.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "2A876BA47D9FE2B1"
+			tasks: [
+				{
+					id: "0B5483EE18704B4F"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 98L
+					consume_items: true
+				}
+				{
+					id: "14E92D62FA2E6A6C"
+					type: "item"
+					item: "minecraft:torch"
+				}
+				{
+					id: "1483FF021E92EBFD"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 38L
+					consume_items: true
+				}
+				{
+					id: "3ABC302CDE4A07EB"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 11L
+				}
+				{
+					id: "145F66F3A906D7CC"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "0D88C7A866D1C09F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_door"
+				}
+				{
+					id: "552412758AE93FCB"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_log"
+					count: 50
+				}
+				{
+					id: "13A11E86056D2E31"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_stairs"
+					count: 76
+				}
+				{
+					id: "5BE3B311CCE088EA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_fence"
+					count: 14
+				}
+				{
+					id: "69CB8FB2194E1808"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_stairs"
+					count: 6
+				}
+				{
+					id: "3AB48A361F06ADD8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_planks"
+					count: 24
+				}
+				{
+					id: "0571BE0407BDD64A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "514A08E653E9C341"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_birch_birch_timber_frame"
+					count: 11
+				}
+				{
+					id: "3522D5CBCE3AF22F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 2
+				}
+				{
+					id: "1FE83E245AF703C7"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 35
+				}
+				{
+					id: "3FB0FE28543CAF08"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_slab"
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Alternative Medival Birch Builder's Hut"
+			icon: "minecraft:birch_log"
+			x: 1.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "31E7BFE631A6E03F"
+			tasks: [
+				{
+					id: "355DF0531D3ABBB8"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 159L
+					consume_items: true
+				}
+				{
+					id: "1A441A6491EB14DA"
+					type: "item"
+					item: "minecraft:torch"
+					count: 2L
+				}
+				{
+					id: "1BF563339186345B"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 81L
+				}
+				{
+					id: "2E761BE91701D383"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 44L
+				}
+			]
+			rewards: [
+				{
+					id: "68C583F3095DB34A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_door"
+					count: 3
+				}
+				{
+					id: "118A4C6F790C8290"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+					count: 4
+				}
+				{
+					id: "438966FD8DD9AF69"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:chest"
+				}
+				{
+					id: "7943EE795A309094"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_stairs"
+					count: 142
+				}
+				{
+					id: "7BA8A6D3718F7B40"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_fence"
+					count: 6
+				}
+				{
+					id: "7418D67BF33AE7EC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_planks"
+					count: 27
+				}
+				{
+					id: "00A459E2547A7353"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_slab"
+					count: 19
+				}
+				{
+					id: "3CBE1EFFA7956F05"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "74ACB3AB02603C7C"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_birch_birch_timber_frame"
+					count: 35
+				}
+				{
+					id: "456932E32E89A237"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:stripped_birch_log"
+					count: 76
+				}
+			]
+		}
+		{
+			title: "Medival Dark Oak Hut"
+			icon: "minecraft:dark_oak_log"
+			x: 2.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "548A8BAA66246E0A"
+			tasks: [
+				{
+					id: "43830AD09109AEE4"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 105L
+					consume_items: true
+				}
+				{
+					id: "7CB53A17605A5BB7"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 11L
+				}
+				{
+					id: "3E266F09581D7658"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 36L
+				}
+				{
+					id: "56F2BCB09E5A07F7"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 3L
+				}
+				{
+					id: "22D7B3757726F26D"
+					type: "item"
+					item: "minecraft:torch"
+				}
+			]
+			rewards: [
+				{
+					id: "08B0781490CCB1B0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_stairs"
+					count: 78
+				}
+				{
+					id: "2CF41EF0F76BB8D2"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 15
+				}
+				{
+					id: "611F6571E269862A"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_dark_oak_dark_oak_timber_frame"
+					count: 9
+				}
+				{
+					id: "6223083BC3947DFB"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_stairs"
+					count: 6
+				}
+				{
+					id: "4B9500D1D9A4106D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 33
+				}
+				{
+					id: "56EA79DD089D9B7B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 8
+				}
+				{
+					id: "6D99E8E8320354F6"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "50ECEA83D3E2351E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_log"
+					count: 50
+				}
+				{
+					id: "769A7E0D7D01CD94"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_door"
+				}
+				{
+					id: "27A43D556CF90620"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_planks"
+					count: 24
+				}
+				{
+					id: "037E5F0636F14772"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Alternative Medival Dark Oak Builder's Hut"
+			icon: "minecraft:dark_oak_log"
+			x: 3.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "0749F73F4ACFD483"
+			tasks: [
+				{
+					id: "378ED74C60A9DC3C"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 105L
+					consume_items: true
+				}
+				{
+					id: "1CFDD54B773296F4"
+					type: "item"
+					item: "minecraft:torch"
+					count: 2L
+				}
+				{
+					id: "299273B323763ECD"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 81L
+				}
+				{
+					id: "0BF70A37ADD8EB68"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 44L
+				}
+			]
+			rewards: [
+				{
+					id: "417C1C47F41ED7A4"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+					count: 4
+				}
+				{
+					id: "4BE65D4B26D295A5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:chest"
+				}
+				{
+					id: "0038DDEBC6AEF6E9"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_stairs"
+					count: 141
+				}
+				{
+					id: "22FC42159E69272F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 10
+				}
+				{
+					id: "6D50CBBB5B9A12DC"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_dark_oak_dark_oak_timber_frame"
+					count: 39
+				}
+				{
+					id: "5C3B60BC93D0F0CC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "76DEEEB34D081466"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_log"
+					count: 82
+				}
+				{
+					id: "62C9B171B96B381C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_door"
+					count: 3
+				}
+				{
+					id: "092E26D8D8FAA6DC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_planks"
+					count: 27
+				}
+				{
+					id: "5533698117DBD65D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 18
+				}
+			]
+		}
+		{
+			title: "Medival Oak Hut"
+			icon: "minecraft:oak_log"
+			x: 4.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "23EBD5BF8F6DB76A"
+			tasks: [
+				{
+					id: "39D65860F493870E"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 98L
+					consume_items: true
+				}
+				{
+					id: "2C6560789131BC40"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 39L
+					consume_items: true
+				}
+				{
+					id: "74CAAD7195D45FBB"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 11L
+				}
+				{
+					id: "50F736324860C381"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 3L
+				}
+				{
+					id: "78959CBC0A82596A"
+					type: "item"
+					item: "minecraft:torch"
+				}
+			]
+			rewards: [
+				{
+					id: "22F95E24552A726C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 14
+				}
+				{
+					id: "6D184F694B4F3EE4"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+				}
+				{
+					id: "1098B2B7BEB03706"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_stairs"
+					count: 6
+				}
+				{
+					id: "1FD1AF2791E9134A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 24
+				}
+				{
+					id: "4D31298DB6DC1F42"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 35
+				}
+				{
+					id: "087EA0B2FB361563"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "6B8FF276D4A4A451"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 76
+				}
+				{
+					id: "51D46CA2F23FC2B7"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 10
+				}
+				{
+					id: "2878C6C1421F8591"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_oak_oak_timber_frame"
+					count: 11
+				}
+				{
+					id: "45D394C763735126"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 2
+				}
+				{
+					id: "730C6087AB1A449E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 50
+				}
+			]
+		}
+		{
+			title: "Alternative Medival Oak Builder's Hut"
+			icon: "minecraft:oak_log"
+			x: 5.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "68153873135B0951"
+			tasks: [
+				{
+					id: "67CCE8248B0895FC"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 159L
+					consume_items: true
+				}
+				{
+					id: "059153D4B8D86890"
+					type: "item"
+					item: "minecraft:torch"
+					count: 2L
+				}
+				{
+					id: "07E979D138D381F3"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 81L
+				}
+				{
+					id: "71086BD14E11161A"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 44L
+				}
+			]
+			rewards: [
+				{
+					id: "0A8BCD4FE296E807"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+					count: 4
+				}
+				{
+					id: "19B14F624CEF80B5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:chest"
+				}
+				{
+					id: "23845A3F35E23EA8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 6
+				}
+				{
+					id: "13BCA7F598DDA17B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+					count: 3
+				}
+				{
+					id: "158B3A5E65EEC8B1"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 27
+				}
+				{
+					id: "156E7B50A07446AD"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "34E119B1969AAEB3"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 142
+				}
+				{
+					id: "1B6D6C51F0EC7AD5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 19
+				}
+				{
+					id: "5B61FB152E8C08D7"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_oak_oak_timber_frame"
+					count: 35
+				}
+				{
+					id: "1275ABD68CFCF709"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 76
+				}
+			]
+		}
+		{
+			title: "Medival Spruce Builder's Hut"
+			icon: "minecraft:spruce_log"
+			x: 6.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "081AB41A16024089"
+			tasks: [
+				{
+					id: "7AE376BCDE7F5531"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 99L
+					consume_items: true
+				}
+				{
+					id: "4CB18F5DF6AEE244"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 38L
+					consume_items: false
+				}
+				{
+					id: "743C291B68A6AFB3"
+					type: "item"
+					item: "minecraft:torch"
+				}
+				{
+					id: "1C92010464EEECA5"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 11L
+				}
+				{
+					id: "24EBA77C5C63EC60"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "6605BACFA7396FF4"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_planks"
+					count: 24
+				}
+				{
+					id: "7E6F324DBDC45086"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_fence"
+					count: 14
+				}
+				{
+					id: "0153A239BF05C13E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_door"
+				}
+				{
+					id: "0721755DB6F80FC0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_slab"
+					count: 8
+				}
+				{
+					id: "5BD3E4BB9E110B76"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_stairs"
+					count: 6
+				}
+				{
+					id: "2D941C93B9F788F0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 35
+				}
+				{
+					id: "2913FB05D4D74B0B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_log"
+					count: 50
+				}
+				{
+					id: "1A7208DB3DA31379"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "7C7352EC820FC7ED"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_spruce_spruce_timber_frame"
+					count: 11
+				}
+				{
+					id: "61C3FCD000F5F52C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_stairs"
+					count: 79
+				}
+				{
+					id: "15189A494E1CAFC6"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Alternate Medival Spruce Builder's Hut"
+			icon: "minecraft:spruce_log"
+			x: 7.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "00193304716B3197"
+			tasks: [
+				{
+					id: "5A906F59E1ED2C05"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 165L
+					consume_items: true
+				}
+				{
+					id: "1535A1A351B4BB8E"
+					type: "item"
+					item: "minecraft:torch"
+					count: 2L
+				}
+				{
+					id: "5050DFCE4D1DF1FE"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 81L
+				}
+				{
+					id: "793A57D5D434B545"
+					type: "item"
+					item: "minecraft:coarse_dirt"
+					count: 44L
+				}
+			]
+			rewards: [
+				{
+					id: "19AD56CC3EED845A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_planks"
+					count: 27
+				}
+				{
+					id: "6A76C874A51A0B96"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+					count: 4
+				}
+				{
+					id: "78C2C5EA6F52ED80"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:chest"
+				}
+				{
+					id: "2D8E595767A0D8EC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_fence"
+					count: 6
+				}
+				{
+					id: "629470395003E376"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_door"
+					count: 3
+				}
+				{
+					id: "448E6504FE4646BE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_slab"
+					count: 17
+				}
+				{
+					id: "0DBAC627F75196FC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_log"
+					count: 76
+				}
+				{
+					id: "6A753BE7F51BC562"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "7246E7C1F94F7EE2"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:plain_spruce_spruce_timber_frame"
+					count: 35
+				}
+				{
+					id: "1FCF232037B4441E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_stairs"
+					count: 158
+				}
+			]
+		}
+		{
+			title: "Wooden Builder's hut"
+			icon: "minecraft:oak_log"
+			x: -8.8d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "717F23B356B00153"
+			tasks: [
+				{
+					id: "2C3B72A2AAFFAAFE"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "00AA7E024003D556"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 19L
+					consume_items: true
+				}
+				{
+					id: "651C1EE188CCA9BE"
+					type: "item"
+					item: "minecraft:torch"
+					count: 15L
+				}
+				{
+					id: "19E41EFDE82F2B4D"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 3L
+				}
+				{
+					id: "1669A467FCD6DB4E"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "41DD130C21AF93E4"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "036DA049C6BC126A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 42
+				}
+				{
+					id: "0938D0F8DE8B5A83"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "53B57D5328EED9FE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 32
+				}
+				{
+					id: "578F06983592394B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 13
+				}
+				{
+					id: "6AD0980087B2C7CA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 3
+				}
+				{
+					id: "3A91F0489A3E8187"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 11
+				}
+			]
+		}
+		{
+			title: "Mesa Builder's Hut"
+			icon: "minecraft:red_terracotta"
+			x: 8.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "1A9F1602B32E4882"
+			tasks: [
+				{
+					id: "3C9E3A5AD0D8C73C"
+					type: "item"
+					item: "minecraft:red_terracotta"
+					count: 8L
+				}
+				{
+					id: "4F344BA1DD24A10A"
+					type: "item"
+					item: "minecraft:torch"
+					count: 11L
+				}
+				{
+					id: "70083A270D785A15"
+					type: "item"
+					item: "minecraft:red_sand"
+					count: 13L
+				}
+				{
+					id: "11B7E95E92E4A2ED"
+					type: "item"
+					item: "minecraft:terracotta"
+					count: 17L
+				}
+				{
+					id: "53C1E31753851EEE"
+					type: "item"
+					item: "minecraft:cut_red_sandstone"
+					count: 16L
+				}
+				{
+					id: "5802FE08A7B28B6F"
+					type: "item"
+					item: "minecraft:orange_terracotta"
+					count: 12L
+				}
+			]
+		}
+		{
+			title: "Nordic Builder's Hut"
+			icon: "minecraft:spruce_log"
+			x: 9.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "61BF579F75357B10"
+			tasks: [
+				{
+					id: "16C708E54E656DB6"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 318L
+					consume_items: true
+				}
+				{
+					id: "58DF930ABCE24DD4"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 47L
+				}
+				{
+					id: "1C37B560EB90E82B"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 4L
+				}
+				{
+					id: "6CE39801FCD940BA"
+					type: "item"
+					item: "minecraft:torch"
+					count: 34L
+				}
+				{
+					id: "77F26F11ACED15A0"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 3L
+				}
+				{
+					id: "54F4397EFD3F8BC6"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4EF1E92D6AD4D558"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_planks"
+					count: 182
+				}
+				{
+					id: "032D151AE074AB39"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_door"
+					count: 2
+				}
+				{
+					id: "4D2C3222744428A7"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_fence"
+					count: 83
+				}
+				{
+					id: "5E40AA0BA416A8C0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_slab"
+					count: 4
+				}
+				{
+					id: "722F6F5A2202445D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_fence_gate"
+				}
+				{
+					id: "263870C69DF6604D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_log"
+					count: 142
+				}
+				{
+					id: "6A6496F9A2035F12"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "304A7B87F8630EDA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_stairs"
+					count: 233
+				}
+			]
+		}
+		{
+			title: "Sandstone Builder's Hut"
+			icon: "minecraft:sandstone"
+			x: 10.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "6CFF84805F9E4951"
+			tasks: [
+				{
+					id: "3A828425F287A160"
+					type: "item"
+					icon: "minecraft:sandstone"
+					item: "minecraft:sandstone"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "67EC6A9546B48C69"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 15L
+					consume_items: true
+				}
+				{
+					id: "1AA9A8F3AB70FED8"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "1754D2B5C3004367"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "6A124E300E6D78B7"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone_slab"
+				}
+				{
+					id: "0C9837F19B831D2D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cut_sandstone"
+					count: 17
+				}
+				{
+					id: "27A193A0D543FCDF"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockcactusstair"
+					count: 3
+				}
+				{
+					id: "1B97CE7BC443660C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:birch_stairs"
+				}
+				{
+					id: "7B04B1A43813E00D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone_stairs"
+					count: 27
+				}
+				{
+					id: "5DDE5011D2197B20"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockcactusdoor"
+				}
+				{
+					id: "4D9D05D776001E7C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ladder"
+				}
+				{
+					id: "7D383CA89758014C"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockcactusslab"
+					count: 4
+				}
+				{
+					id: "14E6060C9A11D710"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockcactusfence"
+					count: 22
+				}
+				{
+					id: "74F1E1A75950FB29"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockcactusplank"
+					count: 15
+				}
+				{
+					id: "7ED6355450CDE621"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone"
+				}
+				{
+					id: "73CF59B66515EFB3"
+					type: "item"
+					team_reward: false
+					auto: "enabled"
+					item: "minecraft:birch_log"
+				}
+			]
+		}
+		{
+			title: "Spacewars Builder's Hut"
+			icon: "minecraft:sandstone"
+			x: 11.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "7B9A71C63B87ABEC"
+			tasks: [
+				{
+					id: "7363862A501A2715"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 83L
+					consume_items: true
+				}
+				{
+					id: "35996B3C1395C9B0"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16L
+				}
+				{
+					id: "60BBB9BE97FF7BF6"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 70L
+				}
+				{
+					id: "24257C142E9F793F"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 3L
+				}
+				{
+					id: "6E1337D0DA0C1D93"
+					type: "item"
+					item: "minecraft:cactus"
+					consume_items: true
+				}
+				{
+					id: "1F7C21C690EA061B"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2L
+				}
+				{
+					id: "477D09DFF3ECE18E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "158C8B6BA4708718"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone"
+					count: 45
+				}
+				{
+					id: "67345A913C98BBAC"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockcactusplank"
+					count: 4
+				}
+				{
+					id: "77F76A02C6B2EFAE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone_stairs"
+					count: 100
+				}
+			]
+		}
+		{
+			title: "Stone Builder's Hut"
+			icon: "minecraft:cobblestone"
+			x: 12.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "6E0A5A62971633E5"
+			tasks: [
+				{
+					id: "241303C44AC3314D"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 47L
+					consume_items: true
+				}
+				{
+					id: "06B2B6D888F84B74"
+					type: "item"
+					item: "minecraft:torch"
+					count: 15L
+				}
+				{
+					id: "7CCF28DAD59C56D9"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 3L
+				}
+				{
+					id: "026797A7D8D7B4C6"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2L
+				}
+				{
+					id: "16503C0641557E9A"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "7F863D6EF5E0A0B4"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_wall"
+					count: 42
+				}
+				{
+					id: "4BA8E4E6D2B4363C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 32
+				}
+				{
+					id: "0D26AA080B265159"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 24
+				}
+			]
+		}
+		{
+			title: "True Dwarven Builder's Hut"
+			icon: "minecraft:cobblestone"
+			x: 13.2d
+			y: -16.4d
+			shape: "rsquare"
+			dependencies: ["2E73B6DCF921C7B6"]
+			id: "2FAB243F75DF6024"
+			tasks: [
+				{
+					id: "79D95E3DBDCA3AAC"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 1151L
+					consume_items: true
+				}
+				{
+					id: "5C63813D175D4645"
+					type: "item"
+					item: "minecraft:torch"
+					count: 68L
+				}
+				{
+					id: "7E87BBB2A12632FA"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2L
+				}
+				{
+					id: "533DFCE1B68125C6"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "54A24ED05D51DE76"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 16
+				}
+				{
+					id: "63E066CCC3D0E7AE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+					count: 16
+				}
+				{
+					id: "153644E0C72323D3"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_wall"
+					count: 124
+				}
+				{
+					id: "4315F391DF5629E4"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_stairs"
+					count: 361
+				}
+				{
+					id: "16D89BDBCB7C3B3D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 888
+				}
+			]
 		}
 	]
 }

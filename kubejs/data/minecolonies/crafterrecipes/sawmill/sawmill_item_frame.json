@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:stick",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:item_frame",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

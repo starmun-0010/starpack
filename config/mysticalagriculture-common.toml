@@ -21,6 +21,12 @@
 	dragonDropsEssence = true
 	#Should right clicking on Farmland with an Essence create Essence Farmland?
 	essenceFarmlandConversion = true
+	#Should vanilla crafting recipes for seeds be generated?
+	seedCraftingRecipes = false
+	#Should Supremium Tools be enchantable in an Enchanting Table?
+	enchantableSupremiumTools = false
+	#Should fake players be able to use watering cans?
+	fakePlayerWatering = true
 
 #World generation options.
 [World]
@@ -57,4 +63,10 @@
 	#The maximum amount of Soulstone blocks that can spawn in a vein.
 	#Range: 0 ~ 64
 	soulstoneSpawnSize = 64
+	#The list of biome IDs that Prosperity Ore veins can spawn in.
+	prosperityBiomeWhitelist = []
+	#The list of biome IDs that Inferium Ore veins can spawn in.
+	inferiumBiomeWhitelist = []
+	#The list of biome IDs that Soulstone veins can spawn in.
+	soulstoneBiomeWhitelist = []
 

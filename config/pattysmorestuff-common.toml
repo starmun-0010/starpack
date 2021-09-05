@@ -1,0 +1,7 @@
+
+[general]
+	#Nether star armor flight
+	enableNetherStarArmorFLight = true
+	#Thank You Message
+	enableThankYouMessage = false
+

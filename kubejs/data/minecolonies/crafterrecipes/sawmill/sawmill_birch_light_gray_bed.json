@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:birch_planks",
+      "count":3
+    },
+    {
+      "item": "minecraft:light_gray_wool",
+      "count":3
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:light_gray_bed",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

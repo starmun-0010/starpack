@@ -1,0 +1,18 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:spruce_planks",
+      "count":2
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 4
+    }
+  ],
+  "result": "minecraft:spruce_fence_gate",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+} 

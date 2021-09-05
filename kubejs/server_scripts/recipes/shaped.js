@@ -1,4 +1,4 @@
-//priority: 97
+//priority: 96
 onEvent('recipes', event => {
 
   //Akashic Tome
@@ -25,7 +25,7 @@ onEvent('recipes', event => {
 
 
   //tool belt recipees
-  event.shaped(Item.of('toolbelt:belt', { Size: 4 }), [
+  event.shaped(Item.of('toolbelt:belt', 1, { Size: 3 }), [
     'SLS',
     'L L',
     'LIL'
@@ -33,24 +33,25 @@ onEvent('recipes', event => {
     S: '#forge:string',
     L: 'minecraft:leather',
     I: 'minecraft:iron_ingot'
-  });
+  }).id('starpack:toolbelt_size_three');
 
-  event.shaped(Item.of('toolbelt:belt', { Size: 6 }), [
+  event.shaped(Item.of('toolbelt:belt', 1, { Size: 6 }), [
     'TP ',
     '   ',
     '   '
   ], {
-    T: Item.of('toolbelt:belt', { Size: 3 }),
+    T: Item.of('toolbelt:belt', 1, { Size: 3 }),
     P: Item.of('toolbelt:pouch')
-  });
-  event.shaped(Item.of('toolbelt:belt', { Size: 9 }), [
+  }).id('starpack:toolbelt_size_six');
+
+  event.shaped(Item.of('toolbelt:belt', 1, { Size: 9 }), [
     'TP ',
     '   ',
     '   '
   ], {
-    T: Item.of('toolbelt:belt', { Size: 6 }),
+    T: Item.of('toolbelt:belt', 1, { Size: 6 }),
     P: Item.of('toolbelt:pouch')
-  });
+  }).id('starpack:toolbelt_size_nine');
 
 
   //botany pot recipes
@@ -70,5 +71,14 @@ onEvent('recipes', event => {
   ], {
     T: 'botania:manasteel_nugget',
     P: 'botanypots:botany_pot'
+  });
+
+   //Byg chests recipes
+   event.shaped('quark:oak_chest', [
+    'PPP',
+    'P P',
+    'PPP'
+  ], {
+    P: '#byg:planks'
   });
 });

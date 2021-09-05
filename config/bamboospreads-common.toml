@@ -1,0 +1,6 @@
+
+[General]
+	#The chance bamboo spreads to an available nearby block when it grows.
+	#Range: 0.0 ~ 1.0
+	newChuteOnGrowthChance = 0.25
+

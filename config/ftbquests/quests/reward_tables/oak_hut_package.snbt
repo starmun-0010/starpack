@@ -1,0 +1,19 @@
+{
+	id: "3CBA99FC5393FB82"
+	order_index: 0
+	title: "Alternative Medival Oak Builder's Hut Package"
+	icon: "minecraft:oak_log"
+	loot_size: 1
+	rewards: [
+		{ item: "structurize:blockbarreldeco_standing", count: 4 }
+		{ item: "minecraft:chest" }
+		{ item: "minecraft:oak_fence", count: 6 }
+		{ item: "minecraft:oak_door", count: 3 }
+		{ item: "minecraft:oak_planks", count: 27 }
+		{ item: "minecraft:crafting_table" }
+		{ item: "minecraft:oak_stairs", count: 142 }
+		{ item: "minecraft:oak_slab", count: 19 }
+		{ item: "structurize:plain_oak_oak_timber_frame", count: 35 }
+		{ item: "minecraft:oak_log", count: 76 }
+	]
+}

@@ -59,13 +59,13 @@
 	pottedLight = 15
 
 	[glowrose.world]
-		#The most glowroses that can be in a single patch
+		#Max patches of glowroses per chunk. Setting to zero will stop glowroses from spawning.
+		#Requires a Minecraft restart
 		#Range: > 0
-		maxPerPatch = 16
-		#The number of placement attempts when generating new chunks (higher numbers = bigger patches)
-		#Note this is the number of 'attempts', not the actual number you will likely see in any given patch
-		#Range: > 0
-		placeTryCount = 40
+		patchCount = 2
+		#The dimensions that glowroses will never spawn in
+		#Requires a Minecraft restart
+		dimensionBlacklist = []
 
 [returnHomeCharm]
 	#Allow return home charms to be bound to teleporter anchors
@@ -80,6 +80,10 @@
 	useTime = 16
 
 [soulGem]
+	#A seed value to use for randomizing soul gem elements.
+	#If this is an empty string, the mod attempts to use the world seed.
+	#Setting a seed value (any string with any number and type of characters) will make the soul gem elements consistent across your Minecraft instance.
+	elementSeed = ""
 
 	#Drop rate of soul gems is randomly selected based on the world seed.
 	#There is an average and a deviation, which makes a normal distribution.

@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_dark_oak_shingle",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:yellow_clay_dark_oak_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

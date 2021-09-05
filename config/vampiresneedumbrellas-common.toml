@@ -19,9 +19,11 @@
 	#Set to false if you don't want the umbrella to work in the off-hand
 	umbrellaOffHand = true
 	#Set to false if you don't want the umbrella to be enchanted using anvils.
-	umbrellaAnvil = false
+	umbrellaAnvil = true
 	#Set to false if you don't want the umbrella to be used in the curios slot
 	umbrellaBauble = false
+	#Set to false if you don't want umbrellas to be repaired using an anvil and the material it is made from.
+	umbrellaRepair = true
 
 [Others]
 	#If true, the Creative Umbrella will respect the "umbrellaMainHand" and "umbrellaOffHand" configs.

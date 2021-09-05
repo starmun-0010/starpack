@@ -1,6 +1,6 @@
 {
   "forClass": "twilightforest.entity.EntityTFTowerGhast",
-  "customClass": "me.ichun.mods.ichunutil.common.head.entity.HeadGhast",
+  "customClass": "me.ichun.mods.ichunutil.api.common.head.entity.HeadGhast",
   "modelFieldName": "body",
   "eyeOffset": [
     0.0,

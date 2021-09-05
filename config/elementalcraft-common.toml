@@ -126,6 +126,17 @@
 		#Range: 0.0 ~ 2400.0
 		groveShrinePeriode = 200.0
 
+	[shrines.springShrine]
+		#The amount of element consumed by the spring Shrine.
+		#Range: 0 ~ 10000
+		springShrineConsumeAmount = 5
+		#The nember of tick betwenn two spring Shrine activations.
+		#Range: 0.0 ~ 2400.0
+		springShrinePeriode = 5.0
+		#The amound of water filling a tank with a filling shrine upgrades.
+		#Range: 0.0 ~ 10000.0
+		springShrineFilling = 100.0
+
 #Instruments config
 [instruments]
 
@@ -144,13 +155,13 @@
 		#The amount of element extracted by an extractor.
 		#Range: 0 ~ 100
 		extractorExtractionAmount = 5
-		#The max amount of on an extractor.
+		#The max amount ofrunes on an extractor.
 		#Range: 0 ~ 10
 		extractorMaxRunes = 1
 		#The amount of element extracted by an improved extractor.
 		#Range: 0 ~ 500
 		improvedExtractorExtractionAmount = 25
-		#The max amount of on an improved extracto.
+		#The max amount of runes on an improved extracto.
 		#Range: 0 ~ 10
 		improvedExtractoMaxRunes = 3
 
@@ -158,7 +169,7 @@
 		#The amount of element extracted by an evaporator.
 		#Range: 0 ~ 100
 		evaporatorExtractionAmount = 1
-		#The max amount of on an evaporator.
+		#The max amount of runes on an evaporator.
 		#Range: 0 ~ 10
 		evaporatorMaxRunes = 1
 
@@ -166,7 +177,7 @@
 		#The max amount of element consumed by the fire furnace per tick.
 		#Range: 0 ~ 1000
 		fireFurnaceTransferSpeed = 20
-		#The max amount of on a fire furnace.
+		#The max amount of runes on a fire furnace.
 		#Range: 0 ~ 10
 		fireFurnaceMaxRunes = 1
 		#The amount multiplied by the cooking time of the furnace recipe.
@@ -177,7 +188,7 @@
 			#The max amount of element consumed by the fire blast furnace per tick.
 			#Range: 0 ~ 1000
 			fireBlastFurnaceTransferSpeed = 40
-			#The max amount of on a fire blast furnace.
+			#The max amount of runes on a fire blast furnace.
 			#Range: 0 ~ 10
 			fireBlastFurnaceMaxRunes = 2
 			#The amount multiplied by the cooking time of the blast furnace recipe.
@@ -188,7 +199,7 @@
 		#The max amount of element consumed by the infuser per tick.
 		#Range: 0 ~ 1000
 		infuserTransferSpeed = 10
-		#The max amount of on an infuser.
+		#The max amount of runes on an infuser.
 		#Range: 0 ~ 10
 		infuserMaxRunes = 1
 
@@ -196,7 +207,7 @@
 		#The max amount of element consumed by the binder per tick.
 		#Range: 0 ~ 1000
 		binderTransferSpeed = 25
-		#The max amount of on an binder.
+		#The max amount of runes on an binder.
 		#Range: 0 ~ 10
 		binderMaxRunes = 2
 		#Define if or not binder recip require to be ordered.
@@ -206,7 +217,7 @@
 			#The max amount of element consumed by the improved binder per tick.
 			#Range: 0 ~ 1000
 			improvedBinderTransferSpeed = 50
-			#The max amount of on an improved binder.
+			#The max amount of runes on an improved binder.
 			#Range: 0 ~ 10
 			improvedBinderMaxRunes = 3
 
@@ -214,7 +225,7 @@
 		#The max amount of element consumed by the gem crystallizer per tick.
 		#Range: 0 ~ 1000
 		crystallizerTransferSpeed = 25
-		#The max amount of on an crystallizer.
+		#The max amount of runes on an crystallizer.
 		#Range: 0 ~ 10
 		crystallizerMaxRunes = 3
 		#The ratio of each luck rune on a crystallizer.
@@ -225,7 +236,7 @@
 		#The max amount of element consumed by the gem inscriber per tick.
 		#Range: 0 ~ 10000
 		inscriberTransferSpeed = 1000
-		#The max amount of on an inscriber.
+		#The max amount of runes on an inscriber.
 		#Range: 0 ~ 10
 		inscriberMaxRunes = 3
 
@@ -233,7 +244,7 @@
 		#The max amount of element consumed by the Air Mill Grindstone per tick.
 		#Range: 0 ~ 1000
 		airMillTransferSpeed = 10
-		#The max amount of on an Air Mill Grindstone.
+		#The max amount of runes on an Air Mill Grindstone.
 		#Range: 0 ~ 10
 		airMillMaxRunes = 3
 		#The ratio of each luck rune on a Air Mill Grindstone.
@@ -244,7 +255,7 @@
 		#The max amount of element consumed by the Ore Purifier per tick.
 		#Range: 0 ~ 1000
 		purifierTransferSpeed = 25
-		#The max amount of on an purifier.
+		#The max amount of runes on an purifier.
 		#Range: 0 ~ 10
 		purifierMaxRunes = 3
 		#The nember of tick for a Ore Purifier to procces one item.
@@ -289,17 +300,33 @@
 		#Range: 0 ~ 100
 		sorterMaxItem = 15
 
+	[instruments.diffuser]
+		#The amount of element transfered by a diffuser.
+		#Range: 0 ~ 100
+		diffuserDiffusionAmount = 5
+		#The max amount of runes on a diffuser.
+		#Range: 0 ~ 10
+		diffuserMaxRunes = 3
+		#The range of a diffuser.
+		#Range: 0 ~ 100
+		diffuserRange = 10
+
+	[instruments.solarSythesizer]
+		#The max amount of runes on a Solar Sythesizer.
+		#Range: 0 ~ 10
+		solarSythesizerMaxRunes = 2
+
 #Pure Infusser and pedestals config
 [pureInfuser]
 	#The max amount of element consumed by the pure infuser per tick.
 	#Range: 0 ~ 1000
 	pureInfuserTransferSpeed = 100
-	#The max amount of on a pure infuser.
+	#The max amount of runes on a pure infuser.
 	#Range: 0 ~ 10
 	pureInfuserMaxRunes = 3
 
 	[pureInfuser.pedestals]
-		#The max amount of on a pedestal.
+		#The max amount of runes on a pedestal.
 		#Range: 0 ~ 10
 		pedestalMaxRunes = 1
 		#The element capacity of a pedestal.
@@ -316,12 +343,6 @@
 	improvedReceptacleDurability = 20
 	#Define if or not receptacles can be enchanted.
 	receptacleEnchantable = false
-	#The element capacity of an element holder.
-	#Range: 0 ~ 100000000
-	elementHolderCapacity = 10000
-	#The amount of element transfered by an element holder.
-	#Range: 0 ~ 1000
-	elementHolderTransferAmount = 25
 	#The max number of spells on a focus.
 	#Range: 1 ~ 20
 	focusMaxSpell = 10
@@ -340,22 +361,40 @@
 	#Range: 0 ~ 100
 	lenseElementMultiplier = 100
 
+	[items.elementHolder]
+		#The element capacity of an element holder.
+		#Range: 0 ~ 100000000
+		elementHolderCapacity = 10000
+		#The amount of element transfered by an element holder.
+		#Range: 0 ~ 1000
+		elementHolderTransferAmount = 25
+
+		[items.elementHolder.pure]
+			#The element capacity of a pure element holder.
+			#Range: 0 ~ 100000000
+			pureElementHolderCapacity = 100000
+			#The amount of element transfered by a pure element holder.
+			#Range: 0 ~ 1000
+			pureElementHolderTransferAmount = 100
+
 #Worldgen config
 [worldgen]
 	#Disable all elementalcraft world gen.
 	disableWorldGen = false
 	#Chance to add a source in world (the small the more frequante).
 	#Range: 1 ~ 10000
-	sourceSpawnChance = 30
+	sourceSpawnChance = 200
 	#Chance to add a source in an ocean biome (the small the more frequante).
 	#Range: 1 ~ 10000
-	oceanSourceSpawnChance = 150
+	oceanSourceSpawnChance = 250
 	#Chance to add a source in world ingoring biome elemen type (the small the more frequante).
 	#Range: 1 ~ 10000
-	randomSourceSpawnChance = 300
+	randomSourceSpawnChance = 350
 	#CSource Altar genreration distance setting.
 	#Range: 0 ~ 100
 	sourceAltarDistance = 64
+	#Disable creation of sources.
+	disableSourceSpawn = false
 
 	[worldgen.inertCrystal]
 		#Disable creation of inertCrystals.
@@ -376,10 +415,10 @@
 	disableSourceExhaustion = false
 	#The minimum element capacity of a source.
 	#Range: 0 ~ 10000000
-	sourceCapacityMin = 500000
+	sourceCapacityMin = 1000000
 	#The maximum element capacity of a source.
 	#Range: 0 ~ 10000000
-	sourceCapacityMax = 1000000
+	sourceCapacityMax = 10000000
 	#The element a source can generate per tick.
 	#Range: 0 ~ 100
 	sourceRecoverRate = 5
@@ -403,4 +442,9 @@
 		mekanismPureOreEnrichingRecipe = true
 		#Set to false if you want pure ore to not use mekanism crushing recipes.
 		mekanismPureOreCrushingRecipe = true
+
+#Spell config
+[spell]
+	#Define if a spell will be cast (and destroyed) or not if you dont have enought element.
+	spellConsumeOnFail = false
 

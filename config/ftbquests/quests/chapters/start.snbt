@@ -1,311 +1,280 @@
 {
-	id: "301C5C52AC42678E",
-	group: "",
-	order_index: 0,
-	filename: "start",
-	title: "Guide",
-	icon: "minecraft:nether_star",
-	default_quest_shape: "",
+	id: "301C5C52AC42678E"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Guide"
+	icon: "minecraft:nether_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			icon: "minecraft:nether_star",
-			x: 0.0d,
-			y: -15.5d,
-			shape: "pentagon",
-			subtitle: "Information",
+			icon: "minecraft:nether_star"
+			x: 0.0d
+			y: -15.0d
+			shape: "pentagon"
+			subtitle: "Information"
 			description: [
-				"Welcome to Starpack Aleph! It is awesome that you could join us. <3",
-				"",
-				"The questline is based on a linear progression system.",
-				"Every new quest only requires the resources that you already have aquired from completing the previous quests.",
-				"Each chapter is usually divided into the following categories.",
-				"",
-				"-Tools/Weapons",
-				"-Survival",
-				"-Utilities",
-				"-Farming",
-				"-Building/Terrafarming",
-				"-Mining",
-				"-Skills",
-				"",
-				"Sometimes there are special categories e.g. Preparation.",
+				"Welcome to Starpack Aleph! It is awesome that you could join us. <3"
+				""
+				"The questline is based on a linear progression system."
+				"Every new quest only requires the resources that you already have aquired from completing the previous quests."
+				"Each chapter is usually divided into the following categories."
+				""
+				"-Tools/Weapons"
+				"-Survival"
+				"-Utilities"
+				"-Farming"
+				"-Building/Terrafarming"
+				"-Mining"
+				"-Skills"
+				""
+				"Sometimes there are special categories e.g. Preparation."
 				"The categories are explained below."
-			],
-			id: "150F4ACF7470A5D3",
+			]
+			id: "150F4ACF7470A5D3"
 			tasks: [{
-				id: "49F45CDA5C8E3E45",
-				type: "checkmark",
+				id: "49F45CDA5C8E3E45"
+				type: "checkmark"
 				title: "The begining"
 			}]
-		},
+		}
 		{
-			title: "Akashik Tome",
-			icon: "akashictome:tome",
-			x: -3.0d,
-			y: -16.0d,
-			shape: "pentagon",
-			subtitle: "Your guide to everything",
+			title: "Akashik Tome"
+			icon: "akashictome:tome"
+			x: 0.0d
+			y: -16.5d
+			shape: "pentagon"
+			subtitle: "Your guide to everything"
 			description: [
-				"You are given an akashik tome when you spawn.",
-				"It contains almost every guide book in-game.",
+				"You are given an akashik tome when you spawn."
+				"It contains almost every guide book in-game."
 				"Consult it whenever you need information about a certain mod."
-			],
-			dependencies: ["150F4ACF7470A5D3"],
-			id: "35773738256DB30E",
-			tasks: [{
-				id: "3BF4A9A9EC0F432F",
-				type: "checkmark",
-				title: "Akashik Tome"
-			}],
-			rewards: [
-				{
-					id: "76D2082986278C96",
-					type: "item",
-					item: "starshop:starcoin",
-					count: 5
-				},
-				{
-					id: "3C963DD1B9FC5724",
-					type: "xp",
-					xp: 5
-				}
 			]
-		},
-		{
-			title: "Resources and Mining",
-			icon: "rftoolsbuilder:shape_card_quarry",
-			x: 5.0d,
-			y: -10.5d,
-			shape: "pentagon",
-			subtitle: "diggy diggy hole",
-			description: [
-				"This category helps you passively get resources via friendly mobs (bees), spells and quarries.",
-				"",
-				"",
-				""
-			],
-			dependencies: ["317D446EF6F39383"],
-			id: "145EDE8F0C26FEE9",
+			dependencies: ["150F4ACF7470A5D3"]
+			id: "35773738256DB30E"
 			tasks: [{
-				id: "03F3929390AE45B6",
-				type: "checkmark",
+				id: "3BF4A9A9EC0F432F"
+				type: "checkmark"
 				title: "Akashik Tome"
 			}]
-		},
+			rewards: [{
+				id: "3C963DD1B9FC5724"
+				type: "xp"
+				xp: 5
+			}]
+		}
 		{
-			title: "Farms",
-			icon: "losttrinkets:piggy",
-			x: 0.0d,
-			y: -10.5d,
-			shape: "pentagon",
-			subtitle: "Oink Oink",
+			title: "Resources and Mining"
+			icon: "rftoolsbuilder:shape_card_quarry"
+			x: 5.0d
+			y: -10.5d
+			shape: "pentagon"
+			subtitle: "diggy diggy hole"
 			description: [
-				"Everything you need for all kinds of farms.",
-				"",
-				"Mob Farms",
-				"Animal Farms",
-				"Crops",
-				"Tree Farms",
-				"",
+				"This category helps you passively get resources via friendly mobs (bees), spells and quarries."
 				""
-			],
-			dependencies: ["317D446EF6F39383"],
-			id: "51814EFADC76A011",
+				""
+				""
+			]
+			dependencies: ["317D446EF6F39383"]
+			id: "145EDE8F0C26FEE9"
 			tasks: [{
-				id: "11045D316299EE19",
-				type: "checkmark",
+				id: "03F3929390AE45B6"
+				type: "checkmark"
 				title: "Akashik Tome"
 			}]
-		},
+		}
 		{
-			title: "Building and Terraforming",
+			title: "Farms"
+			icon: "losttrinkets:piggy"
+			x: 0.0d
+			y: -10.5d
+			shape: "pentagon"
+			subtitle: "Oink Oink"
+			description: [
+				"Everything you need for all kinds of farms."
+				""
+				"Mob Farms"
+				"Animal Farms"
+				"Crops"
+				"Tree Farms"
+				""
+				""
+			]
+			dependencies: ["317D446EF6F39383"]
+			id: "51814EFADC76A011"
+			tasks: [{
+				id: "11045D316299EE19"
+				type: "checkmark"
+				title: "Akashik Tome"
+			}]
+		}
+		{
+			title: "Building and Terraforming"
 			icon: {
-				id: "constructionwand:diamond_wand",
-				Count: 1b,
+				id: "constructionwand:diamond_wand"
+				Count: 1b
 				tag: {
-					wand_options: {},
+					wand_options: { }
 					Damage: 0
 				}
-			},
-			x: 2.5d,
-			y: -10.5d,
-			shape: "pentagon",
-			subtitle: "Show me what you got!",
+			}
+			x: 2.5d
+			y: -10.5d
+			shape: "pentagon"
+			subtitle: "Show me what you got!"
 			description: [
-				"The tools, spells and meachines to help you terraform the world and build your marvelous structures.",
-				"",
+				"The tools, spells and meachines to help you terraform the world and build your marvelous structures."
 				""
-			],
-			dependencies: ["317D446EF6F39383"],
-			id: "70FE235611B718D4",
+				""
+			]
+			dependencies: ["317D446EF6F39383"]
+			id: "70FE235611B718D4"
 			tasks: [{
-				id: "0EF05DA9B8898893",
-				type: "checkmark",
+				id: "0EF05DA9B8898893"
+				type: "checkmark"
 				title: "Akashik Tome"
 			}]
-		},
+		}
 		{
-			x: 3.0d,
-			y: -16.0d,
-			shape: "pentagon",
-			subtitle: "Let's go shopping",
-			description: [
-				"Instead of worthless food rewards or filling your inventory with random stuff, you receive coins in return for completing quests.",
-				"",
-				"WIP",
-				"",
-				"You will be able to spend these coins in the reward shop to aquire the items you desire."
-			],
-			dependencies: ["150F4ACF7470A5D3"],
-			id: "3120D8FB56AD8B0B",
+			title: "Skills"
+			icon: "mana-and-artifice:enchantment_focus_arcane"
+			x: -2.5d
+			y: -10.5d
+			shape: "pentagon"
+			subtitle: "The skill tree?"
+			description: ["In this category you obtain the powerful enchantments, spells and tools which permanently alter or update your character stats."]
+			dependencies: ["317D446EF6F39383"]
+			id: "7B67027D5376C16F"
 			tasks: [{
-				id: "6DEAF28E2E8D0E6F",
-				type: "checkmark",
-				title: "Rewards",
-				icon: "starshop:starcoin"
-			}],
-			rewards: [
-				{
-					id: "5A31935704514D2B",
-					type: "item",
-					item: "starshop:starcoin",
-					count: 5
-				},
-				{
-					id: "03B407D88CDCAA04",
-					type: "xp",
-					xp: 1
-				}
-			]
-		},
-		{
-			title: "Skills",
-			icon: "mana-and-artifice:enchantment_focus_arcane",
-			x: -2.5d,
-			y: -10.5d,
-			shape: "pentagon",
-			subtitle: "The skill tree?",
-			description: ["In this category you obtain the powerful enchantments, spells and tools which permanently alter or update your character stats."],
-			dependencies: ["317D446EF6F39383"],
-			id: "7B67027D5376C16F",
-			tasks: [{
-				id: "72F1BB48748303B7",
+				id: "72F1BB48748303B7"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Utilities",
+			title: "Utilities"
 			icon: {
-				id: "tetra:modular_toolbelt",
-				Count: 1b,
+				id: "tetra:modular_toolbelt"
+				Count: 1b
 				tag: {
-					"toolbelt/belt_material": "belt/inlaid",
-					"toolbelt/belt": "toolbelt/belt",
-					"toolbelt/slot1": "toolbelt/strap_slot1",
+					"toolbelt/belt_material": "belt/inlaid"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/slot1": "toolbelt/strap_slot1"
 					"toolbelt/strap_slot1_material": "strap1/leather"
 				}
-			},
-			x: 7.5d,
-			y: -10.5d,
-			shape: "pentagon",
-			subtitle: "Generaly helpful",
-			dependencies: ["317D446EF6F39383"],
-			id: "48765464D5F0CE23",
+			}
+			x: 7.5d
+			y: -10.5d
+			shape: "pentagon"
+			subtitle: "Generaly helpful"
+			dependencies: ["317D446EF6F39383"]
+			id: "48765464D5F0CE23"
 			tasks: [{
-				id: "5CD89B6CEA1DC99D",
+				id: "5CD89B6CEA1DC99D"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Tools and Weapons",
+			title: "Tools and Weapons"
 			icon: {
-				id: "tconstruct:mattock",
-				Count: 1b,
+				id: "tconstruct:mattock"
+				Count: 1b
 				tag: {
+					tic_multipliers: { }
 					tic_stats: {
-						mining_speed: 6.0f,
-						attack: 3.5f,
-						reach: 5.0f,
-						durability: 287,
-						attack_speed: 1.0f,
-						harvest_level: 2
-					},
-					tic_broken: 0b,
-					tic_modifiers: [{
-						name: "tconstruct:reinforced",
-						level: 3s
-					}],
+						"tconstruct:attack_speed": 1.0f
+						"tconstruct:mining_speed": 6.0f
+						"tconstruct:attack_damage": 3.5f
+						"tconstruct:harvest_level": 2.0f
+						"tconstruct:durability": 357.5f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:knockback"
+							level: 1s
+						}
+						{
+							name: "tconstruct:sturdy"
+							level: 3s
+						}
+						{
+							name: "tconstruct:shovel_transform_hidden"
+							level: 1s
+						}
+					]
 					tic_materials: [
-						"tconstruct:iron",
-						"tconstruct:iron",
 						"tconstruct:iron"
-					],
-					Damage: 0,
+						"tconstruct:iron"
+						"tconstruct:iron"
+					]
+					Damage: 0
 					tic_persistent_data: {
-						abilities: 1,
-						traits: 0,
+						abilities: 1
+						traits: 0
 						upgrades: 3
 					}
 				}
-			},
-			x: -7.5d,
-			y: -10.5d,
-			shape: "pentagon",
-			subtitle: "Offense",
+			}
+			x: -7.5d
+			y: -10.5d
+			shape: "pentagon"
+			subtitle: "Offense"
 			description: [
-				"This category goes through the tools and weapons you can make in the game.",
-				"This includes physical items as well as magic spells you can use to attack or mine etc.",
-				"",
-				"Some of the tools mods to look forward to are:",
-				"",
-				"Tinker's Construct",
-				"Tetra",
-				"Silent Gear",
-				"",
-				"TBD....",
-				". ",
-				".",
+				"This category goes through the tools and weapons you can make in the game."
+				"This includes physical items as well as magic spells you can use to attack or mine etc."
+				""
+				"Some of the tools mods to look forward to are:"
+				""
+				"Tinker's Construct"
+				"Tetra"
+				"Silent Gear"
+				""
+				"TBD...."
+				". "
 				"."
-			],
-			dependencies: ["317D446EF6F39383"],
-			id: "6E79AAE610905FF4",
+				"."
+			]
+			dependencies: ["317D446EF6F39383"]
+			id: "6E79AAE610905FF4"
 			tasks: [{
-				id: "286F12B789930B12",
+				id: "286F12B789930B12"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Preparation",
+			title: "Preparation"
 			icon: {
-				id: "crossroads:gear_base",
-				Count: 1b,
+				id: "crossroads:gear_base"
+				Count: 1b
 				tag: {
 					material: "bronze"
 				}
-			},
-			x: 0.0d,
-			y: -13.5d,
-			shape: "pentagon",
-			subtitle: "It's dangerous to go alone...",
-			description: ["Preperatoin category contains the machines, altars and other construcs you need before you can progress in other categories."],
-			dependencies: ["150F4ACF7470A5D3"],
-			id: "317D446EF6F39383",
+			}
+			x: 0.0d
+			y: -13.5d
+			shape: "pentagon"
+			subtitle: "It's dangerous to go alone..."
+			description: ["Preperatoin category contains the machines, altars and other construcs you need before you can progress in other categories."]
+			dependencies: ["150F4ACF7470A5D3"]
+			id: "317D446EF6F39383"
 			tasks: [{
-				id: "4F33DB6AD4B561E9",
+				id: "4F33DB6AD4B561E9"
 				type: "checkmark"
 			}]
-		},
+		}
 		{
-			title: "Power and Storage",
-			icon: "rsgauges:industrial_red_blinking_led",
-			x: -5.0d,
-			y: -10.5d,
-			shape: "pentagon",
-			dependencies: ["317D446EF6F39383"],
-			id: "58A7037E351DA4D0",
+			title: "Power and Storage"
+			icon: "rsgauges:industrial_red_blinking_led"
+			x: -5.0d
+			y: -10.5d
+			shape: "pentagon"
+			dependencies: ["317D446EF6F39383"]
+			id: "58A7037E351DA4D0"
 			tasks: [{
-				id: "6CFF670B774309B2",
-				type: "checkmark",
+				id: "6CFF670B774309B2"
+				type: "checkmark"
 				title: "Power Production"
 			}]
 		}

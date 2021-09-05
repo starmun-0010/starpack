@@ -1,0 +1,27 @@
+{
+    "key": "quark_cobbedstone",
+    "category": "stone",
+    "primary": "4",
+    "secondary": "3",
+    "tertiary": "0",
+    "durability": "131",
+    "integrityCost": "1",
+    "integrityGain": "4",
+    "magicCapacity": "90",
+    "toolLevel": "2",
+    "toolEfficiency": "4",
+    "tints": {
+        "glyph": "stone_glyph",
+        "texture": "stone"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "quark:cobbedstone"
+    },
+    "requiredTools": {
+        "hammer": 1
+    }
+}

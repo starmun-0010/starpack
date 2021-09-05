@@ -16,3 +16,6 @@
 		#Range: 0.0 ~ 10.0
 		hell_blood_conversion_factor = 0.4
 
+	[Compatibility.tconstruct]
+		enable_compat_tconstruct = true
+

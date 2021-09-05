@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:stick",
+      "count": 7
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:ladder",
+  "count": 3,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

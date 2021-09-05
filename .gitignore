@@ -88,3 +88,7 @@ server/*.zip
 !server/server-setup-config.yaml
 optionsof.txt
 optionsshaders.txt
+/natives/
+/.curseclient
+/kubejs/assets/starpack/textures/quests/
+/.idea/

@@ -10,6 +10,10 @@
 	invAlpha = 0
 	#Toggle on by default
 	byDefault = false
+	#Animate recently picked up items
+	animatedInv = false
+	#Hide background if inventory is empty
+	hideBackground = false
 
 #Settings for ArmorStatus HUD
 [armorhud]
@@ -37,6 +41,11 @@
 	moveAll = true
 	#Show/Hide empty slot icon
 	showEmpty = true
+	#Show overall count of items in main/off hand
+	showCount = false
+	#ArmorHUD scale in persentage from 50 to 150
+	#Range: 50 ~ 150
+	armScale = 100
 
 #Settings for Potions HUD
 [potionshud]
@@ -50,6 +59,8 @@
 	potGap = 0
 	#Potion HUD mini mode
 	potMini = true
+	#Potion HUD horizontal mode
+	potHor = false
 
 #DONT TOUCH THESE FIELDS!
 [positions]

@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_shingle_slab",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:red_clay_shingle_slab",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

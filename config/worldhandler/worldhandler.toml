@@ -1,0 +1,111 @@
+
+[settings]
+	#Whether or not to display the current command at the bottom
+	command_syntax = false
+	#Whether or not to display a row of quick access buttons at the top
+	shortcuts = false
+	#Whether or not to enable button keys for pos1 and pos2
+	key_shortcuts = false
+	#Whether or not to display tooltips for buttons
+	tooltips = true
+	#Whether or not to display a watch
+	watch = false
+	#Whether or not the watch pointers move smoothly
+	smooth_watch = true
+	#Whether or not to pause the game when the gui is opened
+	pause_game = false
+	#Whether or not to use the custom times
+	custom_times = false
+	#Whether or not the permission query is enabled
+	permission_query = true
+	#Whether or not selected blocks will be highlighted (Incompatible with fabolous graphics)
+	highlight_blocks = true
+	#Ticks upon dawn
+	#Range: 0 ~ 24000
+	custom_time_dawn = 1000
+	#Ticks upon noon
+	#Range: 0 ~ 24000
+	custom_time_noon = 6000
+	#Ticks upon sunset
+	#Range: 0 ~ 24000
+	custom_time_sunset = 12500
+	#Ticks upon midnight
+	#Range: 0 ~ 24000
+	custom_time_midnight = 18000
+	#Block placing mode (keep, replace, destroy)
+	#Allowed Values: KEEP, REPLACE, DESTROY
+	block_placing_mode = "KEEP"
+
+[butcher]
+	entities = []
+
+[skin]
+	#Size of the icons
+	#Allowed Values: x16, x32, x64
+	icon_size = "x16"
+	#Label color
+	#Range: > -2147483648
+	label_color = 2039583
+	#Headline color
+	#Range: > -2147483648
+	headline_color = 5197647
+	#Background red
+	#Range: 0 ~ 255
+	background_red = 255
+	#Background green
+	#Range: 0 ~ 255
+	background_green = 255
+	#Background blue
+	#Range: 0 ~ 255
+	background_blue = 255
+	#Background alpha
+	#Range: 0 ~ 255
+	background_alpha = 255
+	#Button red
+	#Range: 0 ~ 255
+	button_red = 255
+	#Button green
+	#Range: 0 ~ 255
+	button_green = 255
+	#Button blue
+	#Range: 0 ~ 255
+	button_blue = 255
+	#Button alpha
+	#Range: 0 ~ 255
+	button_alpha = 255
+	#Background texture (resourcepack, vanilla)
+	textures = "resourcepack"
+	#Whether or not the gui has sharp or smooth tab edges
+	sharp_tab_edges = false
+	#Whether or not to enable background drawing
+	draw_background = true
+
+[sliders]
+	#Maximum value for the potion amplifier
+	#Range: 0.0 ~ 127.0
+	max_potion_amplifier = 100.0
+	#Maximum value for an item enchantment
+	#Range: 0.0 ~ 2.147483647E9
+	max_item_enchantment = 100.0
+	#Maximum value for an item attribute
+	#Range: 0.0 ~ 1.7976931348623157E308
+	max_item_attributes = 100.0
+	#Maximum value for the potion amplifier for summon
+	#Range: 0.0 ~ 127.0
+	max_summon_potion_amplifier = 100.0
+	#Maximum value for the potion duration in minutes for summon
+	#Range: 0.0 ~ 16000.0
+	max_summon_potion_minutes = 100.0
+	#Maximum value for attributes
+	#Range: 0.0 ~ 1.7976931348623157E308
+	max_summon_attributes = 100.0
+	#Maximum value for experience
+	#Range: 0.0 ~ 100000.0
+	max_experience = 100.0
+	#Maximum value for player points
+	#Range: 0.0 ~ 100000.0
+	max_player_points = 100.0
+	#Maximum value for triggers
+	#Range: 0.0 ~ 100000.0
+	max_trigger_value = 100.0
+

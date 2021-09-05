@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "structurize:clay_jungle_shingle",
+      "count": 8
+    },
+
+    {
+      "item": "minecraft:magenta_dye"
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "structurize:magenta_clay_jungle_shingle",
+  "count": 8,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

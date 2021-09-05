@@ -1,138 +1,188 @@
 {
-	id: "79FC3774E1C8EDDF",
-	group: "2B6C2CBF9E7D9DFC",
-	order_index: 4,
-	filename: "crops",
-	title: "Farms",
-	default_quest_shape: "",
+	id: "79FC3774E1C8EDDF"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 6
+	filename: "crops"
+	title: "Farms"
+	icon: {
+		id: "tconstruct:scythe"
+		Count: 1b
+		tag: {
+			tic_multipliers: {
+				"tconstruct:mining_speed": 0.45f
+				"tconstruct:durability": 2.5f
+			}
+			tic_stats: {
+				"tconstruct:attack_speed": 0.8f
+				"tconstruct:mining_speed": 0.9f
+				"tconstruct:attack_damage": 1.0f
+				"tconstruct:harvest_level": 0.0f
+				"tconstruct:durability": 150.0f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:cultivated"
+					level: 4s
+				}
+				{
+					name: "tconstruct:silky_aoe_shears"
+					level: 1s
+				}
+				{
+					name: "tconstruct:harvest"
+					level: 1s
+				}
+				{
+					name: "tconstruct:hoe_transform_hidden"
+					level: 1s
+				}
+				{
+					name: "tconstruct:two_handed"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:wood"
+				"tconstruct:wood"
+				"tconstruct:wood"
+				"tconstruct:wood"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 2
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d,
-			y: -3.0d,
-			id: "0B98204AB072636B",
+			x: -3.5d
+			y: -3.0d
+			id: "0B98204AB072636B"
 			tasks: [{
-				id: "0E0E199BDF4EDCB3",
-				type: "item",
+				id: "0E0E199BDF4EDCB3"
+				type: "item"
 				item: "mysticalagriculture:inferium_seeds"
 			}]
-		},
+		}
 		{
-			x: 4.5d,
-			y: -4.5d,
-			id: "1AB3735B988D0C28",
+			x: 4.5d
+			y: -4.5d
+			id: "1AB3735B988D0C28"
 			tasks: [{
-				id: "2E41380F2B3EEEEA",
-				type: "item",
+				id: "2E41380F2B3EEEEA"
+				type: "item"
 				item: "minecraft:lead"
-			}],
+			}]
 			rewards: [{
-				id: "562A54176B470C23",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "562A54176B470C23"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 5
 			}]
-		},
+		}
 		{
-			x: 4.5d,
-			y: -3.0d,
-			dependencies: ["1AB3735B988D0C28"],
-			id: "24C0D24B21E57123",
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["1AB3735B988D0C28"]
+			id: "24C0D24B21E57123"
 			tasks: [{
-				id: "3A785E2179F57910",
-				type: "item",
+				id: "3A785E2179F57910"
+				type: "item"
 				item: {
-					id: "apotheosis:farmers_leash",
-					Count: 1b,
+					id: "apotheosis:farmers_leash"
+					Count: 1b
 					tag: {
-						Damage: 0,
-						entity_data: {}
+						Damage: 0
+						entity_data: { }
 					}
 				}
-			}],
+			}]
 			rewards: [{
-				id: "3B6F75890A15258F",
-				type: "item",
-				item: "starshop:starcoin",
+				id: "3B6F75890A15258F"
+				type: "item"
+				item: "starshop:starcoin"
 				count: 10
 			}]
-		},
+		}
 		{
-			x: 6.0d,
-			y: -4.5d,
-			id: "7EF222AEAEC53D4F",
+			x: 6.0d
+			y: -4.5d
+			id: "7EF222AEAEC53D4F"
 			tasks: [{
-				id: "4469705BF5C6D592",
-				type: "item",
+				id: "4469705BF5C6D592"
+				type: "item"
 				item: "forbidden_arcanus:quantum_catcher"
 			}]
-		},
+		}
 		{
-			x: -1.0d,
-			y: -4.5d,
-			id: "1010173C3C27F60A",
+			x: -1.0d
+			y: -4.5d
+			id: "1010173C3C27F60A"
 			tasks: [{
-				id: "73AC123F6454B978",
-				type: "item",
+				id: "73AC123F6454B978"
+				type: "item"
 				item: "botanypots:botany_pot"
 			}]
-		},
+		}
 		{
-			x: -3.5d,
-			y: -4.5d,
-			id: "77375EE4AA148D5D",
+			title: "Flax is String"
+			icon: "pamhc2crops:flaxitem"
+			x: -3.5d
+			y: -4.5d
+			subtitle: "Getting String"
+			id: "77375EE4AA148D5D"
 			tasks: [
 				{
-					id: "008BB888CDA41C38",
-					type: "item",
+					id: "008BB888CDA41C38"
+					type: "item"
+					title: "String Producing Plants"
 					item: {
-						id: "itemfilters:or",
-						Count: 1b,
+						id: "itemfilters:or"
+						Count: 1b
 						tag: {
 							items: [
 								{
-									id: "immersiveengineering:hemp_fiber",
+									id: "immersiveengineering:hemp_fiber"
 									Count: 1b
-								},
+								}
 								{
-									id: "pamhc2crops:flaxitem",
+									id: "pamhc2crops:flaxitem"
 									Count: 1b
-								},
+								}
 								{
-									id: "druidcraft:hemp",
+									id: "druidcraft:hemp"
 									Count: 1b
-								},
+								}
 								{
-									id: "pamhc2crops:juteitem",
+									id: "pamhc2crops:juteitem"
 									Count: 1b
-								},
+								}
 								{
-									id: "pamhc2crops:sisalitem",
+									id: "pamhc2crops:sisalitem"
 									Count: 1b
-								},
+								}
 								{
-									id: "pamhc2crops:cottonitem",
+									id: "pamhc2crops:cottonitem"
 									Count: 1b
-								},
+								}
 								{
-									id: "pamhc2crops:kenafitem",
+									id: "pamhc2crops:kenafitem"
 									Count: 1b
 								}
 							]
 						}
 					}
-				},
+				}
 				{
-					id: "7A1F0DB15C6D221E",
-					type: "item",
+					id: "7A1F0DB15C6D221E"
+					type: "item"
 					item: "minecraft:string"
 				}
-			],
-			rewards: [{
-				id: "2249E342D2CC66D9",
-				type: "item",
-				item: "starshop:starcoin",
-				count: 10
-			}]
+			]
 		}
 	]
 }

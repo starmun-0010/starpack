@@ -1,0 +1,238 @@
+{
+	id: "5E9C47DB49BF26F4"
+	group: "2B6C2CBF9E7D9DFC"
+	order_index: 9
+	filename: "glossary"
+	title: "Collectopedia"
+	subtitle: ["Raw recources, ingrediants and materials collected in this chapter."]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.5d
+			y: -4.0d
+			id: "794312E417239D85"
+			tasks: [{
+				id: "54DE380E58180C75"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_chunk"
+			}]
+			rewards: [{
+				id: "5C62461378D3580B"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.0d
+			id: "086A1DA38B4059AC"
+			tasks: [{
+				id: "1E768C71122A4C54"
+				type: "item"
+				item: "integrateddynamics:menril_log"
+			}]
+			rewards: [{
+				id: "37E3638EA6CC0DAE"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -17.5d
+			y: -6.5d
+			id: "7EA0E614F815E814"
+			tasks: [{
+				id: "40878AA376961B5D"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6EBB367E46791D1B"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -16.0d
+			y: -6.5d
+			id: "17C39F6DA0ECE043"
+			tasks: [{
+				id: "0CBC9029FE1F4D41"
+				type: "item"
+				item: "mekanism:ingot_copper"
+			}]
+			rewards: [{
+				id: "3EE5B8411C876E79"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -14.5d
+			y: -6.5d
+			id: "6931707F24E52723"
+			tasks: [{
+				id: "316F8E01F3F93615"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "4415ED45409BB69B"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -13.0d
+			y: -6.5d
+			id: "010E976DAB82D4E8"
+			tasks: [{
+				id: "55794F6BD29F5FAA"
+				type: "item"
+				item: "mekanism:ingot_tin"
+			}]
+			rewards: [{
+				id: "0FF536DF67AA2DE7"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			id: "7E2847B263D79F92"
+			tasks: [{
+				id: "4DC57E301B534525"
+				type: "item"
+				item: "immersiveengineering:ingot_silver"
+			}]
+			rewards: [{
+				id: "4D842434CC3EE5D9"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			id: "47C9B708B282B41C"
+			tasks: [{
+				id: "76FDEFAF361B64D3"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "440C235585A9786E"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.0d
+			id: "7DB8353FD111C421"
+			tasks: [{
+				id: "620B11B2DF0E18B7"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "6BC24C7DB3B1D793"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			id: "173070AAEA845CA2"
+			tasks: [{
+				id: "44BA7250344557F1"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+			rewards: [{
+				id: "3ACB3EF1BDD7313E"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: -6.5d
+			id: "0ED818725A532706"
+			tasks: [{
+				id: "665F880E0D6E48A9"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "761393BD9C7FDB9E"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: -6.5d
+			id: "639EE78042255EA6"
+			tasks: [{
+				id: "14E2F86D5DF76569"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
+			rewards: [{
+				id: "52297929ADE8A31B"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.5d
+			id: "2171F77722077795"
+			tasks: [{
+				id: "64CD42A17DC93649"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [{
+				id: "33539E4BF37EA837"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			id: "47A70A49329F9F2B"
+			tasks: [{
+				id: "66D9E533AB564885"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [{
+				id: "06E3D47BC8F9FA56"
+				type: "xp"
+				xp: 5
+			}]
+		}
+		{
+			x: -10.0d
+			y: -8.0d
+			id: "2ED6733FEE4CD037"
+			tasks: [{
+				id: "25D5E4E283D254DB"
+				type: "item"
+				item: "minecraft:black_dye"
+			}]
+			rewards: [{
+				id: "61AB9D7EB5714DB2"
+				type: "xp"
+				xp: 5
+			}]
+		}
+	]
+}

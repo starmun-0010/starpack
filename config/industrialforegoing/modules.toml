@@ -26,6 +26,9 @@
 		[modules.agriculture.mob_duplicator]
 			enabled = true
 
+		[modules.agriculture.wither_builder]
+			enabled = true
+
 		[modules.agriculture.mob_slaughter_factory]
 			enabled = true
 
@@ -33,9 +36,6 @@
 			enabled = true
 
 		[modules.agriculture.animal_baby_separator]
-			enabled = true
-
-		[modules.agriculture.wither_builder]
 			enabled = true
 
 	#Module for all the Industrial Foregoing basic features
@@ -87,6 +87,9 @@
 		[modules.core.meat]
 			enabled = true
 
+		[modules.core.ore_meat]
+			enabled = true
+
 		[modules.core.speed_addons]
 			enabled = true
 
@@ -96,7 +99,7 @@
 		[modules.core.sewage]
 			enabled = true
 
-		[modules.core.ore_meat]
+		[modules.core.processing_addons]
 			enabled = true
 
 	#All machines that generate power
@@ -125,6 +128,12 @@
 		[modules.transport.conveyor]
 			enabled = true
 
+		[modules.transport.black_hole_units]
+			enabled = true
+
+		[modules.transport.transporters]
+			enabled = true
+
 		[modules.transport.advanced_black_hole_unit]
 			enabled = true
 
@@ -147,6 +156,9 @@
 			enabled = true
 
 		[modules.transport.pity_black_hole_unit]
+			enabled = true
+
+		[modules.transport.black_hole_tanks]
 			enabled = true
 
 		[modules.transport.common_black_hole_unit]
@@ -189,16 +201,31 @@
 		[modules.tools.infinity_hammer]
 			enabled = true
 
+		[modules.tools.infinity_launcher]
+			enabled = true
+
+		[modules.tools.infinity_nuke]
+			enabled = true
+
 	[modules.resource_production]
 		enabled = true
 
+		[modules.resource_production.washing_factory]
+			enabled = true
+
 		[modules.resource_production.material_stonework_factory]
+			enabled = true
+
+		[modules.resource_production.fluid_sieving_machine]
 			enabled = true
 
 		[modules.resource_production.mechanical_dirt]
 			enabled = true
 
 		[modules.resource_production.block_breaker]
+			enabled = true
+
+		[modules.resource_production.fermentation_station]
 			enabled = true
 
 		[modules.resource_production.marine_fisher]
@@ -238,15 +265,6 @@
 			enabled = true
 
 		[modules.resource_production.fluid_laser_base]
-			enabled = true
-
-		[modules.resource_production.washing_factory]
-			enabled = true
-
-		[modules.resource_production.fluid_sieving_machine]
-			enabled = true
-
-		[modules.resource_production.fermentation_station]
 			enabled = true
 
 	#Random things that don't fit

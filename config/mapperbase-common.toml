@@ -3,16 +3,16 @@
 [bitumen]
 	#Generate bitumen in the world [true / false]
 	bitumenGeneration = false
-	#Size of bitumen pockets [1-100, default: 48]
+	#Size of bitumen pockets [1-100, default: 24]
 	#Range: 1 ~ 100
 	bitumenSize = 8
-	#Amount of bitumen pocket being generated per chunk [1-100, default: 2]
+	#Amount of bitumen pocket being generated per chunk [1-100, default: 1]
 	#Range: 1 ~ 100
 	bitumenChance = 1
-	#Minimal height for bitumen pocket generation, [1-254, default: 56]
+	#Minimal height for bitumen pocket generation, [1-254, default: 60]
 	#Range: 1 ~ 254
 	bitumenMinHeight = 56
-	#Maximal height for bitumen pocket generation, must be higher than minimal height [1-255, default: 80]
+	#Maximal height for bitumen pocket generation, must be higher than minimal height [1-255, default: 68]
 	#Range: 1 ~ 255
 	bitumenMaxHeight = 80
 

@@ -1,0 +1,17 @@
+{
+  "type": "recipe",
+  "crafter": "sawmill_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:jungle_planks",
+      "count": 6
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:jungle_trapdoor",
+  "count": 2,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}

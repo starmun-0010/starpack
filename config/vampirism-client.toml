@@ -30,7 +30,7 @@
 		#Range: > -2147483648
 		overrideGuiSkillButtonY = -22
 		#Action Order in Select Action Screen (reset with ""), unnamed actions will appended
-		actionOrder = "vampirism:bat,vampirism:dark_blood_projectile,vampirism:disguise_vampire,vampirism:freeze,vampirism:half_invulnerable,vampirism:regen,vampirism:sunscreen,vampirism:summon_bat,vampirism:teleport,vampirism:vampire_invisibility,vampirism:vampire_rage,vampirism:awareness_hunter,vampirism:disguise_hunter,vampirism:potion_resistance_hunter"
+		actionOrder = "vampirism:bat,vampirism:dark_blood_projectile,vampirism:disguise_vampire,vampirism:freeze,vampirism:half_invulnerable,vampirism:regen,vampirism:sunscreen,vampirism:summon_bat,vampirism:teleport,vampirism:vampire_invisibility,vampirism:vampire_rage,vampirism:awareness_hunter,vampirism:disguise_hunter,vampirism:potion_resistance_hunter,vampirism:hissing"
 		#Disable the FOV change caused by the speed buf for vampire players
 		disableFovChange = false
 		#Disable the effect of blood vision. It can still be unlocked and activated but does not have any effect
