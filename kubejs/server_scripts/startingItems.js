@@ -5,5 +5,6 @@ events.listen('player.logged_in', function (event) {
     if (!event.hasGameStage('starting_items')) {
     event.addGameStage('starting_items')
     event.player.give(Item.of('akashictome:tome', AKASHIC_TOME_NBT));
+    event.player.give('ftbquests:book');
   }  
 })
