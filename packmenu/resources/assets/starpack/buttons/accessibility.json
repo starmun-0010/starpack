@@ -1,6 +1,6 @@
 {
-    "x": -50,
-    "y": 260,
+    "x": 95,
+    "y": 280,
     "width": 20,
     "height": 20,
     "action": "OPEN_GUI",
@@ -12,5 +12,5 @@
     "texWidth": 20,
     "texHeight": 40,
     "texture": "starpack:textures/accessibility.png",
-    "anchor": "TOP_CENTER"
+    "anchor": "TOP_LEFT"
 }

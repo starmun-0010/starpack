@@ -1,6 +1,6 @@
 {
-    "x": -87,
-    "y": 135,
+    "x": 60,
+    "y": 155,
     "width": 175,
     "height": 20,
     "langKey": "packmenu.starpack.multiplayer",
@@ -15,5 +15,5 @@
     "texture": "starpack:textures/multiplayer.png",
     "fontColor": 16777215,
     "hoverFontColor": 13158600,
-    "anchor": "TOP_CENTER"
+    "anchor": "TOP_LEFT"
 }

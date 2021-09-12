@@ -1,6 +1,6 @@
 {
-    "x": -87,
-    "y": 210,
+    "x": 60,
+    "y": 230,
     "width": 175,
     "height": 20,
     "langKey": "packmenu.starpack.github",
@@ -15,5 +15,5 @@
     "texture": "starpack:textures/github.png",
     "fontColor": 16777215,
     "hoverFontColor": 13158600,
-    "anchor": "TOP_CENTER"
+    "anchor": "TOP_LEFT"
 }

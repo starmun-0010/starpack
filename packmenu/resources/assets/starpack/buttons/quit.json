@@ -1,6 +1,6 @@
 {
-    "x": -87,
-    "y": 235,
+    "x": 60,
+    "y": 255,
     "width": 175,
     "height": 20,
     "langKey": "packmenu.starpack.quit",
@@ -14,6 +14,6 @@
     "texture": "starpack:textures/quit.png",
    "fontColor": 16777215,
     "hoverFontColor": 13158600,
-    "anchor": "TOP_CENTER"
+    "anchor": "TOP_LEFT"
 }
 
