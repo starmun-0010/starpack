@@ -7,8 +7,6 @@
 	restore_effects_on_death = false
 	#Whether to log the positions of players' graves [false/true|default:true]
 	log_player_grave = true
-	#Whether to require a Grave's Key to access graves [false/true|default:true]
-	player_grave_access = true
 	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
 	#Range: 1 ~ 10
 	sniffer_range = 5
@@ -41,6 +39,8 @@
 	prevent_death_outside_world_border = true
 	#Prevents death outside the build height [false/true|default:false]
 	prevent_death_outside_build_height = false
+	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
+	pvp_unlock_grave = true
 
 	[player_death.nerf_ghostly_shape]
 		#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]

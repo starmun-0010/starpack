@@ -1,7 +1,7 @@
 {
 	id: "5E9C47DB49BF26F4"
 	group: "2B6C2CBF9E7D9DFC"
-	order_index: 9
+	order_index: 7
 	filename: "glossary"
 	title: "Collectopedia"
 	subtitle: ["Raw recources, ingrediants and materials collected in this chapter."]
@@ -11,9 +11,9 @@
 		{
 			x: -9.5d
 			y: -4.0d
-			id: "794312E417239D85"
+			id: "5F568A8B394B842A"
 			tasks: [{
-				id: "54DE380E58180C75"
+				id: "4464FB62A3DBFC30"
 				type: "item"
 				item: "integrateddynamics:crystalized_menril_chunk"
 			}]
@@ -26,9 +26,9 @@
 		{
 			x: -10.5d
 			y: -4.0d
-			id: "086A1DA38B4059AC"
+			id: "72E4B0BF940E5FA2"
 			tasks: [{
-				id: "1E768C71122A4C54"
+				id: "1C3915EAE3D6D577"
 				type: "item"
 				item: "integrateddynamics:menril_log"
 			}]

@@ -25,7 +25,6 @@
 				""
 				"Right click with the supply block in your hand on the ground (or over water) and follow the instructions from there."
 			]
-			dependencies: ["76DFAB15C0AE1C7C"]
 			id: "4DAB1BDC04778C11"
 			tasks: [{
 				id: "28CB66514D9F00C3"
@@ -88,9 +87,9 @@
 				"Any workbench will do, but the crafting stations have nice QoL features."
 			]
 			dependencies: ["7D886676745F3E7C"]
-			id: "4CBFD711CB879B2E"
+			id: "35E07748D4DDAE48"
 			tasks: [{
-				id: "186390209D74A28E"
+				id: "66B707DC5CB7FB4B"
 				type: "item"
 				title: "Crafting Table"
 				item: {

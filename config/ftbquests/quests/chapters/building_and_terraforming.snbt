@@ -1,7 +1,7 @@
 {
 	id: "07E2F1F4FEDEA17E"
 	group: "2B6C2CBF9E7D9DFC"
-	order_index: 2
+	order_index: 1
 	filename: "building_and_terraforming"
 	title: "Building and Terraforming"
 	icon: {
@@ -228,6 +228,10 @@
 			x: -5.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/dark_oak_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/dark_oak_2.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "60F1205B8F96100E"
 			tasks: [
@@ -307,8 +311,18 @@
 			]
 		}
 		{
+			title: "NPC Housing"
 			x: 2.3d
 			y: -11.9d
+			subtitle: "Tavern [WIP]"
+			description: [
+				"All our citizens eventually need a space to call home."
+				"But as a temporary shelter we can provide them with a tavern."
+				""
+				"You will also recive travelers at the tavern, these travelers will join your colony for some presious resources as payment."
+				""
+				"Just like the builder's hut there are many styles to choose from for the tavern building. [Quests WIP]"
+			]
 			dependencies: ["384180A025F40D71"]
 			id: "6BC8A06BF6CC5157"
 			tasks: [{
@@ -319,6 +333,7 @@
 		}
 		{
 			title: "Start a Colony"
+			icon: "minecolonies:blockhuttownhall"
 			x: 2.2d
 			y: -20.2d
 			subtitle: "Summoning Companions"
@@ -329,7 +344,7 @@
 				""
 				"These NPCs will do all sorts of tasks for some food and shelter."
 				""
-				"To begin, find the town hall block and the building tool in the supply camp you created on the first day."
+				"To begin, find the town hall block and the build tool in the supply camp you created on the first day."
 				""
 				"Place down the town hall using the build tool and click the Create Colony button inside the town hall UI."
 			]
@@ -347,11 +362,22 @@
 					advancement: "minecolonies:minecolonies/place_townhall"
 					criterion: ""
 				}
+				{
+					id: "4F452460C33A7B78"
+					type: "item"
+					item: "structurize:sceptergold"
+				}
 			]
 		}
 		{
 			x: 2.3d
 			y: -13.0d
+			subtitle: "Wait for the Builder to Build"
+			description: [
+				"Now that you have given the task to the builder, wait for them to finish buidling their hut."
+				""
+				"Once they are done, you'll be able to give them more tasks to build all kinds of buildings."
+			]
 			dependencies: [
 				"60F1205B8F96100E"
 				"110D965AD906EB92"
@@ -392,7 +418,12 @@
 			x: -7.8d
 			y: -16.4d
 			shape: "rsquare"
-			description: ["{image:starpack:textures/quests/2021-09-03_07.59.11.png width:177 height:100 align:1}"]
+			description: [
+				"{image:starpack:textures/quests/acacia_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/acacia_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/acacia_3.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/acacia_4.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "110D965AD906EB92"
 			tasks: [
@@ -472,6 +503,14 @@
 			x: 2.2d
 			y: -19.0d
 			subtitle: "Builder's Hut"
+			description: [
+				"The first npc and the building we need is a builder, so they can build housing and buildings for everyone."
+				""
+				"There are many buidling styles to choose from, see in the quests directly below. Choose the one to your liking, gather the raw resources and turn them in to receive the crafted building materials."
+				""
+				"To get started, place down a builder's hut using the build tool."
+				"Then click the 'Build Building' button isnide the Builder's Hut UI."
+			]
 			dependencies: ["5B9419E41BB8D8D7"]
 			id: "2E73B6DCF921C7B6"
 			tasks: [
@@ -500,6 +539,10 @@
 			x: -6.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/asian_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/asian_2.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "480BACDC8B51FA29"
 			tasks: [
@@ -594,6 +637,10 @@
 			x: -4.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/birch_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/birch_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "08BB69487D7161E3"
 			tasks: [
@@ -673,6 +720,10 @@
 			x: -3.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/caledonia_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/caledonia_2.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "105639280F768926"
 			tasks: [
@@ -814,6 +865,11 @@
 			x: -2.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/cave_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/cave_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/cave_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "55815A05633837F3"
 			tasks: [
@@ -919,6 +975,11 @@
 			x: -0.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/fortress_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/fortress_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/fortress_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "3E65B26F246BE87C"
 			tasks: [
@@ -1019,6 +1080,12 @@
 			x: -1.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/jungle_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/jungle_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/jungle_3.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/jungle_4.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "29C408D2C955AF42"
 			tasks: [
@@ -1104,6 +1171,11 @@
 			x: 0.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/medieval_birch_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_birch_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_birch_4.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "2A876BA47D9FE2B1"
 			tasks: [
@@ -1223,6 +1295,11 @@
 			x: 1.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/alt_medieval_birch_6.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_birch_4.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_birch_2.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "31E7BFE631A6E03F"
 			tasks: [
@@ -1329,6 +1406,11 @@
 			x: 2.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/medieval_dark_oak_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_dark_oak_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_dark_oak_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "548A8BAA66246E0A"
 			tasks: [
@@ -1447,6 +1529,12 @@
 			x: 3.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/alt_medieval_dark_oak_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_dark_oak_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_dark_oak_4.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_dark_oak_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "0749F73F4ACFD483"
 			tasks: [
@@ -1553,6 +1641,11 @@
 			x: 4.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/medieval_oak_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_oak_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_oak_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "23EBD5BF8F6DB76A"
 			tasks: [
@@ -1672,6 +1765,12 @@
 			x: 5.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/alt_medieval_oak_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_oak_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_oak_3.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_oak_4.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "68153873135B0951"
 			tasks: [
@@ -1778,6 +1877,10 @@
 			x: 6.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/medieval_spruce_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/medieval_spruce_2.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "081AB41A16024089"
 			tasks: [
@@ -1897,6 +2000,12 @@
 			x: 7.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/alt_medieval_spruce_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_spruce_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_spruce_4.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/alt_medieval_spruce_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "00193304716B3197"
 			tasks: [
@@ -2003,6 +2112,12 @@
 			x: -8.8d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/wood_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/wood_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/wood_3.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/wood_4.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "717F23B356B00153"
 			tasks: [
@@ -2095,6 +2210,13 @@
 			x: 8.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/mesa_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/mesa_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/mesa_3.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/mesa_4.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/mesa_5.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "1A9F1602B32E4882"
 			tasks: [
@@ -2142,6 +2264,10 @@
 			x: 9.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/nordic_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/nordic_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "61BF579F75357B10"
 			tasks: [
@@ -2246,6 +2372,11 @@
 			x: 10.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/sandstone_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/sandstone_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/sandstone_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "6CFF84805F9E4951"
 			tasks: [
@@ -2366,6 +2497,12 @@
 			x: 11.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/spacewars_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/spacewars_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/spacewars_3.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/spacewars_4.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "7B9A71C63B87ABEC"
 			tasks: [
@@ -2443,6 +2580,11 @@
 			x: 12.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/stone_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/stone_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/stone_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "6E0A5A62971633E5"
 			tasks: [
@@ -2508,6 +2650,11 @@
 			x: 13.2d
 			y: -16.4d
 			shape: "rsquare"
+			description: [
+				"{image:starpack:textures/quests/true_dwarven_1.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/true_dwarven_2.png width:177 height:100 align:1}"
+				"{image:starpack:textures/quests/true_dwarven_3.png width:177 height:100 align:1}"
+			]
 			dependencies: ["2E73B6DCF921C7B6"]
 			id: "2FAB243F75DF6024"
 			tasks: [

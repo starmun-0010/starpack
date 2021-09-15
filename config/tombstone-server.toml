@@ -4,7 +4,7 @@
 	#Experience loss on death (%) (-1 = disabled) [-1..100|default:80]
 	#Range: -1 ~ 100
 	xp_loss = 0
-	#The time in minutes before a Grave's Key isn't required to open a grave (-1 = disabled) [-1..MAX|default:-1]
+	#The time in minutes before a grave is unlocked to anyone (-1 = disabled) [-1..MAX|default:-1]
 	#Range: > -1
 	decay_time = -1
 	#Allows players with bad alignment and the perk tomb raider to steal items on abandoned graves [false/true|default:false]

@@ -48,3 +48,36 @@
 	#Range: 0 ~ 255
 	"Ender Ore Gen Attempts" = 12
 
+["Blessed Earth Settings"]
+	#How long should it minimum wait before trying to spawn
+	#Range: 1 ~ 2000
+	"Minimum Waiting Time" = 200
+	#How big of an area should the block check for mobs, 2 would be 2x1x2 area
+	#Range: 1 ~ 5
+	"Area Size for entity count" = 2
+	#At what amount of entities in the area should mob spawning be halted
+	#Range: 1 ~ 10
+	"Mob cap for Area" = 3
+
+["Blursed Earth Settings"]
+	#How long should it minimum wait before trying to spawn
+	#Range: 1 ~ 2000
+	"Minimum Waiting Time" = 200
+	#How big of an area should the block check for mobs, 2 would be 2x1x2 area
+	#Range: 1 ~ 5
+	"Area Size for entity count" = 2
+	#At what amount of entities in the area should mob spawning be halted
+	#Range: 1 ~ 10
+	"Mob cap for Area" = 3
+
+["Cursed Earth Settings"]
+	#How long should it minimum wait before trying to spawn
+	#Range: 1 ~ 2000
+	"Minimum Waiting Time" = 200
+	#How big of an area should the block check for mobs, 2 would be 2x1x2 area
+	#Range: 1 ~ 5
+	"Area Size for entity count" = 2
+	#At what amount of entities in the area should mob spawning be halted
+	#Range: 1 ~ 10
+	"Mob cap for Area" = 3
+

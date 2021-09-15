@@ -92,3 +92,4 @@ optionsshaders.txt
 /.curseclient
 /kubejs/assets/starpack/textures/quests/
 /.idea/
+/config.bak.json
