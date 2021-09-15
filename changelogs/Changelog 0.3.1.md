@@ -1,0 +1,43 @@
+# Starpack Aleph 0.2.1 to Starpack Aleph 0.3.1
+## Forge Version 36.2.2
+
+Starpack Aleph is back from semi-hiatus.
+This update serves as a foundation, so we can get back to a monthly update cycle.
+Most of the time was taken by the 4 the new mods I made to make the pack experience better.
+See their pages from the links below to understand their features:
+
+## Mods by starmun
+* [Just Enough Keys](https://www.curseforge.com/minecraft/mc-mods/just-enough-keys) 
+* [Agricraft Optifine Compat](https://www.curseforge.com/minecraft/mc-mods/agricraft-optifine-compat)
+* [Prune Addon for FTB Chunks](https://www.curseforge.com/minecraft/mc-mods/prune-addon-for-ftb-chunks)
+* [Starpack Core](https://www.curseforge.com/minecraft/mc-mods/starpack-core)
+
+## Important
+* This version is incompatible with previous worlds, but you can bring in claimed chunks manually to the new world using my Prune Addon mod listed above.
+* If you do bring in the old chunks, they may look out of place in the new world.
+
+## Changelog
+* Customized minecolonies craft limits and speeds
+* Added Minecolonies Builder Quests
+* Added keybindings for JEK
+* Updated Terraforged worldgen, water and other resources should be much easier to find.
+* Adjusted various HUD positions
+* Adjusted spawn rates of structures [#107](https://github.com/starmun-0010/Starpack-Aleph/issues/107)
+* Adjusted spawn rates of mobs[#102](https://github.com/starmun-0010/Starpack-Aleph/issues/102)
+* Adjusted Oregen [#5](https://github.com/starmun-0010/Starpack-Aleph/issues/5)
+* Tetra compatibility with cobblestone varaints [#51](https://github.com/starmun-0010/Starpack-Aleph/issues/51)
+* Disabled matrix enchanting [#109](https://github.com/starmun-0010/Starpack-Aleph/issues/#109) 
+
+## bugs fixed
+* Fixed Item Zoom [#45](https://github.com/starmun-0010/Starpack-Aleph/issues/45)
+* Villagers not accepting fletching table [#84](https://github.com/starmun-0010/Starpack-Aleph/issues/84)
+* Cheese Honeycomb giving wrong items [#93](https://github.com/starmun-0010/Starpack-Aleph/issues/93)
+* Rejoining multiplayer world bug [#98](https://github.com/starmun-0010/Starpack-Aleph/issues/98)
+* Modpack incompatible with server bug [#99](https://github.com/starmun-0010/Starpack-Aleph/issues/99)
+
+## Mods Updated
+* Every single mod
+
+## Discord
+
+[![Discord](https://discordapp.com/api/guilds/743605058217836576/widget.png?style=banner3)](https://discord.gg/s4VpDQHCTa)
