@@ -27,8 +27,6 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Shadow Step is only active while sneaking [false/true|default:false]
-	nerf_shadow_step = false
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
@@ -67,6 +65,8 @@
 	#Max level for Shadow Step [1..10|default:5]
 	#Range: 1 ~ 10
 	max_level_shadow_step = 5
+	#Shadow Step is only active while sneaking [false/true|default:false]
+	nerf_shadow_step_force_sneak = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]

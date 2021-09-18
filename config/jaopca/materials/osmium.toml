@@ -21,3 +21,7 @@
 	#The byproduct material to output in Futurepack's Centrifuge.
 	byproduct = "minecraft:cobblestone"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

@@ -10,4 +10,10 @@
 	toMoltenMaterialBlacklist = []
 	#The materials that should not have fluid cooling recipes added.
 	toMaterialMaterialBlacklist = []
+	#The materials that should not have material crucible recipes added.
+	materialToMoltenMaterialBlacklist = []
+	#The materials that should not have dust crucible recipes added.
+	dustToMoltenMaterialBlacklist = []
+	#The materials that should not have nugget crucible recipes added.
+	nuggetToMoltenMaterialBlacklist = []
 

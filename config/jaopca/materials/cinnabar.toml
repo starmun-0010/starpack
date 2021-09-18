@@ -10,6 +10,8 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "metallic"
+	#The color of this material.
+	color = 11422289
 
 [create]
 	#The byproduct material to output in Create's crushing.
@@ -26,4 +28,8 @@
 [futurepack]
 	#The byproduct material to output in Futurepack's Centrifuge.
 	byproduct = "minecraft:cobblestone"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 

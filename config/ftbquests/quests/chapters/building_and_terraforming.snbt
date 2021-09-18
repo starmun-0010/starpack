@@ -16,8 +16,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 10.5d
-			y: -21.5d
+			x: 10.4d
+			y: -21.4d
 			id: "7FE618D7E8149FDA"
 			tasks: [{
 				id: "0ECAE23B5C9AC0E0"
@@ -33,7 +33,7 @@
 			}]
 		}
 		{
-			x: 10.5d
+			x: 10.4d
 			y: -20.0d
 			dependencies: ["7FE618D7E8149FDA"]
 			id: "3AB630E478DC4FC4"
@@ -51,8 +51,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -18.5d
+			x: 10.4d
+			y: -18.6d
 			dependencies: ["3AB630E478DC4FC4"]
 			id: "70E75ADE35A17F77"
 			tasks: [{
@@ -136,14 +136,14 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -21.5d
+			x: -5.2d
+			y: -21.4d
 			id: "77DEF3FEB196ED64"
 			tasks: [{
 				id: "716B4D42A9CA1E80"
 				type: "item"
 				item: {
-					id: "chiseled:iron_chisel"
+					id: "chisel:iron_chisel"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -152,29 +152,19 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -5.2d
 			y: -20.0d
 			dependencies: ["77DEF3FEB196ED64"]
 			id: "56C6FC16B7803278"
 			tasks: [{
 				id: "7D5734D105CB062A"
 				type: "item"
-				item: "chiseled:chisel_station_light"
-			}]
-		}
-		{
-			x: -5.5d
-			y: -20.0d
-			dependencies: ["77DEF3FEB196ED64"]
-			id: "3653452F8780F2B0"
-			tasks: [{
-				id: "44A21F481DE74F38"
-				type: "item"
 				item: {
-					id: "chiseled:diamond_chisel"
+					id: "chisel:diamond_chisel"
 					Count: 1b
 					tag: {
 						Damage: 0
+						chiseldata: { }
 					}
 				}
 			}]
@@ -191,7 +181,7 @@
 		}
 		{
 			x: 9.0d
-			y: -19.0d
+			y: -18.8d
 			dependencies: ["678EE053DA6AD5D3"]
 			id: "53083A05722552BE"
 			tasks: [{
@@ -2722,6 +2712,24 @@
 					count: 888
 				}
 			]
+		}
+		{
+			x: -5.2d
+			y: -18.6d
+			dependencies: ["56C6FC16B7803278"]
+			id: "39C0D6629379B21F"
+			tasks: [{
+				id: "4CD4ED1D46B37EF4"
+				type: "item"
+				item: {
+					id: "chisel:hitech_chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						chiseldata: { }
+					}
+				}
+			}]
 		}
 	]
 }

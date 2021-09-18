@@ -27,12 +27,6 @@
 				}
 				count: 4L
 			}]
-			rewards: [{
-				id: "25A4D9D51B6C5F73"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 5
-			}]
 		}
 		{
 			title: "Storage Drawers"
@@ -58,12 +52,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "541A7A564DA72353"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 5
-			}]
 		}
 		{
 			title: "Customize Storage Drawers"
@@ -86,12 +74,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "662F632B864B0361"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 10
-			}]
 		}
 		{
 			x: -2.0d
@@ -102,12 +84,6 @@
 				id: "5CF554C64F89009E"
 				type: "item"
 				item: "storagedrawers:controller"
-			}]
-			rewards: [{
-				id: "2FA23BCEC4D57179"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 15
 			}]
 		}
 		{
@@ -124,12 +100,6 @@
 				id: "3762105330EB76E9"
 				type: "item"
 				item: "framedcompactdrawers:framed_drawer_controller"
-			}]
-			rewards: [{
-				id: "1C754CA05C4A1D65"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 15
 			}]
 		}
 		{
@@ -168,12 +138,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "4FEE8716EAAE41AD"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 10
-			}]
 		}
 		{
 			title: "Copper Upgrade (45 Slots)"
@@ -203,12 +167,6 @@
 						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "3D1F6EA2210A810B"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 10
 			}]
 		}
 		{
@@ -247,12 +205,6 @@
 						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "3B4DCC899048146D"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 10
 			}]
 		}
 		{
@@ -299,12 +251,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "1DB881482582BEB4"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 10
-			}]
 		}
 		{
 			title: "Diamond Upgrade (108 Slots)"
@@ -348,12 +294,6 @@
 						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "53F7CB327FF093A4"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 15
 			}]
 		}
 		{
@@ -408,12 +348,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "2E6791B3B2765F26"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 15
-			}]
 		}
 		{
 			title: "Obsidian Upgrade"
@@ -461,12 +395,6 @@
 						]
 					}
 				}
-			}]
-			rewards: [{
-				id: "09F1437D16E8835A"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 15
 			}]
 		}
 		{

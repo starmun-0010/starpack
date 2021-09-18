@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
@@ -66,7 +66,7 @@ skipMultiplayerWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
 syncChunkWrites:false
-soundCategory_master:0.02759382
+soundCategory_master:0.029801324
 soundCategory_music:0.36150235
 soundCategory_record:1.0
 soundCategory_weather:0.4741784

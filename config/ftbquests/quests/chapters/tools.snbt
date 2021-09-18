@@ -84,19 +84,11 @@
 					}
 				}
 			}]
-			rewards: [
-				{
-					id: "0591C5CAAFCB55D9"
-					type: "item"
-					item: "starshop:starcoin"
-					count: 5
-				}
-				{
-					id: "1F2A0D471E908755"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "1F2A0D471E908755"
+				type: "xp"
+				xp: 10
+			}]
 		}
 		{
 			x: -7.0d
@@ -107,19 +99,11 @@
 				type: "item"
 				item: "toolbelt:belt"
 			}]
-			rewards: [
-				{
-					id: "00F1BE73C95ADC5F"
-					type: "item"
-					item: "starshop:starcoin"
-					count: 10
-				}
-				{
-					id: "37058F8C7B2CB6D5"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "37058F8C7B2CB6D5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			title: "Tinker's Setup"

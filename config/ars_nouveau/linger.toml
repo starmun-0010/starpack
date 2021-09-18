@@ -9,8 +9,8 @@
 	#Is Starter Glyph?
 	starter = false
 	#The maximum number of times this glyph may appear in a single spell
-	#Range: > 1
-	per_spell_limit = 2147483647
+	#Range: 1 ~ 1
+	per_spell_limit = 1
 	#Limits the number of times a given augment may be applied to a given effect
 	#Example entry: "amplify=5"
 	augment_limits = []

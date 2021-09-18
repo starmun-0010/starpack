@@ -77,12 +77,6 @@
 				type: "item"
 				item: "minecraft:lead"
 			}]
-			rewards: [{
-				id: "562A54176B470C23"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 5
-			}]
 		}
 		{
 			x: 4.5d
@@ -100,12 +94,6 @@
 						entity_data: { }
 					}
 				}
-			}]
-			rewards: [{
-				id: "3B6F75890A15258F"
-				type: "item"
-				item: "starshop:starcoin"
-				count: 10
 			}]
 		}
 		{

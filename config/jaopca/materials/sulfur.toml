@@ -10,6 +10,8 @@
 	hasEffect = false
 	#The model type of the material.
 	modelType = "metallic"
+	#The color of this material.
+	color = 14010737
 
 [create]
 	#The byproduct material to output in Create's crushing.
@@ -22,4 +24,8 @@
 [crossroads]
 	#The byproduct material to output in Crossroads' Millstone.
 	byproduct = "minecraft:sand"
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 
