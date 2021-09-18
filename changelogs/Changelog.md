@@ -12,7 +12,7 @@ Fixed minor bugs
 ### Mods Added
 [Applied Energistics 2 Wireless Terminals](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2-wireless-terminals-forge)
 
-###Mods Updated
+### Mods Updated
 Multiple mods (I am feeling lazy)
 
 # Starpack Aleph 0.3.1 to Starpack Aleph 0.3.2
