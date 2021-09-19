@@ -64,4 +64,4 @@ See their pages from the links below to understand their features:
 
 ### Discord
 
-[![Discord](https://discordapp.com/api/guilds/743605058217836576/widget.png?style=banner3)](https://discord.gg/s4VpDQHCTa)discordapp.com/api/guilds/743605058217836576/widget.png?style=banner3)](https://discord.gg/s4VpDQHCTa)
+[![Discord](https://discordapp.com/api/guilds/743605058217836576/widget.png?style=banner3)](https://discord.gg/s4VpDQHCTa)
