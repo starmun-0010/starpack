@@ -1,0 +1,21 @@
+{
+  "type": "recipe",
+  "crafter": "blacksmith_crafting",
+  "inputs": [
+    {
+      "item": "minecraft:cobblestone",
+      "count": 3
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  ],
+  "alternate-output": [
+
+  ],
+  "result": "minecraft:stone_pickaxe",
+  "count": 1,
+  "intermediate": "minecraft:air",
+  "show-tooltip": true
+}
