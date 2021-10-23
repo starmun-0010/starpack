@@ -157,7 +157,7 @@
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Restricts the effect of Shadow Step to players [false/true|default:false]
+	#Restricts the effect of Shadow Step to players [false/true|default:true]
 	restrict_shadow_step_to_player = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true

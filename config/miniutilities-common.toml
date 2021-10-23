@@ -10,11 +10,11 @@
 	#Range: 1 ~ 5000
 	"Kikoku Max" = 2
 	#What should the Unstable Ingot do when the time limit is reached?
-	#0: Slowness while holding
-	#1: After 10 seconds, slowly ramps up the damage
-	#2: Explodes after 10 seconds
-	#Range: 0 ~ 2
-	"Reaction Type" = 1
+	#NO_DAMAGE: Slowness while holding
+	#DAMAGE: After 10 seconds, slowly ramps up the damage
+	#EXPLOSION: Explodes after 10 seconds
+	#Allowed Values: NO_DAMAGE, DAMAGE, EXPLOSION
+	"Reaction Type" = "DAMAGE"
 	#How much EXP should base experience pearls give?
 	#Range: 1 ~ 128
 	"EXP Given from EXP Pearls" = 10
@@ -43,7 +43,7 @@
 	"Ender Ore Min" = 0
 	#What should the maximum generation height be for Ender Ore?
 	#Range: 0 ~ 256
-	"Ender Ore Max" = 55
+	"Ender Ore Max" = 45
 	#How many times should Ender Ore try to generate?
 	#Range: 0 ~ 255
 	"Ender Ore Gen Attempts" = 12

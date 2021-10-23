@@ -58,3 +58,17 @@
 		#Control hunter camp generation. If disabled you should set hunterSpawnChance to 75.
 		enableHunterTentGeneration = true
 
+		#You might find some configuration values in the common section instead of here
+		[common-server.world.village]
+			#Weight of the Totem Building inside the Village
+			#Range: > 0
+			totemWeight = 20
+			#Chance for a totem to have a faction after generation
+			#Range: 0.0 ~ 1.0
+			villageTotemFactionChance = 0.6
+			#Weight of the Hunter Trainer Building inside the Village
+			#Range: > 0
+			villageHunterTrainerWeight = 400
+			#Whether village Temples should be replaced with versions that contain church altars.
+			villageReplaceTemples = true
+

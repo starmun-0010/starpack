@@ -30,3 +30,17 @@
 	#If false, the Creative Umbrella will always works in main-hand and off-hand
 	creativeUmbrellaConfigs = false
 
+["Umbrellas Speed"]
+	#The Speed Modifier of the Umbrella. Set to 0 to disable.
+	#Range: -1.0 ~ 1.0
+	ironUmbrellaSpeed = -0.35
+	#The Speed Modifier of the Umbrella. Set to 0 to disable.
+	#Range: -1.0 ~ 1.0
+	goldUmbrellaSpeed = -0.35
+	#The Speed Modifier of the Umbrella. Set to 0 to disable.
+	#Range: -1.0 ~ 1.0
+	diamondUmbrellaSpeed = -0.35
+	#The Speed Modifier of the Umbrella. Set to 0 to disable.
+	#Range: -1.0 ~ 1.0
+	netheriteUmbrellaSpeed = -0.35
+

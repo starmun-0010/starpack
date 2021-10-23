@@ -1,6 +1,30 @@
 # Starpack Aleph 0.3.2 to Starpack Aleph 0.3.3
 ## Forge Version 36.2.4
 
+### Mods Updated
+Ars Novu, Tetra, Kubejs,
+ElementalCraft, FTB Chunks Forge, Integrated Rest, KubeJs, Minecolonies, Occultism
+Alex mobs, better end forge, ftb chunks, minecolonies, ,mystical agriculture,
+Ars  novu, better end forge, chiselsand bits,cyclic,doggytalents,extended crafting,extreme soundmuffler,ftb quests, kubejs, mcw fences, mmythic bottany, occultism, !(pickletweaks), pneumaticcaraft repressurised, prefab, repurposed  structures, rhino, tetra 
+chsel and bits, nature's aura, 
+chisel and bits, pretty pipes
+bedspreads, blood magic, bookshelf, chiselandbits, common capabilities, cyclopse core, industrial agriculture core, integrated dynamics, integrated terminals, JEK, kubejs forge, lootr, occultism, packmenu, pickletweaks, vampirism, valhelsia core     
+ftb-library-forge, kubejs forge, mahhou tsukai
+integrated dynamics
+blood magic, minecolonies, 
+mystical agriditions, 
+AE2, botany pots,chiseland bits, clumps, config swapper, game stages, just enough professions, paraglider, prefab, resourceful bees, tool stats
+chisel and bits, clumps, cyclic, framed blocks, game stages forge, integrated termminals, kubejs forge, mahoutsukai,
+botany pots, ftb chunks, tool stats
+common capabalities, ftb backups, integrated crafting, integrated dynamics, occultism, 
+cyclic, extreme sound muffler, ftb chunks, mantle, repurposed structure, jei, Tconstruct
+ftb essentials, !(immersive engineering), solar flux reborn, 
+integrated terminals, 
+
+
+# Starpack Aleph 0.3.2 to Starpack Aleph 0.3.3
+## Forge Version 36.2.4
+
 Fixed minor bugs
 
 ### changelog

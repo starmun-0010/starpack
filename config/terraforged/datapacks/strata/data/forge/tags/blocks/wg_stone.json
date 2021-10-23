@@ -2,32 +2,19 @@
   "replace": true,
   "values": [   
     "minecraft:stone",   
-    "astralsorcery:marble_raw",
-    "bluepower:basalt",
-    "bluepower:marble",
     "byg:dacite",
     "byg:rocky_stone",
     "byg:soapstone",
-    "byg:scoria_stone",
-    "create:dark_scoria",
-    "create:scoria",
     "create:weathered_limestone",
     "create:limestone",
     "create:gabbro",
     "create:dolomite",
-    "create:natural_scoria",
-    "embellishcraft:basalt",
     "embellishcraft:gneiss",
     "embellishcraft:jade",
     "embellishcraft:larvikite",
-    "embellishcraft:marble",
     "embellishcraft:slate",
-    "forbidden_arcanus:darkstone",
     "quark:jasper",
     "quark:limestone",
-    "quark:marble",
-    "quark:slate",
-    "quark:basalt"
-    
+    "quark:slate"
   ]
 }
