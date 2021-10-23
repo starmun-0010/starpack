@@ -1,7 +1,7 @@
 {
 	id: "17437C9610108B91"
 	group: "2B6C2CBF9E7D9DFC"
-	order_index: 3
+	order_index: 4
 	filename: "resources_and_mining"
 	title: "Resource Processing"
 	icon: "ironfurnaces:diamond_furnace"
@@ -9,8 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -20.5d
+			title: "Ore Doubling"
+			x: -20.4d
 			y: -14.0d
+			subtitle: "Quartz Grindstone"
+			description: ["Helps with ore doubling manually until we will have a smeltry."]
 			id: "0F9E37A8933C43D8"
 			tasks: [{
 				id: "17DBE4DD8A6ED627"
@@ -42,8 +45,8 @@
 			}]
 		}
 		{
-			x: -20.5d
-			y: -12.5d
+			x: -20.4d
+			y: -12.4d
 			shape: "diamond"
 			optional: true
 			id: "06E9A54038066CB6"
@@ -55,6 +58,11 @@
 					Count: 1b
 					tag: {
 						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
 					}
 				}
 			}]
@@ -253,6 +261,7 @@
 			}]
 		}
 		{
+			icon: "ironfurnaces:gold_furnace"
 			x: -27.0d
 			y: -12.0d
 			dependencies: ["4D384E46C9436D6F"]
@@ -279,6 +288,7 @@
 			}]
 		}
 		{
+			icon: "ironfurnaces:diamond_furnace"
 			x: -26.0d
 			y: -11.0d
 			dependencies: ["569640017B899459"]
@@ -305,6 +315,7 @@
 			}]
 		}
 		{
+			icon: "ironfurnaces:emerald_furnace"
 			x: -27.0d
 			y: -10.0d
 			dependencies: ["17BCE8406ACE5057"]
@@ -366,117 +377,260 @@
 		}
 		{
 			icon: "minecolonies:blockhutsawmill"
-			x: -30.0d
+			x: -29.2d
 			y: -14.0d
-			dependencies: ["60F1205B8F96100E"]
 			id: "0BFFFEB6C122E267"
+			tasks: [{
+				id: "294B694732422218"
+				type: "item"
+				item: "minecolonies:blockhutsawmill"
+			}]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: -29.2d
+			y: -12.4d
+			dependencies: ["0BFFFEB6C122E267"]
+			id: "0C76E2E45C103BD3"
 			tasks: [
 				{
-					id: "294B694732422218"
+					id: "6A4D9D075C3FFA44"
 					type: "item"
-					item: "minecolonies:blockhutsawmill"
-				}
-				{
-					id: "02588D6FF0EFFAEE"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "0AF30DB626FA0A81"
-					type: "item"
-					item: "minecraft:cobblestone"
-					count: 12L
-				}
-				{
-					id: "0C63EE100EEFD1B8"
-					type: "item"
-					item: "minecraft:iron_bars"
-					count: 2L
-				}
-				{
-					id: "5F1001EC1DC99B01"
-					type: "item"
-					item: "minecraft:chest"
-				}
-				{
-					id: "18446D3FE09CFD6A"
-					type: "item"
-					item: "minecraft:dark_oak_log"
-					count: 319L
+					disable_toast: true
+					item: "minecraft:oak_log"
 					consume_items: true
 				}
 				{
-					id: "3BE30EFE74E6D827"
+					id: "4FA13AB7A74F211A"
 					type: "item"
-					item: "minecraft:flower_pot"
-				}
-				{
-					id: "68E6E034B08A832A"
-					type: "item"
-					item: "minecraft:crafting_table"
-				}
-				{
-					id: "7D55CE4EAAA92A2D"
-					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
-					count: 31L
+					count: 15L
 				}
 				{
-					id: "4376A1901E572C43"
-					type: "advancement"
-					advancement: "minecolonies:production/build_sawmill"
-					criterion: ""
+					id: "745199326F05BE73"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 14L
 				}
 			]
 			rewards: [
 				{
-					id: "540221ABDBECB96A"
+					id: "525B4D9E3013AA35"
 					type: "item"
 					auto: "enabled"
-					item: "minecraft:dark_oak_log"
-					count: 152
+					item: "minecraft:crafting_table"
+					count: 2
 				}
 				{
-					id: "339EF8F74D3DFFDC"
+					id: "549D8ED550A28A94"
 					type: "item"
 					auto: "enabled"
-					item: "minecraft:dark_oak_fence"
-					count: 147
+					item: "minecraft:oak_fence"
+					count: 38
 				}
 				{
-					id: "4BA6355D3FB5280C"
+					id: "6A8720739BDC6C2A"
 					type: "item"
 					auto: "enabled"
-					item: "minecraft:dark_oak_planks"
-					count: 357
+					item: "minecraft:oak_slab"
+					count: 48
 				}
 				{
-					id: "5D0BA30C31D4A704"
+					id: "2CCACE824672A512"
 					type: "item"
 					auto: "enabled"
-					item: "minecraft:dark_oak_fence_gate"
-				}
-				{
-					id: "670A3AD9BECDFCBA"
-					type: "item"
-					auto: "enabled"
-					item: "minecraft:dark_oak_stairs"
-					count: 18
-				}
-				{
-					id: "29B08FAE32800F64"
-					type: "item"
-					auto: "enabled"
-					item: "minecraft:dark_oak_slab"
-					count: 64
+					item: "minecraft:oak_log"
+					count: 4
 				}
 			]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: -29.2d
+			y: -8.2d
+			dependencies: ["1A7A3EA3E1A895FB"]
+			id: "41592355E6CFD161"
+			tasks: [
+				{
+					id: "52473F920C79BF08"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					consume_items: true
+				}
+				{
+					id: "5EAF06DF231FCFAE"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:stone"
+				}
+				{
+					id: "0875E6D598B2865E"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					consume_items: true
+				}
+				{
+					id: "0E979EF0B17A95E8"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:iron_ore"
+					count: 3L
+				}
+				{
+					id: "2864FE42FE594D3C"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:torch"
+					count: 25L
+				}
+				{
+					id: "1B2331627D5DFA36"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1E2D24154AE5E4D1"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass_pane"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "36347731C696061B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_trapdoor"
+					count: 5
+				}
+				{
+					id: "482D857744FE5C98"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 54
+				}
+				{
+					id: "155F2BA21948B6A9"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+					count: 3
+				}
+				{
+					id: "4BA4016BC7145580"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_wall"
+				}
+				{
+					id: "5893006A9FF2EDC8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_stairs"
+					count: 69
+				}
+				{
+					id: "78EDA86FFA968617"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 93
+				}
+				{
+					id: "068D661727F8943C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 151
+				}
+				{
+					id: "69AB8F880E7BBC86"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 27
+				}
+				{
+					id: "6B98E9E1CF2BF59B"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:clay_oak_shingle"
+					count: 64
+				}
+				{
+					id: "61EF11F2F07FC77F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 6
+				}
+				{
+					id: "6D4F06F805F8DD16"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 75
+				}
+				{
+					id: "02E024825C9047D3"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -29.2d
+			y: -9.6d
+			dependencies: ["4E65970F1FDE8853"]
+			id: "1A7A3EA3E1A895FB"
+			tasks: [{
+				id: "442E5575DDF6AF61"
+				type: "item"
+				item: "minecolonies:blockhutblacksmith"
+			}]
+		}
+		{
+			x: -29.2d
+			y: -11.0d
+			dependencies: ["0C76E2E45C103BD3"]
+			id: "4E65970F1FDE8853"
+			tasks: [{
+				id: "65435B65B053EAF5"
+				type: "advancement"
+				advancement: "minecolonies:production/build_sawmill"
+				criterion: ""
+			}]
+		}
+		{
+			x: -29.2d
+			y: -6.8d
+			dependencies: ["41592355E6CFD161"]
+			id: "6A73C1EC25524788"
+			tasks: [{
+				id: "241CE20D53609B0E"
+				type: "advancement"
+				advancement: "minecolonies:production/build_blacksmith"
+				criterion: ""
+			}]
+		}
+		{
+			x: -30.6d
+			y: -14.0d
+			id: "3B6C13D651F99C7F"
+			tasks: [{
+				id: "2B21E2676C4182D6"
+				type: "item"
+				item: "minecolonies:blockhutcook"
+			}]
 		}
 	]
 }

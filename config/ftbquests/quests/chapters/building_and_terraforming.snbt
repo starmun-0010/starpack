@@ -69,8 +69,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: -13.0d
+			x: 8.8d
+			y: -13.4d
 			id: "67B129C4457341C9"
 			tasks: [{
 				id: "768EF249F5FB5EF7"
@@ -79,8 +79,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -11.5d
+			x: 7.8d
+			y: -11.9d
 			dependencies: ["67B129C4457341C9"]
 			id: "7F9B4F93106BFECE"
 			tasks: [{
@@ -96,8 +96,8 @@
 			}]
 		}
 		{
-			x: 10.5d
-			y: -13.0d
+			x: 10.8d
+			y: -13.4d
 			dependencies: ["0F52D451B06C24C4"]
 			id: "3039CBE1547F60E6"
 			tasks: [{
@@ -113,8 +113,8 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -11.5d
+			x: 9.8d
+			y: -11.9d
 			dependencies: ["67B129C4457341C9"]
 			id: "0F52D451B06C24C4"
 			tasks: [{
@@ -124,8 +124,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -11.5d
+			x: -2.4000000000000004d
+			y: -12.4d
 			shape: "diamond"
 			optional: true
 			id: "59A74F2E8B76C028"
@@ -191,8 +191,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -11.5d
+			x: -3.9000000000000004d
+			y: -12.4d
 			id: "433EF549AB0255FA"
 			tasks: [{
 				id: "6815512A074E3A26"
@@ -201,8 +201,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -11.5d
+			x: -5.4d
+			y: -12.4d
 			shape: "diamond"
 			optional: true
 			id: "565DBDB7A817161C"
@@ -228,6 +228,7 @@
 				{
 					id: "08ACB7DEFB3B0954"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dark_oak_log"
 					count: 227L
 					consume_items: true
@@ -235,22 +236,26 @@
 				{
 					id: "5180461AEE3DCA40"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 12L
 				}
 				{
 					id: "69DF2DAAAB8CC4FB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 				}
 				{
 					id: "19ADD5DE39BB7F27"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:gravel"
 				}
 				{
 					id: "2FFCD810FB7AE8F3"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 10L
 				}
@@ -302,8 +307,8 @@
 		}
 		{
 			title: "NPC Housing"
-			x: 2.3d
-			y: -11.9d
+			x: 2.2d
+			y: -11.8d
 			subtitle: "Tavern [WIP]"
 			description: [
 				"All our citizens eventually need a space to call home."
@@ -311,7 +316,7 @@
 				""
 				"You will also recive travelers at the tavern, these travelers will join your colony for some presious resources as payment."
 				""
-				"Just like the builder's hut there are many styles to choose from for the tavern building. [Quests WIP]"
+				"Just like the builder's hut there are many styles to choose from for the tavern building."
 			]
 			dependencies: ["384180A025F40D71"]
 			id: "6BC8A06BF6CC5157"
@@ -325,7 +330,7 @@
 			title: "Start a Colony"
 			icon: "minecolonies:blockhuttownhall"
 			x: 2.2d
-			y: -20.2d
+			y: -21.2d
 			subtitle: "Summoning Companions"
 			description: [
 				"Living alone is.. well, lonely.."
@@ -360,10 +365,15 @@
 			]
 		}
 		{
-			x: 2.3d
+			x: 2.2d
 			y: -13.0d
 			subtitle: "Wait for the Builder to Build"
 			description: [
+				"To get started, place down a builder's hut using the build tool. "
+				"Then click the 'Build Building' button isnide the Builder's Hut UI. "
+				""
+				"Try to choose a clean and plain area for the builder to build. Otherwise you will have to give the builder more dirt, shovels, hoes and axes to clean up the area. Right click on the builder to see what they need."
+				""
 				"Now that you have given the task to the builder, wait for them to finish buidling their hut."
 				""
 				"Once they are done, you'll be able to give them more tasks to build all kinds of buildings."
@@ -420,24 +430,28 @@
 				{
 					id: "69995528E571CC76"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 16L
 				}
 				{
 					id: "2C0C044F0D1C07F6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 2L
 				}
 				{
 					id: "7F0106632B8698E2"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:gravel"
 				}
 				{
 					id: "034ACB3BB08BC379"
 					type: "item"
 					icon: "minecraft:acacia_log"
+					disable_toast: true
 					item: "minecraft:acacia_log"
 					count: 30L
 					consume_items: true
@@ -445,6 +459,7 @@
 				{
 					id: "55A83B38D1728DA9"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 5L
 				}
@@ -498,10 +513,9 @@
 				""
 				"There are many buidling styles to choose from, see in the quests directly below. Choose the one to your liking, gather the raw resources and turn them in to receive the crafted building materials."
 				""
-				"To get started, place down a builder's hut using the build tool."
-				"Then click the 'Build Building' button isnide the Builder's Hut UI."
+				"Some building styles require less building materials than others, choose wisely."
 			]
-			dependencies: ["5B9419E41BB8D8D7"]
+			dependencies: ["731EDD57669DE7FF"]
 			id: "2E73B6DCF921C7B6"
 			tasks: [
 				{
@@ -512,6 +526,7 @@
 				{
 					id: "3BA6BE626A24779C"
 					type: "item"
+					disable_toast: true
 					item: {
 						id: "minecraft:wooden_shovel"
 						Count: 1b
@@ -539,6 +554,7 @@
 				{
 					id: "5E02528249D4E5C9"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 153L
 					consume_items: true
@@ -546,12 +562,14 @@
 				{
 					id: "3900801F1EB8ED9B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 4L
 				}
 				{
 					id: "6DAD32823F6CAC53"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 99L
 					consume_items: true
@@ -637,6 +655,7 @@
 				{
 					id: "39973447B059B89A"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					count: 37L
 					consume_items: true
@@ -644,18 +663,21 @@
 				{
 					id: "755C492B9C0A9013"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 9L
 				}
 				{
 					id: "799858D3B2F52EFC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:gravel"
 					count: 18L
 				}
 				{
 					id: "05A7FA12890CF552"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 22L
 				}
@@ -720,6 +742,7 @@
 				{
 					id: "56DAF98306B4AADB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:spruce_log"
 					count: 72L
 					consume_items: true
@@ -727,24 +750,28 @@
 				{
 					id: "382370CADF748992"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 12L
 				}
 				{
 					id: "087C9FC283FAD37B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone_stairs"
 					count: 3L
 				}
 				{
 					id: "56DA7E57526F2C12"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 128L
 				}
 				{
 					id: "4CEB1DC508F3EF7E"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 17L
 					consume_items: true
@@ -752,6 +779,7 @@
 				{
 					id: "734C15EA1333B82D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					consume_items: true
 				}
@@ -866,12 +894,14 @@
 				{
 					id: "11A752EF334747FB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 18L
 				}
 				{
 					id: "08BFD40882640625"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 19L
 					consume_items: true
@@ -879,18 +909,21 @@
 				{
 					id: "3096932A2C5B0BAC"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 					count: 2L
 				}
 				{
 					id: "7FE063C122298951"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:glass_pane"
 					count: 5L
 				}
 				{
 					id: "51E0A519B688D702"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 108L
 					consume_items: true
@@ -976,6 +1009,7 @@
 				{
 					id: "59507F647C1CC575"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dark_oak_log"
 					count: 60L
 					consume_items: true
@@ -983,18 +1017,21 @@
 				{
 					id: "1314AF139040863E"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					consume_items: true
 				}
 				{
 					id: "511EA8FA14533AAB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 11L
 				}
 				{
 					id: "14D70F10D70C619E"
 					type: "item"
+					disable_toast: true
 					item: {
 						id: "minecolonies:resourcescroll"
 						Count: 1b
@@ -1004,11 +1041,13 @@
 				{
 					id: "5D8C04E4B0142E52"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:item_frame"
 				}
 				{
 					id: "0A90281109BB3173"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 21L
 					consume_items: true
@@ -1082,6 +1121,7 @@
 				{
 					id: "056CBA020C312BEA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:jungle_log"
 					count: 193L
 					consume_items: true
@@ -1089,17 +1129,20 @@
 				{
 					id: "0AFA2F7238EC1D81"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 				}
 				{
 					id: "2E5528E62218A66F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 17L
 				}
 				{
 					id: "1A6ACB4677CF9F68"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:vine"
 					count: 16L
 				}
@@ -1172,6 +1215,7 @@
 				{
 					id: "0B5483EE18704B4F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					count: 98L
 					consume_items: true
@@ -1179,11 +1223,13 @@
 				{
 					id: "14E92D62FA2E6A6C"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 				}
 				{
 					id: "1483FF021E92EBFD"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 38L
 					consume_items: true
@@ -1191,12 +1237,14 @@
 				{
 					id: "3ABC302CDE4A07EB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 11L
 				}
 				{
 					id: "145F66F3A906D7CC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 3L
 				}
@@ -1296,6 +1344,7 @@
 				{
 					id: "355DF0531D3ABBB8"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					count: 159L
 					consume_items: true
@@ -1303,18 +1352,21 @@
 				{
 					id: "1A441A6491EB14DA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 2L
 				}
 				{
 					id: "1BF563339186345B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 81L
 				}
 				{
 					id: "2E761BE91701D383"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 44L
 				}
@@ -1407,6 +1459,7 @@
 				{
 					id: "43830AD09109AEE4"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dark_oak_log"
 					count: 105L
 					consume_items: true
@@ -1414,24 +1467,28 @@
 				{
 					id: "7CB53A17605A5BB7"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 11L
 				}
 				{
 					id: "3E266F09581D7658"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 36L
 				}
 				{
 					id: "56F2BCB09E5A07F7"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 3L
 				}
 				{
 					id: "22D7B3757726F26D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 				}
 			]
@@ -1531,6 +1588,7 @@
 				{
 					id: "378ED74C60A9DC3C"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dark_oak_log"
 					count: 105L
 					consume_items: true
@@ -1538,18 +1596,21 @@
 				{
 					id: "1CFDD54B773296F4"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 2L
 				}
 				{
 					id: "299273B323763ECD"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 81L
 				}
 				{
 					id: "0BF70A37ADD8EB68"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 44L
 				}
@@ -1642,6 +1703,7 @@
 				{
 					id: "39D65860F493870E"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 98L
 					consume_items: true
@@ -1649,6 +1711,7 @@
 				{
 					id: "2C6560789131BC40"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 39L
 					consume_items: true
@@ -1656,18 +1719,21 @@
 				{
 					id: "74CAAD7195D45FBB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 11L
 				}
 				{
 					id: "50F736324860C381"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 3L
 				}
 				{
 					id: "78959CBC0A82596A"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 				}
 			]
@@ -1767,6 +1833,7 @@
 				{
 					id: "67CCE8248B0895FC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 159L
 					consume_items: true
@@ -1774,18 +1841,21 @@
 				{
 					id: "059153D4B8D86890"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 2L
 				}
 				{
 					id: "07E979D138D381F3"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 81L
 				}
 				{
 					id: "71086BD14E11161A"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 44L
 				}
@@ -1877,6 +1947,7 @@
 				{
 					id: "7AE376BCDE7F5531"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:spruce_log"
 					count: 99L
 					consume_items: true
@@ -1884,6 +1955,7 @@
 				{
 					id: "4CB18F5DF6AEE244"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 38L
 					consume_items: false
@@ -1891,17 +1963,20 @@
 				{
 					id: "743C291B68A6AFB3"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 				}
 				{
 					id: "1C92010464EEECA5"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 11L
 				}
 				{
 					id: "24EBA77C5C63EC60"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 3L
 				}
@@ -2002,6 +2077,7 @@
 				{
 					id: "5A906F59E1ED2C05"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:spruce_log"
 					count: 165L
 					consume_items: true
@@ -2009,18 +2085,21 @@
 				{
 					id: "1535A1A351B4BB8E"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 2L
 				}
 				{
 					id: "5050DFCE4D1DF1FE"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 81L
 				}
 				{
 					id: "793A57D5D434B545"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:coarse_dirt"
 					count: 44L
 				}
@@ -2102,6 +2181,7 @@
 			x: -8.8d
 			y: -16.4d
 			shape: "rsquare"
+			subtitle: "Click to submit wood and cobblestone."
 			description: [
 				"{image:starpack:textures/quests/wood_1.png width:177 height:100 align:1}"
 				"{image:starpack:textures/quests/wood_2.png width:177 height:100 align:1}"
@@ -2114,6 +2194,7 @@
 				{
 					id: "2C3B72A2AAFFAAFE"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 30L
 					consume_items: true
@@ -2121,6 +2202,7 @@
 				{
 					id: "00AA7E024003D556"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 19L
 					consume_items: true
@@ -2128,18 +2210,21 @@
 				{
 					id: "651C1EE188CCA9BE"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 15L
 				}
 				{
 					id: "19E41EFDE82F2B4D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 3L
 				}
 				{
 					id: "1669A467FCD6DB4E"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 					count: 2L
 				}
@@ -2213,36 +2298,42 @@
 				{
 					id: "3C9E3A5AD0D8C73C"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:red_terracotta"
 					count: 8L
 				}
 				{
 					id: "4F344BA1DD24A10A"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 11L
 				}
 				{
 					id: "70083A270D785A15"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:red_sand"
 					count: 13L
 				}
 				{
 					id: "11B7E95E92E4A2ED"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:terracotta"
 					count: 17L
 				}
 				{
 					id: "53C1E31753851EEE"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cut_red_sandstone"
 					count: 16L
 				}
 				{
 					id: "5802FE08A7B28B6F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:orange_terracotta"
 					count: 12L
 				}
@@ -2264,6 +2355,7 @@
 				{
 					id: "16C708E54E656DB6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:spruce_log"
 					count: 318L
 					consume_items: true
@@ -2271,30 +2363,35 @@
 				{
 					id: "58DF930ABCE24DD4"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:gravel"
 					count: 47L
 				}
 				{
 					id: "1C37B560EB90E82B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 4L
 				}
 				{
 					id: "6CE39801FCD940BA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 34L
 				}
 				{
 					id: "77F26F11ACED15A0"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 3L
 				}
 				{
 					id: "54F4397EFD3F8BC6"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 					count: 2L
 				}
@@ -2374,6 +2471,7 @@
 					id: "3A828425F287A160"
 					type: "item"
 					icon: "minecraft:sandstone"
+					disable_toast: true
 					item: "minecraft:sandstone"
 					count: 30L
 					consume_items: true
@@ -2381,6 +2479,7 @@
 				{
 					id: "67EC6A9546B48C69"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cactus"
 					count: 15L
 					consume_items: true
@@ -2388,6 +2487,7 @@
 				{
 					id: "1AA9A8F3AB70FED8"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					count: 2L
 					consume_items: true
@@ -2395,6 +2495,7 @@
 				{
 					id: "1754D2B5C3004367"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 16L
 				}
@@ -2499,6 +2600,7 @@
 				{
 					id: "7363862A501A2715"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:sandstone"
 					count: 83L
 					consume_items: true
@@ -2506,36 +2608,42 @@
 				{
 					id: "35996B3C1395C9B0"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 16L
 				}
 				{
 					id: "60BBB9BE97FF7BF6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 70L
 				}
 				{
 					id: "24257C142E9F793F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					count: 3L
 				}
 				{
 					id: "6E1337D0DA0C1D93"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cactus"
 					consume_items: true
 				}
 				{
 					id: "1F7C21C690EA061B"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 					count: 2L
 				}
 				{
 					id: "477D09DFF3ECE18E"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 4L
 				}
@@ -2581,6 +2689,7 @@
 				{
 					id: "241303C44AC3314D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 47L
 					consume_items: true
@@ -2588,24 +2697,28 @@
 				{
 					id: "06B2B6D888F84B74"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 15L
 				}
 				{
 					id: "7CCF28DAD59C56D9"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 3L
 				}
 				{
 					id: "026797A7D8D7B4C6"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 					count: 2L
 				}
 				{
 					id: "16503C0641557E9A"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 3L
 				}
@@ -2651,6 +2764,7 @@
 				{
 					id: "79D95E3DBDCA3AAC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 1151L
 					consume_items: true
@@ -2658,18 +2772,21 @@
 				{
 					id: "5C63813D175D4645"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
 					count: 68L
 				}
 				{
 					id: "7E87BBB2A12632FA"
 					type: "item"
+					disable_toast: true
 					item: "minecolonies:blockminecoloniesrack"
 					count: 2L
 				}
 				{
 					id: "533DFCE1B68125C6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 16L
 					consume_items: true
@@ -2729,6 +2846,3136 @@
 						chiseldata: { }
 					}
 				}
+			}]
+		}
+		{
+			title: "Acacia Tavern"
+			icon: "minecraft:acacia_log"
+			x: -5.8d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "420BCF784CCA7EA9"
+			tasks: [
+				{
+					id: "60C629AD83E961F6"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:acacia_log"
+					count: 220L
+					consume_items: true
+				}
+				{
+					id: "657F829CDD230D06"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 54L
+					consume_items: true
+				}
+				{
+					id: "7BC80ABDB88672D8"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 26L
+					consume_items: true
+				}
+				{
+					id: "7341C1EA1C793DB8"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 87L
+				}
+			]
+			rewards: [
+				{
+					id: "7F14781F657C4803"
+					type: "item"
+					item: "minecraft:acacia_pressure_plate"
+					count: 4
+				}
+				{
+					id: "6B7C5B9FEC31943D"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 4
+				}
+				{
+					id: "5F1AD0B0B6E852B9"
+					type: "item"
+					item: "minecraft:acacia_door"
+					count: 6
+				}
+				{
+					id: "0D4FF6D7CCBE7D83"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "24A289E338262BEA"
+					type: "item"
+					item: "minecraft:acacia_fence"
+					count: 173
+				}
+				{
+					id: "214B11B5A567A08A"
+					type: "item"
+					item: "minecraft:acacia_slab"
+					count: 173
+				}
+				{
+					id: "7FDC346781437A2E"
+					type: "item"
+					item: "minecraft:acacia_trapdoor"
+					count: 26
+				}
+				{
+					id: "41A859D595D4D76B"
+					type: "item"
+					item: "minecraft:acacia_sign"
+					count: 5
+				}
+				{
+					id: "2832AD21619EB78A"
+					type: "item"
+					item: "minecraft:acacia_stairs"
+					count: 139
+				}
+				{
+					id: "79CD6581A4A471E9"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "65636D64DCA1526E"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+					count: 2
+				}
+				{
+					id: "0D3827CE09298F3B"
+					type: "item"
+					item: "minecraft:acacia_fence_gate"
+					count: 2
+				}
+				{
+					id: "2567560DF6A13006"
+					type: "item"
+					item: "minecraft:acacia_planks"
+					count: 100
+				}
+				{
+					id: "6960EE552CBDB21A"
+					type: "item"
+					item: "minecraft:torch"
+					count: 26
+				}
+				{
+					id: "47F25BAC3AF975CE"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 46
+				}
+			]
+		}
+		{
+			title: "Asian Tavern"
+			icon: "minecraft:oak_log"
+			x: -4.799999999999999d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "0BAD471FB6983D97"
+			tasks: [
+				{
+					id: "381250B3F2824CAA"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 78L
+					consume_items: true
+				}
+				{
+					id: "65D603A8A818B05C"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "688E1079F18E80D2"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 74L
+					consume_items: true
+				}
+				{
+					id: "7AA92096155FFFBA"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "032A11DB33E431C1"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+				}
+				{
+					id: "19769896BCBD2E38"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 15
+				}
+				{
+					id: "1D043A4D893AE688"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "275D27942477FE2B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "65CA386D5330D6C0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_wall"
+					count: 4
+				}
+				{
+					id: "3ADC3C97085A00FA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 58
+				}
+				{
+					id: "092F3AC54D5E4331"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone"
+					count: 48
+				}
+				{
+					id: "40D4AAB334EB603E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence_gate"
+					count: 3
+				}
+				{
+					id: "06AF73937914DAB0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "76508F1DCF40E822"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 116
+				}
+				{
+					id: "0A715CA62545599A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "51C27C9A678B23BA"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "3E39F2B0B8907DE6"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cobblestone_slab"
+					count: 20
+				}
+				{
+					id: "7A5FD0C73384ADF8"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Birch Tavern"
+			icon: "minecraft:birch_log"
+			x: -2.799999999999999d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "11F7EA574E0A81D9"
+			tasks: [
+				{
+					id: "28F1AC183FCD5C50"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:birch_log"
+					count: 150L
+					consume_items: true
+				}
+				{
+					id: "02565FCA5ACF8AD6"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "7F56C53497E0A9CC"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 2L
+				}
+				{
+					id: "53BE0BAA2F4ECCC7"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "78EC57B474335B3D"
+					type: "item"
+					item: "minecraft:yellow_wool"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "709A9716ACA0230D"
+					type: "item"
+					item: "minecraft:light_blue_wool"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6914119388D11489"
+					type: "item"
+					item: "minecraft:yellow_bed"
+				}
+				{
+					id: "7A79663588FFE09C"
+					type: "item"
+					item: "minecraft:light_blue_bed"
+				}
+				{
+					id: "4BCF0F8B7C92E77D"
+					type: "item"
+					item: "minecraft:birch_stairs"
+					count: 4
+				}
+				{
+					id: "76ADFBA5271349A1"
+					type: "item"
+					item: "minecraft:birch_fence"
+					count: 70
+				}
+				{
+					id: "1C1C1C57FF3F117F"
+					type: "item"
+					item: "minecraft:birch_sign"
+				}
+				{
+					id: "3AECEEAD1C081AE4"
+					type: "item"
+					item: "minecraft:birch_planks"
+					count: 444
+				}
+				{
+					id: "55D798094F812C85"
+					type: "item"
+					item: "minecraft:birch_slab"
+				}
+				{
+					id: "121B1BB2F249D7DD"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 2
+				}
+				{
+					id: "13CB4F8184C8C4E1"
+					type: "item"
+					item: "minecraft:torch"
+					count: 19
+				}
+			]
+		}
+		{
+			title: "Caleadonia Tavern"
+			icon: "minecraft:spruce_log"
+			x: -1.799999999999999d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "1D9864D13480D490"
+			tasks: [
+				{
+					id: "10D22838E5217782"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:spruce_log"
+					count: 85L
+					consume_items: true
+				}
+				{
+					id: "25444522CD3B21F7"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 90L
+					consume_items: true
+				}
+				{
+					id: "3CC39B72DD7D199D"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "24D0254A1FB94B92"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 90L
+					consume_items: true
+				}
+				{
+					id: "419C07A84A35C1FA"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "526A5E81A6491467"
+					type: "item"
+					item: "minecraft:spruce_slab"
+					count: 4
+				}
+				{
+					id: "08D828564C2A8CD5"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 20
+				}
+				{
+					id: "1DD658B19743AB2B"
+					type: "item"
+					item: "minecraft:birch_stairs"
+					count: 2
+				}
+				{
+					id: "176CA9A30889C7C4"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 6
+				}
+				{
+					id: "3BCDE7777B03E1D4"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 146
+				}
+				{
+					id: "337581F3BA5597ED"
+					type: "item"
+					item: "minecraft:birch_slab"
+					count: 3
+				}
+				{
+					id: "5F0BF4A7CAC26F2F"
+					type: "item"
+					item: "minecraft:oak_fence_gate"
+					count: 2
+				}
+				{
+					id: "054F54E6D1E065D4"
+					type: "item"
+					item: "minecraft:ladder"
+					count: 5
+				}
+				{
+					id: "48526D72377F2190"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 44
+				}
+				{
+					id: "08270040A4A18AE5"
+					type: "item"
+					item: "minecraft:oak_slab"
+					count: 133
+				}
+				{
+					id: "4603FB4BAEE76075"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "32B99B03C0BBC812"
+					type: "item"
+					item: "minecraft:spruce_stairs"
+					count: 76
+				}
+				{
+					id: "108168BACA55E6E9"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+					count: 2
+				}
+				{
+					id: "2F04C0836AF7CB62"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 84
+				}
+				{
+					id: "581FB5D5A8CAE656"
+					type: "item"
+					item: "minecraft:oak_log"
+				}
+			]
+		}
+		{
+			title: "Cave Tavern"
+			icon: "minecraft:cobblestone"
+			x: -0.7999999999999989d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "6A9C3405C65448F0"
+			tasks: [
+				{
+					id: "230D6B6B55A3F2BA"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 300L
+					consume_items: true
+				}
+				{
+					id: "1531B89C70DDA25B"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 21L
+					consume_items: true
+				}
+				{
+					id: "4A6C51E99E54F93F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 24L
+					consume_items: true
+				}
+				{
+					id: "58FB54CA6FD3C07A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 82L
+					consume_items: true
+				}
+				{
+					id: "5E440A6FC019E519"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "7DD05096E5602DF1"
+					type: "item"
+					item: "minecraft:red_wool"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "1346DA8D002485DD"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "137C536A81EFAA2F"
+					type: "item"
+					item: "minecraft:black_wool"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "73E906B6CBD7955C"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+				}
+				{
+					id: "25CD0849725D33F8"
+					type: "item"
+					item: "minecraft:spruce_door"
+					count: 3
+				}
+				{
+					id: "0F5A33791089CAE3"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 6
+				}
+				{
+					id: "741595D9C2B7686A"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 20
+				}
+				{
+					id: "66DE464B86663C78"
+					type: "item"
+					item: "minecraft:white_carpet"
+					count: 2
+				}
+				{
+					id: "5F91C13241C917AC"
+					type: "item"
+					item: "minecraft:black_carpet"
+					count: 4
+				}
+				{
+					id: "28FE28A258680C71"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 9
+				}
+				{
+					id: "5C018207660641E0"
+					type: "item"
+					item: "minecraft:red_bed"
+					count: 4
+				}
+				{
+					id: "35439F3576779DEA"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 68
+				}
+				{
+					id: "2D73004094E4A5D6"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 64
+				}
+				{
+					id: "736F551C437F8B3D"
+					type: "item"
+					item: "minecraft:torch"
+					count: 21
+				}
+				{
+					id: "3BA85F675A0633EC"
+					type: "item"
+					item: "minecraft:white_carpet"
+					count: 2
+				}
+				{
+					id: "0013B4671C338E2E"
+					type: "item"
+					item: "minecraft:black_carpet"
+					count: 4
+				}
+				{
+					id: "2BE4F843913E6749"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 132
+				}
+			]
+		}
+		{
+			title: "Jungle Tavern"
+			icon: "minecraft:jungle_log"
+			x: 0.20000000000000107d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "781ABD286FCDF1D5"
+			tasks: [
+				{
+					id: "1FEEDD6A366BD315"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:jungle_log"
+					count: 352L
+					consume_items: true
+				}
+				{
+					id: "566AC38D6A1D9A9E"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 16L
+				}
+				{
+					id: "0F0DAFE574896602"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 19L
+				}
+				{
+					id: "7EFE3D08622A0542"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:andesite"
+				}
+				{
+					id: "0481882074E1D277"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 11L
+					consume_items: true
+				}
+				{
+					id: "4E8689C9B6006CDC"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 4L
+				}
+				{
+					id: "46AF9E38470AFC2B"
+					type: "item"
+					item: "minecraft:vine"
+					count: 335L
+				}
+				{
+					id: "7DE669332E595A84"
+					type: "item"
+					item: "minecraft:grass"
+					count: 15L
+				}
+				{
+					id: "53C6289CE156889B"
+					type: "item"
+					item: "minecraft:fern"
+					count: 7L
+				}
+				{
+					id: "636493414509372D"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 11L
+				}
+				{
+					id: "6E190C61926C32E1"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+				{
+					id: "23DC5D72190D7AC3"
+					type: "item"
+					title: "Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 15L
+				}
+			]
+			rewards: [
+				{
+					id: "47A43A1934161537"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+					count: 3
+				}
+				{
+					id: "5878FAFF681BC542"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_fence"
+					count: 184
+				}
+				{
+					id: "2D61D4B05936D739"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "119DB436A38CD0B0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_planks"
+					count: 26
+				}
+				{
+					id: "1D0820788557B430"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ladder"
+					count: 6
+				}
+				{
+					id: "3DAEEB2258C6333E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "7AC0BD0559ECA5A7"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_onside"
+					count: 3
+				}
+				{
+					id: "4A8C6A2239C44470"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_stairs"
+					count: 119
+				}
+				{
+					id: "3322346F073A2E16"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_slab"
+					count: 131
+				}
+				{
+					id: "7B8ECB664E62916C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_sign"
+					count: 2
+				}
+				{
+					id: "308F5C2FD42224A5"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:jungle_trapdoor"
+					count: 6
+				}
+				{
+					id: "09DBBDB47E3DA4A0"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "003FB8ED14E07C40"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:torch"
+					count: 59
+				}
+				{
+					id: "35F714EDCF9ADEA4"
+					type: "item"
+					item: "minecraft:jungle_log"
+					count: 11
+				}
+			]
+		}
+		{
+			title: "Dark Oak Tavern"
+			icon: "minecraft:dark_oak_log"
+			x: -3.799999999999999d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "61A938F343492CC6"
+			tasks: [
+				{
+					id: "5771BAF65D85C1D3"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					count: 576L
+					consume_items: true
+				}
+				{
+					id: "1035C3155E18A690"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 21L
+				}
+				{
+					id: "71C27CB14164426E"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4064A3A92BAD41CB"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 90L
+				}
+				{
+					id: "3438EAA12ADD21F1"
+					type: "item"
+					item: "minecraft:magenta_wool"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "12E35280B7A18725"
+					type: "item"
+					item: "minecraft:green_wool"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "2447BD1F87724641"
+					type: "item"
+					item: "minecraft:light_blue_wool"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "0B1F266F170A1620"
+					type: "item"
+					item: "minecraft:red_wool"
+					count: 3L
+					consume_items: true
+				}
+				{
+					id: "2279FD98BD85CD66"
+					type: "item"
+					item: "minecraft:paper"
+					count: 36L
+					consume_items: true
+				}
+				{
+					id: "1537BFCEBD46FA87"
+					type: "item"
+					item: "minecraft:leather"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "3F245E7BE079B8D3"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "11CAEF67C60E7E01"
+					type: "item"
+					item: "minecraft:bookshelf"
+				}
+				{
+					id: "53AEE9351E834445"
+					type: "item"
+					item: "minecraft:dark_oak_sign"
+					count: 4
+				}
+				{
+					id: "4883C785E4CDD238"
+					type: "item"
+					item: "minecraft:dark_oak_stairs"
+					count: 127
+				}
+				{
+					id: "132D2530533EFA46"
+					type: "item"
+					item: "minecraft:dark_oak_fence"
+					count: 127
+				}
+				{
+					id: "2A587DE8A9406A9B"
+					type: "item"
+					item: "minecraft:dark_oak_slab"
+					count: 115
+				}
+				{
+					id: "5E293E7289BCE9FA"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+				}
+				{
+					id: "579547FD6142D764"
+					type: "item"
+					item: "minecraft:torch"
+					count: 4
+				}
+				{
+					id: "4A7303BE4EA65D4E"
+					type: "item"
+					item: "minecraft:magenta_bed"
+				}
+				{
+					id: "646F930FBF23A349"
+					type: "item"
+					item: "minecraft:green_bed"
+				}
+				{
+					id: "2045CBBFCD0CC574"
+					type: "item"
+					item: "minecraft:light_blue_bed"
+				}
+				{
+					id: "4D61CC0A72D1B271"
+					type: "item"
+					item: "minecraft:red_bed"
+				}
+				{
+					id: "5396D83DE23527B9"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 417
+				}
+			]
+		}
+		{
+			title: "Fortress Tavern"
+			icon: "minecraft:dark_oak_log"
+			x: 1.2000000000000002d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "56ECD2E3FA168C7B"
+			tasks: [
+				{
+					id: "7D5AB1CA6F63CBA5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:white_wool"
+					count: 151L
+					consume_items: true
+				}
+				{
+					id: "570F176C671C32D7"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 190L
+					consume_items: true
+				}
+				{
+					id: "3FB2828EBFD1911A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 82L
+					consume_items: true
+				}
+				{
+					id: "1D7EF12DA658907D"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "1CF30A1812D50C27"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:spruce_log"
+					count: 24L
+					consume_items: true
+				}
+				{
+					id: "4C06C7E2B98F7AFA"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4C90C565C6951717"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 6
+				}
+				{
+					id: "339401A10B0273A6"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "62348691012DF55C"
+					type: "item"
+					item: "minecraft:oak_trapdoor"
+					count: 5
+				}
+				{
+					id: "54A5EC319AA8F8C0"
+					type: "item"
+					item: "minecraft:dark_oak_fence"
+					count: 12
+				}
+				{
+					id: "6225779F6D617162"
+					type: "item"
+					item: "minecraft:spruce_trapdoor"
+					count: 6
+				}
+				{
+					id: "50B14356C7ABB899"
+					type: "item"
+					item: "minecraft:spruce_fence_gate"
+					count: 13
+				}
+				{
+					id: "14A90E1FE427D3C0"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "040E9B40C95FEA7A"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+					count: 22
+				}
+				{
+					id: "0944EFA140D95F45"
+					type: "item"
+					item: "minecraft:cobblestone_slab"
+					count: 41
+				}
+				{
+					id: "65E7A596E5238BC4"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "58DB52182F6D41B7"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 16
+				}
+				{
+					id: "1451E92FEB636C5C"
+					type: "item"
+					item: "minecraft:dark_oak_stairs"
+					count: 16
+				}
+				{
+					id: "14AC386FA4B18376"
+					type: "item"
+					item: "minecraft:cobblestone_wall"
+					count: 4
+				}
+				{
+					id: "7212B4F1C5E3D2A6"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 20
+				}
+				{
+					id: "118BBE6D7FBABCC2"
+					type: "item"
+					item: "minecraft:dark_oak_fence_gate"
+					count: 8
+				}
+				{
+					id: "4C85808DCC4ABB36"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "2724F86715F9CB72"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 14
+				}
+				{
+					id: "54067C52D0C4162A"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 6
+				}
+				{
+					id: "0C911DD10B2D9AE4"
+					type: "item"
+					item: "minecraft:white_banner"
+					count: 8
+				}
+				{
+					id: "01F2B2D21ACB471C"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 11
+				}
+				{
+					id: "7D559C042D40C869"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 11
+				}
+				{
+					id: "3AF503D999ECF4C0"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+					count: 5
+				}
+				{
+					id: "49B9E1C8753B0631"
+					type: "item"
+					item: "minecraft:torch"
+					count: 25
+				}
+				{
+					id: "02167FF8E73F05AA"
+					type: "item"
+					item: "minecolonies:barrel_block"
+				}
+				{
+					id: "20B49DD92E629D34"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 132
+				}
+				{
+					id: "520A5768609683A8"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 91
+				}
+			]
+		}
+		{
+			title: "Medieval Birch Tavern"
+			icon: "minecraft:birch_log"
+			x: 2.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "084F84A23295015E"
+			tasks: [
+				{
+					id: "092F712B76518216"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:birch_log"
+					count: 284L
+					consume_items: true
+				}
+				{
+					id: "42FB78054A02D37C"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 95L
+				}
+				{
+					id: "73D874107EA39B38"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:coarse_dirt"
+					count: 18L
+				}
+				{
+					id: "2B76BA5DF28AC218"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:andesite"
+				}
+				{
+					id: "7AA82951BB36B9CF"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "6DCE953BB6BB9BA6"
+					type: "item"
+					title: "Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "5906F0FEA97C999A"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "4DEEDCFB6CC53990"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 11
+				}
+				{
+					id: "7121AE102381DBC5"
+					type: "item"
+					item: "minecraft:birch_trapdoor"
+				}
+				{
+					id: "2A5EC34C360C087E"
+					type: "item"
+					item: "minecraft:birch_stairs"
+					count: 114
+				}
+				{
+					id: "27A700165D39EC31"
+					type: "item"
+					item: "structurize:double_crossed_birch_birch_timber_frame"
+					count: 17
+				}
+				{
+					id: "2D3E7CD4474B9B6E"
+					type: "item"
+					item: "minecraft:birch_pressure_plate"
+					count: 4
+				}
+				{
+					id: "4176236BE864F1CD"
+					type: "item"
+					item: "minecraft:birch_wood"
+					count: 4
+				}
+				{
+					id: "5A0B9BBE5A314AE9"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "601E4A09EE88A034"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "0C42F22925652302"
+					type: "item"
+					item: "minecraft:birch_door"
+					count: 4
+				}
+				{
+					id: "41DF0C8453A9B885"
+					type: "item"
+					item: "minecraft:birch_fence"
+					count: 37
+				}
+				{
+					id: "5FC71127DF5C2EDB"
+					type: "item"
+					item: "minecraft:birch_sign"
+					count: 3
+				}
+				{
+					id: "3315CFF986723FAA"
+					type: "item"
+					item: "minecraft:birch_planks"
+					count: 33
+				}
+				{
+					id: "5E788AFF1E97F914"
+					type: "item"
+					item: "minecraft:birch_slab"
+					count: 75
+				}
+				{
+					id: "57BB4CAFA23C5158"
+					type: "item"
+					item: "structurize:plain_birch_birch_timber_frame"
+					count: 106
+				}
+				{
+					id: "3E71044651478039"
+					type: "item"
+					item: "minecraft:stripped_birch_log"
+				}
+				{
+					id: "1565040A2511882D"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "70752E6BF95B975C"
+					type: "item"
+					item: "minecraft:torch"
+					count: 7
+				}
+				{
+					id: "7A904E8818E296BD"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 142
+				}
+			]
+		}
+		{
+			title: "Medieval Dark Oak Tavern"
+			icon: "minecraft:dark_oak_log"
+			x: 3.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "5E5A29B3BE9487F9"
+			tasks: [
+				{
+					id: "2B794DBF3EAA02B4"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					count: 276L
+					consume_items: true
+				}
+				{
+					id: "53F786717295BBE9"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 94L
+				}
+				{
+					id: "0BD69C7A81E12704"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:coarse_dirt"
+					count: 18L
+				}
+				{
+					id: "212351ECBA2A69BF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:andesite"
+				}
+				{
+					id: "6D7467CADD134438"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:stone"
+				}
+				{
+					id: "317E254BB775CB32"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:white_wool"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "2EAF336041A1E2A7"
+					type: "item"
+					title: "Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3D5E5C7A4768A124"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 11
+				}
+				{
+					id: "4E3BE5142FE50CC5"
+					type: "item"
+					item: "minecraft:dark_oak_sign"
+					count: 3
+				}
+				{
+					id: "615D6D5FCE9395EC"
+					type: "item"
+					item: "minecraft:dark_oak_fence"
+					count: 32
+				}
+				{
+					id: "7F0B8721C4AEA7F5"
+					type: "item"
+					item: "minecraft:dark_oak_slab"
+					count: 49
+				}
+				{
+					id: "2F0188FFB4C56C91"
+					type: "item"
+					item: "structurize:double_crossed_dark_oak_dark_oak_timber_frame"
+					count: 17
+				}
+				{
+					id: "132BF1191AF92D1C"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "048C44FF467B9D65"
+					type: "item"
+					item: "minecraft:dark_oak_trapdoor"
+				}
+				{
+					id: "052B790E38870FEC"
+					type: "item"
+					item: "minecraft:dark_oak_pressure_plate"
+					count: 4
+				}
+				{
+					id: "61F754C884BB8FA6"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "0F8ED7D98E17C981"
+					type: "item"
+					item: "minecraft:stripped_dark_oak_log"
+				}
+				{
+					id: "022BEE03D52E1F05"
+					type: "item"
+					item: "minecraft:dark_oak_stairs"
+					count: 123
+				}
+				{
+					id: "68A1454AFB793C7D"
+					type: "item"
+					item: "structurize:plain_dark_oak_dark_oak_timber_frame"
+					count: 105
+				}
+				{
+					id: "4DF8D60102B3A585"
+					type: "item"
+					item: "minecraft:dark_oak_wood"
+					count: 4
+				}
+				{
+					id: "7A20FD9DCC86B8F0"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 142
+				}
+				{
+					id: "0793648914C2563B"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "51527379D0C833E4"
+					type: "item"
+					item: "minecraft:dark_oak_door"
+					count: 4
+				}
+				{
+					id: "4EAF481FEC20350C"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+					count: 33
+				}
+				{
+					id: "40197200AD87E39A"
+					type: "item"
+					item: "minecraft:torch"
+					count: 7
+				}
+			]
+		}
+		{
+			title: "Medieval Oak Tavern"
+			icon: "minecraft:oak_log"
+			x: 4.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "2B7BE383602528B3"
+			tasks: [
+				{
+					id: "1C1885C23BC1CD13"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 296L
+					consume_items: true
+				}
+				{
+					id: "6403758A1AF374A7"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 101L
+				}
+				{
+					id: "44EFCB3869BEDAC5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:coarse_dirt"
+					count: 18L
+				}
+				{
+					id: "5F0CB148A79EE39A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:andesite"
+				}
+				{
+					id: "12B605862BB28927"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "5BE1D315F542775E"
+					type: "item"
+					title: "Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "12B4CFA960F9EFD6"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "7EF495336DBDEAC2"
+					type: "item"
+					item: "minecraft:oak_pressure_plate"
+					count: 4
+				}
+				{
+					id: "53832F9689919122"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 11
+				}
+				{
+					id: "1E86A25BE79B3C19"
+					type: "item"
+					item: "minecraft:oak_trapdoor"
+				}
+				{
+					id: "3BC3887C57D2F813"
+					type: "item"
+					item: "minecraft:oak_door"
+					count: 4
+				}
+				{
+					id: "5FB36107BB5D220B"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 33
+				}
+				{
+					id: "4844139C956DE661"
+					type: "item"
+					item: "minecraft:oak_wood"
+					count: 4
+				}
+				{
+					id: "17FFD37609A8F4AA"
+					type: "item"
+					item: "structurize:plain_oak_oak_timber_frame"
+					count: 106
+				}
+				{
+					id: "68AFA0360A61FDB0"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "2CF1D937C717A038"
+					type: "item"
+					item: "structurize:double_crossed_oak_oak_timber_frame"
+					count: 17
+				}
+				{
+					id: "0AA6AB198A74EB48"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "5A44B51C5D527B5D"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 37
+				}
+				{
+					id: "41226B177D4978FF"
+					type: "item"
+					item: "minecraft:stripped_oak_log"
+				}
+				{
+					id: "46C3ECDEFB36343F"
+					type: "item"
+					item: "minecraft:oak_sign"
+					count: 3
+				}
+				{
+					id: "14DD8EB8A9B2113D"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 114
+				}
+				{
+					id: "5F5A97B5EB1DA0AE"
+					type: "item"
+					item: "minecraft:oak_slab"
+					count: 75
+				}
+				{
+					id: "4C0F8F261C2F3D47"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "406E45331F2AAE21"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 142
+				}
+				{
+					id: "3A95CDBAAE54A1BB"
+					type: "item"
+					item: "minecraft:torch"
+					count: 7
+				}
+			]
+		}
+		{
+			title: "Medieval Spruce Tavern"
+			icon: "minecraft:spruce_log"
+			x: 5.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "1F00A0AC3D9983D3"
+			tasks: [
+				{
+					id: "08E59C6BE00EB6F3"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:spruce_log"
+					count: 270L
+					consume_items: true
+				}
+				{
+					id: "44B121ABE3C9C09B"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 94L
+				}
+				{
+					id: "78C1B1ABE5734D2E"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:coarse_dirt"
+					count: 18L
+				}
+				{
+					id: "2E89E05A73424DC3"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:andesite"
+				}
+				{
+					id: "057BD219177485A9"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "5AC97A9B896333C6"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+				{
+					id: "0646DB09B81F5CF3"
+					type: "item"
+					title: "Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3F96226AB52D1B14"
+					type: "item"
+					item: "minecraft:spruce_planks"
+					count: 33
+				}
+				{
+					id: "75516425D5E289BF"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 11
+				}
+				{
+					id: "1CB0A0754728D4AB"
+					type: "item"
+					item: "minecraft:spruce_pressure_plate"
+					count: 4
+				}
+				{
+					id: "1C70E44CD67E29CD"
+					type: "item"
+					item: "minecraft:spruce_fence"
+					count: 37
+				}
+				{
+					id: "01DAC0E09DCD91DA"
+					type: "item"
+					item: "minecraft:spruce_trapdoor"
+				}
+				{
+					id: "46C3A708BBB42805"
+					type: "item"
+					item: "structurize:plain_spruce_spruce_timber_frame"
+					count: 106
+				}
+				{
+					id: "3DBA3FFEFEA16A06"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "2F510C754065C35E"
+					type: "item"
+					item: "minecraft:spruce_stairs"
+					count: 125
+				}
+				{
+					id: "2625F72E18B4F6B9"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "31CEEB4F24B842F4"
+					type: "item"
+					item: "minecraft:spruce_door"
+					count: 4
+				}
+				{
+					id: "0B589ACC5204E913"
+					type: "item"
+					item: "minecraft:spruce_slab"
+					count: 73
+				}
+				{
+					id: "7508D98355A7235D"
+					type: "item"
+					item: "minecraft:spruce_sign"
+					count: 3
+				}
+				{
+					id: "7CC18B17B039C24D"
+					type: "item"
+					item: "minecraft:stripped_spruce_log"
+				}
+				{
+					id: "4EB6A3C8BE8E4D6B"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 142
+				}
+				{
+					id: "15A56E5BB7D8DB0D"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "24DEAF6FEE117DD0"
+					type: "item"
+					item: "minecraft:spruce_wood"
+					count: 4
+				}
+				{
+					id: "65CD74B1FBAC9B2C"
+					type: "item"
+					item: "structurize:double_crossed_spruce_spruce_timber_frame"
+					count: 17
+				}
+				{
+					id: "25C7D95CEA6FCAC4"
+					type: "item"
+					item: "minecraft:torch"
+					count: 7
+				}
+			]
+		}
+		{
+			title: "Mesa Tavern"
+			icon: "minecraft:yellow_terracotta"
+			x: 6.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "4838938973CCE291"
+			tasks: [
+				{
+					id: "3A6C2B93BF6C6ADD"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cactus"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "61485A3C32AAAF8F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:white_terracotta"
+					count: 120L
+				}
+				{
+					id: "77EDB393073743D8"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:yellow_terracotta"
+					count: 295L
+				}
+				{
+					id: "5D67A053AC368B5C"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 2L
+				}
+				{
+					id: "621A266A89F7F198"
+					type: "item"
+					item: "minecraft:green_wool"
+					count: 12L
+				}
+				{
+					id: "61E6F0289234A7A0"
+					type: "item"
+					title: "Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "671A0424C64751A2"
+					type: "item"
+					item: "minecraft:green_bed"
+					count: 4
+				}
+				{
+					id: "6E12ED3E2A0F1950"
+					type: "item"
+					item: "structurize:blockcactusdoor"
+					count: 4
+				}
+				{
+					id: "474A8B9A8B78B1BF"
+					type: "item"
+					item: "structurize:blockcactusfence"
+					count: 4
+				}
+				{
+					id: "55DD6F198188ECFB"
+					type: "item"
+					item: "structurize:blockcactustrapdoor"
+					count: 4
+				}
+				{
+					id: "5980DF184B542C5F"
+					type: "item"
+					item: "minecraft:torch"
+					count: 31
+				}
+				{
+					id: "67117D724AD16D61"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Nordic Tavern"
+			icon: "minecraft:spruce_log"
+			x: 7.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "3FC1156AB0E56F83"
+			tasks: [
+				{
+					id: "11BAE2CF429BC029"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:spruce_log"
+					count: 350L
+					consume_items: true
+				}
+				{
+					id: "796B57FCE705BFFF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "60C877B0032B3261"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 7L
+					consume_items: true
+				}
+				{
+					id: "37F4830EB0370DC9"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 26L
+				}
+				{
+					id: "45F44727FD12A72F"
+					type: "item"
+					item: "minecraft:red_wool"
+					count: 12L
+				}
+				{
+					id: "60285664484F4506"
+					type: "item"
+					item: "minecraft:black_wool"
+					count: 4L
+				}
+				{
+					id: "064EF3CC84439E08"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "2BA976E1EE25FA7D"
+					type: "item"
+					title: "8x Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "778D1D0E26DC2C80"
+					type: "item"
+					item: "minecraft:spruce_planks"
+					count: 541
+				}
+				{
+					id: "5F8B85012A74ECBB"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 2
+				}
+				{
+					id: "70968E8324457DB3"
+					type: "item"
+					item: "minecraft:spruce_fence"
+					count: 24
+				}
+				{
+					id: "5C799456B7988556"
+					type: "item"
+					item: "minecraft:black_carpet"
+					count: 6
+				}
+				{
+					id: "59A9D08AE02E3310"
+					type: "item"
+					item: "minecraft:red_bed"
+					count: 4
+				}
+				{
+					id: "2F3FDFCC4DCB60B4"
+					type: "item"
+					item: "minecraft:spruce_stairs"
+					count: 64
+				}
+				{
+					id: "45D7A4A062CD7B4F"
+					type: "item"
+					item: "minecraft:spruce_door"
+					count: 5
+				}
+				{
+					id: "4A40490E6A0D2665"
+					type: "item"
+					item: "minecraft:lantern"
+				}
+				{
+					id: "0D125C1959045741"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 108
+				}
+				{
+					id: "1BD24899E838FDDC"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 4
+				}
+				{
+					id: "72F2B1BB2F5A982C"
+					type: "item"
+					item: "minecraft:torch"
+					count: 25
+				}
+				{
+					id: "636373ED1D1E52B8"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 18
+				}
+			]
+		}
+		{
+			title: "Sandstone Tavern"
+			icon: "minecraft:sandstone"
+			x: 8.2d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "6581BC73DDFE0C59"
+			tasks: [
+				{
+					id: "6F6A09FBC682A1EA"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sandstone"
+					count: 415L
+					consume_items: true
+				}
+				{
+					id: "0265BA91CA2CCDF3"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "6C258C5786DDA5B3"
+					type: "item"
+					item: "minecraft:green_wool"
+					count: 12L
+				}
+				{
+					id: "0C3AC4A577279D9B"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 12L
+				}
+				{
+					id: "39F713EA9F1C6E60"
+					type: "item"
+					title: "8x Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "0AE494118E53C337"
+					type: "item"
+					item: "minecraft:green_bed"
+					count: 4
+				}
+				{
+					id: "228E75F647348553"
+					type: "item"
+					item: "structurize:blockcactusdoor"
+					count: 4
+				}
+				{
+					id: "016D822C0F689C66"
+					type: "item"
+					item: "structurize:blockcactusfence"
+					count: 4
+				}
+				{
+					id: "1C5F1802A54AF7F9"
+					type: "item"
+					item: "structurize:blockcactustrapdoor"
+					count: 4
+				}
+				{
+					id: "4704B97CED602AF0"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 4
+				}
+				{
+					id: "70CEF6B034FDE528"
+					type: "item"
+					item: "minecraft:torch"
+					count: 31
+				}
+			]
+		}
+		{
+			title: "Spacewars Tavern"
+			icon: "minecraft:sandstone"
+			x: 9.200000000000003d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "331CF55BA3CDBC87"
+			tasks: [
+				{
+					id: "28D14C1032F9B32B"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sandstone"
+					count: 774L
+					consume_items: true
+				}
+				{
+					id: "3C4F6377BBE1BCD6"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:torch"
+					count: 19L
+				}
+				{
+					id: "541ED29D5A7A1C07"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 742L
+				}
+				{
+					id: "17F242F9E1BB061D"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:sand"
+					count: 124L
+				}
+				{
+					id: "2A9EA49719BE4EEB"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 28L
+				}
+				{
+					id: "29A3ED9F4F37AEB1"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4L
+				}
+				{
+					id: "2E0BE4C9AEE4F0BD"
+					type: "item"
+					title: "5x Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 5L
+				}
+				{
+					id: "5C2E738F8639C11D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+			]
+			rewards: [
+				{
+					id: "7CEF76D911F58521"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 4
+				}
+				{
+					id: "022B82A0EBF9BDCC"
+					type: "item"
+					item: "structurize:blockcactusstair"
+					count: 6
+				}
+				{
+					id: "4E45F3CED5836D97"
+					type: "item"
+					item: "minecraft:sandstone_stairs"
+					count: 4
+				}
+				{
+					id: "7A5393AD21246365"
+					type: "item"
+					item: "structurize:blockcactusdoor"
+					count: 2
+				}
+				{
+					id: "74BCEB97D36ECBA8"
+					type: "item"
+					item: "structurize:blockcactusfence"
+					count: 9
+				}
+				{
+					id: "61E8140CED41DE75"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "71C29C299BF4CD2D"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+					count: 2
+				}
+				{
+					id: "4A13C47B56AF68CA"
+					type: "item"
+					item: "minecraft:sandstone"
+					count: 768
+				}
+				{
+					id: "68B7707ACB94C9C3"
+					type: "item"
+					item: "structurize:blockcactustrapdoor"
+					count: 3
+				}
+				{
+					id: "0957E32012473E61"
+					type: "item"
+					item: "minecraft:oak_sign"
+					count: 3
+				}
+				{
+					id: "25DEB2F89B152E41"
+					type: "item"
+					item: "structurize:blockcactusslab"
+				}
+				{
+					id: "34CFA90DC30ED861"
+					type: "item"
+					item: "structurize:blockcactusfencegate"
+				}
+				{
+					id: "74809F8536D4F74B"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "6EB6061DE8646F72"
+					type: "item"
+					item: "minecraft:torch"
+					count: 19
+				}
+			]
+		}
+		{
+			title: "Stone Tavern"
+			icon: "minecraft:cobblestone"
+			x: 10.200000000000003d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "756C6394E9891E56"
+			tasks: [
+				{
+					id: "60DA89FD158A92A5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 821L
+				}
+				{
+					id: "06D8941C58F65F0E"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 6L
+				}
+				{
+					id: "79F507618CEFCFAC"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 70L
+					consume_items: true
+				}
+				{
+					id: "628720B203BC8E96"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					count: 4L
+				}
+				{
+					id: "39197EB5C7EB23DB"
+					type: "item"
+					title: "5x Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 5L
+				}
+				{
+					id: "070731CDB051F581"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+				{
+					id: "4551626D1C902AEA"
+					type: "item"
+					item: "minecraft:black_wool"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "2493609C10879A88"
+					type: "item"
+					item: "minecraft:oak_pressure_plate"
+					count: 3
+				}
+				{
+					id: "65CD298F62846B2C"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 9
+				}
+				{
+					id: "49AAB9C72926627E"
+					type: "item"
+					item: "minecraft:oak_trapdoor"
+				}
+				{
+					id: "117014C76848919C"
+					type: "item"
+					item: "minecraft:oak_door"
+					count: 4
+				}
+				{
+					id: "51D10D88734EA592"
+					type: "item"
+					item: "minecraft:black_carpet"
+					count: 11
+				}
+				{
+					id: "730EC983C2D1F357"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "143A69CD0C2A7684"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+				}
+				{
+					id: "0BCD3D98A63A99CF"
+					type: "item"
+					item: "minecraft:cobblestone_slab"
+					count: 80
+				}
+				{
+					id: "408E94FEA30D22C4"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 14
+				}
+				{
+					id: "5F4F9C7BEF7B36E5"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 221
+				}
+				{
+					id: "28A0C14E485E1170"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "564A625F50499247"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "56976B9EC7553573"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 14
+				}
+				{
+					id: "33C43355F6E6D3A0"
+					type: "item"
+					item: "minecraft:torch"
+					count: 17
+				}
+			]
+		}
+		{
+			title: "Dwarven Tavern"
+			icon: "minecraft:cobblestone"
+			x: 11.200000000000003d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "31F3BC1AE799BFC0"
+			tasks: [
+				{
+					id: "6E201765F830890B"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 733L
+				}
+				{
+					id: "16D57899C408B039"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:gravel"
+					count: 11L
+				}
+				{
+					id: "1571658E78A08054"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dirt"
+					count: 26L
+				}
+				{
+					id: "35C7DB0956ED61FA"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 24L
+				}
+				{
+					id: "1359B4EE2042EB49"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 810L
+					consume_items: true
+				}
+				{
+					id: "32ED486F22728591"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 12L
+				}
+				{
+					id: "7BC0E9174D891C1C"
+					type: "item"
+					item: "minecraft:black_wool"
+					count: 20L
+				}
+				{
+					id: "5F75D6775A44E0C9"
+					type: "item"
+					title: "26x Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 26L
+				}
+			]
+			rewards: [
+				{
+					id: "56ECAD1C9A670C8B"
+					type: "item"
+					item: "structurize:blockbarreldeco_standing"
+					count: 8
+				}
+				{
+					id: "34A447245D87760F"
+					type: "item"
+					item: "minecraft:oak_door"
+					count: 10
+				}
+				{
+					id: "288608B208045C9A"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 450
+				}
+				{
+					id: "5A379FA3915197DF"
+					type: "item"
+					item: "structurize:black_floating_carpet"
+					count: 30
+				}
+				{
+					id: "23A1F2A78BB02339"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "57F70ACDB8F64F16"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "73CE4EDC7C6D300A"
+					type: "item"
+					item: "minecraft:cobblestone_slab"
+					count: 2
+				}
+				{
+					id: "45730D8887507932"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 32
+				}
+				{
+					id: "01C90998414D92FA"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 162
+				}
+				{
+					id: "593338EFD59AB400"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 352
+				}
+				{
+					id: "462C6B136B924A74"
+					type: "item"
+					item: "minecraft:oak_slab"
+					count: 86
+				}
+				{
+					id: "26D1888287F3FEE5"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 56
+				}
+				{
+					id: "47A4D7EF355E5BBC"
+					type: "item"
+					item: "minecraft:torch"
+					count: 102
+				}
+				{
+					id: "61781E6CC5585758"
+					type: "item"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Wooden Tavern"
+			icon: "minecraft:oak_log"
+			x: -6.8d
+			y: -9.8d
+			shape: "rsquare"
+			dependencies: ["6BC8A06BF6CC5157"]
+			id: "09E5F367818E5588"
+			tasks: [
+				{
+					id: "44C93DF151AD2895"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					count: 276L
+					consume_items: true
+				}
+				{
+					id: "47C601D5A040F5ED"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:white_wool"
+					count: 12L
+					consume_items: true
+				}
+				{
+					id: "44C1EC4EB41AA6EE"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:black_wool"
+					count: 8L
+					consume_items: true
+				}
+				{
+					id: "621E3ABBE625DDAA"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:glass"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "46646F09838D3803"
+					type: "item"
+					title: "Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 9L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "4EF66B172600CF11"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_pressure_plate"
+					count: 3
+				}
+				{
+					id: "26F0C423CE0066C4"
+					type: "item"
+					auto: "enabled"
+					item: "structurize:blockbarreldeco_standing"
+					count: 9
+				}
+				{
+					id: "5A8874ABF1F030EA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_trapdoor"
+				}
+				{
+					id: "2EA519DB3F82405D"
+					type: "item"
+					auto: "disabled"
+					item: "minecraft:oak_door"
+					count: 4
+				}
+				{
+					id: "7200A6AC7B936C66"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 443
+				}
+				{
+					id: "6B58FAF2D201E55B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:black_carpet"
+					count: 11
+				}
+				{
+					id: "7805340533B45498"
+					type: "item"
+					item: "minecraft:white_bed"
+					count: 4
+				}
+				{
+					id: "09E99E6EA8AC8DB7"
+					type: "item"
+					item: "structurize:blockbarreldeco_onside"
+				}
+				{
+					id: "09A15B844A909A8B"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 14
+				}
+				{
+					id: "18F543EC95E80642"
+					type: "item"
+					item: "minecraft:oak_stairs"
+					count: 221
+				}
+				{
+					id: "2D5D8BE5AA595C31"
+					type: "item"
+					item: "minecraft:oak_slab"
+					count: 81
+				}
+				{
+					id: "3E6B28ECC930DB16"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "57E1D5301A1616B8"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32
+				}
+				{
+					id: "471D88FE3EF04928"
+					type: "item"
+					item: "minecraft:black_carpet"
+					count: 11
+				}
+				{
+					id: "433136FE20519AC0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:torch"
+					count: 34
+				}
+				{
+					id: "3A10C82727DAF349"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:glass_pane"
+					count: 14
+				}
+			]
+		}
+		{
+			x: 2.2d
+			y: -7.8d
+			dependencies: [
+				"09E5F367818E5588"
+				"420BCF784CCA7EA9"
+				"0BAD471FB6983D97"
+				"61A938F343492CC6"
+				"11F7EA574E0A81D9"
+				"1D9864D13480D490"
+				"6A9C3405C65448F0"
+				"781ABD286FCDF1D5"
+				"56ECD2E3FA168C7B"
+				"084F84A23295015E"
+				"5E5A29B3BE9487F9"
+				"2B7BE383602528B3"
+				"1F00A0AC3D9983D3"
+				"4838938973CCE291"
+				"3FC1156AB0E56F83"
+				"6581BC73DDFE0C59"
+				"331CF55BA3CDBC87"
+				"756C6394E9891E56"
+				"31F3BC1AE799BFC0"
+			]
+			dependency_requirement: "one_completed"
+			id: "29DBE18010E1105C"
+			tasks: [{
+				id: "0F249ACB7B0DA8D8"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_tavern"
+				criterion: ""
+			}]
+		}
+		{
+			x: 2.2d
+			y: -20.2d
+			dependencies: ["5B9419E41BB8D8D7"]
+			id: "731EDD57669DE7FF"
+			tasks: [{
+				id: "4E9A081C5FFA986A"
+				type: "item"
+				item: "minecolonies:clipboard"
 			}]
 		}
 	]

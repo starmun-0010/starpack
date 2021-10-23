@@ -11,7 +11,7 @@
 		{
 			title: "Shelter"
 			icon: "minecolonies:supplycampdeployer"
-			x: -3.5d
+			x: -3.4d
 			y: -8.0d
 			subtitle: "Supply Camp"
 			description: [
@@ -25,6 +25,7 @@
 				""
 				"Right click with the supply block in your hand on the ground (or over water) and follow the instructions from there."
 			]
+			dependencies: ["35E07748D4DDAE48"]
 			id: "4DAB1BDC04778C11"
 			tasks: [{
 				id: "28CB66514D9F00C3"
@@ -51,7 +52,7 @@
 		{
 			title: "Punching Wood"
 			icon: "minecraft:oak_log"
-			x: -3.5d
+			x: -3.4d
 			y: -10.0d
 			subtitle: "Gather Some Wood"
 			description: [
@@ -72,13 +73,13 @@
 						value: "minecraft:logs"
 					}
 				}
-				count: 64L
+				count: 32L
 			}]
 		}
 		{
 			title: "Crafting Table"
 			icon: "minecraft:crafting_table"
-			x: -2.5d
+			x: -2.4d
 			y: -9.0d
 			subtitle: "3x3 Crafting"
 			description: [

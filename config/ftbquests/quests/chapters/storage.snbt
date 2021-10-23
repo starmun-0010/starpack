@@ -1,7 +1,7 @@
 {
 	id: "2327C72201FCFA1A"
 	group: "2B6C2CBF9E7D9DFC"
-	order_index: 2
+	order_index: 3
 	filename: "storage"
 	title: "Storage"
 	icon: "quark:oak_chest"
@@ -444,92 +444,186 @@
 		{
 			icon: "minecolonies:blockhutwarehouse"
 			x: 5.0d
-			y: 3.5d
-			dependencies: ["0BFFFEB6C122E267"]
+			y: 3.6d
 			id: "11F4D2F291A7CEA5"
-			tasks: [
-				{
-					id: "384838132A056B09"
-					type: "item"
-					item: "minecolonies:blockhutwarehouse"
-				}
-				{
-					id: "13518A1E52439890"
-					type: "item"
-					item: {
-						id: "minecraft:wooden_shovel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "7350CB1BB3742E53"
-					type: "item"
-					item: "minecraft:cobblestone"
-					count: 18L
-				}
-				{
-					id: "1BD0539FC2401406"
-					type: "item"
-					item: "minecraft:oak_stairs"
-				}
-				{
-					id: "1038AE7A1FAFA881"
-					type: "item"
-					item: "minecraft:torch"
-					count: 18L
-				}
-				{
-					id: "3ED9FB44085E9E8C"
-					type: "item"
-					item: "minecraft:dark_oak_log"
-					count: 521L
-				}
-				{
-					id: "2B0BD99C4C63C467"
-					type: "advancement"
-					advancement: "minecolonies:production/build_warehouse"
-					criterion: ""
-				}
-			]
+			tasks: [{
+				id: "384838132A056B09"
+				type: "item"
+				item: "minecolonies:blockhutwarehouse"
+			}]
 		}
 		{
 			icon: "minecolonies:blockhutdeliveryman"
 			x: 5.0d
-			y: 5.5d
-			dependencies: ["11F4D2F291A7CEA5"]
+			y: 7.2d
+			dependencies: ["167C59173AF03D06"]
 			id: "73FEFAFFB7525C81"
+			tasks: [{
+				id: "74DA7D280734A6DF"
+				type: "item"
+				item: "minecolonies:blockhutdeliveryman"
+			}]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: 5.0d
+			y: 5.4d
+			shape: "rsquare"
+			dependencies: ["11F4D2F291A7CEA5"]
+			id: "167C59173AF03D06"
 			tasks: [
 				{
-					id: "74DA7D280734A6DF"
+					id: "56666F95B2950228"
 					type: "item"
-					item: "minecolonies:blockhutdeliveryman"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					consume_items: true
 				}
 				{
-					id: "263FEAA3EF716C63"
+					id: "2FADB4205E8EF009"
 					type: "item"
-					item: "minecraft:cobblestone"
-					count: 4L
-				}
-				{
-					id: "0CADAB214E5C3524"
-					type: "item"
+					disable_toast: true
 					item: "minecraft:torch"
-					count: 2L
+					count: 36L
+					only_from_crafting: false
 				}
 				{
-					id: "63D8D15D05A3E024"
+					id: "13AE8DBB84467794"
 					type: "item"
-					item: "minecraft:dark_oak_log"
-					count: 130L
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 30L
+				}
+			]
+			rewards: [
+				{
+					id: "5FE22AC6186A504D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_planks"
+					count: 52
 				}
 				{
-					id: "1DCAE4409E431230"
-					type: "advancement"
-					advancement: "minecolonies:production/build_delivery_person"
-					criterion: ""
+					id: "25C2743569882B61"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 46
+				}
+				{
+					id: "75353EB962CF31A7"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_slab"
+					count: 228
+				}
+				{
+					id: "16C7F0586D1E5EF1"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+					count: 4
+				}
+				{
+					id: "1083DF082FB4F24B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:spruce_stairs"
+					count: 50
+				}
+				{
+					id: "293E90CF11245035"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 24
+				}
+				{
+					id: "49241A961B42F641"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 416
+				}
+				{
+					id: "023D32AA06CD7EDA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 146
+				}
+			]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: 5.0d
+			y: 9.0d
+			shape: "rsquare"
+			dependencies: ["73FEFAFFB7525C81"]
+			id: "4627379A126D09D6"
+			tasks: [
+				{
+					id: "6BA671F2CAE6BB02"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+				}
+				{
+					id: "10786353A0B0B30D"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:torch"
+					count: 11L
+				}
+				{
+					id: "5030F7C7A70A45BD"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "1A21D85DF19BFA1E"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 113
+				}
+				{
+					id: "2E1FBD5FFD63BC8B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 7
+				}
+				{
+					id: "1D0FC44CF336F041"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_door"
+				}
+				{
+					id: "294E2A551708583D"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "3287295EB38DE2CC"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 193
+				}
+				{
+					id: "11DBBC8CB9754646"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_log"
+					count: 32
 				}
 			]
 		}

@@ -1,7 +1,7 @@
 {
 	id: "79FC3774E1C8EDDF"
 	group: "2B6C2CBF9E7D9DFC"
-	order_index: 4
+	order_index: 2
 	filename: "crops"
 	title: "Farms"
 	icon: {
@@ -59,8 +59,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -3.5d
-			y: -3.0d
+			x: -3.0d
+			y: -7.0d
 			id: "0B98204AB072636B"
 			tasks: [{
 				id: "0E0E199BDF4EDCB3"
@@ -69,8 +69,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -4.5d
+			x: 5.8d
+			y: -8.8d
 			id: "1AB3735B988D0C28"
 			tasks: [{
 				id: "2E41380F2B3EEEEA"
@@ -79,8 +79,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -3.0d
+			x: 5.8d
+			y: -6.8d
 			dependencies: ["1AB3735B988D0C28"]
 			id: "24C0D24B21E57123"
 			tasks: [{
@@ -97,8 +97,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -4.5d
+			x: 7.0d
+			y: -7.8d
 			id: "7EF222AEAEC53D4F"
 			tasks: [{
 				id: "4469705BF5C6D592"
@@ -107,8 +107,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -4.5d
+			x: -4.6d
+			y: -7.8d
 			id: "1010173C3C27F60A"
 			tasks: [{
 				id: "73AC123F6454B978"
@@ -119,8 +119,8 @@
 		{
 			title: "Flax is String"
 			icon: "pamhc2crops:flaxitem"
-			x: -3.5d
-			y: -4.5d
+			x: -3.0d
+			y: -8.8d
 			subtitle: "Getting String"
 			id: "77375EE4AA148D5D"
 			tasks: [
@@ -171,6 +171,280 @@
 					item: "minecraft:string"
 				}
 			]
+		}
+		{
+			x: -0.8d
+			y: -9.8d
+			id: "3F516CB2F5E6F011"
+			tasks: [{
+				id: "0143123EE336D49B"
+				type: "item"
+				item: "minecolonies:blockhutlumberjack"
+			}]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: -0.8d
+			y: -8.0d
+			dependencies: ["3F516CB2F5E6F011"]
+			id: "3051E4DD16AE6B06"
+			tasks: [
+				{
+					id: "1C99447EA7CC4D7D"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					consume_items: true
+				}
+				{
+					id: "3DF9ED0663A84218"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:torch"
+					count: 19L
+				}
+				{
+					id: "473FF7C61608DA4D"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "57C85924E28E6B8F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 14
+				}
+				{
+					id: "04D4D8694BD230F8"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 21
+				}
+				{
+					id: "0B2E11FC7DF4E17F"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "1F96A36AE9A060BA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 1.4d
+			y: -10.8d
+			id: "1C94CA433C422D26"
+			tasks: [{
+				id: "1C273E4CEA76A19D"
+				type: "item"
+				item: "minecolonies:blockhutfarmer"
+			}]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: 1.4d
+			y: -9.0d
+			dependencies: ["1C94CA433C422D26"]
+			id: "076A0B3D12347B3A"
+			tasks: [
+				{
+					id: "2E509D012E2D3AB2"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					consume_items: true
+				}
+				{
+					id: "75197008FDE8BF9A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:torch"
+					count: 10L
+				}
+				{
+					id: "57FC763585F5490A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:hay_block"
+					count: 4L
+				}
+				{
+					id: "1B07A82DF6C45BC6"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "342EDCD34198CCCF"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 37
+				}
+				{
+					id: "48B812970B3F4785"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "6405A5978F8035AA"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 1.4d
+			y: -7.2d
+			dependencies: ["076A0B3D12347B3A"]
+			id: "1C63E24FAC6A927A"
+			tasks: [{
+				id: "39EA1CE61ED02500"
+				type: "item"
+				item: "minecolonies:blockhutfield"
+			}]
+		}
+		{
+			x: 3.4d
+			y: -9.8d
+			id: "1F66EB4A7B061319"
+			tasks: [{
+				id: "151D95181CC2C229"
+				type: "item"
+				item: "minecolonies:blockhutminer"
+			}]
+		}
+		{
+			icon: "minecraft:oak_log"
+			x: 3.4d
+			y: -8.0d
+			dependencies: ["1F66EB4A7B061319"]
+			id: "6458A58002A4A666"
+			tasks: [
+				{
+					id: "2263C08C6AFF103D"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:oak_log"
+					consume_items: true
+				}
+				{
+					id: "0194D3474FC240B4"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:torch"
+					count: 11L
+				}
+				{
+					id: "71CD2CF659410A88"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "442A3E29858FFE50"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_slab"
+					count: 36
+				}
+				{
+					id: "209C9DB415D190F3"
+					type: "item"
+					auto: "enabled"
+					item: "minecolonies:blockminecoloniesrack"
+					count: 2
+				}
+				{
+					id: "71FE404148AB6E47"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+					count: 45
+				}
+				{
+					id: "4E98B813183A5830"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ladder"
+					count: 3
+				}
+				{
+					id: "416C9E1263CCA046"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_stairs"
+					count: 32
+				}
+				{
+					id: "02A81954AEF5D0E0"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_fence"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 3.4d
+			y: -6.2d
+			dependencies: [
+				"41592355E6CFD161"
+				"6458A58002A4A666"
+			]
+			id: "2CE6F519E53FDBA6"
+			tasks: [{
+				id: "017E8D2182B5D53A"
+				type: "advancement"
+				advancement: "minecolonies:production/build_miner"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.8d
+			y: -6.2d
+			dependencies: ["3051E4DD16AE6B06"]
+			id: "2C71305DD90736D6"
+			tasks: [{
+				id: "70AEC61EC6C03517"
+				type: "advancement"
+				advancement: "minecolonies:production/build_lumberjack"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.4d
+			y: -5.4d
+			dependencies: ["1C63E24FAC6A927A"]
+			id: "4273EFFCDA4C05C0"
+			tasks: [{
+				id: "52ADB0087DAB8DAE"
+				type: "advancement"
+				advancement: "minecolonies:production/build_farmer"
+				criterion: ""
+			}]
 		}
 	]
 }

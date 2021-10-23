@@ -11,6 +11,7 @@
 		{
 			x: -9.5d
 			y: -4.0d
+			hide: false
 			id: "5F568A8B394B842A"
 			tasks: [{
 				id: "4464FB62A3DBFC30"
@@ -20,6 +21,7 @@
 			rewards: [{
 				id: "5C62461378D3580B"
 				type: "xp"
+				auto: "no_toast"
 				xp: 5
 			}]
 		}
@@ -35,6 +37,7 @@
 			rewards: [{
 				id: "37E3638EA6CC0DAE"
 				type: "xp"
+				auto: "enabled"
 				xp: 5
 			}]
 		}
@@ -51,6 +54,7 @@
 			rewards: [{
 				id: "6EBB367E46791D1B"
 				type: "xp"
+				auto: "enabled"
 				xp: 5
 			}]
 		}
@@ -81,6 +85,7 @@
 			rewards: [{
 				id: "4415ED45409BB69B"
 				type: "xp"
+				auto: "enabled"
 				xp: 5
 			}]
 		}
@@ -232,6 +237,66 @@
 				id: "61AB9D7EB5714DB2"
 				type: "xp"
 				xp: 5
+			}]
+		}
+		{
+			x: -12.6d
+			y: -3.0d
+			id: "5563F543544C770B"
+			tasks: [{
+				id: "0B3374DD406359DD"
+				type: "item"
+				item: "minecraft:oak_log"
+			}]
+		}
+		{
+			x: -11.6d
+			y: -3.0d
+			id: "773EB33549FC0CBA"
+			tasks: [{
+				id: "13E582EA44573423"
+				type: "item"
+				item: "minecraft:spruce_log"
+			}]
+		}
+		{
+			x: -10.6d
+			y: -3.0d
+			id: "4925B2ECB4A8C762"
+			tasks: [{
+				id: "22FD9B46628A7618"
+				type: "item"
+				item: "minecraft:birch_log"
+			}]
+		}
+		{
+			x: -9.6d
+			y: -3.0d
+			id: "1EAB052C1BC1A74B"
+			tasks: [{
+				id: "4497CD7ACDD21E9A"
+				type: "item"
+				item: "minecraft:jungle_log"
+			}]
+		}
+		{
+			x: -8.6d
+			y: -3.0d
+			id: "501860AB1A4E97B9"
+			tasks: [{
+				id: "06791B2D410AAFAF"
+				type: "item"
+				item: "minecraft:acacia_log"
+			}]
+		}
+		{
+			x: -7.6d
+			y: -3.0d
+			id: "10737E64A76168D4"
+			tasks: [{
+				id: "2CFDFE239AA6C349"
+				type: "item"
+				item: "minecraft:dark_oak_log"
 			}]
 		}
 	]
