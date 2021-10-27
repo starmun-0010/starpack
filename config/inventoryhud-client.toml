@@ -61,6 +61,9 @@
 	potMini = true
 	#Potion HUD horizontal mode
 	potHor = false
+	#Full bar duration
+	#Range: > 1
+	barDuration = 300
 
 #DONT TOUCH THESE FIELDS!
 [positions]

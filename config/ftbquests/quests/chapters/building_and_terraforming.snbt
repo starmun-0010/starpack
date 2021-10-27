@@ -3041,6 +3041,7 @@
 				{
 					id: "688E1079F18E80D2"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cobblestone"
 					count: 74L
 					consume_items: true
@@ -3048,6 +3049,7 @@
 				{
 					id: "7AA92096155FFFBA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
 					consume_items: true
@@ -3192,12 +3194,14 @@
 				{
 					id: "7F56C53497E0A9CC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:dirt"
 					count: 2L
 				}
 				{
 					id: "53BE0BAA2F4ECCC7"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 6L
 					consume_items: true
@@ -3205,6 +3209,7 @@
 				{
 					id: "78EC57B474335B3D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:yellow_wool"
 					count: 3L
 					consume_items: true
@@ -3212,6 +3217,7 @@
 				{
 					id: "709A9716ACA0230D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:light_blue_wool"
 					count: 3L
 					consume_items: true
@@ -3330,6 +3336,7 @@
 				{
 					id: "419C07A84A35C1FA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:birch_log"
 					count: 3L
 					consume_items: true
@@ -3487,6 +3494,7 @@
 				{
 					id: "5E440A6FC019E519"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:spruce_log"
 					count: 2L
 					consume_items: true
@@ -3494,6 +3502,7 @@
 				{
 					id: "7DD05096E5602DF1"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:red_wool"
 					count: 12L
 					consume_items: true
@@ -3501,6 +3510,7 @@
 				{
 					id: "1346DA8D002485DD"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 2L
 					consume_items: true
@@ -3508,6 +3518,7 @@
 				{
 					id: "137C536A81EFAA2F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:black_wool"
 					count: 4L
 					consume_items: true
@@ -3647,38 +3658,46 @@
 				{
 					id: "4E8689C9B6006CDC"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:iron_nugget"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "46AF9E38470AFC2B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:vine"
 					count: 335L
 				}
 				{
 					id: "7DE669332E595A84"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:grass"
 					count: 15L
 				}
 				{
 					id: "53C6289CE156889B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:fern"
 					count: 7L
 				}
 				{
 					id: "636493414509372D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:bamboo"
 					count: 11L
 				}
 				{
 					id: "6E190C61926C32E1"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "23DC5D72190D7AC3"
@@ -3701,6 +3720,7 @@
 						}
 					}
 					count: 15L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -3847,6 +3867,7 @@
 							]
 						}
 					}
+					consume_items: true
 				}
 				{
 					id: "4064A3A92BAD41CB"
@@ -3858,6 +3879,7 @@
 				{
 					id: "3438EAA12ADD21F1"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:magenta_wool"
 					count: 3L
 					consume_items: true
@@ -3865,6 +3887,7 @@
 				{
 					id: "12E35280B7A18725"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:green_wool"
 					count: 3L
 					consume_items: true
@@ -3872,6 +3895,7 @@
 				{
 					id: "2447BD1F87724641"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:light_blue_wool"
 					count: 3L
 					consume_items: true
@@ -3879,6 +3903,7 @@
 				{
 					id: "0B1F266F170A1620"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:red_wool"
 					count: 3L
 					consume_items: true
@@ -3886,6 +3911,7 @@
 				{
 					id: "2279FD98BD85CD66"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:paper"
 					count: 36L
 					consume_items: true
@@ -3893,6 +3919,7 @@
 				{
 					id: "1537BFCEBD46FA87"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:leather"
 					count: 12L
 					consume_items: true
@@ -3900,6 +3927,7 @@
 				{
 					id: "3F245E7BE079B8D3"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:iron_nugget"
 					count: 2L
 					consume_items: true
@@ -4243,12 +4271,14 @@
 				{
 					id: "7AA82951BB36B9CF"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:stone"
 				}
 				{
 					id: "6DCE953BB6BB9BA6"
 					type: "item"
 					title: "Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -4266,12 +4296,15 @@
 						}
 					}
 					count: 2L
+					consume_items: false
 				}
 				{
 					id: "5906F0FEA97C999A"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: false
 				}
 			]
 			rewards: [
@@ -4610,6 +4643,7 @@
 					id: "5BE1D315F542775E"
 					type: "item"
 					title: "Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -4627,12 +4661,15 @@
 						}
 					}
 					count: 2L
+					consume_items: true
 				}
 				{
 					id: "12B4CFA960F9EFD6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: false
 				}
 			]
 			rewards: [
@@ -4782,18 +4819,22 @@
 				{
 					id: "057BD219177485A9"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:stone"
 				}
 				{
 					id: "5AC97A9B896333C6"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "0646DB09B81F5CF3"
 					type: "item"
 					title: "Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -4811,6 +4852,7 @@
 						}
 					}
 					count: 2L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -4957,17 +4999,21 @@
 					disable_toast: true
 					item: "minecraft:glass"
 					count: 2L
+					consume_items: true
 				}
 				{
 					id: "621A266A89F7F198"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:green_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "61E6F0289234A7A0"
 					type: "item"
 					title: "Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -4985,6 +5031,7 @@
 						}
 					}
 					count: 8L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -5069,24 +5116,31 @@
 				{
 					id: "45F44727FD12A72F"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:red_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "60285664484F4506"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:black_wool"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "064EF3CC84439E08"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:iron_ingot"
+					consume_items: true
 				}
 				{
 					id: "2BA976E1EE25FA7D"
 					type: "item"
 					title: "8x Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -5104,6 +5158,7 @@
 						}
 					}
 					count: 8L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -5195,7 +5250,6 @@
 					disable_toast: true
 					item: "minecraft:sandstone"
 					count: 415L
-					consume_items: true
 				}
 				{
 					id: "0265BA91CA2CCDF3"
@@ -5208,19 +5262,24 @@
 				{
 					id: "6C258C5786DDA5B3"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:green_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "0C3AC4A577279D9B"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cactus"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "39F713EA9F1C6E60"
 					type: "item"
 					title: "8x Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -5238,6 +5297,7 @@
 						}
 					}
 					count: 8L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -5297,13 +5357,6 @@
 					consume_items: true
 				}
 				{
-					id: "3C4F6377BBE1BCD6"
-					type: "item"
-					disable_toast: true
-					item: "minecraft:torch"
-					count: 19L
-				}
-				{
 					id: "541ED29D5A7A1C07"
 					type: "item"
 					disable_toast: true
@@ -5320,19 +5373,24 @@
 				{
 					id: "2A9EA49719BE4EEB"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:cactus"
 					count: 28L
+					consume_items: true
 				}
 				{
 					id: "29A3ED9F4F37AEB1"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:oak_log"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "2E0BE4C9AEE4F0BD"
 					type: "item"
 					title: "5x Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -5350,12 +5408,15 @@
 						}
 					}
 					count: 5L
+					consume_items: true
 				}
 				{
 					id: "5C2E738F8639C11D"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -5457,7 +5518,8 @@
 					type: "item"
 					disable_toast: true
 					item: "minecraft:cobblestone"
-					count: 821L
+					count: 822L
+					consume_items: true
 				}
 				{
 					id: "06D8941C58F65F0E"
@@ -5465,6 +5527,7 @@
 					disable_toast: true
 					item: "minecraft:glass"
 					count: 6L
+					consume_items: true
 				}
 				{
 					id: "79F507618CEFCFAC"
@@ -5477,13 +5540,16 @@
 				{
 					id: "628720B203BC8E96"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:iron_nugget"
 					count: 4L
+					consume_items: true
 				}
 				{
 					id: "39197EB5C7EB23DB"
 					type: "item"
 					title: "5x Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -5501,18 +5567,23 @@
 						}
 					}
 					count: 5L
+					consume_items: true
 				}
 				{
 					id: "070731CDB051F581"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "4551626D1C902AEA"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:black_wool"
 					count: 8L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -5597,6 +5668,12 @@
 					item: "minecraft:torch"
 					count: 17
 				}
+				{
+					id: "56AB9ED968BB05CA"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 443
+				}
 			]
 		}
 		{
@@ -5613,7 +5690,8 @@
 					type: "item"
 					disable_toast: true
 					item: "minecraft:cobblestone"
-					count: 733L
+					count: 900L
+					consume_items: true
 				}
 				{
 					id: "16D57899C408B039"
@@ -5635,6 +5713,7 @@
 					disable_toast: true
 					item: "minecraft:glass"
 					count: 24L
+					consume_items: true
 				}
 				{
 					id: "1359B4EE2042EB49"
@@ -5647,19 +5726,24 @@
 				{
 					id: "32ED486F22728591"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:white_wool"
 					count: 12L
+					consume_items: true
 				}
 				{
 					id: "7BC0E9174D891C1C"
 					type: "item"
+					disable_toast: true
 					item: "minecraft:black_wool"
 					count: 20L
+					consume_items: true
 				}
 				{
 					id: "5F75D6775A44E0C9"
 					type: "item"
 					title: "26x Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -5677,6 +5761,7 @@
 						}
 					}
 					count: 26L
+					consume_items: true
 				}
 			]
 			rewards: [
@@ -5763,6 +5848,12 @@
 					item: "minecolonies:blockminecoloniesrack"
 					count: 4
 				}
+				{
+					id: "0F1DBF7CA422328E"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 648
+				}
 			]
 		}
 		{
@@ -5810,6 +5901,7 @@
 					id: "46646F09838D3803"
 					type: "item"
 					title: "Coal or Charcoal"
+					disable_toast: true
 					item: {
 						id: "itemfilters:or"
 						Count: 1b

@@ -1,26 +1,161 @@
-# Starpack Aleph 0.3.2 to Starpack Aleph 0.3.3
-## Forge Version 36.2.4
+# Starpack Aleph 0.3.4 to Starpack Aleph 0.3.5
+## Forge Version 36.2.8
+
+Server Update
+
+### changelog
+* Server version is finally fixed!!
+### Mods Removed
+- Better End Forge
 
 ### Mods Updated
-Ars Novu, Tetra, Kubejs,
-ElementalCraft, FTB Chunks Forge, Integrated Rest, KubeJs, Minecolonies, Occultism
-Alex mobs, better end forge, ftb chunks, minecolonies, ,mystical agriculture,
-Ars  novu, better end forge, chiselsand bits,cyclic,doggytalents,extended crafting,extreme soundmuffler,ftb quests, kubejs, mcw fences, mmythic bottany, occultism, !(pickletweaks), pneumaticcaraft repressurised, prefab, repurposed  structures, rhino, tetra 
-chsel and bits, nature's aura, 
-chisel and bits, pretty pipes
-bedspreads, blood magic, bookshelf, chiselandbits, common capabilities, cyclopse core, industrial agriculture core, integrated dynamics, integrated terminals, JEK, kubejs forge, lootr, occultism, packmenu, pickletweaks, vampirism, valhelsia core     
-ftb-library-forge, kubejs forge, mahhou tsukai
-integrated dynamics
-blood magic, minecolonies, 
-mystical agriditions, 
-AE2, botany pots,chiseland bits, clumps, config swapper, game stages, just enough professions, paraglider, prefab, resourceful bees, tool stats
-chisel and bits, clumps, cyclic, framed blocks, game stages forge, integrated termminals, kubejs forge, mahoutsukai,
-botany pots, ftb chunks, tool stats
-common capabalities, ftb backups, integrated crafting, integrated dynamics, occultism, 
-cyclic, extreme sound muffler, ftb chunks, mantle, repurposed structure, jei, Tconstruct
-ftb essentials, !(immersive engineering), solar flux reborn, 
-integrated terminals, 
+1. ambient sounds
+2. applied energistics 
+3. cyclic
+4. extreme sound muffler
+5. geckolib
+6. inventory hud 
+7. mahoutsukai
+8. mana and artifice
+9. minecolonies
+10. mob grinding utils
 
+# Starpack Aleph 0.3.3 to Starpack Aleph 0.3.4
+## Forge Version 36.2.8
+
+More minecolonies quests
+Minor bug fixes
+
+### changelog
+* Fixed Druidcraft textures
+* Added Chiseled charcoal to charcoal recipe
+* Updated nature's compass HUD location
+* Removed fletcher pre-req research
+* Updated JEC stored recipes
+* Added pre-learnt recipes for minecolonies blacksmith
+* Removed research pre-req for minecolonies smeltry
+* Disabled annoying ftb-quests popups for minecolonies quests(most of them)
+* Increased max default learnt recipes for minecolonies
+* Increased max farmer fields for minecolonies
+* Increased max stocks per level for minecolonies
+
+### Mods Added
+* [Agricraft](https://www.curseforge.com/minecraft/mc-mods/agricraft)
+
+### Mods Updated
+1. Ae2
+2. Alex Mobs
+3. Apatheosis
+4. Architectury
+   
+5. Ars Novu
+6. Bedspreads
+7. Better End Forge
+8. Blood Magic
+9. Bookshelf
+10. Botany Pots
+11. Building Gadgets
+12. Byg
+13. Chsel and Bits
+14. Clumps
+15. Common Capabilities
+16. Compact Crating
+17. Config Swapper
+18. Configswapper
+19. Construction Wads
+20. Create Plus
+21. Create-mc
+22. Cyclic
+23. Cyclopse Core
+24. Doggytalents
+25. Drawers Tooltip
+26. Elementalcraft
+27. Enchantment Descriptions
+28. Ender Tanks
+29. Enderchests
+30. Extended Crafting
+31. Extreme Sound Muffler
+32. Ferrit Core
+33. Framed Blocks
+34. Framed Compact Drawers
+35. Framedblocks
+36. Ftb Chunks Forge
+37. Ftb Essentials
+38. Ftb Quests
+39. Ftb Teams
+40. Ftb Ultimine
+41. Ftb-library-forge
+42. Game Stages
+43. Geckolib
+44. Hammer Lib
+45. Immersive Engineering
+46. Immersive Petroleum
+47. Industrial Agriculture Core
+48. Integrated Crafting
+49. Integrated Dynamics
+50. Integrated Rest
+51. Integrated Terminals
+52. Integrated Tunnels
+53. Jaopca
+54. Jei
+55. Jek
+56. Just Enough Professions
+57. Kubejs
+58. Kubejs
+59. Kubejs Forge
+60. Lootr
+61. Mahou Tsukai
+62. Mantle
+63. Mcjtylib
+64. Mcw Fences
+65. Mcw-trapdoor
+66. Mekanism
+67. Mekanism Additions
+68. Mekanism Generators
+69. Mekanism Tools
+70. Minecolonies
+71. Mining Dimension
+72. Miniutilities
+73. Mob Grinding Utils
+74. More Dragon Eggs
+75. Mystical Agriculture
+76. Mystical Agriditions
+77. Mythic Botany
+78. Mythic Bottany
+79. Nature's Aura
+80. Occultism
+81. Packmenu
+82. Paraglider
+83. Pickletweaks
+84. Pneumaticcaraft Repressurised
+85. Prefab
+86. Pretty Pipes
+87. Psi
+88. Quantum Storage
+89. Quark
+90. Repurposed  Structures
+91. Resourceful Bees
+92. Rf Tools Dim
+93. Rf Tools Util
+94. Rhino
+95. Rhino Forge
+96. Rsinfinitybooster
+97. Rsrequestify
+98. Shetiphan Core
+99. Silent Gear
+100. Solar Flux Reborn
+101. Structrize
+102. Tconstruct
+103. Tetra
+104. Tips
+105. Tombstone
+106. Tome of Blood
+107. Tool
+108. Tool Stats
+109. Valhelsia Core
+110. Vampire Umbrellas
+111. Vampirism
+112. Yungsapi
 
 # Starpack Aleph 0.3.2 to Starpack Aleph 0.3.3
 ## Forge Version 36.2.4

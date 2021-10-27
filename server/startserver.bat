@@ -14,18 +14,28 @@ CD "%~dp0" >nul 2>&1
 :CHECKJAVA
 ECHO INFO: Checking java installation...
 ECHO.
-GOTO CHECK
+
+REM If no Java is installed this line will catch it simply
+java -version 2>&1 || GOTO JAVAERROR
+
+ECHO.
+IF %ERRORLEVEL% EQU 0 (
+	ECHO INFO: Found 64-bit Java
+	GOTO CHECK
+) ELSE (
+    GOTO JAVAERROR
+)
 
 
 :MAIN
-java -d64 -jar serverstarter-1.2.7.jar
+java -jar serverstarter-2.2.0.jar
 GOTO EOF
 
 :CHECK
 REM Check if serverstarter JAR is already downloaded
-IF NOT EXIST "%cd%\serverstarter-1.2.7.jar" (
+IF NOT EXIST "%cd%\serverstarter-2.2.0.jar" (
 	ECHO serverstarter binary not found, downloading serverstarter...
-	%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/BloodyMods/ServerStarter/releases/download/v1.2.7/serverstarter-1.2.7.jar "%cd%\serverstarter-1.2.7.jar"
+	%SYSTEMROOT%\SYSTEM32\bitsadmin.exe /rawreturn /nowrap /transfer starter /dynamic /download /priority foreground https://github.com/BloodyMods/ServerStarter/releases/download/v2.2.0/serverstarter-2.2.0.jar "%cd%\serverstarter-2.2.0.jar"
    GOTO MAIN
 ) ELSE (
    GOTO MAIN
@@ -34,7 +44,7 @@ IF NOT EXIST "%cd%\serverstarter-1.2.7.jar" (
 
 :JAVAERROR
 COLOR CF
-ECHO ERROR: Could not find 64-bit Java 1.8 installed or in PATH
+ECHO ERROR: Could not find 64-bit Java installed or in PATH
 PAUSE
 
 
