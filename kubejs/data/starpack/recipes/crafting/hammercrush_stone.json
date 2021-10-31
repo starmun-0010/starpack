@@ -1,0 +1,12 @@
+{
+    "type": "immersiveengineering:hammer_crushing",
+    "result": {
+        "item": "minecraft:cobblestone"
+    },
+    "conditions": [
+       
+    ],
+    "input": {
+        "tag": "forge:stone"
+    }
+}
