@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:redstone_hammer"
+        },
+        "m":{
+            "item" :"minecraft:lapis_block"
+        }
+    },
+    "result": {
+        "item": "vanillahammers:lapis_hammer",
+        "count": 1
+    }
+}

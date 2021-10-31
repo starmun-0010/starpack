@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:gold_hammer"
+        },
+        "m":{
+            "item" :"minecraft:prismarine_bricks"
+        }
+    },
+    "result": {
+        "item": "vanillahammers:prismarine_hammer",
+        "count": 1
+    }
+}

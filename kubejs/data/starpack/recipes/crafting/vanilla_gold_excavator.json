@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillaexcavators:paper_excavator"
+        },
+        "m":{
+            "item" :"minecraft:gold_block"
+        }
+
+    },
+    "result": {
+        "item": "vanillaexcavators:gold_excavator",
+        "count": 1
+    }
+}

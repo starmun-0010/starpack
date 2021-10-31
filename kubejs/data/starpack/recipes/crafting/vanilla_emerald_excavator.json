@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillaexcavators:obsidian_excavator"
+        },
+        "m":{
+            "item" :"minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "vanillaexcavators:emerald_excavator",
+        "count": 1
+    }
+}

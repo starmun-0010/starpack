@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:diamond_hammer"
+        },
+        "m":{
+            "tag" :"forge:obsidian"
+        }
+    },
+    "result": {
+        "item": "vanillahammers:obsidian_hammer",
+        "count": 1
+    }
+}

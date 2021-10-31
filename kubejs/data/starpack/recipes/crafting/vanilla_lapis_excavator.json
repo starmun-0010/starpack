@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillaexcavators:redstone_excavator"
+        },
+        "m":{
+            "item" :"minecraft:lapis_block"
+        }
+    },
+    "result": {
+        "item": "vanillaexcavators:lapis_excavator",
+        "count": 1
+    }
+}

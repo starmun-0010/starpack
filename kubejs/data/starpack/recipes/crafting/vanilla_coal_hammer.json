@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillaexcavators:stone_hammer"
+        },
+        "m":{
+            "item" :"minecraft:coal_block"
+        }
+
+    },
+    "result": {
+        "item": "vanillaexcavators:coal_hammer",
+        "count": 1
+    }
+}

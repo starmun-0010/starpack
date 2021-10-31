@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillaexcavators:slime_excavator"
+        },
+        "m":{
+            "tag" :"forge:paper_bundle"
+        }
+
+    },
+    "result": {
+        "item": "vanillaexcavators:paper_excavator",
+        "count": 1
+    }
+}

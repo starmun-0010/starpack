@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillaexcavators:gold_excavator"
+        },
+        "m":{
+            "item" :"minecraft:prismarine_bricks"
+        }
+    },
+    "result": {
+        "item": "vanillaexcavators:prismarine_excavator",
+        "count": 1
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:wood_hammer"
+        },
+        "m":{
+            "tag" :"forge:stone"
+        }
+
+    },
+    "result": {
+        "item": "vanillahammers:stone_hammer",
+        "count": 1
+    }
+}

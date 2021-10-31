@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:bone_hammer"
+        },
+        "m":{
+            "item" :"minecraft:iron_block"
+        }
+
+    },
+    "result": {
+        "item": "vanillahammers:iron_hammer",
+        "count": 1
+    }
+}

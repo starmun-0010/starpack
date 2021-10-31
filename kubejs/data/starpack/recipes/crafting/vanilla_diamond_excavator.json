@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillaexcavators:lapis_excavator"
+        },
+        "m":{
+            "item" :"minecraft:diamond_block"
+        }
+    },
+    "result": {
+        "item": "vanillaexcavators:diamond_excavator",
+        "count": 1
+    }
+}

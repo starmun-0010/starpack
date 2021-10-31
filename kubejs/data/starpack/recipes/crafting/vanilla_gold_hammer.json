@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:paper_hammer"
+        },
+        "m":{
+            "item" :"minecraft:gold_block"
+        }
+
+    },
+    "result": {
+        "item": "vanillahammers:gold_hammer",
+        "count": 1
+    }
+}

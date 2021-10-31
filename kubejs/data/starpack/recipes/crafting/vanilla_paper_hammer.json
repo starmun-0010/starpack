@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "mhm"
+    ],
+    "key": {
+        "h": {
+            "item": "vanillahammers:slime_hammer"
+        },
+        "m":{
+            "tag" :"forge:paper_bundle"
+        }
+
+    },
+    "result": {
+        "item": "vanillahammers:paper_hammer",
+        "count": 1
+    }
+}

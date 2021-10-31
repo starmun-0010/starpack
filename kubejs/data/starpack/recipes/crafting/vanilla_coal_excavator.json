@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "m",
+        "e"
+    ],
+    "key": {
+        "e": {
+            "item": "vanillahammers:stone_excavator"
+        },
+        "m":{
+            "item" :"minecraft:coal_block"
+        }
+
+    },
+    "result": {
+        "item": "vanillahammers:coal_excavator",
+        "count": 1
+    }
+}
