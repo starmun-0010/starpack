@@ -1,5 +1,6 @@
 {
     "tip": {
-        "text": "Crops are protected from being trampled."
+        "translate":"starpack.tips.trample_stopper.text"
+
     }
 }

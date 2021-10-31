@@ -1,5 +1,6 @@
 {
     "tip": {
-        "text": "Convert your vanilla tools and armour to their silent gear variants by putting them in a crafting grid. They will become repairable, upgradable and will no longer disapper when broken."
+        "translate": "starpack.tips.silent_gear.text"
+
     }
 }

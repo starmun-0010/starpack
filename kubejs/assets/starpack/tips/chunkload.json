@@ -1,5 +1,5 @@
 {
     "tip": {
-        "text": "Force chunk-loading to keep your automations working when you are offline."
+        "translate": "starpack.tips.chunkload.text"
     }
 }

@@ -1,10 +1,10 @@
 {
     "title": {
-        "text": "Every friend group should have a GOOSE in it!",
+        "translate": "starpack.tips.olive.title",
         "bold": true,
         "color": "#ca8cff"
     },
     "tip": {
-        "text": "Highly recommended!"
+        "translate": "starpack.tips.olive.text"
     }
 }

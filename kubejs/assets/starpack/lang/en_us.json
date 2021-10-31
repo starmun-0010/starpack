@@ -1,0 +1,18 @@
+{
+    "starpack.tips.akashic_tome.text": "The Akashic Tome you spawn with, has every guide book in the pack.",
+    "starpack.tips.bed_spreads.text": "Got your favourite banner? Craft it with your bed to change your bed sheets.",
+    "starpack.tips.chunkload.text": "Force chunk-loading to keep your automations working when you are offline.",
+    "starpack.tips.claim.text": "Claim your chunks to protect them from mob and player griefing.",
+    "starpack.tips.find_me.text": "Cannot find something in chests? Stand nearby your chests, search the thing in JEI, hover your mouse over it and press Y.",
+    "starpack.tips.miki.title": "Luv U MIKI <3",
+    "starpack.tips.olive.title": "You should befriend a goose!",
+    "starpack.tips.olive.text": "Highly recommended!",
+    "starpack.tips.pets.text": "Your pets never die! Learn how to revive them with 'save your pets' mod.",
+    "starpack.tips.rad.text": "Audio not working? You can change your audio device in music and volume controls.",
+    "starpack.tips.oauth.text": "If there is a session expired error, there is a relog button at top left corner in the multiplayer menu.",
+    "starpack.tips.silent_gear.text": "Convert your vanilla tools and armour to their silent gear variants by putting them in a crafting grid. They will become repairable, upgradable and will no longer disapper when broken.",
+    "starpack.tips.sol_carrot.text": "Eating unique foods gives you extra hearts every 8 unique meals.",
+    "starpack.tips.sound_muffler.text": "Click the little speaker icon (above your character, in your inventory) and disable any undesired sounds.",
+    "starpack.tips.speed_building.text": "Ladders and rails work like scaffolds, stand still and hold right click.",
+    "starpack.tips.trample_stopper.text": "Crops are protected from being trampled."
+}

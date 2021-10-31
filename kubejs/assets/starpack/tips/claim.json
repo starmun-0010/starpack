@@ -1,5 +1,6 @@
 {
     "tip": {
-        "text": "Claim your chunks to protect them from mob and player griefing."
+        "translate": "starpack.tips.claim.text"
+
     }
 }
