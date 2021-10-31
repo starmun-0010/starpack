@@ -27,27 +27,41 @@
 			]
 			dependencies: ["35E07748D4DDAE48"]
 			id: "4DAB1BDC04778C11"
-			tasks: [{
-				id: "28CB66514D9F00C3"
-				type: "item"
-				title: "Supply Camp"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "minecolonies:supplychestdeployer"
-								Count: 1b
-							}
-							{
-								id: "minecolonies:supplycampdeployer"
-								Count: 1b
-							}
-						]
+			tasks: [
+				{
+					id: "28CB66514D9F00C3"
+					type: "item"
+					title: "Supply Camp"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecolonies:supplychestdeployer"
+									Count: 1b
+								}
+								{
+									id: "minecolonies:supplycampdeployer"
+									Count: 1b
+								}
+							]
+						}
 					}
 				}
-			}]
+				{
+					id: "473FC886431B3440"
+					type: "advancement"
+					advancement: "minecolonies:minecraft/craft_supply"
+					criterion: ""
+				}
+				{
+					id: "12C3528C9F274DF1"
+					type: "advancement"
+					advancement: "minecolonies:minecolonies/root"
+					criterion: ""
+				}
+			]
 		}
 		{
 			title: "Punching Wood"

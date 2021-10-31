@@ -377,8 +377,9 @@
 		}
 		{
 			icon: "minecolonies:blockhutsawmill"
-			x: -29.2d
+			x: -29.0d
 			y: -14.0d
+			dependencies: ["384180A025F40D71"]
 			id: "0BFFFEB6C122E267"
 			tasks: [{
 				id: "294B694732422218"
@@ -388,8 +389,8 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: -29.2d
-			y: -12.4d
+			x: -29.8d
+			y: -13.0d
 			dependencies: ["0BFFFEB6C122E267"]
 			id: "0C76E2E45C103BD3"
 			tasks: [
@@ -448,8 +449,8 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: -29.2d
-			y: -8.2d
+			x: -28.8d
+			y: -10.0d
 			dependencies: ["1A7A3EA3E1A895FB"]
 			id: "41592355E6CFD161"
 			tasks: [
@@ -588,8 +589,8 @@
 			]
 		}
 		{
-			x: -29.2d
-			y: -9.6d
+			x: -30.0d
+			y: -11.2d
 			dependencies: ["4E65970F1FDE8853"]
 			id: "1A7A3EA3E1A895FB"
 			tasks: [{
@@ -599,8 +600,10 @@
 			}]
 		}
 		{
-			x: -29.2d
-			y: -11.0d
+			title: "Wait for sawmill"
+			icon: "minecolonies:blockhutsawmill"
+			x: -28.8d
+			y: -12.0d
 			dependencies: ["0C76E2E45C103BD3"]
 			id: "4E65970F1FDE8853"
 			tasks: [{
@@ -611,8 +614,8 @@
 			}]
 		}
 		{
-			x: -29.2d
-			y: -6.8d
+			x: -27.8d
+			y: -9.0d
 			dependencies: ["41592355E6CFD161"]
 			id: "6A73C1EC25524788"
 			tasks: [{
@@ -623,14 +626,132 @@
 			}]
 		}
 		{
-			x: -30.6d
+			x: -31.2d
 			y: -14.0d
+			dependencies: ["384180A025F40D71"]
 			id: "3B6C13D651F99C7F"
 			tasks: [{
 				id: "2B21E2676C4182D6"
 				type: "item"
 				item: "minecolonies:blockhutcook"
 			}]
+		}
+		{
+			x: -28.2d
+			y: -13.0d
+			id: "02028F608A610DE7"
+			tasks: [
+				{
+					id: "22DE19F308A3A4DF"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:stone"
+					count: 68L
+				}
+				{
+					id: "6576165D84C31C63"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 12L
+				}
+				{
+					id: "312DB652DC1D2305"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:iron_ingot"
+					consume_items: true
+				}
+				{
+					id: "5032B75E4F216C0B"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					consume_items: true
+				}
+				{
+					id: "2E111C72CDB5A9A5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:brick"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "2169CCAB7ABCEA0A"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "21AA3412A660F401"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 64
+				}
+				{
+					id: "62076C1A7079BA15"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 147
+				}
+				{
+					id: "7B695163194C7CE7"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_planks"
+					count: 347
+				}
+				{
+					id: "19C5216B4FD81E66"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:torch"
+					count: 31
+				}
+				{
+					id: "661ED73227DA47A3"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:flower_pot"
+				}
+				{
+					id: "507B04ADD1CA3401"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_stairs"
+					count: 18
+				}
+				{
+					id: "61BD0BDB7C807440"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:iron_bars"
+					count: 2
+				}
+				{
+					id: "151B475432073565"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence_gate"
+				}
+				{
+					id: "005B18EEC6E3DA04"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 152
+				}
+				{
+					id: "29A59456725F08B9"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:chest"
+				}
+			]
 		}
 	]
 }

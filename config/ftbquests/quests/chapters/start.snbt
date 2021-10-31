@@ -11,7 +11,7 @@
 		{
 			icon: "minecraft:nether_star"
 			x: 0.0d
-			y: -15.0d
+			y: -16.6d
 			shape: "pentagon"
 			subtitle: "Information"
 			description: [
@@ -43,7 +43,7 @@
 			title: "Akashik Tome"
 			icon: "akashictome:tome"
 			x: 0.0d
-			y: -16.5d
+			y: -15.0d
 			shape: "pentagon"
 			subtitle: "Your guide to everything"
 			description: [
@@ -253,11 +253,11 @@
 				}
 			}
 			x: 0.0d
-			y: -13.5d
+			y: -13.6d
 			shape: "pentagon"
 			subtitle: "It's dangerous to go alone..."
 			description: ["Preperatoin category contains the machines, altars and other construcs you need before you can progress in other categories."]
-			dependencies: ["150F4ACF7470A5D3"]
+			dependencies: ["35773738256DB30E"]
 			id: "317D446EF6F39383"
 			tasks: [{
 				id: "4F33DB6AD4B561E9"

@@ -175,6 +175,7 @@
 		{
 			x: -0.8d
 			y: -9.8d
+			dependencies: ["384180A025F40D71"]
 			id: "3F516CB2F5E6F011"
 			tasks: [{
 				id: "0143123EE336D49B"
@@ -184,8 +185,9 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: -0.8d
+			x: -1.4d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["3F516CB2F5E6F011"]
 			id: "3051E4DD16AE6B06"
 			tasks: [
@@ -245,6 +247,7 @@
 		{
 			x: 1.4d
 			y: -10.8d
+			dependencies: ["384180A025F40D71"]
 			id: "1C94CA433C422D26"
 			tasks: [{
 				id: "1C273E4CEA76A19D"
@@ -326,6 +329,7 @@
 		{
 			x: 3.4d
 			y: -9.8d
+			dependencies: ["384180A025F40D71"]
 			id: "1F66EB4A7B061319"
 			tasks: [{
 				id: "151D95181CC2C229"
@@ -335,8 +339,9 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: 3.4d
+			x: 4.0d
 			y: -8.0d
+			shape: "rsquare"
 			dependencies: ["1F66EB4A7B061319"]
 			id: "6458A58002A4A666"
 			tasks: [
@@ -408,11 +413,14 @@
 			]
 		}
 		{
+			title: "Wait for Mine"
+			icon: "minecolonies:blockhutminer"
 			x: 3.4d
 			y: -6.2d
 			dependencies: [
 				"41592355E6CFD161"
 				"6458A58002A4A666"
+				"3584E690C1E4F9AC"
 			]
 			id: "2CE6F519E53FDBA6"
 			tasks: [{
@@ -425,7 +433,10 @@
 		{
 			x: -0.8d
 			y: -6.2d
-			dependencies: ["3051E4DD16AE6B06"]
+			dependencies: [
+				"3051E4DD16AE6B06"
+				"26DA4A096B3FAD49"
+			]
 			id: "2C71305DD90736D6"
 			tasks: [{
 				id: "70AEC61EC6C03517"
@@ -445,6 +456,286 @@
 				advancement: "minecolonies:production/build_farmer"
 				criterion: ""
 			}]
+		}
+		{
+			icon: "minecraft:dark_oak_log"
+			x: -0.19999999999999996d
+			y: -8.0d
+			shape: "rsquare"
+			dependencies: ["3F516CB2F5E6F011"]
+			id: "26DA4A096B3FAD49"
+			tasks: [
+				{
+					id: "384427EF47952E96"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 206L
+					consume_items: true
+				}
+				{
+					id: "5A55D58432E225B9"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4L
+					consume_items: true
+				}
+				{
+					id: "0A98C16E5C45E804"
+					type: "item"
+					title: "6x Coal or Charcoal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "2DD660B7134F7B7B"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2664C57757E231BB"
+					type: "item"
+					item: "minecraft:torch"
+					count: 21
+				}
+				{
+					id: "54C1F955D06CD8D8"
+					type: "item"
+					item: "minecraft:dark_oak_stairs"
+					count: 8
+				}
+				{
+					id: "0B18B6BB2431AC70"
+					type: "item"
+					item: "minecraft:dark_oak_slab"
+					count: 27
+				}
+				{
+					id: "008718CC4BF92555"
+					type: "item"
+					item: "minecraft:dark_oak_fence"
+					count: 82
+				}
+				{
+					id: "56512CF993C86726"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+					count: 232
+				}
+				{
+					id: "0D30E9C91DB7EF56"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 107
+				}
+				{
+					id: "4A6B1EF90522E497"
+					type: "item"
+					item: "minecraft:chest"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "minecraft:dark_oak_log"
+			x: 2.8d
+			y: -8.0d
+			shape: "rsquare"
+			dependencies: ["1F66EB4A7B061319"]
+			id: "3584E690C1E4F9AC"
+			tasks: [
+				{
+					id: "643BB861F89DDA47"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					count: 188L
+					consume_items: true
+				}
+				{
+					id: "3C5ED09C426DE61F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:stone"
+					count: 22L
+				}
+				{
+					id: "0BCC68623140A78A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 14L
+				}
+				{
+					id: "395D4DCE120CABC4"
+					type: "item"
+					title: "3x Coal or Charcoal"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:coal"
+									Count: 1b
+								}
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "3C83E66D365688BD"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:torch"
+					count: 11
+				}
+				{
+					id: "5FAFAD3AF653C9AD"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ladder"
+					count: 6
+				}
+				{
+					id: "7990B394854B3B49"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_trapdoor"
+					count: 9
+				}
+				{
+					id: "1D8D42EC87C311EE"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 16
+				}
+				{
+					id: "554EEC12ED456457"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_stairs"
+					count: 4
+				}
+				{
+					id: "3007FF5DE0DDBB62"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 118
+				}
+				{
+					id: "5E1B641C7E71260F"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_planks"
+					count: 159
+				}
+				{
+					id: "2A2345251D637847"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_log"
+					count: 88
+				}
+			]
+		}
+		{
+			title: "Materials for Mineshaft"
+			x: 2.4d
+			y: -6.2d
+			dependencies: ["3584E690C1E4F9AC"]
+			dependency_requirement: "one_completed"
+			id: "6DD81573C1BF0CC1"
+			tasks: [
+				{
+					id: "28A2593CC6797EE5"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					consume_items: true
+				}
+				{
+					id: "7C890692FDD06E56"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 512L
+				}
+			]
+			rewards: [
+				{
+					id: "04E4338B8E5E8FE4"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 1024
+				}
+				{
+					id: "6A941A7BFDF2216C"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:ladder"
+					count: 128
+				}
+				{
+					id: "2DE4783D5FEF4A17"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_fence"
+					count: 512
+				}
+				{
+					id: "01734ED72D22E3FD"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_stairs"
+					count: 512
+				}
+				{
+					id: "31EE44D5D9E531A9"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:torch"
+					count: 256
+				}
+				{
+					id: "5A893E4FA6760B5D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_sign"
+					count: 64
+				}
+			]
 		}
 	]
 }

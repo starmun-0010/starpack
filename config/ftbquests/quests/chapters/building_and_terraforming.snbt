@@ -528,13 +528,45 @@
 					type: "item"
 					disable_toast: true
 					item: {
-						id: "minecraft:wooden_shovel"
+						id: "vanillaexcavators:wood_excavator"
 						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
-					count: 2L
+				}
+				{
+					id: "5724E26698D9631A"
+					type: "item"
+					item: {
+						id: "vanillahammers:wood_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B6A286539398FB8"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AFCCEFC22BFE64A"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
 				}
 			]
 		}
@@ -4000,6 +4032,13 @@
 					item: "minecraft:dark_oak_log"
 					count: 417
 				}
+				{
+					id: "35BD168E85613E12"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_wood"
+					count: 55
+				}
 			]
 		}
 		{
@@ -6062,6 +6101,12 @@
 		{
 			x: 2.2d
 			y: -20.2d
+			subtitle: "Easy Resource Requests List"
+			description: [
+				"Clipboard gives you a complete list of items required by all npcs in your colony."
+				""
+				"The npcs will only be able to work if you provide them with the requested items."
+			]
 			dependencies: ["5B9419E41BB8D8D7"]
 			id: "731EDD57669DE7FF"
 			tasks: [{
