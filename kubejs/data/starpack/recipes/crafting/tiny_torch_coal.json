@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern": [
+        "c",
+        "r"
+    ],
+    "key": {
+        "c": {
+            "item": "pickletweaks:coal_piece"
+        },
+        "r":{
+            "tag":"forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "minecraft:torch",
+        "count": 1
+    }
+}
