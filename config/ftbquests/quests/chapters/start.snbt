@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Welcome!"
 			icon: "minecraft:nether_star"
 			x: 0.0d
 			y: -16.6d

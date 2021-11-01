@@ -1,3 +1,52 @@
+# Starpack Aleph 0.3.5 to Starpack Aleph 0.3.6
+## Forge Version 36.2.8
+
+### Bug Fixes
+* Fixed some minecolonies quest dependencies
+* Added missing dark oak in dark oak tavern rewards
+* Fixed industrial hemp seeds not dropping
+* Fixed sneak right click not working
+
+### changelog
+* Added tiny coal-> torch recipe
+* Added crush any stone to get cobblestone recipe
+* Disabled BoP dummy biome
+* Removed druidcraft texture fix(fixed in mod)
+* Added Minecolonies supply block placement achievement quest task
+* Added Minecolonies clipboard task text
+* Replaced minecolonnies builder quest tools with vanilla hammers/excavators 
+* Updated ender ore spawn to only be below 45 y
+* Updated tips to use translations keys for localization
+
+### Mods Added
+* Plonk
+* Configured
+* OAuth
+
+### Mods Removed
+ReAuth
+
+### Mods Updated
+2. Aiot Botania
+3. Chisel and Bits
+4. Config Swapper
+5. Cucumber
+7. Doggy Talents
+8. Druidcraft
+9. Extended Crating
+10. Fps Reducer
+12. Ftb Chunks
+13. Ftb Essentials
+14. Ftb Library
+15. Iron Jetpacks
+16. Mana Annd Artifice
+18. Minecolonies
+19. Mystical Agriculture
+20. Occultism
+21. Pickletweaks
+22. Tetra
+23. Valhelsia Core
+
 # Starpack Aleph 0.3.4 to Starpack Aleph 0.3.5
 ## Forge Version 36.2.8
 

@@ -43,7 +43,7 @@
 	"Ender Ore Min" = 0
 	#What should the maximum generation height be for Ender Ore?
 	#Range: 0 ~ 256
-	"Ender Ore Max" = 45
+	"Ender Ore Max" = 20
 	#How many times should Ender Ore try to generate?
 	#Range: 0 ~ 255
 	"Ender Ore Gen Attempts" = 12

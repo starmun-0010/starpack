@@ -66,7 +66,7 @@ skipMultiplayerWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
 syncChunkWrites:false
-soundCategory_master:0.029801324
+soundCategory_master:0.01655629
 soundCategory_music:0.36150235
 soundCategory_record:1.0
 soundCategory_weather:0.4741784
