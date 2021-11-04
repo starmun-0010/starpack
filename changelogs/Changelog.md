@@ -1,3 +1,30 @@
+# Starpack Aleph 0.3.6 to Starpack Aleph 0.3.7
+## Forge Version 36.2.8
+
+### Bug Fixes
+* Fixes server crash when entering villages
+
+### Mods Updated
+1. Connected Glass
+2. Cyclic
+3. Doggy Talents
+4. Ftb Library Forge
+5. Gecko Lib Forge
+6. Integrated Terminals
+7. Jei
+8. Mana and Artifice
+9. Mekanism
+10. Mekanism Additions
+11. Mekanism Generators
+12. Mekanism Tools
+13. Minecolonies
+14. Occultism
+15. Polymorph
+16. Portable Stonecutter
+17. Repurposed Structures
+18. ValkyrieLib
+
+
 # Starpack Aleph 0.3.5 to Starpack Aleph 0.3.6
 ## Forge Version 36.2.8
 
