@@ -1,3 +1,15 @@
+# Starpack Aleph 0.3.7 to Starpack Aleph 0.3.8
+## Forge Version 36.2.8
+
+### Bug Fixes
+* Fixes server deadlock in nether
+
+### Mods Updated
+1. GeckoLib 
+2. HammerLib
+3. Mana and Artifice
+4. Waystone
+
 # Starpack Aleph 0.3.6 to Starpack Aleph 0.3.7
 ## Forge Version 36.2.8
 
