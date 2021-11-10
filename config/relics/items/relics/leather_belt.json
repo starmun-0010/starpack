@@ -1,0 +1,23 @@
+{
+  "config": {},
+  "durability": {
+    "maxDurability": 100
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/village/village_desert_house",
+        "minecraft:chests/village/village_snowy_house",
+        "minecraft:chests/village/village_taiga_house",
+        "minecraft:chests/village/village_plains_house",
+        "minecraft:chests/village/village_savanna_house"
+      ],
+      "chance": 0.05
+    }
+  ]
+}

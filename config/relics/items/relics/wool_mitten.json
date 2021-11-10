@@ -1,0 +1,24 @@
+{
+  "config": {
+    "minDamage": 1.0,
+    "damagePerSecond": 1.0
+  },
+  "durability": {
+    "maxDurability": 100
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/igloo_chest",
+        "minecraft:chests/village/village_snowy_house",
+        "minecraft:chests/village/village_taiga_house"
+      ],
+      "chance": 0.1
+    }
+  ]
+}

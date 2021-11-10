@@ -1,0 +1,31 @@
+{
+  "config": {
+    "motionMultiplier": 0.9,
+    "healingMultiplier": 0.75
+  },
+  "durability": {
+    "maxDurability": 100
+  },
+  "level": {
+    "maxLevel": 10,
+    "initialExp": 100,
+    "expRatio": 250
+  },
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/stronghold_crossing",
+        "minecraft:chests/stronghold_library",
+        "minecraft:chests/abandoned_mineshaft"
+      ],
+      "chance": 0.1
+    },
+    {
+      "table": [
+        "minecraft:entities/slime"
+      ],
+      "chance": 0.001
+    }
+  ]
+}
