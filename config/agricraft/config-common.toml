@@ -75,7 +75,7 @@
 	"seed bag capacity" = 64
 	#
 	#Set to false if AgriCraft loot modifiers are not allowed to reset grass drops (this overrides the "reset" property in the loot entries
-	"Allow Grass Drop Resets" = true
+	"Allow Grass Drop Resets" = false
 
 ["resource crops"]
 	#
@@ -199,9 +199,6 @@
 	#Defined in terms of mB per second. The irrigation loop progress will pause when there is insufficient water.
 	#Range: 0 ~ 1000
 	"Sprinkler water usage" = 10
-	#
-	#Set to true to disable particles (Client only)
-	"Disable particles" = false
 
 [decoration]
 	#
@@ -272,25 +269,4 @@
 	#
 	#Set to false to disable compatibility with Straw Golem Reborn (in case things break)
 	"Enable Straw Golem Reborn compat" = true
-
-[debug]
-	#
-	#Set to true to add Registry information to itemstack tooltips (Client only)
-	"Registry tooltips" = false
-	#
-	#Set to true to add Tag information to itemstack tooltips (Client only)
-	"Tag tooltips" = false
-	#
-	#Set to true to add NBT information to itemstack tooltips (Client only)
-	"NBT tooltips" = false
-
-[animations]
-	#
-	#Configures the animation duration in ticks for the camera to snap to the seed analyzer, 0 disables it (Client only)
-	#Range: 0 ~ 40
-	"Seed Analyzer Animation Duration" = 15
-	#
-	#Configures the animation duration in ticks for the camera to snap to the journal, 0 disables it (Client only)
-	#Range: 0 ~ 40
-	"Journal Animation Duration" = 10
 

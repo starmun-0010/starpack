@@ -1,0 +1,4 @@
+# Default config file that will be copied to /home/muqsit/.config/gdlauncher_next/instances/stars/saves/New World (12)/serverconfig/ftbultimine-server.snbt if it doesn't exist!
+# Just copy any values you wish to override in here!
+
+{ }

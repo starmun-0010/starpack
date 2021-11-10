@@ -36,11 +36,11 @@
 	#Range: 0.0 ~ 1.0
 	"Plague Tome Drop Rate" = 0.0035000001080334187
 	#True if wild rats will destroy and eat crops
-	"Rats Raid Crops" = true
+	"Rats Raid Crops" = false
 	#True if wild rats will steal from chests
 	"Rats Steal From Chests" = false
 	#True if wild rats contaminate food when they steal from chests
-	"Rats Contaminate Food" = true
+	"Rats Contaminate Food" = false
 	#True if iron golems will attack wild rats
 	"Golems Target Rats" = true
 	#True if pet shops can spawn in villages
@@ -54,7 +54,7 @@
 	#True if rats should spawn like monsters. False if they should only spawn once per world, like pigs and sheep.
 	"Rats Spawn Like Monsters" = true
 	#True if tamed rats will destroy crops when they harvest them
-	"Rats Break Crops on Harvest" = true
+	"Rats Break Crops on Harvest" = false
 	#True if rats should rarely make a funny noise when creating rats nuggets.
 	"Rat Fart Noises" = true
 	#True if infected mobs with plague can spread it by interacting or attacking.

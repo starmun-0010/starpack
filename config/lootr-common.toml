@@ -3,7 +3,7 @@ randomise_seed = true
 #whether or not mineshaft chest minecarts should be converted to standard loot chests
 convert_mineshafts = true
 #catches loot chest creation that this mod cannot convert, reporting the loot table, location and mod
-report_tables = true
+report_tables = false
 #whether or not quark chests used in world generation for loot purposes should be replaced with Lootr chests
 convert_quark = true
 #whether or not the entire forge:chests/wooden tag should be added to the conversion list for structures (if they are backed by LockableLootTileEntity)
