@@ -51,27 +51,7 @@ onEvent('recipes', event => {
   ], {
     T: Item.of('toolbelt:belt', 1, { Size: 6 }),
     P: Item.of('toolbelt:pouch')
-  }).id('starpack:toolbelt_size_nine');
-
-
-  //botany pot recipes
-  event.shaped('botanypots:hopper_botany_pot', [
-    'PH ',
-    '   ',
-    '   '
-  ], {
-    P: 'botanypots:botany_pot',
-    H: 'pneumaticcraft:omnidirectional_hopper'
-  });
-
-  event.shaped('botanypots:hopper_botany_pot', [
-    'TPT',
-    '   ',
-    '   '
-  ], {
-    T: 'botania:manasteel_nugget',
-    P: 'botanypots:botany_pot'
-  });
+  }).id('starpack:toolbelt_size_nine'); ``
 
    //Byg chests recipes
    event.shaped('quark:oak_chest', [
