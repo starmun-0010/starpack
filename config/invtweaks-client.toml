@@ -105,6 +105,10 @@
 		containerClass = "com.vulp.druidcraft.inventory.container.TravelPackContainer"
 		sortRange = ""
 
+	[[sorting.containerOverrides]]
+		containerClass = "se.mickelus.tetra.blocks.workbench.WorkbenchContainer"
+		sortRange = ""
+
 #Tweaks
 [tweaks]
 	#Enable auto-refill

@@ -2,7 +2,7 @@
 
 //giving the player an Akashic tome on their first login
 events.listen('player.logged_in', function (event) {
-  event.server.schedule(10, event.server, function (callback) {
+  event.server.schedule(100, event.server, function (callback) {
     if (!event.hasGameStage('starting_items')) {
       event.player.getInventory().clear();
       event.addGameStage('starting_items')
