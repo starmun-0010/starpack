@@ -1,0 +1,29 @@
+
+#Common Config
+[common]
+	#Do not apply custom models on these entities.
+	blacklist = ["minecraft:armor_stand"]
+
+#Permissions
+[permissions]
+	#Permission for selecting own model.
+	#Allowed Values: ALL, OP, NONE
+	selectSelf = "ALL"
+	#Permission for selecting other's model.
+	#Allowed Values: ALL, OP, NONE
+	selectOthers = "OP"
+	#Permission for resizing own model.
+	#Allowed Values: ALL, OP, NONE
+	scaleSelf = "ALL"
+	#Permission for resizing other's model.
+	#Allowed Values: ALL, OP, NONE
+	scaleOthers = "OP"
+	#Permission for refreshing local model files.
+	#Allowed Values: ALL, OP, NONE
+	refreshModels = "OP"
+	#Permission for creating model changing items.
+	#Allowed Values: ALL, OP, NONE
+	createItems = "OP"
+	#Permission nodes of models.
+	models = []
+

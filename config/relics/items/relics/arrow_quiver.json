@@ -1,23 +1,33 @@
 {
-  "stats": {
-    "multishotChance": 0.2,
-    "multishotCooldown": 2,
-    "additionalArrows": 4,
-    "pickupRadius": 16,
-    "pickupCooldown": 3
+  "config": {
+    "skippedTicks": 1,
+    "activeCooldown": 10,
+    "explosionRadius": 5,
+    "explosionDamageMultiplier": 1.5,
+    "maxExplosionDamage": 75,
+    "whitelistedItems": [],
+    "blacklistedItems": []
   },
-  "loot": {
-    "lootChests": [
-      "minecraft:chests/village/village_fletcher"
-    ],
-    "chance": 0.15
+  "durability": {
+    "maxDurability": 100
   },
   "level": {
     "maxLevel": 10,
     "initialExp": 100,
     "expRatio": 250
   },
-  "durability": {
-    "durability": 100
-  }
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/village/village_fletcher"
+      ],
+      "chance": 0.25
+    },
+    {
+      "table": [
+        "minecraft:entities/skeleton"
+      ],
+      "chance": 0.005
+    }
+  ]
 }

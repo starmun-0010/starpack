@@ -1,29 +1,28 @@
 {
-  "stats": {
-    "summonChance": 0.35,
-    "minDamageForSummon": 1.0,
-    "maxDistanceForSummon": 5,
-    "initialDamageMultiplier": 1.25,
-    "summonCooldown": 1,
-    "bounceChanceMultiplier": 0.025,
+  "config": {
+    "maxCharges": 8,
+    "chargeRegenerationTime": 10,
+    "damage": 5,
+    "throwCooldown": 5,
+    "bounceChanceMultiplier": 0.015,
     "bounceRadius": 7,
-    "projectileSpeed": 0.45,
-    "maxBounces": 10,
-    "minDamagePerBounce": 1.0,
-    "damageMultiplierPerBounce": 0.05
+    "projectileSpeed": 0.75,
+    "maxBounces": 10
   },
-  "loot": {
-    "lootChests": [
-      "minecraft:chests/end_city_treasure"
-    ],
-    "chance": 0.075
+  "durability": {
+    "maxDurability": 100
   },
   "level": {
     "maxLevel": 10,
     "initialExp": 100,
     "expRatio": 250
   },
-  "durability": {
-    "durability": 100
-  }
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/end_city_treasure"
+      ],
+      "chance": 0.1
+    }
+  ]
 }

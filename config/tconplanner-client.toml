@@ -7,3 +7,8 @@
 	#Range: -300 ~ 300
 	"Y Position" = 8
 
+[Planner]
+	#The scroll direction for paginated lists
+	#Allowed Values: UP, DOWN
+	"Scroll Direction" = "DOWN"
+

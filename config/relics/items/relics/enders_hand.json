@@ -1,24 +1,29 @@
 {
-  "stats": {
+  "config": {
     "preparationTime": 1,
     "maxDistance": 64,
-    "cooldown": 10
+    "cooldown": 0
   },
-  "loot": {
-    "lootChests": [
-      "minecraft:chests/stronghold_corridor",
-      "minecraft:chests/stronghold_crossing",
-      "minecraft:chests/stronghold_library",
-      "minecraft:chests/abandoned_mineshaft"
-    ],
-    "chance": 0.1
+  "durability": {
+    "maxDurability": 100
   },
   "level": {
     "maxLevel": 10,
     "initialExp": 100,
     "expRatio": 250
   },
-  "durability": {
-    "durability": 100
-  }
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/end_city_treasure"
+      ],
+      "chance": 0.1
+    },
+    {
+      "table": [
+        "minecraft:entities/enderman"
+      ],
+      "chance": 0.01
+    }
+  ]
 }

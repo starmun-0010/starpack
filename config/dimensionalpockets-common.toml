@@ -1,0 +1,36 @@
+
+[general]
+	#Whether to keep the chunks inside the Pocket Dimension Loaded
+	keep_chunks_loaded = true
+	#Whether the walls of Pockets can be destroyed in creative mode
+	can_destroy_walls = false
+	#Whether commands are cancelled inside Pockets
+	cancel_commands = true
+	#The Internal height of pockets. Can only be between 15 - 255
+	#Range: 15 ~ 255
+	internal_height = 15
+	#Whether if reducing the Internal Height of Pocket that is larger will make it smaller.
+	internal_replace = false
+	#Whether or not any Player spawns with a book upon new spawn.
+	should_spawn_with_book = true
+	#Whether or not Disallowed Blocks can be placed.
+	can_place_structures = false
+	#Whether or not Disallowed Items can be used.
+	can_use_items = false
+
+[debug]
+	#Whether DimensionalPockets can send system messages.
+	debug_message = false
+	#Whether pocket data files are encrypted or not
+	encrpyt_files = false
+
+[visual]
+	#Whether or not connected textures work inside Pockets.
+	connected_textures_inside_pocket = true
+
+[disallowed]
+	#List of disallowed Blocks inside of a Pocket.
+	disallowed_blocks = ["lucky:lucky_block", "chancecubes:chance_cube", "chancecubes:chance_icosahedron", "chancecubes:giant_chance_cube", "chancecubes:cube_dispenser", "xreliquary:wraith_node"]
+	#List of disallowed Items inside of a Pocket.
+	disallowed_items = ["minecraft:chorus_fruit", "minecraft:ender_pearl", "xreliquary:ender_staff", "inventorypets:pet_nether_portal", "inventorypets:pet_enderman", "inventorypets:pet_silverfish"]
+

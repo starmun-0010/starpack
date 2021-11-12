@@ -1,23 +1,25 @@
 {
-  "stats": {
-    "speedModifier": 1.25,
-    "activationTime": 10
+  "config": {
+    "speedModifier": 0.01,
+    "maxModifiers": 125
   },
-  "loot": {
-    "lootChests": [
-      "minecraft:chests/stronghold_corridor",
-      "minecraft:chests/stronghold_crossing",
-      "minecraft:chests/stronghold_library",
-      "minecraft:chests/abandoned_mineshaft"
-    ],
-    "chance": 0.1
+  "durability": {
+    "maxDurability": 100
   },
   "level": {
     "maxLevel": 10,
     "initialExp": 100,
     "expRatio": 250
   },
-  "durability": {
-    "durability": 100
-  }
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/stronghold_corridor",
+        "minecraft:chests/stronghold_crossing",
+        "minecraft:chests/stronghold_library",
+        "minecraft:chests/abandoned_mineshaft"
+      ],
+      "chance": 0.05
+    }
+  ]
 }

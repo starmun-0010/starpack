@@ -25,3 +25,7 @@
 	#The byproduct material to output in Crossroads' Millstone.
 	byproduct = "minecraft:sand"
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+

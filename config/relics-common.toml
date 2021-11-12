@@ -15,7 +15,5 @@
 			leveling_bar_color_low = "#FF5555"
 			leveling_bar_color_medium = "#FFFF55"
 			leveling_bar_color_high = "#55FF55"
-
-		[general.relics.compatibility]
-			warn_about_old_forge = true
+			enable_relic_durability = false
 

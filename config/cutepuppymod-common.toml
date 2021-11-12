@@ -1,0 +1,59 @@
+
+#Entity Spawning Settings
+[entity_spawning]
+	#Disable Spawning of Puppys? (All Colors/Ender/Six Puppys [DEFAULT: false]
+	disable_spawining_puppys = false
+	#Disable Spawning of Red Puppys? [DEFAULT: false]
+	disable_red_puppy_spawining = false
+	#Disable Spawning of Blue Puppys? [DEFAULT: false]
+	disable_blue_puppy_spawining = false
+	#Disable Spawning of Green Puppys? [DEFAULT: false]
+	disable_green_puppy_spawining = false
+	#Disable Spawning of Yellow Puppys? [DEFAULT: false]
+	disable_yellow_puppy_spawining = false
+	#Disable Spawning of Purple Puppys? [DEFAULT: false]
+	disable_purple_puppy_spawining = false
+	#Disable Spawning of Steve Puppys? [DEFAULT: false]
+	disable_steve_puppy_spawining = false
+	#Disable Spawning of Herobrine Puppys? [DEFAULT: false]
+	disable_herobrine_puppy_spawining = false
+	#Disable Spawning of Six Puppys? [DEFAULT: false]
+	disable_six_puppy_spawining = false
+	#Disable Spawning of Ender Puppys? [DEFAULT: false]
+	disable_ender_puppy_spawining = false
+	#Disable Spawning of Clay Puppys? [DEFAULT: false]
+	disable_clay_puppy_spawining = false
+
+#Entity Spawning Weights
+[entity_weight]
+	#weight of red puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	red_puppy_spawn_weight = 10
+	#weight of blue puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	blue_puppy_spawn_weight = 10
+	#weight of green puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	green_puppy_spawn_weight = 10
+	#weight of yellow puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	yellow_puppy_spawn_weight = 10
+	#weight of purple puppy spawning (higher is more offen)[DEFAULT: 10?]
+	#Range: 0 ~ 50
+	purple_puppy_spawn_weight = 10
+	#weight of steve puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	steve__puppy_spawn_weight = 10
+	#weight of Herobrine puppy spawning (higher is more offen)[DEFAULT: 3]
+	#Range: 0 ~ 50
+	herobrine_puppy_spawn_weight = 3
+	#weight of Six puppy spawning (higher is more offen)[DEFAULT: 1]
+	#Range: 0 ~ 50
+	six_puppy_spawn_weight = 1
+	#weight of Ender puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	ender_puppy_spawn_weight = 10
+	#weight of Clay puppy spawning (higher is more offen)[DEFAULT: 10]
+	#Range: 0 ~ 50
+	clay_puppy_spawn_weight = 10
+

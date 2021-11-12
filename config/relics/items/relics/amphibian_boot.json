@@ -1,21 +1,24 @@
 {
-  "stats": {
-    "swimSpeedModifier": 1.5
+  "config": {
+    "swimSpeedModifier": 1.25,
+    "airSupplyModifier": 2
   },
-  "loot": {
-    "lootChests": [
-      "minecraft:chests/underwater_ruin_big",
-      "minecraft:chests/underwater_ruin_small",
-      "minecraft:chests/shipwreck_treasure"
-    ],
-    "chance": 0.125
+  "durability": {
+    "maxDurability": 100
   },
   "level": {
     "maxLevel": 10,
     "initialExp": 100,
     "expRatio": 250
   },
-  "durability": {
-    "durability": 100
-  }
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/underwater_ruin_big",
+        "minecraft:chests/underwater_ruin_small",
+        "minecraft:chests/shipwreck_treasure"
+      ],
+      "chance": 0.1
+    }
+  ]
 }

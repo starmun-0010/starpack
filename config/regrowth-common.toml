@@ -18,6 +18,9 @@
 	#Mushroom Maximum Biome Temperature
 	#Range: -2.0 ~ 2.0
 	mushroomMaxTemp = 1.2
+	#Torch Light Level - Villagers will only place torches on blocks this dark or darker.
+	#Range: 0 ~ 10
+	"torchLightLevel " = 7
 
 ["Regrowth Mobs 6464"]
 	#RegrowthMobs String 6464

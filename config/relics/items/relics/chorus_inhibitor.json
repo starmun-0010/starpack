@@ -1,19 +1,22 @@
 {
-  "stats": {
-    "timePerChorus": 30
+  "config": {
+    "maxDistance": 50,
+    "safeChecks": 5
   },
-  "loot": {
-    "lootChests": [
-      "minecraft:chests/end_city_treasure"
-    ],
-    "chance": 0.1
+  "durability": {
+    "maxDurability": 100
   },
   "level": {
     "maxLevel": 10,
     "initialExp": 100,
     "expRatio": 250
   },
-  "durability": {
-    "durability": 100
-  }
+  "loot": [
+    {
+      "table": [
+        "minecraft:chests/end_city_treasure"
+      ],
+      "chance": 0.1
+    }
+  ]
 }

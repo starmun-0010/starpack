@@ -1,0 +1,10 @@
+
+#Client Config
+[client]
+	#Hide particles that are too close to player's view point.
+	hideNearParticles = true
+	#Hide armors of custom models.
+	hideArmors = false
+	#Send models that are not located at the server from client.
+	sendModels = true
+

@@ -3,9 +3,6 @@
 [blocks]
 
 	[blocks.globe]
-		#chanche of finding a globe in a shipwreck treasure chest.
-		#Range: 0.0 ~ 1.0
-		shipwreck_treasure_chance = 0.25
 		#how many globe trades to give to the wandering trader. This will effectively increase the chance of him having a globe trader. Increase this if you have other mods that add stuff to that trader
 		#Range: 0 ~ 50
 		chance = 2
@@ -54,11 +51,13 @@
 		#Jar liquid capacity: leave at 12 for pixel accuracy
 		#Range: 0 ~ 1024
 		capacity = 12
-		#Allow right click to instantly eat or drink food or potions inside a jar.
+		#Allow right click to instantly eat or drink food or potions inside a placed jar.
 		#Disable if you think this ability is op (honey for example). Cookies are excluded
 		drink_from_jar = true
 		#Dynamically allows all small mobs inside jars depending on their hitbox size. Tinted jars can accept hostile mbos too
 		jar_auto_detect = false
+		#Allows the player to directly drink from jar items
+		drink_from_jar_item = false
 
 	[blocks.cage]
 		#Allows all baby mobs to be captured by cages
@@ -134,6 +133,8 @@
 	[blocks.iron_gate]
 		#Allows two iron gates to be opened simultaneously when on top of the other
 		double_opening = true
+		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openeable by redstone
+		door-like_gates = false
 
 	[blocks.timber_frame]
 		#Replace a timber frame with wattle and daub block when daub is placed in it
@@ -204,9 +205,9 @@
 [tweaks]
 
 	[tweaks.cake_tweaks]
-		#allows you to place a cake ontop of another
+		#Allows you to place a cake on top of another
 		double_cake = true
-		#replaces normal cake placement with a directional one
+		#Replaces normal cake placement with a directional one
 		directional_cake = true
 
 	[tweaks.hanging_flower_pots]
@@ -214,14 +215,16 @@
 		enabled = true
 
 	[tweaks.throwable_bricks]
-		#throw bricks at your foes! Might break glass blocks
+		#Throw bricks at your foes! Might break glass blocks
 		enabled = true
 
 	[tweaks.wall_lantern]
-		#allow wall lanterns placement
+		#Allow wall lanterns placement
 		enabled = true
-		#mod ids of mods that have lantern block that extend the base lantern class but don't look like one
+		#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
 		mod_blacklist = ["extlights", "betterendforge"]
+		#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
+		high_priority = true
 
 	[tweaks.bells_tweaks]
 		#Ring a bell by clicking on a chain that's connected to it
@@ -292,6 +295,20 @@
 		#Range: 0 ~ 8
 		spread_age = 2
 
+	[tweaks.placeable_books]
+		#Allow books and enchanted books to be placed on the ground
+		enabled = true
+		#Allow all books to be placed both vertically and horizontally
+		mixed_books = false
+		#Allows written books to be placeable (will need shift clicking)
+		written_books = false
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		#Range: 0.0 ~ 5.0
+		book_power = 1.0
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		#Range: 0.0 ~ 5.0
+		enchanted_book_power = 1.334
+
 [items]
 
 	[items.flute]
@@ -305,6 +322,9 @@
 	[items.rope_arrow]
 		#If you don't like my ropes you can specify here the block id ofa rope from another mod which will get deployed by rope arrows instead of mine
 		rope_arrow_override = "supplementaries:rope"
+		#Max number of robe items allowed to be stored inside a rope arrow
+		#Range: 1 ~ 256
+		capacity = 24
 
 	[items.bomb]
 		#Bomb explosion radius (damage depends on this)
@@ -315,7 +335,7 @@
 		break_blocks = "WEAK"
 
 	[items.slingshot]
-		#Slingshot range multiplier
+		#Slingshot range multiplier. Affect the initial projectile speed
 		#Range: 0.0 ~ 5.0
 		range_multiplier = 1.0
 		#Time in ticks to fully charge a slingshot
@@ -323,4 +343,20 @@
 		charge_time = 20
 		#Allow enderman to intercept any slingshot projectile
 		unrestricted_enderman_intercept = true
+		#Deceleration for the stasis projectile
+		#Range: 0.1 ~ 1.0
+		stasis_deceleration = 0.9625
+
+	[items.blue_bomb]
+		#Bomb explosion radius (damage depends on this)
+		#Range: 0.1 ~ 10.0
+		explosion_radius = 5.15
+		#Do bombs break blocks like tnt?
+		#Allowed Values: ALL, WEAK, NONE
+		break_blocks = "WEAK"
+
+#General settings
+[general]
+	#Turn this on to disable any interaction on blocks placed by other players. This affects item shelves, signs, flower pots, and boards. Useful for protected servers. Note that it will affect only blocks placed after this is turned on and such blocks will keep being protected after this option is disabled
+	server_protection = false
 

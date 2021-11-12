@@ -264,6 +264,20 @@
 		#Chance per tick for silkworms to grown (1 in X)
 		growthChance = 68
 
+	#Duck spawn config.
+	[mob_spawns.Duck_spawn]
+		#Chance to spawn (set to 0 to disable).
+		#Range: 0 ~ 256
+		spawnChance = 5
+		#Min to spawn in a group.
+		#Range: 0 ~ 256
+		min = 1
+		#Max to spawn in a group.
+		#Range: 0 ~ 256
+		max = 4
+		#List of biome types to spawn.
+		biomes = "wet,swamp,river,beach,"
+
 #Hat Configuration
 [hat_config]
 	#Spawn frequency (1 in X chances per tick while spawn conditions are met, -1 for not at all)
@@ -490,6 +504,13 @@
 	[feature_spawns.barrow]
 		#List of biome types to spawn (default [SAVANNA,PLAINS], pass empty list for every biome
 		biomes = "SAVANNA,PLAINS"
+		#Which biome types this structure shouldn't spawn in (default END, NETHER)
+		biomeRestrictions = "NETHER,END"
+
+	#Structure Generation
+	[feature_spawns.sand_house]
+		#List of biome types to spawn (default [SANDY], pass empty list for every biome
+		biomes = "SANDY"
 		#Which biome types this structure shouldn't spawn in (default END, NETHER)
 		biomeRestrictions = "NETHER,END"
 
