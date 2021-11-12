@@ -9,41 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -9.5d
-			y: -4.0d
-			hide: false
-			id: "5F568A8B394B842A"
-			tasks: [{
-				id: "4464FB62A3DBFC30"
-				type: "item"
-				item: "integrateddynamics:crystalized_menril_chunk"
-			}]
-			rewards: [{
-				id: "5C62461378D3580B"
-				type: "xp"
-				auto: "no_toast"
-				xp: 5
-			}]
-		}
-		{
-			x: -10.5d
-			y: -4.0d
-			id: "72E4B0BF940E5FA2"
-			tasks: [{
-				id: "1C3915EAE3D6D577"
-				type: "item"
-				item: "integrateddynamics:menril_log"
-			}]
-			rewards: [{
-				id: "37E3638EA6CC0DAE"
-				type: "xp"
-				auto: "enabled"
-				xp: 5
-			}]
-		}
-		{
-			x: -17.5d
-			y: -6.5d
+			x: -16.0d
+			y: -6.4d
 			id: "7EA0E614F815E814"
 			tasks: [{
 				id: "40878AA376961B5D"
@@ -59,8 +26,8 @@
 			}]
 		}
 		{
-			x: -16.0d
-			y: -6.5d
+			x: -13.0d
+			y: -6.4d
 			id: "17C39F6DA0ECE043"
 			tasks: [{
 				id: "0CBC9029FE1F4D41"
@@ -74,8 +41,8 @@
 			}]
 		}
 		{
-			x: -14.5d
-			y: -6.5d
+			x: -12.0d
+			y: -6.4d
 			id: "6931707F24E52723"
 			tasks: [{
 				id: "316F8E01F3F93615"
@@ -90,8 +57,8 @@
 			}]
 		}
 		{
-			x: -13.0d
-			y: -6.5d
+			x: -11.0d
+			y: -6.4d
 			id: "010E976DAB82D4E8"
 			tasks: [{
 				id: "55794F6BD29F5FAA"
@@ -105,8 +72,8 @@
 			}]
 		}
 		{
-			x: -11.5d
-			y: -6.5d
+			x: -10.0d
+			y: -6.4d
 			id: "7E2847B263D79F92"
 			tasks: [{
 				id: "4DC57E301B534525"
@@ -120,8 +87,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -6.5d
+			x: -9.0d
+			y: -6.4d
 			id: "47C9B708B282B41C"
 			tasks: [{
 				id: "76FDEFAF361B64D3"
@@ -136,7 +103,7 @@
 		}
 		{
 			x: -10.0d
-			y: -5.0d
+			y: -5.4d
 			id: "7DB8353FD111C421"
 			tasks: [{
 				id: "620B11B2DF0E18B7"
@@ -150,8 +117,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -6.5d
+			x: -8.0d
+			y: -6.4d
 			id: "173070AAEA845CA2"
 			tasks: [{
 				id: "44BA7250344557F1"
@@ -166,7 +133,7 @@
 		}
 		{
 			x: -7.0d
-			y: -6.5d
+			y: -6.4d
 			id: "0ED818725A532706"
 			tasks: [{
 				id: "665F880E0D6E48A9"
@@ -180,8 +147,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -6.5d
+			x: -6.0d
+			y: -6.4d
 			id: "639EE78042255EA6"
 			tasks: [{
 				id: "14E2F86D5DF76569"
@@ -195,8 +162,8 @@
 			}]
 		}
 		{
-			x: -4.0d
-			y: -6.5d
+			x: -5.0d
+			y: -6.4d
 			id: "2171F77722077795"
 			tasks: [{
 				id: "64CD42A17DC93649"
@@ -210,8 +177,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.5d
+			x: -4.0d
+			y: -6.4d
 			id: "47A70A49329F9F2B"
 			tasks: [{
 				id: "66D9E533AB564885"
@@ -226,7 +193,7 @@
 		}
 		{
 			x: -10.0d
-			y: -8.0d
+			y: -7.4d
 			id: "2ED6733FEE4CD037"
 			tasks: [{
 				id: "25D5E4E283D254DB"
@@ -240,8 +207,8 @@
 			}]
 		}
 		{
-			x: -12.6d
-			y: -3.0d
+			x: -13.0d
+			y: -5.4d
 			id: "5563F543544C770B"
 			tasks: [{
 				id: "0B3374DD406359DD"
@@ -250,8 +217,8 @@
 			}]
 		}
 		{
-			x: -11.6d
-			y: -3.0d
+			x: -12.0d
+			y: -5.4d
 			id: "773EB33549FC0CBA"
 			tasks: [{
 				id: "13E582EA44573423"
@@ -260,8 +227,8 @@
 			}]
 		}
 		{
-			x: -10.6d
-			y: -3.0d
+			x: -11.0d
+			y: -5.4d
 			id: "4925B2ECB4A8C762"
 			tasks: [{
 				id: "22FD9B46628A7618"
@@ -270,8 +237,8 @@
 			}]
 		}
 		{
-			x: -9.6d
-			y: -3.0d
+			x: -9.0d
+			y: -5.4d
 			id: "1EAB052C1BC1A74B"
 			tasks: [{
 				id: "4497CD7ACDD21E9A"
@@ -280,8 +247,8 @@
 			}]
 		}
 		{
-			x: -8.6d
-			y: -3.0d
+			x: -8.0d
+			y: -5.4d
 			id: "501860AB1A4E97B9"
 			tasks: [{
 				id: "06791B2D410AAFAF"
@@ -290,13 +257,73 @@
 			}]
 		}
 		{
-			x: -7.6d
-			y: -3.0d
+			x: -7.0d
+			y: -5.4d
 			id: "10737E64A76168D4"
 			tasks: [{
 				id: "2CFDFE239AA6C349"
 				type: "item"
 				item: "minecraft:dark_oak_log"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.4d
+			id: "713D344ACB0AA08C"
+			tasks: [{
+				id: "580AB63A445CFAA1"
+				type: "item"
+				item: "minecraft:red_dye"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.4d
+			id: "6381D3E452D766A8"
+			tasks: [{
+				id: "69F3548E7D39F428"
+				type: "item"
+				item: "minecraft:light_blue_dye"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -7.4d
+			id: "718E0BF6EA0FAE21"
+			tasks: [{
+				id: "39544AA2A246E0AC"
+				type: "item"
+				item: "minecraft:green_dye"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -7.4d
+			id: "508492CCD165D18A"
+			tasks: [{
+				id: "1DA936BF819C81EA"
+				type: "item"
+				item: "minecraft:magenta_dye"
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.4d
+			id: "1C2D689EFD94BDD5"
+			tasks: [{
+				id: "128E9A2A93542619"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: -14.0d
+			y: -6.4d
+			id: "26B02DFD5675D0BB"
+			tasks: [{
+				id: "3781A6B58E2D21A0"
+				type: "item"
+				item: "minecraft:clay_ball"
 			}]
 		}
 	]

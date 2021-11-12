@@ -455,11 +455,8 @@
 		{
 			icon: "minecolonies:blockhutdeliveryman"
 			x: 5.0d
-			y: 7.2d
-			dependencies: [
-				"167C59173AF03D06"
-				"093D29A5B1A96AA3"
-			]
+			y: 7.199999999999999d
+			dependencies: ["45E8C374958B21BC"]
 			dependency_requirement: "one_completed"
 			id: "73FEFAFFB7525C81"
 			tasks: [{
@@ -472,7 +469,7 @@
 		{
 			icon: "minecraft:oak_log"
 			x: 4.4d
-			y: 5.4d
+			y: 4.800000000000001d
 			shape: "rsquare"
 			dependencies: ["11F4D2F291A7CEA5"]
 			id: "167C59173AF03D06"
@@ -562,7 +559,7 @@
 		{
 			icon: "minecraft:oak_log"
 			x: 4.4d
-			y: 9.0d
+			y: 8.4d
 			shape: "rsquare"
 			dependencies: ["73FEFAFFB7525C81"]
 			id: "4627379A126D09D6"
@@ -633,8 +630,9 @@
 			]
 		}
 		{
+			icon: "minecraft:dark_oak_log"
 			x: 5.6d
-			y: 5.4d
+			y: 4.800000000000001d
 			shape: "rsquare"
 			dependencies: ["11F4D2F291A7CEA5"]
 			id: "093D29A5B1A96AA3"
@@ -721,8 +719,9 @@
 			]
 		}
 		{
-			x: 5.8d
-			y: 9.0d
+			icon: "minecraft:dark_oak_log"
+			x: 5.6d
+			y: 8.4d
 			shape: "rsquare"
 			dependencies: ["73FEFAFFB7525C81"]
 			id: "6A4B2814A11AA85A"
@@ -784,6 +783,76 @@
 					auto: "enabled"
 					item: "minecraft:dark_oak_log"
 					count: 76
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			dependencies: [
+				"093D29A5B1A96AA3"
+				"167C59173AF03D06"
+			]
+			dependency_requirement: "one_completed"
+			id: "45E8C374958B21BC"
+			tasks: [{
+				id: "19509CBEBB57A4D1"
+				type: "advancement"
+				advancement: "minecolonies:production/build_warehouse"
+				criterion: ""
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.6d
+			dependencies: [
+				"4627379A126D09D6"
+				"6A4B2814A11AA85A"
+			]
+			id: "456C56A4AF7176F5"
+			tasks: [{
+				id: "67DE1E39EB2289D0"
+				type: "advancement"
+				advancement: "minecolonies:production/build_delivery_person"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.6d
+			dependencies: ["45E8C374958B21BC"]
+			id: "0D0992512293EEEB"
+			tasks: [
+				{
+					id: "398DC9EF61BFF77B"
+					type: "item"
+					item: "minecolonies:blockpostbox"
+				}
+				{
+					id: "56E9FD5D42880616"
+					type: "advancement"
+					advancement: "minecolonies:production/post_and_stash"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.6d
+			dependencies: ["45E8C374958B21BC"]
+			id: "7EA7FDFCFED7B508"
+			tasks: [
+				{
+					id: "53D864528FF46514"
+					type: "item"
+					item: "minecolonies:blockstash"
+				}
+				{
+					id: "6AA663FFB368F08A"
+					type: "advancement"
+					icon: "minecolonies:blockstash"
+					advancement: "minecolonies:production/post_and_stash"
+					criterion: ""
 				}
 			]
 		}

@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Ore Doubling"
-			x: -20.4d
+			title: "Ore Doubling with Manual Labour"
+			x: -21.2d
 			y: -14.0d
 			subtitle: "Quartz Grindstone"
 			description: ["Helps with ore doubling manually until we will have a smeltry."]
@@ -22,7 +22,7 @@
 			}]
 		}
 		{
-			x: -27.0d
+			x: -25.8d
 			y: -14.0d
 			hide_dependency_lines: true
 			dependencies: ["7EA0E614F815E814"]
@@ -34,7 +34,7 @@
 			}]
 		}
 		{
-			x: -26.0d
+			x: -25.2d
 			y: -13.0d
 			dependencies: ["7BEEE2CBC2B1D0FA"]
 			id: "4D384E46C9436D6F"
@@ -45,196 +45,7 @@
 			}]
 		}
 		{
-			x: -20.4d
-			y: -12.4d
-			shape: "diamond"
-			optional: true
-			id: "06E9A54038066CB6"
-			tasks: [{
-				id: "1E2EA02AC7D62B55"
-				type: "item"
-				item: {
-					id: "mining_helmet:mining_helmet"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"agricraft:gene_inspector": {
-							agri_flag: 0b
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -16.5d
-			y: -14.0d
-			id: "1DA994AC26214036"
-			tasks: [{
-				id: "7106464737202114"
-				type: "item"
-				item: {
-					id: "tanknull:tank_1"
-					Count: 1b
-					tag: {
-						fluidinv: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -17.5d
-			y: -13.0d
-			dependencies: ["1DA994AC26214036"]
-			id: "5705E42DB35A57A1"
-			tasks: [{
-				id: "68A407D639129F3B"
-				type: "item"
-				item: {
-					id: "tanknull:tank_2"
-					Count: 1b
-					tag: {
-						fluidinv: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -16.5d
-			y: -12.0d
-			dependencies: ["5705E42DB35A57A1"]
-			id: "16EEA4EC593BBA9C"
-			tasks: [{
-				id: "70186BD76D30706C"
-				type: "item"
-				item: {
-					id: "tanknull:tank_3"
-					Count: 1b
-					tag: {
-						fluidinv: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -17.5d
-			y: -11.0d
-			dependencies: ["16EEA4EC593BBA9C"]
-			id: "27932B35711330A8"
-			tasks: [{
-				id: "3E8B80758665ABFA"
-				type: "item"
-				item: {
-					id: "tanknull:tank_4"
-					Count: 1b
-					tag: {
-						fluidinv: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -16.5d
-			y: -10.0d
-			dependencies: ["27932B35711330A8"]
-			id: "49343F59C1A0DF4F"
-			tasks: [{
-				id: "486A45FD22DE9EAF"
-				type: "item"
-				item: {
-					id: "tanknull:tank_5"
-					Count: 1b
-					tag: {
-						fluidinv: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -15.5d
-			y: -14.0d
-			id: "18CAA5ED0C7A9B9F"
-			tasks: [{
-				id: "63920720104ADB0B"
-				type: "item"
-				item: "dankstorage:dank_1"
-			}]
-		}
-		{
-			x: -14.5d
-			y: -13.0d
-			dependencies: ["18CAA5ED0C7A9B9F"]
-			id: "541E662CC6256424"
-			tasks: [{
-				id: "34E5D746D534118E"
-				type: "item"
-				item: "dankstorage:dank_2"
-			}]
-		}
-		{
-			x: -15.5d
-			y: -12.0d
-			dependencies: ["541E662CC6256424"]
-			id: "613C727869898A88"
-			tasks: [{
-				id: "57B11D072BBA5139"
-				type: "item"
-				item: "dankstorage:dank_3"
-			}]
-		}
-		{
-			x: -14.5d
-			y: -11.0d
-			dependencies: ["613C727869898A88"]
-			id: "2FB8790D6C7B7931"
-			tasks: [{
-				id: "2A0C72813E516A19"
-				type: "item"
-				item: "dankstorage:dank_4"
-			}]
-		}
-		{
-			x: -15.5d
-			y: -10.0d
-			dependencies: ["2FB8790D6C7B7931"]
-			id: "6AA074526572BDF5"
-			tasks: [{
-				id: "23FA57F84AA69ADD"
-				type: "item"
-				item: "dankstorage:dank_5"
-			}]
-		}
-		{
-			x: -14.5d
-			y: -9.0d
-			dependencies: ["6AA074526572BDF5"]
-			id: "63792D8F83D29C20"
-			tasks: [{
-				id: "058D32F9A8D9DAB9"
-				type: "item"
-				item: "dankstorage:dank_6"
-			}]
-		}
-		{
-			x: -17.5d
-			y: -9.0d
-			dependencies: ["49343F59C1A0DF4F"]
-			id: "3DD6AF7028FE3344"
-			tasks: [{
-				id: "7A72631F78B785BE"
-				type: "item"
-				item: {
-					id: "tanknull:tank_6"
-					Count: 1b
-					tag: {
-						fluidinv: { }
-					}
-				}
-			}]
-		}
-		{
-			x: -23.5d
+			x: -23.2d
 			y: -14.0d
 			id: "47B81BC6F3DB393D"
 			tasks: [{
@@ -244,8 +55,8 @@
 			}]
 		}
 		{
-			x: -24.0d
-			y: -12.5d
+			x: -23.8d
+			y: -13.0d
 			dependencies: ["47B81BC6F3DB393D"]
 			id: "0A045BC6C96F721D"
 			tasks: [{
@@ -262,8 +73,8 @@
 		}
 		{
 			icon: "ironfurnaces:gold_furnace"
-			x: -27.0d
-			y: -12.0d
+			x: -25.2d
+			y: -11.8d
 			dependencies: ["4D384E46C9436D6F"]
 			id: "569640017B899459"
 			tasks: [{
@@ -289,8 +100,8 @@
 		}
 		{
 			icon: "ironfurnaces:diamond_furnace"
-			x: -26.0d
-			y: -11.0d
+			x: -25.2d
+			y: -10.8d
 			dependencies: ["569640017B899459"]
 			id: "17BCE8406ACE5057"
 			tasks: [{
@@ -316,8 +127,8 @@
 		}
 		{
 			icon: "ironfurnaces:emerald_furnace"
-			x: -27.0d
-			y: -10.0d
+			x: -25.8d
+			y: -9.8d
 			dependencies: ["17BCE8406ACE5057"]
 			id: "44C49E1F57A7DD45"
 			tasks: [{
@@ -342,8 +153,8 @@
 			}]
 		}
 		{
-			x: -23.0d
-			y: -11.5d
+			x: -23.8d
+			y: -10.8d
 			dependencies: ["0A045BC6C96F721D"]
 			id: "4B697DFF10C444CF"
 			tasks: [{
@@ -359,8 +170,8 @@
 			}]
 		}
 		{
-			x: -23.5d
-			y: -10.0d
+			x: -23.2d
+			y: -9.8d
 			dependencies: ["4B697DFF10C444CF"]
 			id: "474DC7DF5DB4D449"
 			tasks: [{
@@ -378,7 +189,7 @@
 		{
 			icon: "minecolonies:blockhutsawmill"
 			x: -29.0d
-			y: -14.0d
+			y: -16.8d
 			dependencies: ["384180A025F40D71"]
 			id: "0BFFFEB6C122E267"
 			tasks: [{
@@ -389,8 +200,8 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: -29.8d
-			y: -13.0d
+			x: -29.6d
+			y: -15.0d
 			dependencies: ["0BFFFEB6C122E267"]
 			id: "0C76E2E45C103BD3"
 			tasks: [
@@ -449,8 +260,8 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: -28.8d
-			y: -10.0d
+			x: -29.6d
+			y: -9.4d
 			dependencies: ["1A7A3EA3E1A895FB"]
 			id: "41592355E6CFD161"
 			tasks: [
@@ -589,7 +400,7 @@
 			]
 		}
 		{
-			x: -30.0d
+			x: -29.0d
 			y: -11.2d
 			dependencies: ["4E65970F1FDE8853"]
 			id: "1A7A3EA3E1A895FB"
@@ -602,9 +413,12 @@
 		{
 			title: "Wait for sawmill"
 			icon: "minecolonies:blockhutsawmill"
-			x: -28.8d
-			y: -12.0d
-			dependencies: ["0C76E2E45C103BD3"]
+			x: -29.0d
+			y: -13.2d
+			dependencies: [
+				"0C76E2E45C103BD3"
+				"02028F608A610DE7"
+			]
 			id: "4E65970F1FDE8853"
 			tasks: [{
 				id: "65435B65B053EAF5"
@@ -614,9 +428,14 @@
 			}]
 		}
 		{
-			x: -27.8d
-			y: -9.0d
-			dependencies: ["41592355E6CFD161"]
+			title: "Wait for Blacksmith"
+			x: -29.0d
+			y: -7.6d
+			dependencies: [
+				"41592355E6CFD161"
+				"4BBAFD0A03DFB6AD"
+			]
+			dependency_requirement: "one_completed"
 			id: "6A73C1EC25524788"
 			tasks: [{
 				id: "241CE20D53609B0E"
@@ -626,8 +445,8 @@
 			}]
 		}
 		{
-			x: -31.2d
-			y: -14.0d
+			x: -32.0d
+			y: -12.4d
 			dependencies: ["384180A025F40D71"]
 			id: "3B6C13D651F99C7F"
 			tasks: [{
@@ -637,8 +456,10 @@
 			}]
 		}
 		{
-			x: -28.2d
-			y: -13.2d
+			icon: "minecraft:dark_oak_log"
+			x: -28.4d
+			y: -15.0d
+			dependencies: ["0BFFFEB6C122E267"]
 			id: "02028F608A610DE7"
 			tasks: [
 				{
@@ -752,6 +573,179 @@
 					item: "minecraft:chest"
 				}
 			]
+		}
+		{
+			icon: "minecraft:dark_oak_log"
+			x: -28.4d
+			y: -9.4d
+			dependencies: ["1A7A3EA3E1A895FB"]
+			id: "4BBAFD0A03DFB6AD"
+			tasks: [
+				{
+					id: "64C7DC919E77C733"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:dark_oak_log"
+					count: 79L
+					consume_items: true
+				}
+				{
+					id: "4BAB45D743A1D8E1"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "0AA9197677519AD9"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:stone"
+					count: 178L
+				}
+				{
+					id: "552CCA4D0DB1BB4F"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:gravel"
+					count: 4L
+				}
+				{
+					id: "6824C20917962D5A"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:cobblestone"
+					count: 29L
+					consume_items: true
+				}
+				{
+					id: "793EC1B788A5A211"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:iron_ingot"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "45F680789586D9D5"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 79
+				}
+				{
+					id: "189E34BA6159E1AD"
+					type: "item"
+					item: "minecraft:dark_oak_slab"
+					count: 71
+				}
+				{
+					id: "3725FE76CCA72113"
+					type: "item"
+					item: "minecraft:smithing_table"
+				}
+				{
+					id: "1807D8734EA7E1A5"
+					type: "item"
+					item: "minecraft:cobblestone_stairs"
+					count: 9
+				}
+				{
+					id: "552B93B58CA6AEC5"
+					type: "item"
+					item: "minecraft:dark_oak_fence"
+					count: 72
+				}
+				{
+					id: "3B51FFB075717F4A"
+					type: "item"
+					item: "minecraft:dark_oak_planks"
+					count: 62
+				}
+				{
+					id: "5BBBFF0581C68902"
+					type: "item"
+					item: "minecraft:torch"
+					count: 10
+				}
+				{
+					id: "114E3B1C9A26FDE8"
+					type: "item"
+					item: "minecraft:oak_trapdoor"
+				}
+				{
+					id: "3BFD9ADBB0F5378B"
+					type: "item"
+					item: "minecraft:dark_oak_stairs"
+					count: 42
+				}
+				{
+					id: "372B6D790B857CAF"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 29
+				}
+			]
+		}
+		{
+			title: "Creosote Oil"
+			icon: "immersiveengineering:cokebrick"
+			x: -18.4d
+			y: -14.0d
+			id: "73636022593DB6BE"
+			tasks: [
+				{
+					id: "7DC4AAAA84BCC198"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "051180292473DF35"
+					type: "item"
+					item: "immersiveengineering:jerrycan"
+				}
+			]
+		}
+		{
+			title: "No Manual Labour Ore Doubling"
+			icon: "pedestals:pedestal/stone333"
+			x: -21.2d
+			y: -12.6d
+			id: "555E3C81A8248249"
+			tasks: [
+				{
+					id: "39AC8A28D95E4DC9"
+					type: "item"
+					item: "pedestals:pedestal/stone333"
+					count: 2L
+				}
+				{
+					id: "27B2CE3207FDEE06"
+					type: "item"
+					item: "pedestals:linkingtool"
+				}
+				{
+					id: "10E839DE7EA930EA"
+					type: "item"
+					item: "pedestals:coin/crusher"
+				}
+				{
+					id: "4CD6EF2EE146E5FD"
+					type: "item"
+					item: "pedestals:coin/export"
+				}
+			]
+		}
+		{
+			x: -19.8d
+			y: -14.0d
+			id: "48EA7A7F3960735B"
+			tasks: [{
+				id: "4EB1B76CF14B7A63"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
 		}
 	]
 }

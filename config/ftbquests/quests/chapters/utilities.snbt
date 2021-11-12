@@ -14,7 +14,7 @@
 	quests: [
 		{
 			title: "QoL Crafting"
-			x: 9.5d
+			x: 10.0d
 			y: 2.0d
 			subtitle: "Crafting Station"
 			description: [
@@ -34,7 +34,7 @@
 		}
 		{
 			title: "Seed Storage"
-			x: 8.0d
+			x: 8.6d
 			y: 2.0d
 			subtitle: "Seed Pouch"
 			description: [
@@ -56,7 +56,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.6d
 			y: 2.0d
 			id: "1FD8ECE634A2EB6D"
 			tasks: [{
@@ -77,7 +77,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.6d
 			y: 3.0d
 			id: "5E009B82F56AB4C3"
 			tasks: [{
@@ -93,7 +93,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.6d
 			y: 4.0d
 			id: "67B1EE30DF305E3C"
 			tasks: [{
@@ -109,7 +109,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 5.6d
 			y: 5.0d
 			id: "37838709B9FE7B5F"
 			tasks: [{
@@ -126,8 +126,8 @@
 		}
 		{
 			title: "Drying"
-			x: 8.0d
-			y: 3.5d
+			x: 8.6d
+			y: 3.4d
 			subtitle: "Drying Basin"
 			description: ["Helps dry materials, especially useful in making leather from rotten flesh."]
 			id: "5F6981F3D7BC4833"
@@ -139,8 +139,8 @@
 		}
 		{
 			title: "Portable Crafting"
-			x: 9.5d
-			y: 3.5d
+			x: 10.0d
+			y: 3.4d
 			subtitle: "Crafting Stick"
 			description: ["A portable crafting table so you can perform 3x3 crafting anywhere."]
 			id: "4259EA4DA1174785"
@@ -152,7 +152,7 @@
 		}
 		{
 			title: "Portable Crafting QoL"
-			x: 9.5d
+			x: 10.0d
 			y: 5.0d
 			subtitle: "Advanced Crafting Stick"
 			description: ["Like crafting stations, advanced crafting stick stores its inventory and does not spill out items."]
@@ -174,7 +174,7 @@
 			}]
 		}
 		{
-			x: 11.0d
+			x: 11.399999999999999d
 			y: 2.0d
 			id: "394E7B53C3F4ACDC"
 			tasks: [{
@@ -190,13 +190,202 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 3.5d
+			x: 11.399999999999999d
+			y: 3.4d
 			id: "392BA47B46B0668F"
 			tasks: [{
 				id: "3774D91D2508063F"
 				type: "item"
 				item: "nomowanderer:no_soliciting_sign"
+			}]
+		}
+		{
+			x: 15.2d
+			y: 0.8d
+			id: "1DA994AC26214036"
+			tasks: [{
+				id: "7106464737202114"
+				type: "item"
+				item: {
+					id: "tanknull:tank_1"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.4d
+			y: 0.8d
+			id: "18CAA5ED0C7A9B9F"
+			tasks: [{
+				id: "63920720104ADB0B"
+				type: "item"
+				item: "dankstorage:dank_1"
+			}]
+		}
+		{
+			x: 17.4d
+			y: 1.8d
+			dependencies: ["18CAA5ED0C7A9B9F"]
+			id: "541E662CC6256424"
+			tasks: [{
+				id: "34E5D746D534118E"
+				type: "item"
+				item: "dankstorage:dank_2"
+			}]
+		}
+		{
+			x: 16.4d
+			y: 2.8d
+			dependencies: ["541E662CC6256424"]
+			id: "613C727869898A88"
+			tasks: [{
+				id: "57B11D072BBA5139"
+				type: "item"
+				item: "dankstorage:dank_3"
+			}]
+		}
+		{
+			x: 15.2d
+			y: 2.8d
+			dependencies: ["5705E42DB35A57A1"]
+			id: "16EEA4EC593BBA9C"
+			tasks: [{
+				id: "70186BD76D30706C"
+				type: "item"
+				item: {
+					id: "tanknull:tank_3"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 14.2d
+			y: 1.8d
+			dependencies: ["1DA994AC26214036"]
+			id: "5705E42DB35A57A1"
+			tasks: [{
+				id: "68A407D639129F3B"
+				type: "item"
+				item: {
+					id: "tanknull:tank_2"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 14.2d
+			y: 3.8d
+			dependencies: ["16EEA4EC593BBA9C"]
+			id: "27932B35711330A8"
+			tasks: [{
+				id: "3E8B80758665ABFA"
+				type: "item"
+				item: {
+					id: "tanknull:tank_4"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 15.2d
+			y: 4.8d
+			dependencies: ["27932B35711330A8"]
+			id: "49343F59C1A0DF4F"
+			tasks: [{
+				id: "486A45FD22DE9EAF"
+				type: "item"
+				item: {
+					id: "tanknull:tank_5"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 14.2d
+			y: 5.8d
+			dependencies: ["49343F59C1A0DF4F"]
+			id: "3DD6AF7028FE3344"
+			tasks: [{
+				id: "7A72631F78B785BE"
+				type: "item"
+				item: {
+					id: "tanknull:tank_6"
+					Count: 1b
+					tag: {
+						fluidinv: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.4d
+			y: 4.8d
+			dependencies: ["2FB8790D6C7B7931"]
+			id: "6AA074526572BDF5"
+			tasks: [{
+				id: "23FA57F84AA69ADD"
+				type: "item"
+				item: "dankstorage:dank_5"
+			}]
+		}
+		{
+			x: 17.4d
+			y: 3.8d
+			dependencies: ["613C727869898A88"]
+			id: "2FB8790D6C7B7931"
+			tasks: [{
+				id: "2A0C72813E516A19"
+				type: "item"
+				item: "dankstorage:dank_4"
+			}]
+		}
+		{
+			x: 17.4d
+			y: 5.8d
+			dependencies: ["6AA074526572BDF5"]
+			id: "63792D8F83D29C20"
+			tasks: [{
+				id: "058D32F9A8D9DAB9"
+				type: "item"
+				item: "dankstorage:dank_6"
+			}]
+		}
+		{
+			x: 15.8d
+			y: -0.4d
+			shape: "diamond"
+			optional: true
+			id: "06E9A54038066CB6"
+			tasks: [{
+				id: "1E2EA02AC7D62B55"
+				type: "item"
+				item: {
+					id: "mining_helmet:mining_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"agricraft:gene_inspector": {
+							agri_flag: 0b
+						}
+					}
+				}
 			}]
 		}
 	]

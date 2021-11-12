@@ -3,7 +3,7 @@
 	group: "2B6C2CBF9E7D9DFC"
 	order_index: 2
 	filename: "crops"
-	title: "Farms"
+	title: "Resource Gathering"
 	icon: {
 		id: "tconstruct:scythe"
 		Count: 1b
@@ -107,7 +107,7 @@
 			}]
 		}
 		{
-			x: -4.6d
+			x: -4.4d
 			y: -7.8d
 			id: "1010173C3C27F60A"
 			tasks: [{
@@ -173,7 +173,7 @@
 			]
 		}
 		{
-			x: -0.8d
+			x: -0.6d
 			y: -9.8d
 			dependencies: ["384180A025F40D71"]
 			id: "3F516CB2F5E6F011"
@@ -185,7 +185,7 @@
 		}
 		{
 			icon: "minecraft:oak_log"
-			x: -1.4d
+			x: -1.2d
 			y: -8.0d
 			shape: "rsquare"
 			dependencies: ["3F516CB2F5E6F011"]
@@ -431,7 +431,7 @@
 			}]
 		}
 		{
-			x: -0.8d
+			x: -0.6d
 			y: -6.2d
 			dependencies: [
 				"3051E4DD16AE6B06"
@@ -459,7 +459,7 @@
 		}
 		{
 			icon: "minecraft:dark_oak_log"
-			x: -0.19999999999999996d
+			x: 0.0d
 			y: -8.0d
 			shape: "rsquare"
 			dependencies: ["3F516CB2F5E6F011"]
@@ -734,6 +734,45 @@
 					auto: "enabled"
 					item: "minecraft:oak_sign"
 					count: 64
+				}
+			]
+		}
+		{
+			title: "Plant Sapplings"
+			x: 0.4d
+			y: -6.2d
+			dependencies: ["2C71305DD90736D6"]
+			id: "3B81FF85487B7B31"
+			tasks: [
+				{
+					id: "1F0EAD6B6A732520"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "178259AB43D8B50F"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+				{
+					id: "25C8AED2BF079817"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+				{
+					id: "5AC4EA9B1AAA0263"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+				{
+					id: "609BE01F4B74B5F8"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+				{
+					id: "5A700DE9CDC2979D"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
 				}
 			]
 		}

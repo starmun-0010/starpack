@@ -3,7 +3,7 @@
 	group: "2B6C2CBF9E7D9DFC"
 	order_index: 1
 	filename: "building_and_terraforming"
-	title: "Building and Terraforming"
+	title: "Building \\& Terraforming"
 	icon: {
 		id: "constructionwand:stone_wand"
 		Count: 1b

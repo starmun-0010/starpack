@@ -1,3 +1,79 @@
+# Starpack Aleph 0.3.9 Hotfix
+Fixed server connection issues
+
+## Changelog
+- Removed draconic evolution (causing connection issues)
+
+# Starpack Aleph 0.3.8 Hotfix to Starpack Aleph 0.3.9
+## Forge Version 36.2.9
+
+## Changelog
+- Disabled rats destroying crops
+- Added tetra workbench to inventory sort exclude list
+- Turned off minecoloies npc voices
+- Added various quests
+
+## Bug Fixes
+- Fixed inferium seeds not planting in crop sticks
+- Restored original tool belt recipes
+- Restored original botany pot recipes
+ 
+### Mods Added
+1.  Brandon Core
+2.  Draconic Evolution
+3.  Lootr
+5.  Pipez
+6.  Pretty Pipes Fluids
+7.  Roadrunner
+8.  Smooth Boot
+
+### Mods Updated
+1.  Ambient Sounds
+2.  Caleus
+3.  Cloth Config
+4.  Configure
+5.  Curios Elytra
+6.  Cyclic
+7.  Cyclopse Core
+8.  Dungeon Crawl
+9.  Envirocore
+10.  Exxtended Crafting
+11.  Ftb Chunks Forge
+12.  Ftb Library
+13.  Ftb Ultamine
+15.  Geckolib
+16.  Integrated Crafting
+17.  Integrated Dynamics
+18.  Itegrated Terminals
+19.  Jei
+20.  Kubejs
+21.  Kubejs Forge
+22.  Mahotsukai
+23.  Mana and Artifice
+24.  Mcw Bridges
+25.  Mekanism
+26.  Mekanism Generators
+27.  Mekanism Tools
+28.  Mekkanism Additions
+29.  Minecolonies
+31.  Myystical Customizaitons
+32.  Occultism
+33.  Paraglider
+35.  Pneumaticraft
+36.  Polymorph
+37.  Portality
+38.  Prefab
+39.  Repurposed Structures
+40.  Rhino
+41.  Rs Gauges
+42.  Silent Gear
+43.  Tetra
+44.  Tinker's Construct
+45.  Titanium
+46.  Tombstone
+47.  Vampirism
+48.  Vampirism Integrations
+
 # Starpack Aleph 0.3.7 to Starpack Aleph 0.3.8
 ## Forge Version 36.2.8
 
