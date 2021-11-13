@@ -12,7 +12,7 @@
 	#Whether if reducing the Internal Height of Pocket that is larger will make it smaller.
 	internal_replace = false
 	#Whether or not any Player spawns with a book upon new spawn.
-	should_spawn_with_book = true
+	should_spawn_with_book = false
 	#Whether or not Disallowed Blocks can be placed.
 	can_place_structures = false
 	#Whether or not Disallowed Items can be used.
