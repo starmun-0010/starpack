@@ -1,3 +1,45 @@
+# Starpack Aleph 0.3.9 Hotfix to Starpack Aleph 0.3.10
+## Forge Version 36.2.9
+
+## Bug fixes
+- Fixed ice and fire mobs not spawning in gaia
+- Fixed grass not dropping hemp seeds (again :/)
+- Fixed connections issues cause by large packets
+
+### Mods Added
+- Draconic Evolution
+- Brandon's Core
+- BetterEnd Reforked
+- Connectivity
+
+### Mods Removed
+- Random Patches (conflicts with connectivity)
+
+### Mods Updated
+1. Botania
+2. Cookie Core
+3. Cyclic
+4. Doggy Talents
+5. Geckolib
+6. Industrial Agriculture
+7. Industrial Foregoing
+8. Integrated Tunnels
+9. Integrated Dynamics
+10. Jei
+11. Just Enough Calculations
+12. Kubejs
+13. Minecolonies
+14. More Dragon Eggs
+15. Mystical Agriditions
+16. Mystical Agriculture
+17. Pipez
+18. Polymorph
+19. Portality
+20. Rhino
+21. Supermartijn642's Core Lib
+22. Titanium
+23. ValkyrieLib
+
 # Starpack Aleph 0.3.9 Hotfix
 Fixed server connection issues
 

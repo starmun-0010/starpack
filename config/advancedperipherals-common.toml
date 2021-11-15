@@ -20,6 +20,10 @@
 	#Time in seconds, while loaded chunk can be consider as valid without touch
 	#Range: > 60
 	chunkLoadValidTime = 600
+	#Activates the `getPlayerPos` function of the Player Detector
+	enablePlayePosFunction = true
+	#Adds more information to `getPlayerPos` of the Player Detector. Like rotation and dimension
+	morePlayerInformation = true
 
 [Features]
 	#Enable the Chat Box or not.

@@ -9,5 +9,5 @@
 
 	#If the player should spawn with this book
 	[common.spawnBook]
-		vampirism-guidebook = false
+		vampirism-guidebook = true
 

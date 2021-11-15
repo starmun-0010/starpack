@@ -259,7 +259,7 @@
 				# 
 				# The minimum amount of allocated RAM in GB needed to be able to launch the modpack.
 				#Range: 0.1 ~ 1024.0
-				reqMinMemoryAmountInGB = 5
+				reqMinMemoryAmountInGB = 8
 
 			[Java.Memory.Min.Warning]
 				# 
@@ -279,7 +279,7 @@
 				# The minimum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
 				#Range: 0.1 ~ 1024.0
-				warnMinMemoryAmountInGB = 6
+				warnMinMemoryAmountInGB = 10
 
 		[Java.Memory.Max]
 
@@ -290,7 +290,7 @@
 				# 
 				# This is useful for preventing users from allocating excessive amounts of RAM
 				# to the point of causing nasty GC-related lag spikes as a result.
-				enableMaxMemoryRequirement = true
+				enableMaxMemoryRequirement = false
 				# 
 				#The maximum amount of allocated RAM in GB to be able to launch the modpack.
 				reqMaxMemoryAmountInGB = 16.0
@@ -306,7 +306,7 @@
 				# 
 				# The maximum recommended amount of allocated RAM in GB needed to skip the warning
 				# message when launching the modpack.
-				warnMaxMemoryAmountInGB = 14.0
+				warnMaxMemoryAmountInGB = 16.0
 
 		[Java.Memory.NearMax]
 
@@ -367,7 +367,7 @@
 			# 
 			# Note: This value will always be used for %autoName if enableUsingAutodetectedDisplayName
 			# is disabled, regardless of whether or not the pack is launched from a supported launcher.
-			autoDetectedDisplayNameFallback = "Starpack Aleph"
+			autoDetectedDisplayNameFallback = "Starpack Titan"
 
 		[Java.Display.Icon]
 			# 

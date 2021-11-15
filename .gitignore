@@ -20,7 +20,7 @@ realms_persistence.json
 !InstanceSync*.jar
 **/*.jar.disabled
 **/*.jar.meta
-
+**/*.temp
 **/.vs
 /woot
 /mods
