@@ -5,11 +5,11 @@
 		#True if using blacklists, false if using whitelists for dragons and structure gen.
 		"Use Dimension Blacklist" = false
 		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsDragons = ["minecraft:overworld"]
+		whitelistDimensionsDragons = ["gaiadimension:gaia_dimension", "minecraft:overworld"]
 		#Whitelisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsFeature = ["minecraft:overworld"]
+		whitelistDimensionsFeature = ["gaiadimension:gaia_dimension", "minecraft:overworld"]
 		#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		whitelistDimensionsMobs = ["minecraft:overworld"]
+		whitelistDimensionsMobs = ["gaiadimension:gaia_dimension", "minecraft:overworld"]
 		#Blacklisted dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		blacklistDimensionsDragons = ["minecraft:the_nether", "minecraft:the_end"]
 		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
@@ -19,9 +19,9 @@
 
 	[Generation.Ores]
 		#Whether to generate copper ore or not
-		"Generate Copper Ore" = true
+		"Generate Copper Ore" = false
 		#Whether to generate silver ore or not
-		"Generate Silver Ore" = true
+		"Generate Silver Ore" = false
 		#Whether to generate sapphire ore or not
 		"Generate Sapphire Ore" = true
 		#Whether to generate amethyst ore or not
@@ -172,7 +172,7 @@
 		#Range: 1 ~ 10000
 		"Pixie Village Size" = 5
 		#True if pixies are allowed to steal from players
-		"Pixies Steal Items" = true
+		"Pixies Steal Items" = false
 
 	[Mobs.Cyclops]
 		#True if cyclops caves are allowed to spawn
@@ -350,7 +350,7 @@
 		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 100
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
@@ -359,32 +359,6 @@
 		#Default sea serpent attack strength, this is scaled to the sea serpent's particular size
 		#Range: 1.0 ~ 10000.0
 		"Sea Serpent Base Attack Strength" = 4.0
-
-	[Mobs.Others]
-		#True if dread liches are allowed to spawn
-		"Spawn Liches" = true
-		#Dread Lich spawn weight. Lower = lower chance to spawn
-		#Range: 1 ~ 10000
-		"Lich Spawn Weight" = 2
-		#Maximum hydra health
-		#Range: 1.0 ~ 10000.0
-		"Hydra Max Health" = 250.0
-		#True if hydra caves are allowed to generate
-		"Generate Hydra Caves" = true
-		#One out of this number chance per chunk to generate a hydra cave.
-		#Range: 1 ~ 10000
-		"Hydra Caves Gen Chance" = 100
-		#Maximum ghost health.
-		#Range: 1.0 ~ 10000.0
-		"Ghost Max Health" = 30.0
-		#Maximum ghost attack strength.
-		#Range: 0.0 ~ 10000.0
-		"Ghost Attack Strength" = 3.0
-		#True if ghosts can rarely spawn from brutal PvP deaths.
-		"Ghost Spawn from PvP deaths" = true
-		#Villager Scribe House generation weight. Lower = lower chance to spawn
-		#Range: 0 ~ 10000
-		"Villager Scribe House Weight" = 30
 
 	[Mobs.Hippocampus]
 		#True if hippocampi are allowed to spawn
@@ -416,6 +390,32 @@
 		#Range: 1.0 ~ 10000.0
 		"Gorgon Max Health" = 100.0
 
+	[Mobs.Others]
+		#True if dread liches are allowed to spawn
+		"Spawn Liches" = true
+		#Dread Lich spawn weight. Lower = lower chance to spawn
+		#Range: 1 ~ 10000
+		"Lich Spawn Weight" = 2
+		#Maximum hydra health
+		#Range: 1.0 ~ 10000.0
+		"Hydra Max Health" = 250.0
+		#True if hydra caves are allowed to generate
+		"Generate Hydra Caves" = true
+		#One out of this number chance per chunk to generate a hydra cave.
+		#Range: 1 ~ 10000
+		"Hydra Caves Gen Chance" = 100
+		#Maximum ghost health.
+		#Range: 1.0 ~ 10000.0
+		"Ghost Max Health" = 30.0
+		#Maximum ghost attack strength.
+		#Range: 0.0 ~ 10000.0
+		"Ghost Attack Strength" = 3.0
+		#True if ghosts can rarely spawn from brutal PvP deaths.
+		"Ghost Spawn from PvP deaths" = true
+		#Villager Scribe House generation weight. Lower = lower chance to spawn
+		#Range: 0 ~ 10000
+		"Villager Scribe House Weight" = 22
+
 [Items]
 	#Default attack strength of a dragonsteel sword.
 	#Range: 5.0 ~ 2.147483647E9
@@ -426,6 +426,9 @@
 	#Default durability value of dragonsteel tools.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000
+	#Default durability value of dragonsteel equipment.
+	#Range: > 1
+	"Dragonsteel Base Durability Equipment" = 8000
 	#Disable this to remove easter egg with tinkers installed.
 	Weezer = true
 	#Percentage of critical strike that will disarm with easter egg tinkers material.
@@ -433,9 +436,6 @@
 	"Easter Egg Tinkers Tool Disarm chance" = 0.20000000298023224
 	#True if the summon crystal can load chunks to find dragons.
 	"Chunk Load Summon Crystal" = true
-	#Default durability value of dragonsteel equipment.
-	#Range: > 1
-	"Dragonsteel Base Durability Equipment" = 8000
 	#True if the dragon bone fire sword ignites attackers.
 	"Dragon Bone Fire Abilities" = true
 	#True if the dragon bone ice sword freezes attackers.

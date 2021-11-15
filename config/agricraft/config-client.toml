@@ -75,7 +75,7 @@
 	"seed bag capacity" = 64
 	#
 	#Set to false if AgriCraft loot modifiers are not allowed to reset grass drops (this overrides the "reset" property in the loot entries
-	"Allow Grass Drop Resets" = true
+	"Allow Grass Drop Resets" = false
 
 ["resource crops"]
 	#
