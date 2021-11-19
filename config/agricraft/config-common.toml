@@ -45,13 +45,13 @@
 	"Only mature crops drop seeds" = false
 	#
 	#Set to true to completely disable the spawning of weeds
-	"Disable weeds" = false
+	"Disable weeds" = true
 	#
 	#Set to false to disable mature weeds killing plants
-	"Mature weeds kill plants" = true
+	"Mature weeds kill plants" = false
 	#
 	#Set to false to disable the spreading of weeds
-	"Weeds can spread" = true
+	"Weeds can spread" = false
 	#
 	#Set this to true to have weeds destroy the crop sticks when they are broken with weeds (to encourage rake usage).
 	"Weeds destroy crop sticks" = false
@@ -250,7 +250,7 @@
 	"Enable Botany Pots compat" = true
 	#
 	#Set to false to disable weeds on Botany Pots
-	"Enable Botany Pots weeds" = true
+	"Enable Botany Pots weeds" = false
 	#
 	#Set to false to disable compatibility with Create (in case things break)
 	"Enable Create compat" = true
