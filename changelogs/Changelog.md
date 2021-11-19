@@ -1,3 +1,83 @@
+# Starpack Aleph 0.3.10 Hotfix to Starpack Aleph 0.3.11
+## Forge Version 36.2.9
+
+### Changelog
+
+- Disabled Agricraft weeds killing plants
+- Doubled max Toolbelt slots
+- Updated core to work with latest minecolonies
+
+### Mods Updated
+1. Additional Enchanted Miner
+2. AE2
+3. Ars Nouveau
+4. Botany Pots
+5. Code Chicken Lib
+6. Configured
+7. Extra Storage
+8. Forbidden Arcanus
+9. Ftb Library
+10. Ftb Ranks
+11. Gecko Lib
+12. JEI
+13. KubeJS
+14. Mahou Tsukai
+15. Minecolonies
+16. MythicBotany
+17. Occultism
+18. Polymorph
+19. Refined Storage
+20. Refined Storage Addons
+21. Repurposed Structures
+22. RS Infinity Booster
+23. Shrink
+24. SimplyLight
+25. Starpack Core
+26. Supermartijn642 Config Lib
+27. Tinker's Construct
+
+# Starpack Aleph 0.3.9 Hotfix to Starpack Aleph 0.3.10
+## Forge Version 36.2.9
+
+### Bug fixes
+- Fixed ice and fire mobs not spawning in gaia
+- Fixed grass not dropping hemp seeds (again :/)
+- Fixed connections issues cause by large packets
+
+### Mods Added
+- Draconic Evolution
+- Brandon's Core
+- BetterEnd Reforked
+- Connectivity
+
+### Mods Removed
+- Random Patches (conflicts with connectivity)
+
+### Mods Updated
+1. Botania
+2. Cookie Core
+3. Cyclic
+4. Doggy Talents
+5. Geckolib
+6. Industrial Agriculture
+7. Industrial Foregoing
+8. Integrated Tunnels
+9. Integrated Dynamics
+10. Jei
+11. Just Enough Calculations
+12. Kubejs
+13. Minecolonies
+14. More Dragon Eggs
+15. Mystical Agriditions
+16. Mystical Agriculture
+17. Pipez
+18. Polymorph
+19. Portality
+20. Rhino
+21. Supermartijn642's Core Lib
+22. Titanium
+23. ValkyrieLib
+
 # Starpack Aleph 0.3.9 Hotfix
 Fixed server connection issues
 
@@ -17,7 +97,7 @@ Fixed server connection issues
 - Fixed inferium seeds not planting in crop sticks
 - Restored original tool belt recipes
 - Restored original botany pot recipes
- 
+
 ### Mods Added
 1.  Brandon Core
 2.  Draconic Evolution
@@ -81,7 +161,7 @@ Fixed server connection issues
 * Fixes server deadlock in nether
 
 ### Mods Updated
-1. GeckoLib 
+1. GeckoLib
 2. HammerLib
 3. Mana and Artifice
 4. Waystone
@@ -123,13 +203,13 @@ Fixed server connection issues
 * Fixed sneak right click not working
 
 ### changelog
-* Added tiny coal-> torch recipe
+* Added tiny coal-&gt; torch recipe
 * Added crush any stone to get cobblestone recipe
 * Disabled BoP dummy biome
 * Removed druidcraft texture fix(fixed in mod)
 * Added Minecolonies supply block placement achievement quest task
 * Added Minecolonies clipboard task text
-* Replaced minecolonnies builder quest tools with vanilla hammers/excavators 
+* Replaced minecolonnies builder quest tools with vanilla hammers/excavators
 * Updated ender ore spawn to only be below 45 y
 * Updated tips to use translations keys for localization
 
@@ -174,11 +254,11 @@ Server Update
 
 ### Mods Updated
 1. ambient sounds
-2. applied energistics 
+2. applied energistics
 3. cyclic
 4. extreme sound muffler
 5. geckolib
-6. inventory hud 
+6. inventory hud
 7. mahoutsukai
 8. mana and artifice
 9. minecolonies
@@ -211,7 +291,7 @@ Minor bug fixes
 2. Alex Mobs
 3. Apatheosis
 4. Architectury
-   
+
 5. Ars Novu
 6. Bedspreads
 7. Better End Forge
