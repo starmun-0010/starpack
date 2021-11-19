@@ -32,12 +32,7 @@ modifiers.key.hotbar.6:
 modifiers.key.hotbar.7:
 modifiers.key.hotbar.8:
 modifiers.key.hotbar.9:
-modifiers.key.secondarySprint:
-modifiers.key.dismount:
-modifiers.key.narrator:key.keyboard.left.control
-modifiers.key.pause:
-modifiers.key.gui:
-modifiers.key.debugInfo:
+modifiers.of.key.zoom:
 modifiers.key.openNotes:
 modifiers.tombstone.message.knowledge_of_death:
 modifiers.key.findme.search:
@@ -123,8 +118,8 @@ modifiers.key.securitycraft.cameraEmitRedstone:
 modifiers.key.securitycraft.cameraActivateNightVision:
 modifiers.Open sound muffler screen:
 modifiers.cos.key.opencosarmorinventory:
-modifiers.keybind.advancedperipherals.description:
 modifiers.hats.key.hatsMenu:
+modifiers.keybind.advancedperipherals.description:
 modifiers.key.tinyredstone.rotation_lock:
 modifiers.placebo.toggleWings:
 modifiers.placebo.toggleTrails:
@@ -149,17 +144,17 @@ modifiers.keybind.ironjetpacks.hover:
 modifiers.keybind.ironjetpacks.descend:
 modifiers.keybind.ironjetpacks.increment_throttle:
 modifiers.keybinding.ironjetpacks.decrement_throttle:
+modifiers.Open MPS Keybind GUI:
+modifiers.Go Down (MPS Flight Control):
+modifiers.Cycle Tool Backward (MPS):
+modifiers.Cycle Tool Forward (MPS):
+modifiers.Cosmetic (MPS):
 modifiers.key.silentgear.cycle.back:
 modifiers.key.silentgear.cycle.next:
 modifiers.key.silentgear.displayStats:
 modifiers.key.silentgear.displayTraits:
 modifiers.key.silentgear.displayConstruction:
 modifiers.key.silentgear.openItem:
-modifiers.Open MPS Keybind GUI:
-modifiers.Go Down (MPS Flight Control):
-modifiers.Cycle Tool Backward (MPS):
-modifiers.Cycle Tool Forward (MPS):
-modifiers.Cosmetic (MPS):
 modifiers.key.curios.open.desc:
 modifiers.key.tanknull.mode:
 modifiers.key.control:
@@ -280,16 +275,17 @@ modifiers.key.exchangers.force_drop_items_mode_toggle:
 modifiers.key.exchangers.directional_placement_mode_toggle:
 modifiers.key.exchangers.fuzzy_placement_mode_toggle:
 modifiers.key.exchangers.void_items_mode_toggle:
+modifiers.quark.keybind.change_hotbar:
+modifiers.quark.keybind.camera_mode:
+modifiers.quark.keybind.sort_player:
+modifiers.key.spellbookopen:
+modifiers.key.gui-key-modifier:
+modifiers.quark.keybind.sort_container:
 modifiers.quark.keybind.transfer_insert:
 modifiers.quark.keybind.transfer_extract:
 modifiers.quark.keybind.shift_lock:
-modifiers.quark.keybind.change_hotbar:
-modifiers.quark.keybind.lock_rotation:
+modifiers.quark.keybind.back:
 modifiers.quark.keybind.autorun:
-modifiers.key.spellbookopen:
-modifiers.key.gui-key-modifier:
-modifiers.quark.keybind.sort_player:
-modifiers.quark.keybind.sort_container:
 modifiers.quark.emote.no:
 modifiers.quark.emote.yes:
 modifiers.quark.emote.wave:
@@ -308,8 +304,7 @@ modifiers.quark.keybind.patreon_emote.dab:
 modifiers.quark.keybind.patreon_emote.jet:
 modifiers.quark.keybind.patreon_emote.exorcist:
 modifiers.quark.keybind.patreon_emote.zombie:
-modifiers.quark.keybind.back:
-modifiers.quark.keybind.camera_mode:
+modifiers.quark.keybind.lock_rotation:
 modifiers.key.inventoryhud.toggle:
 modifiers.key.inventoryhud.openconfig:
 modifiers.key.inventoryhud.togglepot:
@@ -322,7 +317,6 @@ modifiers.mod.chiselsandbits.keys.key.modded-tool.cycle.right:
 modifiers.mod.chiselsandbits.keys.key.measuring-tape.reset:key.keyboard.left.control,key.keyboard.left.shift
 modifiers.mod.chiselsandbits.keys.key.undo:key.keyboard.left.control
 modifiers.mod.chiselsandbits.keys.key.redo:key.keyboard.left.control
-modifiers.key.craftingGrid:
 modifiers.Build Current Structure:key.keyboard.left.alt
 modifiers.key.projecte.helmet_toggle:key.keyboard.left.shift
 modifiers.key.projecte.boots_toggle:
@@ -351,6 +345,8 @@ modifiers.key.occultism.familiar.headless_familiar:
 modifiers.key.occultism.familiar.chimera_familiar:
 modifiers.key.occultism.familiar.goat_familiar:
 modifiers.key.occultism.familiar.shub_niggurath_familiar:
+modifiers.key.occultism.familiar.beholder_familiar:
+modifiers.key.improvedbackpacks.open_backpack:
 modifiers.keybind.sophisticatedbackpacks.open_backpack:
 modifiers.keybind.sophisticatedbackpacks.inventory_interaction:
 modifiers.keybind.sophisticatedbackpacks.tool_swap:
@@ -360,7 +356,6 @@ modifiers.keybind.sophisticatedbackpacks.toggle_upgrade_2:key.keyboard.left.alt
 modifiers.keybind.sophisticatedbackpacks.toggle_upgrade_3:
 modifiers.keybind.sophisticatedbackpacks.toggle_upgrade_4:
 modifiers.keybind.sophisticatedbackpacks.toggle_upgrade_5:
-modifiers.key.improvedbackpacks.open_backpack:
 modifiers.key.craftingtweaks.rotate:
 modifiers.key.craftingtweaks.rotate_counter_clockwise:
 modifiers.key.craftingtweaks.balance:
@@ -424,6 +419,7 @@ modifiers.key.jei.previousCategory:key.keyboard.left.shift
 modifiers.key.jei.nextCategory:key.keyboard.left.shift
 modifiers.key.jei.bookmark:
 modifiers.key.jei.toggleBookmarkOverlay:
+modifiers.key.configured.open_mod_list:
 modifiers.key.toolbelt.open:
 modifiers.key.toolbelt.cycle.left:
 modifiers.key.toolbelt.cycle.right:
