@@ -1,0 +1,79 @@
+{
+	id: "43F554CAC21A9352"
+	group: "233C7C1A11DB79AC"
+	order_index: 2
+	filename: "semi_auto_resource"
+	title: "Resource Production"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Upgrade Mine"
+		icon: "minecraft:dark_oak_log"
+		x: -5.2d
+		y: 0.6d
+		id: "246DE2234ED21426"
+		tasks: [
+			{
+				id: "29748F0D1F44043A"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+				consume_items: true
+			}
+			{
+				id: "0FA16D9F36B54266"
+				type: "item"
+				item: "minecraft:coal"
+				count: 9L
+				consume_items: true
+			}
+		]
+		rewards: [
+			{
+				id: "07C158265AB0373B"
+				type: "item"
+				item: "minecraft:torch"
+				count: 8
+			}
+			{
+				id: "09C1266366142037"
+				type: "item"
+				item: "minecraft:dark_oak_door"
+				count: 2
+			}
+			{
+				id: "56C8B0802BD39760"
+				type: "item"
+				item: "minecraft:dark_oak_stairs"
+				count: 74
+			}
+			{
+				id: "4259ABDA932D1282"
+				type: "item"
+				item: "minecraft:dark_oak_slab"
+				count: 28
+			}
+			{
+				id: "4766E3B0C1F9B373"
+				type: "item"
+				item: "minecraft:dark_oak_fence"
+				count: 47
+			}
+			{
+				id: "26E2F8B51F28D735"
+				type: "item"
+				item: "minecraft:dark_oak_planks"
+				count: 23
+			}
+			{
+				id: "1A581964E805FB72"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+			}
+			{
+				id: "0E42E7D828530A7F"
+				type: "item"
+				item: "minecraft:coal_block"
+			}
+		]
+	}]
+}

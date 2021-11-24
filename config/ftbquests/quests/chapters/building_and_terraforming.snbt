@@ -69,61 +69,6 @@
 			}]
 		}
 		{
-			x: 8.8d
-			y: -13.4d
-			id: "67B129C4457341C9"
-			tasks: [{
-				id: "768EF249F5FB5EF7"
-				type: "item"
-				item: "simplesponge:sponge"
-			}]
-		}
-		{
-			x: 7.8d
-			y: -11.9d
-			dependencies: ["67B129C4457341C9"]
-			id: "7F9B4F93106BFECE"
-			tasks: [{
-				id: "27A34CD706401659"
-				type: "item"
-				item: {
-					id: "simplesponge:sponge_on_a_stick"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 10.8d
-			y: -13.4d
-			dependencies: ["0F52D451B06C24C4"]
-			id: "3039CBE1547F60E6"
-			tasks: [{
-				id: "51EF7BE1B47A4EF1"
-				type: "item"
-				item: {
-					id: "simplesponge:magmatic_sponge_on_a_stick"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 9.8d
-			y: -11.9d
-			dependencies: ["67B129C4457341C9"]
-			id: "0F52D451B06C24C4"
-			tasks: [{
-				id: "6B96DDEA5EC36F77"
-				type: "item"
-				item: "simplesponge:magmatic_sponge"
-			}]
-		}
-		{
 			x: -2.4000000000000004d
 			y: -12.4d
 			shape: "diamond"

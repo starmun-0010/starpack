@@ -1,0 +1,33 @@
+{
+	id: "357DEF375B7DF721"
+	group: "233C7C1A11DB79AC"
+	order_index: 5
+	filename: "semi_storage_utilities"
+	title: "Utilities"
+	icon: "morphtool:tool"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.8d
+			y: 0.6d
+			description: ["Craft with wrenches to store them, shift scroll to choose a wrench."]
+			id: "61D9E5CC51AFF10A"
+			tasks: [{
+				id: "2C391BE011C26A08"
+				type: "item"
+				item: "morphtool:tool"
+			}]
+		}
+		{
+			x: 0.2d
+			y: 0.6d
+			id: "197B209A2C0112ED"
+			tasks: [{
+				id: "2B1CFD5E489855E5"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+		}
+	]
+}

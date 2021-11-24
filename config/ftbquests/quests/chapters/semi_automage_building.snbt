@@ -1,0 +1,134 @@
+{
+	id: "7138A43CE58A9A66"
+	group: "233C7C1A11DB79AC"
+	order_index: 1
+	filename: "semi_automage_building"
+	title: "Building \\& Terraforming"
+	icon: {
+		id: "constructionwand:diamond_wand"
+		Count: 1b
+		tag: {
+			wand_options: { }
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Upgrade Builder's Hut"
+			icon: "minecraft:dark_oak_log"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["384180A025F40D71"]
+			id: "157AE57B2FDB589C"
+			tasks: [
+				{
+					id: "33C4929441116C11"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					consume_items: true
+				}
+				{
+					id: "19EFE70C6B2E0BE5"
+					type: "item"
+					item: "minecraft:white_wool"
+				}
+				{
+					id: "5796462145029D6A"
+					type: "item"
+					item: "minecraft:stone"
+				}
+				{
+					id: "743C0324D72BFEEA"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+				{
+					id: "5EF3A852782C61F3"
+					type: "item"
+					item: "minecraft:sand"
+					count: 6L
+					consume_items: true
+				}
+				{
+					id: "5CD162E59E061395"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 2L
+				}
+				{
+					id: "65A519546A775CCA"
+					type: "item"
+					item: "minecraft:clay_ball"
+					count: 4L
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "5C6E357FE035C2E1"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:oak_planks"
+				}
+				{
+					id: "64C1ADB108783A6D"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:crafting_table"
+				}
+				{
+					id: "3F2807AA84B53056"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_slab"
+					count: 3
+				}
+				{
+					id: "69C7AC8F0CC0FC1B"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:clay"
+				}
+				{
+					id: "03A55371390EA4C3"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:chest"
+				}
+				{
+					id: "4AFF981D8A85D1DF"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:dark_oak_log"
+				}
+				{
+					id: "7732DED9EB198F74"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sand"
+					count: 2
+				}
+				{
+					id: "09455473C9F43E54"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:sandstone"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.4d
+			dependencies: ["157AE57B2FDB589C"]
+			id: "6DCBD917B883BD9A"
+			tasks: [{
+				id: "69500308DDDE7500"
+				type: "advancement"
+				advancement: "minecolonies:minecolonies/build_builder_2"
+				criterion: ""
+			}]
+		}
+	]
+}

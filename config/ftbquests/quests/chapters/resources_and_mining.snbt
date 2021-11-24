@@ -45,33 +45,6 @@
 			}]
 		}
 		{
-			x: -23.2d
-			y: -14.0d
-			id: "47B81BC6F3DB393D"
-			tasks: [{
-				id: "69E6E069F05B7659"
-				type: "item"
-				item: "waterstrainer:strainer_base"
-			}]
-		}
-		{
-			x: -23.8d
-			y: -13.0d
-			dependencies: ["47B81BC6F3DB393D"]
-			id: "0A045BC6C96F721D"
-			tasks: [{
-				id: "5810210FDD2E8F2F"
-				type: "item"
-				item: {
-					id: "waterstrainer:strainer_survivalist"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
 			icon: "ironfurnaces:gold_furnace"
 			x: -25.2d
 			y: -11.8d
@@ -148,40 +121,6 @@
 								Count: 1b
 							}
 						]
-					}
-				}
-			}]
-		}
-		{
-			x: -23.8d
-			y: -10.8d
-			dependencies: ["0A045BC6C96F721D"]
-			id: "4B697DFF10C444CF"
-			tasks: [{
-				id: "5BC55EB900C7CEAE"
-				type: "item"
-				item: {
-					id: "waterstrainer:strainer_survivalist_solid"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: -23.2d
-			y: -9.8d
-			dependencies: ["4B697DFF10C444CF"]
-			id: "474DC7DF5DB4D449"
-			tasks: [{
-				id: "7F53D77CD5FA14C3"
-				type: "item"
-				item: {
-					id: "waterstrainer:strainer_survivalist_reinforced"
-					Count: 1b
-					tag: {
-						Damage: 0
 					}
 				}
 			}]
@@ -446,7 +385,7 @@
 		}
 		{
 			x: -32.0d
-			y: -12.4d
+			y: -12.2d
 			dependencies: ["384180A025F40D71"]
 			id: "3B6C13D651F99C7F"
 			tasks: [{
@@ -710,7 +649,7 @@
 		{
 			title: "No Manual Labour Ore Doubling"
 			icon: "pedestals:pedestal/stone333"
-			x: -21.2d
+			x: -19.8d
 			y: -12.6d
 			id: "555E3C81A8248249"
 			tasks: [

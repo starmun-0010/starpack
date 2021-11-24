@@ -107,13 +107,20 @@
 			}]
 		}
 		{
+			title: "Botany Pot"
 			x: -4.4d
 			y: -7.8d
 			id: "1010173C3C27F60A"
 			tasks: [{
-				id: "73AC123F6454B978"
+				id: "3BD61D8DA9966CD9"
 				type: "item"
-				item: "botanypots:botany_pot"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:botany_pots"
+					}
+				}
 			}]
 		}
 		{
@@ -431,6 +438,7 @@
 			}]
 		}
 		{
+			title: "Wait or Forester"
 			x: -0.6d
 			y: -6.2d
 			dependencies: [
@@ -673,6 +681,8 @@
 			title: "Materials for Mineshaft"
 			x: 2.4d
 			y: -6.2d
+			subtitle: "Mineshaft Structure"
+			description: ["The miner needs these to build the actual mineshaft. Build the warehouse and sawmill as soon as possible so you do not  have to continously, manually provide these materials."]
 			dependencies: ["3584E690C1E4F9AC"]
 			dependency_requirement: "one_completed"
 			id: "6DD81573C1BF0CC1"
@@ -741,6 +751,8 @@
 			title: "Plant Sapplings"
 			x: 0.4d
 			y: -6.2d
+			subtitle: "Vanilla Saplings"
+			description: ["Plant each of the vanilla trees for the frester to harvest. Sawmill needs all kinds of woods to work without disruption."]
 			dependencies: ["2C71305DD90736D6"]
 			id: "3B81FF85487B7B31"
 			tasks: [
@@ -775,6 +787,67 @@
 					item: "minecraft:dark_oak_sapling"
 				}
 			]
+		}
+		{
+			x: -1.0d
+			y: -4.2d
+			id: "47B81BC6F3DB393D"
+			tasks: [{
+				id: "69E6E069F05B7659"
+				type: "item"
+				item: "waterstrainer:strainer_base"
+			}]
+		}
+		{
+			x: 0.6d
+			y: -4.2d
+			dependencies: ["47B81BC6F3DB393D"]
+			id: "0A045BC6C96F721D"
+			tasks: [{
+				id: "5810210FDD2E8F2F"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.2d
+			y: -4.2d
+			dependencies: ["0A045BC6C96F721D"]
+			id: "4B697DFF10C444CF"
+			tasks: [{
+				id: "5BC55EB900C7CEAE"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_solid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.8d
+			y: -4.2d
+			dependencies: ["4B697DFF10C444CF"]
+			id: "474DC7DF5DB4D449"
+			tasks: [{
+				id: "7F53D77CD5FA14C3"
+				type: "item"
+				item: {
+					id: "waterstrainer:strainer_survivalist_reinforced"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

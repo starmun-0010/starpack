@@ -1,0 +1,45 @@
+{
+	id: "41ED108AF0F85BB1"
+	group: "233C7C1A11DB79AC"
+	order_index: 4
+	filename: "energy"
+	title: "Energy"
+	icon: "immersiveengineering:voltmeter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.8d
+			y: -1.2d
+			dependencies: ["66E8A27D6BA62171"]
+			id: "3D906B9FB0D09E24"
+			tasks: [{
+				id: "0350247910EB6736"
+				type: "item"
+				item: "immersiveengineering:watermill"
+				count: 3L
+			}]
+		}
+		{
+			x: -1.8d
+			y: -1.2d
+			dependencies: ["66E8A27D6BA62171"]
+			id: "07F21F71132D4AB4"
+			tasks: [{
+				id: "23903D5534D26285"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+		}
+		{
+			x: -2.8d
+			y: -2.8d
+			id: "66E8A27D6BA62171"
+			tasks: [{
+				id: "7F31C640BDFAE68D"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+		}
+	]
+}
