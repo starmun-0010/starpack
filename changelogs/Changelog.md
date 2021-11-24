@@ -1,3 +1,54 @@
+# Starpack Aleph 0.3.11 to Starpack Aleph 0.3.12
+## Forge Version 36.2.9
+
+### Changelog
+- Added XP rewards to collectopedia quests
+- Added utilities quests to Auto-Mage chapter
+- Added Astral Sorcery  preparation quests
+- Morph-o-tool compats
+  - Cutters
+  - Tools
+  - Wands
+- Removed chisel bits spam in JEI
+- Consolidated modded cobblestone for all recipe inputs
+- Disabled infection from vampire bites
+
+### Bug Fixes
+- Fixed silver ore not spawning
+
+### Mods Added
+- [FastWorkbench Minus Replacement](https://www.curseforge.com/minecraft/mc-mods/fastworkbench-minus-replacement)
+- [Fast Furnace minus Replacement](https://www.curseforge.com/minecraft/mc-mods/fastfurnace-minus-replacement)
+- [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite)
+- [PonderJS](https://www.curseforge.com/minecraft/mc-mods/ponderjs)
+-
+### Mods Removed
+Fast Furnace
+Fast Workbench
+
+### Mods Updated
+1. AI Improvements
+2. Apotheosis
+3. [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau)
+4. [Botany Pots](https://www.curseforge.com/minecraft/mc-mods/botany-pots)
+5. Compact Crafting
+6. Configured
+7. Dungeon Crawl
+8. Fast Furnace
+9. Fast Workbench
+10. KubeJs Forge
+11. Minecolonies
+12. Not Enough Crashes
+13. Occultism
+14. Packaged Auto
+15. Repurposed Structures
+16. Tomb Stone
+17. [Flywheel](https://www.curseforge.com/minecraft/mc-mods/flywheel)
+18. [Lootr](https://www.curseforge.com/minecraft/mc-mods/lootr)
+19. [PackagedExCrafting](https://www.curseforge.com/minecraft/mc-mods/packagedexcrafting)
+20. [Polymorph (Forge)](https://www.curseforge.com/minecraft/mc-mods/polymorph)
+21. [Simple Discord Rich Presence](https://www.curseforge.com/minecraft/mc-mods/simple-discord-rich-presence)
+
 # Starpack Aleph 0.3.10 Hotfix to Starpack Aleph 0.3.11
 ## Forge Version 36.2.9
 
