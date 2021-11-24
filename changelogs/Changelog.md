@@ -21,10 +21,10 @@
 - [Fast Furnace minus Replacement](https://www.curseforge.com/minecraft/mc-mods/fastfurnace-minus-replacement)
 - [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite)
 - [PonderJS](https://www.curseforge.com/minecraft/mc-mods/ponderjs)
--
+
 ### Mods Removed
-Fast Furnace
-Fast Workbench
+- Fast Furnace
+- Fast Workbench
 
 ### Mods Updated
 1. AI Improvements
