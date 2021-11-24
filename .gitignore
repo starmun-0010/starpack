@@ -57,3 +57,8 @@ optionsshaders.txt
 /.idea/
 /config.bak.json
 /config/jei/recipe-category-sort-order.ini
+/ESM/Minecraft Server/anchors.dat
+/ESM/soundsMuffled.dat
+/config/jei/bookmarks.ini
+/config/jei/ingredient-list-mod-sort-order.ini
+/config/jei/ingredient-list-type-sort-order.ini
