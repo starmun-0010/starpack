@@ -22,6 +22,7 @@ realms_persistence.json
 **/*.jar.meta
 
 **/.vs
+/.vscode
 /woot
 /mods
 /logs
