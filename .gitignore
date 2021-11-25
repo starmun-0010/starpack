@@ -22,6 +22,7 @@ realms_persistence.json
 **/*.jar.meta
 **/*.temp
 **/.vs
+/.vscode
 /woot
 /mods
 /logs
@@ -56,3 +57,10 @@ optionsshaders.txt
 /kubejs/assets/starpack/textures/quests/
 /.idea/
 /config.bak.json
+/config/jei/recipe-category-sort-order.ini
+/ESM/Minecraft Server/anchors.dat
+/ESM/soundsMuffled.dat
+/config/jei/bookmarks.ini
+/config/jei/ingredient-list-mod-sort-order.ini
+/config/jei/ingredient-list-type-sort-order.ini
+/config.json

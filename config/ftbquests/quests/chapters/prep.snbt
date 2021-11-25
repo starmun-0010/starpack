@@ -1,0 +1,107 @@
+{
+	id: "39B005AB617944A3"
+	group: "233C7C1A11DB79AC"
+	order_index: 0
+	filename: "prep"
+	title: "Prep"
+	icon: "astralsorcery:well"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.6d
+			y: -1.4d
+			dependencies: ["683CCBAB7B4C6E3C"]
+			id: "199EA8CB34AF6ACD"
+			tasks: [{
+				id: "1553BCC808B65290"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.4d
+			dependencies: ["76766C50F2780648"]
+			id: "683CCBAB7B4C6E3C"
+			tasks: [{
+				id: "3FD62B73F60CC140"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: 1.4d
+			y: -1.4d
+			dependencies: ["683CCBAB7B4C6E3C"]
+			id: "6A11CAE4C41C7322"
+			tasks: [{
+				id: "099E34A31E873174"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+		}
+		{
+			x: 1.4d
+			y: -0.19999999999999973d
+			dependencies: [
+				"54B1DA169EC803A4"
+				"6A11CAE4C41C7322"
+			]
+			id: "573C2FD20C2FC2A7"
+			tasks: [{
+				id: "62FC0077E92B22FC"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.20000000000000018d
+			dependencies: ["683CCBAB7B4C6E3C"]
+			id: "54B1DA169EC803A4"
+			tasks: [{
+				id: "4E24B3149674B9D9"
+				type: "advancement"
+				advancement: "astralsorcery:craft_t2_altar"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["54B1DA169EC803A4"]
+			id: "39CC942535526A0F"
+			tasks: [{
+				id: "49818998215AF858"
+				type: "advancement"
+				advancement: "astralsorcery:craft_t3_altar"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.2d
+			dependencies: [
+				"39CC942535526A0F"
+				"76766C50F2780648"
+			]
+			id: "0092738616CB8C35"
+			tasks: [{
+				id: "5A4D780F1C25FAA7"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.6d
+			id: "76766C50F2780648"
+			tasks: [{
+				id: "2B0AE1CE7D15A205"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+	]
+}

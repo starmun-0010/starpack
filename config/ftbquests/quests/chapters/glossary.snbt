@@ -18,12 +18,19 @@
 				item: "minecraft:cobblestone"
 				count: 64L
 			}]
-			rewards: [{
-				id: "6EBB367E46791D1B"
-				type: "xp"
-				auto: "enabled"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "6EBB367E46791D1B"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "2FFD7F1BE77901C2"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -13.0d
@@ -34,11 +41,19 @@
 				type: "item"
 				item: "mekanism:ingot_copper"
 			}]
-			rewards: [{
-				id: "3EE5B8411C876E79"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "3EE5B8411C876E79"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "7F19CA93D6DA4939"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -49,12 +64,19 @@
 				type: "item"
 				item: "minecraft:iron_ingot"
 			}]
-			rewards: [{
-				id: "4415ED45409BB69B"
-				type: "xp"
-				auto: "enabled"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "4415ED45409BB69B"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "343B945D639596EF"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -65,11 +87,19 @@
 				type: "item"
 				item: "mekanism:ingot_tin"
 			}]
-			rewards: [{
-				id: "0FF536DF67AA2DE7"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "0FF536DF67AA2DE7"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "7D3930590AC503C6"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -80,11 +110,19 @@
 				type: "item"
 				item: "immersiveengineering:ingot_silver"
 			}]
-			rewards: [{
-				id: "4D842434CC3EE5D9"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "4D842434CC3EE5D9"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "32C046B27E0AFF10"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -95,26 +133,19 @@
 				type: "item"
 				item: "minecraft:gold_ingot"
 			}]
-			rewards: [{
-				id: "440C235585A9786E"
-				type: "xp"
-				xp: 5
-			}]
-		}
-		{
-			x: -10.0d
-			y: -5.4d
-			id: "7DB8353FD111C421"
-			tasks: [{
-				id: "620B11B2DF0E18B7"
-				type: "item"
-				item: "astralsorcery:aquamarine"
-			}]
-			rewards: [{
-				id: "6BC24C7DB3B1D793"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "440C235585A9786E"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "4DDCCAAA832F68AF"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -125,11 +156,19 @@
 				type: "item"
 				item: "minecraft:redstone"
 			}]
-			rewards: [{
-				id: "3ACB3EF1BDD7313E"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "3ACB3EF1BDD7313E"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "40FE296654B1A238"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -140,11 +179,19 @@
 				type: "item"
 				item: "minecraft:lapis_lazuli"
 			}]
-			rewards: [{
-				id: "761393BD9C7FDB9E"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "761393BD9C7FDB9E"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "4003FD40967889BE"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -155,11 +202,18 @@
 				type: "item"
 				item: "minecraft:ender_pearl"
 			}]
-			rewards: [{
-				id: "52297929ADE8A31B"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "52297929ADE8A31B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "36F15E446F088CCE"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -170,11 +224,18 @@
 				type: "item"
 				item: "minecraft:diamond"
 			}]
-			rewards: [{
-				id: "33539E4BF37EA837"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "33539E4BF37EA837"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "3646D026AF6E0A0E"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -185,11 +246,18 @@
 				type: "item"
 				item: "minecraft:obsidian"
 			}]
-			rewards: [{
-				id: "06E3D47BC8F9FA56"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "06E3D47BC8F9FA56"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "0EFA776E236DF0DE"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -10.0d
@@ -200,11 +268,19 @@
 				type: "item"
 				item: "minecraft:black_dye"
 			}]
-			rewards: [{
-				id: "61AB9D7EB5714DB2"
-				type: "xp"
-				xp: 5
-			}]
+			rewards: [
+				{
+					id: "61AB9D7EB5714DB2"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "08ED3D806EDA9E8B"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -13.0d
@@ -215,6 +291,18 @@
 				type: "item"
 				item: "minecraft:oak_log"
 			}]
+			rewards: [
+				{
+					id: "65FA45FCF0BBED75"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "107F82CA98996740"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -225,6 +313,18 @@
 				type: "item"
 				item: "minecraft:spruce_log"
 			}]
+			rewards: [
+				{
+					id: "159D8580B6CFE1D6"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1581FA1C39AFD38B"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -235,6 +335,18 @@
 				type: "item"
 				item: "minecraft:birch_log"
 			}]
+			rewards: [
+				{
+					id: "60F7B17D42B9CAEF"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "4B2171111342E824"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -245,6 +357,18 @@
 				type: "item"
 				item: "minecraft:jungle_log"
 			}]
+			rewards: [
+				{
+					id: "1CCE76ECC8CAAF88"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "5CC0DB8DCA91A3C7"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -255,6 +379,18 @@
 				type: "item"
 				item: "minecraft:acacia_log"
 			}]
+			rewards: [
+				{
+					id: "728050F9F6BC3FDA"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6EE839BA5C6D0182"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -265,6 +401,18 @@
 				type: "item"
 				item: "minecraft:dark_oak_log"
 			}]
+			rewards: [
+				{
+					id: "0CFC32865A4A7A9C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "60EC1B35B88D0C43"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -275,6 +423,19 @@
 				type: "item"
 				item: "minecraft:red_dye"
 			}]
+			rewards: [
+				{
+					id: "4BB2F3DC6ACB2B01"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "279F7FBA836181F5"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -285,6 +446,19 @@
 				type: "item"
 				item: "minecraft:light_blue_dye"
 			}]
+			rewards: [
+				{
+					id: "4C441AA140014037"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "21158CFC7F6817B0"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -295,6 +469,19 @@
 				type: "item"
 				item: "minecraft:green_dye"
 			}]
+			rewards: [
+				{
+					id: "513D5774B60899BA"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "63C80E4200AEFB0A"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -12.0d
@@ -305,6 +492,19 @@
 				type: "item"
 				item: "minecraft:magenta_dye"
 			}]
+			rewards: [
+				{
+					id: "341C20A528FA2974"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "78E5D6E42185D25F"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -315,6 +515,19 @@
 				type: "item"
 				item: "minecraft:sand"
 			}]
+			rewards: [
+				{
+					id: "46400CAE85A2FD5F"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "5AB1B96DAE0822FE"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 		{
 			x: -14.0d
@@ -325,6 +538,19 @@
 				type: "item"
 				item: "minecraft:clay_ball"
 			}]
+			rewards: [
+				{
+					id: "68CDBA45FC5CB7CE"
+					type: "xp"
+					auto: "enabled"
+					xp: 5
+				}
+				{
+					id: "4AD7A7900DE2F581"
+					type: "xp"
+					xp: 5
+				}
+			]
 		}
 	]
 }

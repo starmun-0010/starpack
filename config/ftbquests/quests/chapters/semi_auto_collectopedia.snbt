@@ -1,0 +1,57 @@
+{
+	id: "0955C34DCDCDA266"
+	group: "233C7C1A11DB79AC"
+	order_index: 6
+	filename: "semi_auto_collectopedia"
+	title: "Collectopedia"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.2d
+			y: -0.2d
+			id: "7DB8353FD111C421"
+			tasks: [{
+				id: "620B11B2DF0E18B7"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "6BC24C7DB3B1D793"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.2d
+			y: -0.2d
+			id: "0A0E4CE5A91E6C84"
+			tasks: [{
+				id: "0E58764624C1ACF1"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+			}]
+			rewards: [{
+				id: "151AF4C078D7E7E3"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.6d
+			y: -0.2d
+			id: "05B7C49B75E0676A"
+			tasks: [{
+				id: "75880F50F924813E"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "79B6050266C7B7D3"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

@@ -35,7 +35,7 @@ biomeBlendRadius:2
 renderClouds:true
 resourcePacks:["inmemory:jaopca","vanilla","mod_resources","mm_resource","kubejs:resource_pack","packmenu","quark:emote_resources","resourcefulbees"]
 incompatibleResourcePacks:["inmemory:jaopca","quark:emote_resources"]
-lastServer:
+lastServer:loalhost
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
@@ -43,7 +43,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0

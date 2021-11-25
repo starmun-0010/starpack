@@ -2,12 +2,46 @@
 # Copy values you wish to override in here
 # Example:
 # 
-# {
-# 	misc: {
-# 		enderchest: {
-# 			enabled: false
-# 		}
-# 	}
-# }
+{
+	
+	# Teleportation-related settings
+	teleportation: {
+		# Allows users to return to their previous location after teleporting (or dying)
+		back: {
+			# Cooldown between /back commands (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.back.cooldown
+			# Default: 30
+			# Range: 0 ~ 604800
+			cooldown: 10
+			
+		
+		}
+		
+		# Allows users to set 'homes', which they can then freely teleport to by using /home afterwards
+		home: {
 
-{ }
+			# Max amount of homes a user can have.
+			# You can override this with FTB Ranks using ftbessentials.home.max
+			# Default: 1
+			# Range: 0 ~ 2147483647
+			max: 3
+		}
+		
+		# Allows players to teleport to a random point in the Wilderness
+		# Note: This currently does not respect Claimed Chunks yet!
+		rtp: {
+			# Cooldown between /rtp commands (in seconds)
+			# You can override this with FTB Ranks using ftbessentials.rtp.cooldown
+			# Default: 600
+			# Range: 0 ~ 604800
+			cooldown: 30
+
+			# /rtp max distance from spawn point
+			# Default: 100000
+			# Range: 0 ~ 30000000
+			max_distance: 100000
+	
+		}
+
+	}
+}

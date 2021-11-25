@@ -1,0 +1,54 @@
+{
+	id: "4680BB25E33C184D"
+	group: "233C7C1A11DB79AC"
+	order_index: 3
+	filename: "semi_auto_storage"
+	title: "Storage"
+	icon: "ironchest:crystal_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Warehouse upgrade"
+		icon: "minecraft:dark_oak_log"
+		x: -1.0d
+		y: -2.8d
+		dependencies: ["6DCBD917B883BD9A"]
+		id: "3AB5EE16857E2737"
+		tasks: [
+			{
+				id: "437302CB17B9768A"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+				count: 40L
+				consume_items: true
+			}
+			{
+				id: "58FF84BAD203015F"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 7L
+				consume_items: true
+			}
+		]
+		rewards: [
+			{
+				id: "564EF90771A1ACAB"
+				type: "item"
+				item: "minecraft:dark_oak_log"
+				count: 32
+			}
+			{
+				id: "2BA8EC079A9A6994"
+				type: "item"
+				item: "minecraft:dark_oak_door"
+				count: 8
+			}
+			{
+				id: "24AECE90F6887463"
+				type: "item"
+				item: "minecolonies:blockminecoloniesrack"
+				count: 32
+			}
+		]
+	}]
+}

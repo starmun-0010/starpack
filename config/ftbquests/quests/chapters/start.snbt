@@ -182,13 +182,19 @@
 				id: "tconstruct:mattock"
 				Count: 1b
 				tag: {
-					tic_multipliers: { }
+					tic_multipliers: {
+						"tconstruct:secondary_mining": 0.65f
+						"tconstruct:mining_speed": 1.1f
+						"tconstruct:attack_damage": 1.1f
+						"tconstruct:durability": 1.25f
+					}
 					tic_stats: {
-						"tconstruct:attack_speed": 1.0f
-						"tconstruct:mining_speed": 6.0f
-						"tconstruct:attack_damage": 3.5f
+						"tconstruct:attack_speed": 0.9f
+						"tconstruct:secondary_mining": 0.65f
+						"tconstruct:attack_damage": 3.8500001f
 						"tconstruct:harvest_level": 2.0f
-						"tconstruct:durability": 357.5f
+						"tconstruct:durability": 446.875f
+						"tconstruct:mining_speed": 6.6000004f
 					}
 					tic_broken: 0b
 					tic_modifiers: [

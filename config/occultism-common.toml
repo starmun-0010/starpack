@@ -27,7 +27,7 @@
 		#Ore Settings
 		[worldgen.oregen.silverOre]
 			#True to generate this ore.
-			generateOre = false
+			generateOre = true
 			#The tag for the blocks this ore will spawn in.
 			fillerBlockTag = "minecraft:base_stone_overworld"
 			#The size of veins for this ore.
