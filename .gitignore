@@ -32,6 +32,8 @@ realms_persistence.json
 /server
 /.mixin.out
 /journeymap
+/minemenu
+/tconplanner
 /screenshots
 /shaderpacks
 /config/spark
