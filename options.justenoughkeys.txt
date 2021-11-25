@@ -34,7 +34,6 @@ modifiers.key.hotbar.8:
 modifiers.key.hotbar.9:
 modifiers.of.key.zoom:
 modifiers.key.openNotes:
-modifiers.tombstone.message.knowledge_of_death:
 modifiers.key.findme.search:
 modifiers.key.cpm.selectModel:key.keyboard.left.control
 modifiers.key.cpm.customKey1:
@@ -45,6 +44,7 @@ modifiers.key.cpm.customKey5:
 modifiers.key.cpm.customKey6:
 modifiers.key.cpm.customKey7:
 modifiers.key.cpm.customKey8:
+modifiers.key.medieval_craft.effectclearspellkey:
 modifiers.key.boss_tools.rocket_start:
 modifiers.key.dragon_fireAttack:
 modifiers.key.dragon_strike:
@@ -91,15 +91,17 @@ modifiers.key.integratedterminals.terminal.craftinggrid.balance:
 modifiers.key.integratedterminals.terminal.portable.open:
 modifiers.neat.keybind.toggle:
 modifiers.key.shrink.shrink:
+modifiers.key.universalgrid.openWirelessUniversalGrid:key.keyboard.left.control
 modifiers.nicephore.keybinds.copy:key.keyboard.left.control
-modifiers.nicephore.keybinds.gui:key.keyboard.left.control
-modifiers.key.industrialforegoing.backpack.desc:
+modifiers.nicephore.keybinds.screenshots.gui:key.keyboard.left.control
+modifiers.nicephore.keybinds.gallery.gui:key.keyboard.left.control
 modifiers.key.refinedstorage.focusSearchBar:
 modifiers.key.refinedstorage.clearGridCraftingMatrix:key.keyboard.left.control
 modifiers.key.refinedstorage.openWirelessGrid:
 modifiers.key.refinedstorage.openWirelessFluidGrid:
 modifiers.key.refinedstorage.openWirelessCraftingMonitor:
 modifiers.key.refinedstorage.openPortableGrid:
+modifiers.key.industrialforegoing.backpack.desc:
 modifiers.key.botania_corporea_request:
 modifiers.Options Gui:
 modifiers.key.platos.up:
@@ -118,8 +120,8 @@ modifiers.key.securitycraft.cameraEmitRedstone:
 modifiers.key.securitycraft.cameraActivateNightVision:
 modifiers.Open sound muffler screen:
 modifiers.cos.key.opencosarmorinventory:
-modifiers.hats.key.hatsMenu:
 modifiers.keybind.advancedperipherals.description:
+modifiers.hats.key.hatsMenu:
 modifiers.key.tinyredstone.rotation_lock:
 modifiers.placebo.toggleWings:
 modifiers.placebo.toggleTrails:
@@ -144,17 +146,17 @@ modifiers.keybind.ironjetpacks.hover:
 modifiers.keybind.ironjetpacks.descend:
 modifiers.keybind.ironjetpacks.increment_throttle:
 modifiers.keybinding.ironjetpacks.decrement_throttle:
-modifiers.Open MPS Keybind GUI:
-modifiers.Go Down (MPS Flight Control):
-modifiers.Cycle Tool Backward (MPS):
-modifiers.Cycle Tool Forward (MPS):
-modifiers.Cosmetic (MPS):
 modifiers.key.silentgear.cycle.back:
 modifiers.key.silentgear.cycle.next:
 modifiers.key.silentgear.displayStats:
 modifiers.key.silentgear.displayTraits:
 modifiers.key.silentgear.displayConstruction:
 modifiers.key.silentgear.openItem:
+modifiers.Open MPS Keybind GUI:
+modifiers.Go Down (MPS Flight Control):
+modifiers.Cycle Tool Backward (MPS):
+modifiers.Cycle Tool Forward (MPS):
+modifiers.Cosmetic (MPS):
 modifiers.key.curios.open.desc:
 modifiers.key.tanknull.mode:
 modifiers.key.control:
@@ -184,6 +186,15 @@ modifiers.pneumaticcraft.helmet.debugging.drone:
 modifiers.pneumaticcraft.boots.kick:key.keyboard.left.control
 modifiers.pneumaticcraft.chestplate.launcher:key.keyboard.left.control
 modifiers.pneumaticcraft.boots.jet_boots:
+modifiers.key.draconicevolution.tool_config:
+modifiers.key.draconicevolution.tool_modules:key.keyboard.left.shift
+modifiers.key.draconicevolution.toggle_flight:
+modifiers.key.draconicevolution.toggle_magnet:
+modifiers.key.draconicevolution.dislocator_teleport:
+modifiers.key.draconicevolution.dislocator_blink:
+modifiers.key.draconicevolution.dislocator_gui:
+modifiers.key.draconicevolution.dislocator_up:
+modifiers.key.draconicevolution.dislocator_down:
 modifiers.key.control_energy:
 modifiers.key.control_potential:
 modifiers.key.control_stability:
@@ -195,15 +206,6 @@ modifiers.doubleslabs.key.toggleVerticalSlabPlacement:
 modifiers.dropoff:
 modifiers.dropoff:
 modifiers.key.open_menu:
-modifiers.key.draconicevolution.tool_config:
-modifiers.key.draconicevolution.tool_modules:key.keyboard.left.shift
-modifiers.key.draconicevolution.toggle_flight:
-modifiers.key.draconicevolution.toggle_magnet:
-modifiers.key.draconicevolution.dislocator_teleport:
-modifiers.key.draconicevolution.dislocator_blink:
-modifiers.key.draconicevolution.dislocator_gui:
-modifiers.key.draconicevolution.dislocator_up:
-modifiers.key.draconicevolution.dislocator_down:
 modifiers.key.astralsorcery.disable_perk_abilities:
 modifiers.key.dankstorage.construction:
 modifiers.Start composing:
@@ -236,6 +238,9 @@ modifiers.key.ars_nouveau.open_book:
 modifiers.key.ars_nouveau.selection_hud:
 modifiers.key.ars_nouveau.previous_slot:
 modifiers.key.ars_nouveau.next_slot:
+modifiers.key.enderRing:
+modifiers.key.spellstoneAbility:
+modifiers.key.xpScroll:
 modifiers.key.observable.profile:
 modifiers.key.ftbquests.quests:key.keyboard.left.control
 modifiers.key.invtweaks_sort_player.desc:
@@ -266,8 +271,6 @@ modifiers.create.keyinfo.toolbelt:
 modifiers.key.drawMahoujin:
 modifiers.key.changeMysticCode:
 modifiers.key.settingsGUI:
-modifiers.bloodmagic.keybind.cycle_holding_pos:
-modifiers.bloodmagic.keybind.cycle_holding_neg:
 modifiers.key.exchangers.open_gui:
 modifiers.key.exchangers.range_switch:
 modifiers.key.exchangers.mode_switch:
@@ -275,17 +278,10 @@ modifiers.key.exchangers.force_drop_items_mode_toggle:
 modifiers.key.exchangers.directional_placement_mode_toggle:
 modifiers.key.exchangers.fuzzy_placement_mode_toggle:
 modifiers.key.exchangers.void_items_mode_toggle:
-modifiers.quark.keybind.change_hotbar:
-modifiers.quark.keybind.camera_mode:
-modifiers.quark.keybind.sort_player:
-modifiers.key.spellbookopen:
-modifiers.key.gui-key-modifier:
-modifiers.quark.keybind.sort_container:
-modifiers.quark.keybind.transfer_insert:
-modifiers.quark.keybind.transfer_extract:
-modifiers.quark.keybind.shift_lock:
-modifiers.quark.keybind.back:
+modifiers.bloodmagic.keybind.cycle_holding_pos:
+modifiers.bloodmagic.keybind.cycle_holding_neg:
 modifiers.quark.keybind.autorun:
+modifiers.quark.keybind.change_hotbar:
 modifiers.quark.emote.no:
 modifiers.quark.emote.yes:
 modifiers.quark.emote.wave:
@@ -304,7 +300,16 @@ modifiers.quark.keybind.patreon_emote.dab:
 modifiers.quark.keybind.patreon_emote.jet:
 modifiers.quark.keybind.patreon_emote.exorcist:
 modifiers.quark.keybind.patreon_emote.zombie:
+modifiers.quark.keybind.back:
+modifiers.key.spellbookopen:
+modifiers.key.gui-key-modifier:
+modifiers.quark.keybind.sort_player:
+modifiers.quark.keybind.sort_container:
+modifiers.quark.keybind.transfer_insert:
+modifiers.quark.keybind.transfer_extract:
+modifiers.quark.keybind.shift_lock:
 modifiers.quark.keybind.lock_rotation:
+modifiers.quark.keybind.camera_mode:
 modifiers.key.inventoryhud.toggle:
 modifiers.key.inventoryhud.openconfig:
 modifiers.key.inventoryhud.togglepot:
@@ -317,6 +322,7 @@ modifiers.mod.chiselsandbits.keys.key.modded-tool.cycle.right:
 modifiers.mod.chiselsandbits.keys.key.measuring-tape.reset:key.keyboard.left.control,key.keyboard.left.shift
 modifiers.mod.chiselsandbits.keys.key.undo:key.keyboard.left.control
 modifiers.mod.chiselsandbits.keys.key.redo:key.keyboard.left.control
+modifiers.key.craftingGrid:
 modifiers.Build Current Structure:key.keyboard.left.alt
 modifiers.key.projecte.helmet_toggle:key.keyboard.left.shift
 modifiers.key.projecte.boots_toggle:
@@ -326,6 +332,7 @@ modifiers.key.projecte.fire_projectile:
 modifiers.key.projecte.mode:
 modifiers.keybind.xreliquary.fortune_coin:
 modifiers.key.paraglider.paragliderSettings:key.keyboard.left.control
+modifiers.tombstone.message.knowledge_of_death:
 modifiers.key.integratedadditions.clear:key.keyboard.left.alt
 modifiers.key.integratedadditions.set:key.keyboard.left.alt
 modifiers.key.integratedadditions.copy:key.keyboard.left.alt

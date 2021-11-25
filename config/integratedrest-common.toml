@@ -3,9 +3,9 @@
 
 	[general.general]
 		#The port the API should be exposed on.
-		apiPort = 3000
+		apiPort = 3212
 		#The base URL the API is exposed on, used for constructing URLs.
-		apiBaseUrl = "http://localhost:3000/"
+		apiBaseUrl = "http://localhost:3212/"
 		#If the API should be enabled.
 		startApi = true
 
