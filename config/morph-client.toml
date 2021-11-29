@@ -1,0 +1,34 @@
+
+#These options affect only the client that loads the mod.
+[clientOnly]
+	#The number of (scaled) pixels that the quick selector's selected option appears from the top of the screen.
+	#Range: > 0
+	selectorDistanceFromTop = 30
+	#The scale of the selector (fractionally). Smaller numbers to scale down, larger numbers to scale up.
+	#Range: 0.0 ~ 30.0
+	selectorScale = 1.0
+	#Allow control of the selector using the mouse. Also affects the radial menus.
+	selectorAllowMouseControl = true
+	#The scale of the radial menu, in ratio to the size of the game.
+	#Range: 0.0 ~ 1.0
+	radialScale = 0.75
+	#Plays the "acquisition" animation. 0 = Disable, 1 = Morph only, 2 = Biomass only, 3 = Biomass and Morph
+	#Range: 0 ~ 3
+	acquisitionPlayAnimation = 3
+	#The (approximate) maximum part count for a tendril. Also partially dictates the length (in ticks) of the animation. Higher = More parts, slower animation, Lower = Less parts, faster animation.
+	#Range: 3 ~ 100
+	acquisitionTendrilMaxChild = 10
+	#In first person, tendrils closer to you are partially opaque to reduce obscuring of your vision. Increase this number to keep tendrils partially transparent for longer distances.
+	#Range: 0 ~ 100
+	acquisitionTendrilPartOpacity = 5
+	#Enable overriding the hand render with a (compatible) morph hand? Disable if you have crashing issues/conflicts with other mods.
+	morphAllowHandOverride = true
+	#This disables rendering players that is riding the camera entity when in First Person.
+	morphDisableRidingPlayerRenderInFirstPerson = true
+	#How should we show the Biomass Bar? 0 = Disabled, 1 = When there's an update, 2 = Always
+	#Range: 0 ~ 2
+	biomassBarMode = 1
+	#Do we render the GUI in Minecraft Style (as opposed to Boxes & Stuff style)? 1 = Vanilla Style, 2 = Texture Pack Style
+	#Range: 0 ~ 2
+	guiMinecraftStyle = 2
+

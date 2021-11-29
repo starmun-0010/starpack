@@ -1,0 +1,27 @@
+{
+  "forEntity": "minecraft:vex",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitIntimidate",
+      "classToIntimidate": "net.minecraft.entity.merchant.villager.AbstractVillagerEntity",
+      "distance": 8.0,
+      "farRunSpeed": 0.5,
+      "nearRunSpeed": 0.5
+    },
+    {
+      "type": "abilityFlightFlap",
+      "slowdownInWater": true
+    },
+    {
+      "type": "abilityFlight",
+      "upgradeFor": "abilityFlightFlap",
+      "slowdownInWater": true
+    }
+  ]
+}

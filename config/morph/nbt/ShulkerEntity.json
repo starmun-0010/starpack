@@ -1,0 +1,17 @@
+{
+  "forClass": "net.minecraft.entity.monster.ShulkerEntity",
+  "modifiers": [
+    {
+      "key": "AttachFace",
+      "keep": true
+    },
+    {
+      "key": "Peek",
+      "keep": true
+    },
+    {
+      "key": "Color",
+      "keep": true
+    }
+  ]
+}

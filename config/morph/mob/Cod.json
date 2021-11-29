@@ -1,0 +1,14 @@
+{
+  "forEntity": "minecraft:cod",
+  "traits": [
+    {
+      "type": "traitSwimmer",
+      "swimMultiplier": 3.0,
+      "landMultiplier": 0.1
+    },
+    {
+      "type": "traitWaterBreather",
+      "suffocatesOnLand": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "forEntity": "minecraft:turtle",
+  "traits": [
+    {
+      "type": "traitSwimmer",
+      "swimMultiplier": 2.5,
+      "landMultiplier": 0.05
+    },
+    {
+      "type": "traitWaterBreather"
+    }
+  ]
+}

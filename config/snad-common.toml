@@ -3,5 +3,5 @@
 [snad]
 	#Growth modifier on snad blocks.
 	#Range: > 1
-	speedIncrease = 2
+	speedIncrease = 3
 

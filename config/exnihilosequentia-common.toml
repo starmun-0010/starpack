@@ -18,6 +18,8 @@
 	woodBarrelMaxTemp = 300
 	#Should Ex Nihilo show any Patricle?
 	showParticles = true
+	#If set to false, the blocks have same sounds as wooden barrels
+	netherBarrelSoundsEnabled = true
 
 	#Mob Spawn Configs
 	[barrel.mob_spawn]
@@ -60,6 +62,8 @@
 	#Number of buckets the crucible will hold (Default: 4)
 	#Range: > 1
 	crucibleNumberOfBuckets = 4
+	#If set to false, the blocks have same sounds as wooden crucibles
+	netherCrucibleSoundsEnabled = true
 
 	#Wooden Crucible Configs
 	[crucible.wood]
@@ -94,6 +98,8 @@
 	#The number of sieve clicks required to sieve a block. (Default: 10)
 	#Range: 1 ~ 10
 	maxSieveClicks = 10
+	#If set to false, the blocks have same sounds as wooden sieves
+	netherSieveSoundsEnabled = true
 
 #Ore Configs
 [ore]

@@ -1,0 +1,9 @@
+{
+  "forClass": "net.minecraft.entity.monster.PhantomEntity",
+  "modifiers": [
+    {
+      "key": "Size",
+      "keep": true
+    }
+  ]
+}

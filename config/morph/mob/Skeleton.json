@@ -1,0 +1,14 @@
+{
+  "forEntity": "minecraft:skeleton",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitSunburn"
+    },
+    {
+      "type": "traitUndead"
+    }
+  ]
+}

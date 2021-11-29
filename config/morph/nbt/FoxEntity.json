@@ -1,0 +1,9 @@
+{
+  "forClass": "net.minecraft.entity.passive.FoxEntity",
+  "modifiers": [
+    {
+      "key": "Type",
+      "keep": true
+    }
+  ]
+}

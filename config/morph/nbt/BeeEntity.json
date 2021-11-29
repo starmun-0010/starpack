@@ -1,0 +1,13 @@
+{
+  "forClass": "net.minecraft.entity.passive.BeeEntity",
+  "modifiers": [
+    {
+      "key": "HasNectar",
+      "keep": true
+    },
+    {
+      "key": "HasStung",
+      "keep": true
+    }
+  ]
+}

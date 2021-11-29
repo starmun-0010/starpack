@@ -4,10 +4,10 @@ _specver: 2
 # modpack related settings, changes the supposed to change the visual appearance of the launcher
 modpack:
   # Name of the mod pack, that is displayed in various places where it fits
-  name: Starpack Aleph
+  name: Starpack Titan
 
   # Description
-  description: Star's custom modpack.
+  description: Star's hoarding dream.
 
 
 
@@ -18,7 +18,7 @@ install:
 
   # exact version of forge or fabric that is supposed to be used
   # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-  loaderVersion: 36.2.9
+  loaderVersion: 36.2.19
 
   # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
   # supports variables: {{@loaderversion@}} and {{@mcversion@}}
@@ -42,7 +42,7 @@ install:
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: file://Starpack-Titan-0.1.4.zip
+  modpackUrl: https://media.forgecdn.net/files/3537/210/Starpack-Titan-0.1.4a.zip
 
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
@@ -85,7 +85,8 @@ install:
       - 431448 #Quit Confirm
       - 511733 #Clickable advancements
       - 401014 #Nicephore
-      - 499261 #agri opti
+      #- 499261 #agri opti
+      - 513857 #oAuth
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: ~
@@ -212,7 +213,7 @@ launch:
     - "-XX:G1NewSizePercent=30"
     - "-XX:G1MaxNewSizePercent=40"
     - "-XX:G1HeapRegionSize=8M"
-    - "-XX:G1ReservePerce2nt=20"
+    - "-XX:G1ReservePercent=20"
     - "-XX:G1HeapWastePercent=5"
     - "-XX:G1MixedGCCountTarget=4"
     - "-XX:InitiatingHeapOccupancyPercent=15"
@@ -221,5 +222,5 @@ launch:
     - "-XX:SurvivorRatio=32"
     - "-XX:+PerfDisableSharedMem"
     - "-XX:MaxTenuringThreshold=1"
-    - "-3Dfml.readTimeout=90"                        # servertimeout
+    - "-Dfml.readTimeout=90"                        # servertimeout
     - "-Dfml.queryResult=confirm"                   # auto /fmlconfirm

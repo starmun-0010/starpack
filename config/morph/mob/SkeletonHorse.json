@@ -1,0 +1,15 @@
+{
+  "forEntity": "minecraft:skeleton_horse",
+  "traits": [
+    {
+      "type": "traitStepHeight",
+      "amount": 1.0
+    },
+    {
+      "type": "traitUndead"
+    },
+    {
+      "type": "abilityRideable"
+    }
+  ]
+}

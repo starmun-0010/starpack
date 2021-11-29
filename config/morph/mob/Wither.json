@@ -1,0 +1,21 @@
+{
+  "forEntity": "minecraft:wither",
+  "traits": [
+    {
+      "type": "traitEffectResistance",
+      "effectId": "*"
+    },
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitUndead"
+    },
+    {
+      "type": "abilityFlight"
+    }
+  ]
+}

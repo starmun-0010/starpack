@@ -1,0 +1,13 @@
+{
+  "forClass": "net.minecraft.entity.passive.horse.LlamaEntity",
+  "modifiers": [
+    {
+      "key": "Variant",
+      "keep": true
+    },
+    {
+      "key": "DecorItem",
+      "keep": true
+    }
+  ]
+}

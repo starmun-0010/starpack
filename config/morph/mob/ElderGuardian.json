@@ -1,0 +1,24 @@
+{
+  "forEntity": "minecraft:elder_guardian",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitIntimidate",
+      "classToIntimidate": "net.minecraft.entity.passive.DolphinEntity",
+      "distance": 8.0,
+      "farRunSpeed": 1.0,
+      "nearRunSpeed": 1.0
+    },
+    {
+      "type": "traitSwimmer",
+      "swimMultiplier": 3.0,
+      "landMultiplier": 0.1
+    },
+    {
+      "type": "traitWaterBreather",
+      "suffocatesOnLand": true
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "forClass": "net.minecraft.entity.monster.HoglinEntity",
+  "modifiers": [
+    {
+      "key": "IsImmuneToZombification",
+      "value": "true"
+    }
+  ]
+}

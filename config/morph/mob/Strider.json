@@ -1,0 +1,15 @@
+{
+  "forEntity": "minecraft:strider",
+  "traits": [
+    {
+      "type": "traitImmunityFire"
+    },
+    {
+      "type": "traitWaterSensitivity"
+    },
+    {
+      "type": "abilityRideable",
+      "requiresSaddle": true
+    }
+  ]
+}

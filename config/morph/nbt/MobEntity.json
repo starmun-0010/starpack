@@ -1,0 +1,13 @@
+{
+  "forClass": "net.minecraft.entity.MobEntity",
+  "modifiers": [
+    {
+      "key": "PersistenceRequired",
+      "value": "true"
+    },
+    {
+      "key": "NoAI",
+      "value": "true"
+    }
+  ]
+}

@@ -44,7 +44,6 @@ modifiers.key.cpm.customKey5:
 modifiers.key.cpm.customKey6:
 modifiers.key.cpm.customKey7:
 modifiers.key.cpm.customKey8:
-modifiers.key.medieval_craft.effectclearspellkey:
 modifiers.key.boss_tools.rocket_start:
 modifiers.key.dragon_fireAttack:
 modifiers.key.dragon_strike:
@@ -55,7 +54,7 @@ modifiers.key.ftbchunks.map:
 modifiers.key.ftbchunks.minimap.zoomIn:
 modifiers.key.ftbchunks.minimap.zoomOut:
 modifiers.key.enchdesc.show:
-modifiers.key.charm.openCraftingTable:
+modifiers.key.charm.openCraftingTable:key.keyboard.left.control
 modifiers.key.charm.openEnderChest:
 modifiers.bloodmagic.keybind.open_holding:
 modifiers.key.itemzoom.toggle:key.keyboard.left.control,key.keyboard.left.shift
@@ -114,15 +113,15 @@ modifiers.dimensionalpocketsii.keybind.suit_gui:
 modifiers.dimensionalpocketsii.keybind.suit_shift:
 modifiers.dimensionalpocketsii.keybind.suit_mode_change:
 modifiers.key.astikorcarts.desc:
-modifiers.key.securitycraft.cameraZoomIn:
-modifiers.key.securitycraft.cameraZoomOut:
-modifiers.key.securitycraft.cameraEmitRedstone:
-modifiers.key.securitycraft.cameraActivateNightVision:
 modifiers.Open sound muffler screen:
 modifiers.cos.key.opencosarmorinventory:
 modifiers.keybind.advancedperipherals.description:
 modifiers.hats.key.hatsMenu:
 modifiers.key.tinyredstone.rotation_lock:
+modifiers.key.securitycraft.cameraZoomIn:
+modifiers.key.securitycraft.cameraZoomOut:
+modifiers.key.securitycraft.cameraEmitRedstone:
+modifiers.key.securitycraft.cameraActivateNightVision:
 modifiers.placebo.toggleWings:
 modifiers.placebo.toggleTrails:
 modifiers.Piston Pushcart Up:
@@ -186,15 +185,6 @@ modifiers.pneumaticcraft.helmet.debugging.drone:
 modifiers.pneumaticcraft.boots.kick:key.keyboard.left.control
 modifiers.pneumaticcraft.chestplate.launcher:key.keyboard.left.control
 modifiers.pneumaticcraft.boots.jet_boots:
-modifiers.key.draconicevolution.tool_config:
-modifiers.key.draconicevolution.tool_modules:key.keyboard.left.shift
-modifiers.key.draconicevolution.toggle_flight:
-modifiers.key.draconicevolution.toggle_magnet:
-modifiers.key.draconicevolution.dislocator_teleport:
-modifiers.key.draconicevolution.dislocator_blink:
-modifiers.key.draconicevolution.dislocator_gui:
-modifiers.key.draconicevolution.dislocator_up:
-modifiers.key.draconicevolution.dislocator_down:
 modifiers.key.control_energy:
 modifiers.key.control_potential:
 modifiers.key.control_stability:
@@ -206,6 +196,15 @@ modifiers.doubleslabs.key.toggleVerticalSlabPlacement:
 modifiers.dropoff:
 modifiers.dropoff:
 modifiers.key.open_menu:
+modifiers.key.draconicevolution.tool_config:
+modifiers.key.draconicevolution.tool_modules:key.keyboard.left.shift
+modifiers.key.draconicevolution.toggle_flight:
+modifiers.key.draconicevolution.toggle_magnet:
+modifiers.key.draconicevolution.dislocator_teleport:
+modifiers.key.draconicevolution.dislocator_blink:
+modifiers.key.draconicevolution.dislocator_gui:
+modifiers.key.draconicevolution.dislocator_up:
+modifiers.key.draconicevolution.dislocator_down:
 modifiers.key.astralsorcery.disable_perk_abilities:
 modifiers.key.dankstorage.construction:
 modifiers.Start composing:
@@ -219,7 +218,7 @@ modifiers.key.buildinggadgets.connected_area:
 modifiers.key.buildinggadgets.rotate_mirror:
 modifiers.key.buildinggadgets.material_list:
 modifiers.key.cofh.mode_change_increment:
-modifiers.key.plonk.place:
+modifiers.key.plonk.place:key.keyboard.left.alt
 modifiers.psimisc.keybind:
 modifiers.key.relics.hud_up:
 modifiers.key.relics.hud_down:
@@ -230,6 +229,13 @@ modifiers.key.relics.hud_fourth:key.keyboard.left.alt
 modifiers.key.relics.hud_fifth:key.keyboard.left.alt
 modifiers.fpsreducer.key.openGui:
 modifiers.fpsreducer.key.forceIdle:
+modifiers.morph.key.selectorUp:
+modifiers.morph.key.selectorDown:
+modifiers.morph.key.selectorLeft:key.keyboard.left.shift
+modifiers.morph.key.selectorRight:key.keyboard.left.shift
+modifiers.morph.key.favourite:key.keyboard.left.control
+modifiers.morph.key.ability:
+modifiers.morph.key.biomass:key.keyboard.left.shift
 modifiers.Open the Crash Utilities Screen:key.keyboard.left.control
 modifiers.Copy Container Class:
 modifiers.Show Slot Index Tooltips:
@@ -271,6 +277,7 @@ modifiers.create.keyinfo.toolbelt:
 modifiers.key.drawMahoujin:
 modifiers.key.changeMysticCode:
 modifiers.key.settingsGUI:
+modifiers.key.categories.naming:
 modifiers.key.exchangers.open_gui:
 modifiers.key.exchangers.range_switch:
 modifiers.key.exchangers.mode_switch:
@@ -280,8 +287,14 @@ modifiers.key.exchangers.fuzzy_placement_mode_toggle:
 modifiers.key.exchangers.void_items_mode_toggle:
 modifiers.bloodmagic.keybind.cycle_holding_pos:
 modifiers.bloodmagic.keybind.cycle_holding_neg:
+modifiers.quark.keybind.back:
 modifiers.quark.keybind.autorun:
-modifiers.quark.keybind.change_hotbar:
+modifiers.quark.keybind.lock_rotation:
+modifiers.quark.keybind.sort_player:
+modifiers.quark.keybind.sort_container:
+modifiers.quark.keybind.transfer_insert:
+modifiers.quark.keybind.transfer_extract:
+modifiers.quark.keybind.shift_lock:
 modifiers.quark.emote.no:
 modifiers.quark.emote.yes:
 modifiers.quark.emote.wave:
@@ -300,16 +313,10 @@ modifiers.quark.keybind.patreon_emote.dab:
 modifiers.quark.keybind.patreon_emote.jet:
 modifiers.quark.keybind.patreon_emote.exorcist:
 modifiers.quark.keybind.patreon_emote.zombie:
-modifiers.quark.keybind.back:
 modifiers.key.spellbookopen:
 modifiers.key.gui-key-modifier:
-modifiers.quark.keybind.sort_player:
-modifiers.quark.keybind.sort_container:
-modifiers.quark.keybind.transfer_insert:
-modifiers.quark.keybind.transfer_extract:
-modifiers.quark.keybind.shift_lock:
-modifiers.quark.keybind.lock_rotation:
 modifiers.quark.keybind.camera_mode:
+modifiers.quark.keybind.change_hotbar:
 modifiers.key.inventoryhud.toggle:
 modifiers.key.inventoryhud.openconfig:
 modifiers.key.inventoryhud.togglepot:
@@ -353,6 +360,7 @@ modifiers.key.occultism.familiar.chimera_familiar:
 modifiers.key.occultism.familiar.goat_familiar:
 modifiers.key.occultism.familiar.shub_niggurath_familiar:
 modifiers.key.occultism.familiar.beholder_familiar:
+modifiers.key.occultism.familiar.fairy_familiar:
 modifiers.key.improvedbackpacks.open_backpack:
 modifiers.keybind.sophisticatedbackpacks.open_backpack:
 modifiers.keybind.sophisticatedbackpacks.inventory_interaction:

@@ -1,0 +1,13 @@
+{
+  "forClass": "net.minecraft.entity.passive.horse.HorseEntity",
+  "modifiers": [
+    {
+      "key": "Variant",
+      "keep": true
+    },
+    {
+      "key": "ArmorItem",
+      "keep": true
+    }
+  ]
+}

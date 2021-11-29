@@ -1,0 +1,14 @@
+{
+  "forEntity": "minecraft:stray",
+  "traits": [
+    {
+      "type": "traitHostile"
+    },
+    {
+      "type": "traitSunburn"
+    },
+    {
+      "type": "traitUndead"
+    }
+  ]
+}

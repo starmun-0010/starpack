@@ -20,7 +20,7 @@
 	#Disable Spawning of Six Puppys? [DEFAULT: false]
 	disable_six_puppy_spawining = false
 	#Disable Spawning of Ender Puppys? [DEFAULT: false]
-	disable_ender_puppy_spawining = false
+	disable_ender_puppy_spawining = true
 	#Disable Spawning of Clay Puppys? [DEFAULT: false]
 	disable_clay_puppy_spawining = false
 
@@ -52,7 +52,7 @@
 	six_puppy_spawn_weight = 1
 	#weight of Ender puppy spawning (higher is more offen)[DEFAULT: 10]
 	#Range: 0 ~ 50
-	ender_puppy_spawn_weight = 10
+	ender_puppy_spawn_weight = 1
 	#weight of Clay puppy spawning (higher is more offen)[DEFAULT: 10]
 	#Range: 0 ~ 50
 	clay_puppy_spawn_weight = 10
