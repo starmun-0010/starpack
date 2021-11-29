@@ -11,7 +11,7 @@
 #Refills your hotbar from your inventory.
 "AutoRestock enabled" = true
 #Unlocks all vanilla recipes.
-"AutomaticRecipeUnlock enabled" = true
+"AutomaticRecipeUnlock enabled" = false
 #Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
 "BatBuckets enabled" = true
 #Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
@@ -94,9 +94,9 @@
 #Player-only pressure plates.
 "PlayerPressurePlates enabled" = true
 #Allows crafting from inventory if the player has a crafting table in their inventory.
-"PortableCrafting enabled" = true
+"PortableCrafting enabled" = false
 #Allows access to chest contents if the player has an Ender Chest in their inventory.
-"PortableEnderChest enabled" = true
+"PortableEnderChest enabled" = false
 #Raid horns are sometimes dropped from raid leaders and can be used to call off or start raids.
 "RaidHorns enabled" = true
 #A lantern that emits light when a redstone signal is received.
