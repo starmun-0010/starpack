@@ -1,6 +1,6 @@
 {
 	version: 13
-	title: "Starpack Aleph"
+	title: "Starpack Titan"
 	icon: "minecraft:nether_star"
 	disable_toast: true
 	default_reward_team: true
