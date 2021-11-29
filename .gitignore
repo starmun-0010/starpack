@@ -23,6 +23,7 @@ realms_persistence.json
 **/*.temp
 **/.vs
 /.vscode
+/config/morph
 /woot
 /mods
 /logs
