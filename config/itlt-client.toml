@@ -406,7 +406,7 @@
 		# to this feature clear. If there's no mention of this feature in the changelog, rest assured
 		# you can update without needing to make any changes to your servers.json.
 		# 
-		enableCustomServerListEntries = false
+		enableCustomServerListEntries = true
 
 	[Java.Internal]
 		# 

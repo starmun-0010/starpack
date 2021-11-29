@@ -140,7 +140,7 @@
 		}
 		{
 			title: "Skills"
-			icon: "mana-and-artifice:enchantment_focus_arcane"
+			icon: "forbidden_arcanus:xpetrified_orb"
 			x: -2.5d
 			y: -10.5d
 			shape: "pentagon"

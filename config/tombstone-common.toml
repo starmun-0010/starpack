@@ -151,6 +151,10 @@
 	duration_voodoo_poppet_effects = 60
 	#Allows the merchant grave gardian [false/true|default:true]
 	allow_grave_gardian = true
+	#Damaged items can be recycled with the Book of Recycling
+	can_recycle_damaged_item = true
+	#The items that can't be recycled by the Book of Recycling
+	denied_item_to_recycle = []
 
 #Allows to customize or disable the enchantments
 [enchantments]
