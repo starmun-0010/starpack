@@ -41,6 +41,7 @@ realms_persistence.json
 /kubejs/exported
 /packmenuff/resources
 /config/agricraft/json
+/config/environmental
 !config/agricraft/json/defaults
 !config/defaultoptions/options.txt
 
