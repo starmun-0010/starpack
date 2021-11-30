@@ -2,7 +2,6 @@
 **/*.log
 
 mode.json
-options.txt
 reauth.toml
 /servers.dat
 knownkeys.txt
@@ -53,6 +52,7 @@ realms_persistence.json
 /dumps
 server/*.zip
 !server/server-setup-config.yaml
+options.txt
 optionsof.txt
 optionsshaders.txt
 /natives/
