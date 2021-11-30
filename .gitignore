@@ -42,6 +42,7 @@ realms_persistence.json
 /kubejs/exported
 /packmenuff/resources
 /config/agricraft/json
+/config/environmental
 !config/agricraft/json/defaults
 !config/defaultoptions/options.txt
 
@@ -67,3 +68,4 @@ optionsshaders.txt
 /config/jei/ingredient-list-mod-sort-order.ini
 /config/jei/ingredient-list-type-sort-order.ini
 /config.json
+/config/oauth/profiles.json
