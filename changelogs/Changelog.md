@@ -1,6 +1,73 @@
+# Starpack Aleph 0.3.12 to Starpack Aleph 0.3.13
+## Forge Version 36.2.19
+
+### Important
+- This version ships with new keybindings, so it will override your manually assigned keys and game settings.
+- If you want to keep your previous changes then backup options.txt and options.justenoughkeys.txt before update.
+- Paste your backed up files over the new ones after updating the pack.
+
+### Changelog
+- Re-assigned most of the key controls
+- Consolidated stone in all recipes
+- Increased dragon spawn rate in Gaia
+- Added default servers to itlt
+- Updated ftb essentials overrides
+- Tips Added
+
+### Bug Fixes
+- Fixed server crash on players joining for the first time (quark auto unlock recipes disabled)
+
+### Mods Added
+- [Actually Compatible](https://www.curseforge.com/minecraft/mc-mods/actually-compatible)
+- [Morph](https://www.curseforge.com/minecraft/mc-mods/morph)
+
+### Mods Updated
+1. [Architectury API (Forge)](https://www.curseforge.com/minecraft/mc-mods/architectury-forge)
+2. [Ars Nouveau](https://www.curseforge.com/minecraft/mc-mods/ars-nouveau)
+3. [Create](https://www.curseforge.com/minecraft/mc-mods/create)
+4. [Configured](https://www.curseforge.com/minecraft/mc-mods/configured)
+5. [Create](https://www.curseforge.com/minecraft/mc-mods/create)
+6. [Extended Crafting](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
+7. [Extended Crafting](https://www.curseforge.com/minecraft/mc-mods/extended-crafting)
+8. [FTB Chunks (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-forge)
+9. [FTB Teams (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)
+10. [Hats](https://www.curseforge.com/minecraft/mc-mods/hats)
+11. [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil)
+12. [Iron Jetpacks](https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks)
+13. [Lootr](https://www.curseforge.com/minecraft/mc-mods/lootr)
+14. [Mahou Tsukai](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai)
+15. [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib)
+16. [Quark](https://www.curseforge.com/minecraft/mc-mods/quark)
+17. [Repurposed Structures (Forge)](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures)
+18. [RFTools Base](https://www.curseforge.com/minecraft/mc-mods/rftools-base)
+19. [RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder)
+20. [RFTools Control](https://www.curseforge.com/minecraft/mc-mods/rftools-control)
+21. [RFTools Dimensions](https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions)
+22. [RFTools Power](https://www.curseforge.com/minecraft/mc-mods/rftools-power)
+23. [RFTools Storage](https://www.curseforge.com/minecraft/mc-mods/rftools-storage)
+24. [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
+25. [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
+26. [Corail Tombstone](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone)
+27. [Starpack Core](https://www.curseforge.com/minecraft/mc-mods/starpack-core)
+28. [XNet](https://www.curseforge.com/minecraft/mc-mods/xnet)
+29. [AgriCraft](https://www.curseforge.com/minecraft/mc-mods/agricraft)
+30. [Cosmetic Armor Reworked](https://www.curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked)
+31. [InfinityLib](https://www.curseforge.com/minecraft/mc-mods/infinitylib)
+32. [MineColonies](https://www.curseforge.com/minecraft/mc-mods/minecolonies)
+33. [Occultism](https://www.curseforge.com/minecraft/mc-mods/occultism)
+34. [PonderJS](https://www.curseforge.com/minecraft/mc-mods/ponderjs)
+35. [Silent Gear](https://www.curseforge.com/minecraft/mc-mods/silent-gear)
+36. [Vampirism Integrations](https://www.curseforge.com/minecraft/mc-mods/vampirism-integrations)
+37. [XNet Gases](https://www.curseforge.com/minecraft/mc-mods/xnet-gases)
+38. [Blood Magic](https://www.curseforge.com/minecraft/mc-mods/blood-magic)
+39. [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked)
+40. [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution)
+41. [OAuth](https://www.curseforge.com/minecraft/mc-mods/oauth)
+
+
+
 # Starpack Aleph 0.3.11 to Starpack Aleph 0.3.12
 ## Forge Version 36.2.9
-
 ### Changelog
 - Added XP rewards to collectopedia quests
 - Added utilities quests to Auto-Mage chapter
