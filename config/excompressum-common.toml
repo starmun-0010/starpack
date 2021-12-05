@@ -151,4 +151,6 @@
 	#The rate at which the wooden crucible extracts water. Measured in liquid per second.
 	#Range: > 1
 	woodenCrucibleSpeed = 8
+	#Set this to true if you want to allow right-clicking Auto Sieves with Food to give them speed boosts
+	allowAutoSieveFoodSpeedBoosts = true
 

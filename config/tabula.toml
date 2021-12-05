@@ -4,7 +4,7 @@
 	#Force a GUI scale when entering the Tabula screen. Follows MC's GUI Scale, -1 disables, 0 is auto
 	#Range: -1 ~ 8
 	forceGuiScale = 2
-	#Try to animate the possibly imported models to fix their rotations?
+	#Try to animate the possibly imported models to fix their rotations? May cause issues.
 	animateImports = true
 	#Max decimals in number input boxes
 	#Range: 0 ~ 10
@@ -23,6 +23,10 @@
 	#Maximum Undo States. More Undo states = More Memory Use
 	#Range: 0 ~ 200
 	maximumUndoStates = 40
+	#Load up the data pack to add EntityType tags when trying to animate entity models. May cause issues.
+	addEntityTags = true
+	#Make the entity "read" an empty NBT Tag to set some fields. May cause issues.
+	readEmptyNbt = true
 
 [multiplayer]
 	#Enable chat sounds?
