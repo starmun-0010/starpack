@@ -1,3 +1,60 @@
+# Starpack Aleph 0.3.13 to Starpack Aleph 0.3.14
+## Forge Version 36.2.19
+
+### Note
+- Major ore generation and metal consolidation work is underway
+- As I am spending most of the time on the consolidation, content update for the modpack will be a little slower for the time being
+- That is why the current and a future few updates will mostly consist of just mod updates
+### Bug Fixes
+- Fixed silent gear causing issues with server world loading
+### Mods Downgraded
+- Silent Gear
+
+### Mods Updated
+1. [Biomes O' Plenty](https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty)
+2. [Botania](https://www.curseforge.com/minecraft/mc-mods/botania)
+3. [CodeChicken Lib 1.8.+](https://www.curseforge.com/minecraft/mc-mods/codechicken-lib-1-8)
+4. [Compact Crafting](https://www.curseforge.com/minecraft/mc-mods/compact-crafting)
+5. [Config Swapper](https://www.curseforge.com/minecraft/mc-mods/config-swapper)
+6. [Configured](https://www.curseforge.com/minecraft/mc-mods/configured)
+7. [Corail Tombstone](https://www.curseforge.com/minecraft/mc-mods/corail-tombstone)
+8. [Doggy Talents](https://www.curseforge.com/minecraft/mc-mods/doggy-talents)
+9. [FTB Library (Forge)](https://www.curseforge.com/minecraft/mc-mods/ftb-library-forge)
+10. [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+11. [Hammer Lib](https://www.curseforge.com/minecraft/mc-mods/hammer-lib)
+12. [Hats](https://www.curseforge.com/minecraft/mc-mods/hats)
+13. [iChunUtil](https://www.curseforge.com/minecraft/mc-mods/ichunutil)
+14. [Immersive Petroleum](https://www.curseforge.com/minecraft/mc-mods/immersive-petroleum)
+15. [Integrated Dynamics](https://www.curseforge.com/minecraft/mc-mods/integrated-dynamics)
+16. [Integrated Terminals](https://www.curseforge.com/minecraft/mc-mods/integrated-terminals)
+17. [Integrated Tunnels](https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels)
+18. [Iron Chests](https://www.curseforge.com/minecraft/mc-mods/iron-chests)
+19. [JourneyMap](https://www.curseforge.com/minecraft/mc-mods/journeymap)
+20. [Just Enough Keys [JEK] [Forge]](https://www.curseforge.com/minecraft/mc-mods/just-enough-keys)
+21. [Just Enough Resources (JER)](https://www.curseforge.com/minecraft/mc-mods/just-enough-resources-jer)
+22. [KubeJS (Forge)](https://www.curseforge.com/minecraft/mc-mods/kubejs-forge)
+23. [Lootr](https://www.curseforge.com/minecraft/mc-mods/lootr)
+24. [Mahou Tsukai](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai)
+25. [Mantle](https://www.curseforge.com/minecraft/mc-mods/mantle)
+26. [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib)
+27. [MineColonies for ComputerCraft](https://www.curseforge.com/minecraft/mc-mods/minecolonies-for-computercraft)
+28. [MineColonies](https://www.curseforge.com/minecraft/mc-mods/minecolonies)
+29. [Morph](https://www.curseforge.com/minecraft/mc-mods/morph)
+30. [Mystical Agradditions](https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions)
+31. [Mystical Customization](https://www.curseforge.com/minecraft/mc-mods/mystical-customization)
+32. [OAuth](https://www.curseforge.com/minecraft/mc-mods/oauth)
+33. [Occultism](https://www.curseforge.com/minecraft/mc-mods/occultism)
+34. [Paragliders](https://www.curseforge.com/minecraft/mc-mods/paragliders)
+35. [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez)
+36. [Prefab](https://www.curseforge.com/minecraft/mc-mods/prefab)
+37. [RFTools Dimensions](https://www.curseforge.com/minecraft/mc-mods/rftools-dimensions)
+38. [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility)
+39. [Server Tab Info](https://www.curseforge.com/minecraft/mc-mods/server-tab-info)
+40. [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib)
+41. [Tinkers Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
+
+
+
 # Starpack Aleph 0.3.12 to Starpack Aleph 0.3.13
 ## Forge Version 36.2.19
 
@@ -63,8 +120,6 @@
 39. [CC: Tweaked](https://www.curseforge.com/minecraft/mc-mods/cc-tweaked)
 40. [Draconic Evolution](https://www.curseforge.com/minecraft/mc-mods/draconic-evolution)
 41. [OAuth](https://www.curseforge.com/minecraft/mc-mods/oauth)
-
-
 
 # Starpack Aleph 0.3.11 to Starpack Aleph 0.3.12
 ## Forge Version 36.2.9
