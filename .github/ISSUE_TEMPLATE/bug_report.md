@@ -23,6 +23,7 @@ Steps to reproduce the behavior:
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
+(Do not need to mention it, if it is super obvious)
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
