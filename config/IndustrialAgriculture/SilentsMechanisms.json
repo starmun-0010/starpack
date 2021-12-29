@@ -1,0 +1,20 @@
+{
+  "tierMap": {
+    "bismuth_steel": "FOUR",
+    "refined_iron": "FOUR",
+    "aluminum_steel": "FOUR",
+    "compressed_iron": "FOUR",
+    "redstone_alloy": "FOUR",
+    "bismuth_brass": "FOUR",
+    "bismuth": "THREE"
+  },
+  "cruxMap": {
+    "bismuth_steel": "",
+    "refined_iron": "",
+    "aluminum_steel": "",
+    "compressed_iron": "",
+    "redstone_alloy": "",
+    "bismuth_brass": "",
+    "bismuth": ""
+  }
+}

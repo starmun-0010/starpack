@@ -29,3 +29,7 @@
 	#The temperature of this molten fluid.
 	temperature = 1000
 
+[silents_mechanisms]
+	#The byproduct material to output in Silent's Mechanisms' Crusher.
+	byproduct = "minecraft:cobblestone"
+

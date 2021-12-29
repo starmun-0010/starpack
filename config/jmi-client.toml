@@ -16,9 +16,9 @@
 	wayStoneMarkerColor = 16777215
 
 [WaypointMessage]
-	#List of block id and tags for WaypointMessage. e.g., ["#forge:ores/diamond", "minecraft:diamond_block"]
-	waypointMessagesBlocks = []
 	emptyHandOnly = true
+	#List of block id and tags for WaypointMessage. e.g., ["#forge:ores/diamond", "minecraft:diamond_block"]
+	waypointMessageBlocks = []
 
 ["JourneyMap Default Config"]
 	#When local JM default config version is older than `defaultConfigVersion` it will copy everything under `/config/jmdefaultconfig/` to `/journeymap/` and replace the existing files. Set to -1 to disable.

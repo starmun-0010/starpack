@@ -5,6 +5,8 @@
 	enabledItems = ["compacting_upgrade:true", "advanced_restock_upgrade:true", "diamond_backpack:true", "filter_upgrade:true", "advanced_compacting_upgrade:true", "feeding_upgrade:true", "advanced_pickup_upgrade:true", "everlasting_upgrade:true", "crafting_upgrade:true", "refill_upgrade:true", "void_upgrade:true", "smelting_upgrade:true", "magnet_upgrade:true", "advanced_magnet_upgrade:true", "deposit_upgrade:true", "iron_backpack:true", "backpack:true", "advanced_filter_upgrade:true", "inception_upgrade:true", "auto_smelting_upgrade:true", "pickup_upgrade:true", "upgrade_base:true", "gold_backpack:true", "advanced_deposit_upgrade:true", "advanced_void_upgrade:true", "restock_upgrade:true", "netherite_backpack:true", "stonecutter_upgrade:true", "stack_upgrade_tier_1:true", "stack_upgrade_tier_2:true", "stack_upgrade_tier_3:true", "stack_upgrade_tier_4:true", "jukebox_upgrade:true", "tool_swapper_upgrade:true", "advanced_tool_swapper_upgrade:true", "upgrade_base:true", "tank_upgrade:true", "advanced_feeding_upgrade:true", "battery_upgrade:true", "advanced_pump_upgrade:true", "xp_pump_upgrade:true", "pump_upgrade:true"]
 	#Turns on/off loot added to various vanilla chest loot tables
 	chestLootEnabled = true
+	#List of items that are not allowed to be put in backpacks - e.g. "minecraft:shulker_box"
+	disallowedItems = []
 
 	#Leather Backpack Settings
 	[common.leatherBackpack]
@@ -307,4 +309,12 @@
 		#Ratio that gets applied (multiplies) to inventory stack multiplier before this is applied to max input/output value. Value lower than 1 makes stack multiplier affect the capacity less, higher makes it affect the capacity more. 0 turns off stack multiplier affecting input/output
 		#Range: 0.0 ~ 5.0
 		stackMultiplierRatio = 1.0
+
+	#Xp Pump Upgrade Settings
+	[common.xpPumpUpgrade]
+		#Whether xp pump can mend items with mending. Set false here to turn off the feature altogether.
+		mendingOn = true
+		#How many experience points at a maximum would be used to mend an item per operation (every 5 ticks and 1 xp point usually translates to 2 damage repaired).
+		#Range: 1 ~ 20
+		maxXpPointsPerMending = 5
 

@@ -14,7 +14,7 @@
 	#Whether the walls of Pockets can be destroyed in Creative Mode
 	can_destroy_walls = false
 	#Whether or not Players are given a Dimensional Tome upon new spawn
-	spawn_with_tome = true
+	spawn_with_tome = false
 	#Whether if reducing the Internal Height of Pocket that is larger will make it smaller
 	internal_replace = false
 	#Whether or not Hostile Mobs should be stopped from spawning

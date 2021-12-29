@@ -15,6 +15,7 @@ realms_persistence.json
 
 
 # Instance Sync
+**/*.dat
 **/*.jar
 !InstanceSync*.jar
 **/*.jar.disabled
